@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "motion-1",
+      "data": "2026-11-01",
+      "titulo": "Chegou o Motion san",
+      "titulo_en": "Motion san is here",
+      "texto": "Blur san e Slow san: motion blur e câmera lenta próprios, no lugar do RSMB e do Twixtor. É um plugin, então o Windows pede permissão de administrador na hora de instalar.",
+      "texto_en": "Blur san and Slow san: our own motion blur and slow motion, replacing RSMB and Twixtor. It's a plugin, so Windows asks for administrator permission when installing."
+    },
+    {
       "id": "som-pronto",
       "data": "2026-11-01",
       "titulo": "Som pronto num clique e busca pelo que aparece",
@@ -69,7 +77,8 @@
       "itens": [
         "search",
         "regua",
-        "volume"
+        "volume",
+        "motion"
       ],
       "descricao": "Efeitos a um atalho, guias de área segura e o volume final no ponto.",
       "descricao_en": "Effects one shortcut away, safe-zone guides and the final mix on point."
@@ -2265,7 +2274,66 @@
           "tamanho": 160216
         }
       ]
+    },
+    {
+      "id": "motion",
+      "nome": "Motion san",
+      "versao": "1.0.0",
+      "tipo": "plugin",
+      "cor": "#60a5fa",
+      "dados": [
+        "MotionSan"
+      ],
+      "resumo": "Motion blur e câmera lenta pelo movimento de cada pixel, no lugar do RSMB e do Twixtor.",
+      "resumo_en": "Optical-flow motion blur and slow motion, replacing RSMB and Twixtor.",
+      "descricao": "Dois efeitos: Blur san (motion blur) e Slow san (câmera lenta), calculados pelo movimento de cada pixel. Leves, sem travar o VEGAS, com áreas protegidas (facecam e HUD) e detecção de corte de cena.",
+      "descricao_en": "Two effects: Blur san (motion blur) and Slow san (slow motion), calculated from each pixel's movement. Lightweight, crash-safe, with protected areas (facecam and HUD) and scene-cut detection.",
+      "onde": "Efeitos de vídeo › Slayer san › Blur san / Slow san",
+      "onde_en": "Video FX › Slayer san › Blur san / Slow san",
+      "atalhos": [
+        [
+          "Arrastar para o evento",
+          "aplica como qualquer efeito"
+        ],
+        [
+          "Áreas protegidas",
+          "deixam facecam e HUD sem borrão"
+        ]
+      ],
+      "atalhos_en": [
+        [
+          "Drag onto the event",
+          "applies like any effect"
+        ],
+        [
+          "Protected areas",
+          "keep facecam and HUD unblurred"
+        ]
+      ],
+      "aviso": "É um plugin: o Windows pede permissão de administrador para instalar (só nessa hora).",
+      "aviso_en": "It's a plugin: Windows asks for administrator permission to install it (only at that moment).",
+      "combina": [],
+      "arquivos": [
+        {
+          "caminho": "motion/MotionSan.ofx.bundle/Contents/Resources/com.slayersan.motionblur.png",
+          "destino": "ofx",
+          "sha256": "4453E0B608515B127456D4341C23399B2565F8DB0866ABB065B1A2CB090574A4",
+          "tamanho": 15571
+        },
+        {
+          "caminho": "motion/MotionSan.ofx.bundle/Contents/Resources/com.slayersan.retime.png",
+          "destino": "ofx",
+          "sha256": "93EE02A52F9E326EDA9FFEB88F2388BEC38E58228A46B220E948A633BCE0DF4C",
+          "tamanho": 7617
+        },
+        {
+          "caminho": "motion/MotionSan.ofx.bundle/Contents/Win64/MotionSan.ofx",
+          "destino": "ofx",
+          "sha256": "0149BC9E66102F484F68BA956D27BDC688FE4F33EBF3DE9ED2802FEF19D7DF7D",
+          "tamanho": 547328
+        }
+      ]
     }
   ],
-  "gerado": "2026-11-01 13:46"
+  "gerado": "2026-11-01 14:09"
 }
