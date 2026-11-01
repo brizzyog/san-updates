@@ -1919,8 +1919,8 @@
         {
           "caminho": "extensoes/NotasSan.dll",
           "destino": "ext",
-          "sha256": "B74B492A58F361FD3615E337ACA64C5161E32344371FCFBB76558C90C85069C6",
-          "tamanho": 269312
+          "sha256": "C0F81B078390210AFFEBC72D2576D23C1FD04B41BC79A3ED0AE24D78B5DF824C",
+          "tamanho": 269824
         }
       ]
     },
@@ -2437,5 +2437,5 @@
       }
     ]
   },
-  "gerado": "2026-11-01 14:45"
+  "gerado": "2026-11-01 18:41"
 }
