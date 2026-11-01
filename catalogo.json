@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "biblioteca-2",
+      "data": "2026-11-01",
+      "titulo": "Biblioteca san: 158 transições",
+      "titulo_en": "Biblioteca san: 158 transitions",
+      "texto": "Chegaram 147 transições clássicas, todas com ajustes em português. Elas também aparecem na lista de transições do VEGAS e no Ctrl+Espaço do Search san.",
+      "texto_en": "147 classic transitions arrived, all with their own settings. They also show up in VEGAS's transition list and in Search san's Ctrl+Space."
+    },
+    {
       "id": "biblioteca-1",
       "data": "2026-11-01",
       "titulo": "Chegou a Biblioteca san",
@@ -302,8 +310,8 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "BEB55325E8D35FFD2954F7B858CC0DA5CDDED694074D6279883A933C69E025E5",
-          "tamanho": 398336
+          "sha256": "38A4F483D97125E483741205F145C7D04ECF1CFBD841CCD2B2C0E28419765721",
+          "tamanho": 398848
         },
         {
           "caminho": "motor-recorte/Accessibility.dll",
@@ -608,8 +616,8 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "0A5AE17855B875F50F48EEFF0F2ABC252F33A1F7074EF845BA089ACED05C3C9F",
-          "tamanho": 87040
+          "sha256": "05F6D355B965DD93E937476CCCD1AF9D04573AA1B1A03552EE3FEBC8B377883D",
+          "tamanho": 87552
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
@@ -1919,8 +1927,8 @@
         {
           "caminho": "extensoes/NotasSan.dll",
           "destino": "ext",
-          "sha256": "B74B492A58F361FD3615E337ACA64C5161E32344371FCFBB76558C90C85069C6",
-          "tamanho": 269312
+          "sha256": "C0F81B078390210AFFEBC72D2576D23C1FD04B41BC79A3ED0AE24D78B5DF824C",
+          "tamanho": 269824
         }
       ]
     },
@@ -2037,7 +2045,7 @@
         {
           "caminho": "extensoes/ReguaSan.dll",
           "destino": "ext",
-          "sha256": "D633FBEF8A7339A52E2A818099C034131AC7F1780AF193B36248277FF5850720",
+          "sha256": "D25CC1E33D839C7AE4C04FF6BB4C90FB98537E5684FAC12D9CAFF625AF02D28F",
           "tamanho": 84992
         }
       ]
@@ -2115,8 +2123,8 @@
         {
           "caminho": "extensoes/EditorSan.dll",
           "destino": "ext",
-          "sha256": "93025E130149AAB83964AA5F02C106D8ECF10BCC780882FF6395F78F8849C73A",
-          "tamanho": 7422464
+          "sha256": "09D8BB1CFC792F980126938C0D6BAE8F66D607224CDCCB8BD9F7718A40355E87",
+          "tamanho": 7477760
         }
       ]
     },
@@ -2245,14 +2253,32 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "EBF36F73DE38C757A973C1FAA4A175542BC9928A7BEC4E6AC23F46BC46E42263",
-          "tamanho": 700928
+          "sha256": "C1E22C19CDE3CC19581FC25AE91ADDF24F0769975ABDFC64710863F03F31D2A1",
+          "tamanho": 705024
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
           "destino": "local:Programs\\Arsenal san",
           "sha256": "DEB07233E8E724526CF0E838E85A697B0B6C1CD57E68F2AC0534818EC1D4A7D9",
           "tamanho": 429
+        },
+        {
+          "caminho": "arsenal/ArsenalPonte.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "1CE3F203791FF917E78522BD56DAE3A4776D682EE71F343F55D290137955E836",
+          "tamanho": 17408
+        },
+        {
+          "caminho": "arsenal/ArsenalSan.Mod.Conexoes.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "56A2DA1020353EBD363FE9A24D7F3F8C1965FBC5D366C476274B67F76CDBA5C2",
+          "tamanho": 121344
+        },
+        {
+          "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "814F0A2EE8C21D55A157B3C5BA80519780A260ACA6EE7FB10AEE18C374A087E4",
+          "tamanho": 319488
         },
         {
           "caminho": "arsenal/Microsoft.Web.WebView2.Core.dll",
@@ -2346,8 +2372,8 @@
         {
           "caminho": "motion/MotionSan.ofx.bundle/Contents/Win64/MotionSan.ofx",
           "destino": "ofx",
-          "sha256": "0149BC9E66102F484F68BA956D27BDC688FE4F33EBF3DE9ED2802FEF19D7DF7D",
-          "tamanho": 547328
+          "sha256": "BB8CA5BB6E953A68F1783369173B93B2CF7C1C29B1880C565296B68F0A2BF7C5",
+          "tamanho": 547840
         }
       ]
     },
@@ -2359,10 +2385,10 @@
       "dados": [
         "BibliotecaSan"
       ],
-      "resumo": "Presets prontos estilo CapCut: transições, animações de clipe e textos animados.",
-      "resumo_en": "Ready-made CapCut-style presets: transitions, clip animations and animated text.",
-      "descricao": "Transições de filme e modernas no GL Transition nativo do VEGAS, animações de entrada e saída do clipe com mola e quique, e textos animados que saem com transparência. Escolha, veja a prévia e aplique no evento selecionado; um Ctrl+Z desfaz.",
-      "descricao_en": "Film and modern transitions on VEGAS's native GL Transition, in and out clip animations with spring and bounce, and animated text with transparency. Pick, preview and apply to the selected event; one Ctrl+Z undoes it.",
+      "resumo": "Presets prontos estilo CapCut: 158 transições, animações de clipe e textos animados.",
+      "resumo_en": "Ready-made CapCut-style presets: 158 transitions, clip animations and animated text.",
+      "descricao": "158 transições (de filme, modernas e 147 clássicas) no GL Transition nativo do VEGAS, animações de entrada e saída do clipe com mola e quique, e textos animados que saem com transparência. Escolha, veja a prévia e aplique no evento selecionado; um Ctrl+Z desfaz. As transições também viram presets do VEGAS.",
+      "descricao_en": "158 transitions (film, modern and 147 classics) on VEGAS's native GL Transition, in and out clip animations with spring and bounce, and animated text with transparency. Pick, preview and apply to the selected event; one Ctrl+Z undoes it. The transitions also become VEGAS presets.",
       "onde": "Exibir › Extensões › Biblioteca san",
       "onde_en": "View › Extensions › Biblioteca san",
       "atalhos": [
@@ -2403,16 +2429,16 @@
         },
         {
           "id": "search",
-          "porque": "Ctrl+Espaço também acha as transições da Biblioteca (em breve).",
-          "porque_en": "Ctrl+Space also finds the Library transitions (coming soon)."
+          "porque": "Ctrl+Espaço também acha as transições da Biblioteca.",
+          "porque_en": "Ctrl+Space also finds the Library transitions."
         }
       ],
       "arquivos": [
         {
           "caminho": "extensoes/BibliotecaSan.dll",
           "destino": "ext",
-          "sha256": "300136535E985D50D8C261480D72B926EE8712D06E0923958A2E5C1D5DCAA797",
-          "tamanho": 206336
+          "sha256": "C6A9DF154A2AE50BF6EE715002EC5D5BAF5C387400BD0E99CF394BBFD76319CC",
+          "tamanho": 595456
         }
       ]
     }
@@ -2426,7 +2452,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "25DBEC60E82670B8C2BDF6AF8387E4E1F4655FC8EDA953497F8269CDDF077113",
+        "sha256": "59418AEB33CB6B39674CD809EAAA91B4314E04A209E6AF7C850A6ADD9C1B490D",
         "tamanho": 328704
       },
       {
@@ -2437,5 +2463,5 @@
       }
     ]
   },
-  "gerado": "2026-11-01 14:45"
+  "gerado": "2026-11-01 18:37"
 }
