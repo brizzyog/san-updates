@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "edita-inteligente",
+      "data": "2026-11-01",
+      "titulo": "Edita san: decupagem inteligente",
+      "titulo_en": "Edita san: smart rough cut",
+      "texto": "O Edita agora entende o que você fala, com um cérebro que roda no seu PC, sem internet, e sugere os cortes pelo sentido, não só pelas pausas. Você revisa e aplica, como sempre.",
+      "texto_en": "Edita now understands what you say, with a brain that runs on your PC, no internet, and suggests cuts by meaning, not just pauses. You review and apply, as always."
+    },
+    {
       "id": "motion-1",
       "data": "2026-11-01",
       "titulo": "Chegou o Motion san",
@@ -2052,8 +2060,8 @@
       ],
       "resumo": "Decupagem, cortes da fala, zoom, legendas, SFX e memes sugeridos para você revisar.",
       "resumo_en": "Rough cut, speech cuts, zoom, captions and SFX suggested for you to review.",
-      "descricao": "Corta as pausas e respirações, ouve a fala (vícios, gaguejos, retakes), olha a tela, sugere zoom seco e de destaque, J/L cut, legendas no seu modelo, SFX e memes da sua pasta, música, trechos acelerados, troca para a câmera do amigo que está falando e Shorts (até em vertical, com a facecam em cima). Tem janela grande para revisar com calma. Nada vai para a timeline sem você revisar e clicar em Aplicar, e um Ctrl+Z desfaz.",
-      "descricao_en": "Cuts pauses and breaths, listens to the speech (filler words, stutters, retakes), watches the screen, suggests punch-in and highlight zooms, J/L cuts, captions in your template, SFX and memes from your folder, music, sped-up stretches, switching to the camera of the friend who is talking and Shorts (even vertical, with the facecam on top). It has a big window to review calmly. Nothing reaches the timeline until you review it and click Apply, and one Ctrl+Z undoes it.",
+      "descricao": "Decupagem inteligente: um cérebro que roda no seu PC entende a fala e sugere o que sai. Corta as pausas e respirações, ouve a fala (vícios, gaguejos, retakes), olha a tela, sugere zoom seco e de destaque, J/L cut, legendas no seu modelo, SFX e memes da sua pasta, música, trechos acelerados, troca para a câmera do amigo que está falando e Shorts (até em vertical, com a facecam em cima). Tem janela grande para revisar com calma. Nada vai para a timeline sem você revisar e clicar em Aplicar, e um Ctrl+Z desfaz.",
+      "descricao_en": "Smart rough cut: a brain that runs on your PC understands the speech and suggests what goes. Cuts pauses and breaths, listens to the speech (filler words, stutters, retakes), watches the screen, suggests punch-in and highlight zooms, J/L cuts, captions in your template, SFX and memes from your folder, music, sped-up stretches, switching to the camera of the friend who is talking and Shorts (even vertical, with the facecam on top). It has a big window to review calmly. Nothing reaches the timeline until you review it and click Apply, and one Ctrl+Z undoes it.",
       "onde": "Exibir › Extensões › Edita san",
       "onde_en": "View › Extensions › Edita san",
       "atalhos": [
@@ -2092,14 +2100,14 @@
           "apply"
         ]
       ],
-      "aviso": "Para ouvir a fala, baixa o Whisper (574 MB) pelo próprio painel. Funciona melhor com placa de vídeo.",
-      "aviso_en": "To listen to the speech it downloads Whisper (574 MB) from the panel. Works best with a graphics card.",
+      "aviso": "Para ouvir a fala, baixa o Whisper (574 MB), e para a decupagem inteligente, o cérebro local (~2,5 GB), tudo pelo próprio painel. Funciona melhor com placa de vídeo.",
+      "aviso_en": "To listen to the speech it downloads Whisper (574 MB), and for the smart rough cut the local brain (~2.5 GB), all from the panel. Works best with a graphics card.",
       "arquivos": [
         {
           "caminho": "extensoes/EditorSan.dll",
           "destino": "ext",
-          "sha256": "D2A416A78F7C46A3B5BD348DB8ADB757E125981A6DC13CC17D5E9B3E1972E587",
-          "tamanho": 2489344
+          "sha256": "93025E130149AAB83964AA5F02C106D8ECF10BCC780882FF6395F78F8849C73A",
+          "tamanho": 7422464
         }
       ]
     },
@@ -2335,5 +2343,5 @@
       ]
     }
   ],
-  "gerado": "2026-11-01 14:09"
+  "gerado": "2026-11-01 14:28"
 }
