@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "som-pronto",
+      "data": "2026-11-01",
+      "titulo": "Som pronto num clique e busca pelo que aparece",
+      "titulo_en": "Sound ready in one click and search by what shows up",
+      "texto": "O Volume san ganhou o botão \"Deixar o som pronto\", que testa o vídeo no celular, fone, TV e caixa de som. O Organizador san agora acha vídeos e imagens pelo que aparece neles. O Recorte san também recebeu correções.",
+      "texto_en": "Volume san got the \"Make the sound ready\" button, which tests the video on phone, headphones, TV and speakers. Organizador san can now find videos and images by what shows up in them. Recorte san also got fixes."
+    },
+    {
       "id": "arsenal-1",
       "data": "2026-11-01",
       "titulo": "Chegou o Arsenal san",
@@ -268,8 +276,8 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "FA193A4331A9ED0F54C7442B82564D1A2DD66778F07978C84303F64FA506DEA1",
-          "tamanho": 386048
+          "sha256": "BEB55325E8D35FFD2954F7B858CC0DA5CDDED694074D6279883A933C69E025E5",
+          "tamanho": 398336
         },
         {
           "caminho": "motor-recorte/Accessibility.dll",
@@ -574,8 +582,8 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "7EF11EA85153B40D8B5A017D5B2775C1A766B893F7034460B810F9715A0229EC",
-          "tamanho": 83456
+          "sha256": "0A5AE17855B875F50F48EEFF0F2ABC252F33A1F7074EF845BA089ACED05C3C9F",
+          "tamanho": 87040
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
@@ -1805,8 +1813,8 @@
       ],
       "resumo": "Uma pasta por projeto, tudo no lugar certo.",
       "resumo_en": "One folder per project, everything in its place.",
-      "descricao": "Cria a pasta do projeto (Vídeos, Áudios, Imagens, Downloads, Renders) e leva para lá o que entra no projeto, sem perder nada na timeline. Mostra a saúde do projeto, reconecta mídia que sumiu, organiza as tracks e arquiva o projeto no fim.",
-      "descricao_en": "Creates the project folder (Videos, Audio, Images, Downloads, Renders) and moves what enters the project there without breaking the timeline. Shows project health, relinks missing media, tidies tracks and archives the project at the end.",
+      "descricao": "Cria a pasta do projeto (Vídeos, Áudios, Imagens, Downloads, Renders) e leva para lá o que entra no projeto, sem perder nada na timeline. Mostra a saúde do projeto, reconecta mídia que sumiu, organiza as tracks e arquiva o projeto no fim. E agora acha vídeos e imagens pelo que aparece neles (\"explosão\", \"personagem de cabelo azul\") com uma IA que roda no seu PC.",
+      "descricao_en": "Creates the project folder (Videos, Audio, Images, Downloads, Renders) and moves what enters the project there without breaking the timeline. Shows project health, relinks missing media, tidies tracks and archives the project at the end. It can now find videos and images by what shows up in them (\"explosion\", \"blue-haired character\") with an AI that runs on your PC.",
       "onde": "Exibir › Extensões › Organizador san",
       "onde_en": "View › Extensions › Organizador san",
       "atalhos": [
@@ -1833,10 +1841,12 @@
         {
           "caminho": "extensoes/OrganizadorSan.dll",
           "destino": "ext",
-          "sha256": "B2ECE92A3732D63D9F805E17464A654CA6C99258363F9922419FF7BAD71CD648",
-          "tamanho": 475648
+          "sha256": "65B982D8D84FEE2F8068531B6EAB3524B26A8E216975BC2E4F854A4E2EA9E341",
+          "tamanho": 6497280
         }
-      ]
+      ],
+      "aviso": "A busca pelo que aparece baixa uma IA (~900 MB) pelo próprio painel, só se você quiser usar.",
+      "aviso_en": "Searching by what shows up downloads an AI (~900 MB) from the panel, only if you want to use it."
     },
     {
       "id": "notas",
@@ -2105,10 +2115,10 @@
           "porque_en": "Organizador's track names tell it what each track is."
         }
       ],
-      "resumo": "Voz, música, jogo e SFX no volume certo.",
-      "resumo_en": "Voice, music, game and SFX at the right level.",
-      "descricao": "No fim da edição, a IA ouve cada track e o Volume san deixa tudo na faixa certa: voz na frente, música e jogo abaixando só onde você fala, SFX sem estourar. Mostra antes e depois e um Ctrl+Z desfaz tudo.",
-      "descricao_en": "At the end of the edit, the AI listens to each track and Volume san puts everything at the right level: voice up front, music and game ducking only where you talk, SFX without clipping. Shows before and after, and one Ctrl+Z undoes it all.",
+      "resumo": "Um botão e o som fica pronto: voz, música, jogo e SFX no volume certo.",
+      "resumo_en": "One button and the sound is ready: voice, music, game and SFX at the right level.",
+      "descricao": "No fim da edição, clique em \"Deixar o som pronto\": a IA ouve cada track, deixa a voz na frente, abaixa música e jogo só onde você fala, segura os sustos e confere como o vídeo vai soar no celular, no fone, na TV e na caixa de som. Tudo num passo só, e um Ctrl+Z desfaz. Quem quiser ajustar tem a tela com os detalhes.",
+      "descricao_en": "At the end of the edit, click \"Make the sound ready\": the AI listens to each track, puts the voice up front, ducks music and game only where you talk, tames the jumps and checks how the video will sound on a phone, headphones, TV and speakers. All in one step, and one Ctrl+Z undoes it. A detailed screen is there if you want to tweak.",
       "onde": "Ferramentas › Script › Slayer › Volume san",
       "onde_en": "Tools › Scripting › Slayer › Volume san",
       "atalhos": [
@@ -2135,8 +2145,8 @@
         {
           "caminho": "scripts/Volume san.dll",
           "destino": "script",
-          "sha256": "8496BE92D31C9DE852D7099242323355439B8B8EB71FD911B116378B8010C2DB",
-          "tamanho": 21355520
+          "sha256": "810AA2778252650B61B63D5299E581F098590FF6D217BD50706B380983085273",
+          "tamanho": 21434880
         },
         {
           "caminho": "scripts/Volume san.png",
@@ -2209,8 +2219,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "97EC057C1B06EE885E74B2A6DBD15C36AA67EC43F88CE11E11224CA2D421A121",
-          "tamanho": 652800
+          "sha256": "F2808002FD0A5151C914A023F23D419C315133D42E9D2A07C57B0FA5AADF2733",
+          "tamanho": 688640
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -2257,5 +2267,5 @@
       ]
     }
   ],
-  "gerado": "2026-11-01 09:38"
+  "gerado": "2026-11-01 13:46"
 }
