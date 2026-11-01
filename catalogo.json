@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-1",
+      "data": "2026-11-01",
+      "titulo": "Chegou o Arsenal san",
+      "titulo_en": "Arsenal san is here",
+      "texto": "Um aplicativo próprio para baixar vídeo, áudio, fotos e thumbnails de qualquer site, já pronto para o VEGAS, com a busca do DropEasy dentro. Instale pelo cartão dele: ganha atalho no Menu Iniciar e na Área de Trabalho.",
+      "texto_en": "A standalone app to download video, audio, photos and thumbnails from any site, ready for VEGAS, with DropEasy's search inside. Install it from its card: it gets a Start menu and Desktop shortcut."
+    },
+    {
       "id": "integracoes-1",
       "data": "2026-11-01",
       "titulo": "As extensões agora conversam entre si",
@@ -83,6 +91,11 @@
           "id": "organizador",
           "porque": "Baixa direto na pasta Downloads do projeto.",
           "porque_en": "Downloads straight into the project's Downloads folder."
+        },
+        {
+          "id": "arsenal",
+          "porque": "O Arsenal san baixa de qualquer site com a mesma busca e os mesmos favoritos.",
+          "porque_en": "Arsenal san downloads from any site with the same search and favorites."
         }
       ],
       "resumo": "Memes, vídeos, GIFs e sons direto na timeline.",
@@ -561,20 +574,14 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "A85C5A4392BF5DF0FE2E766B1221C5F69C5062FF8074BA48E6099D6FC78B0C57",
-          "tamanho": 75264
+          "sha256": "7EF11EA85153B40D8B5A017D5B2775C1A766B893F7034460B810F9715A0229EC",
+          "tamanho": 83456
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
           "destino": "local:RecorteSan\\motor-pacote",
           "sha256": "F35C0FAA3AF22BE3FE05E5FC52AC3955DB3F637E91F352D369DDF139F151A187",
           "tamanho": 151552
-        },
-        {
-          "caminho": "motor-recorte/RecorteSan.Engine.pdb",
-          "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "0E5A2E0F42C338723DC35678934F4BC19170871EDCC6D456A619F6C7506DCB82",
-          "tamanho": 33496
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.runtimeconfig.json",
@@ -2072,8 +2079,8 @@
         {
           "caminho": "extensoes/EditorSan.dll",
           "destino": "ext",
-          "sha256": "D901A5151ACEBA7B8EB32D01D46F88596714C2D3BADF2BB7C2DAD435ACA78D56",
-          "tamanho": 2464768
+          "sha256": "D2A416A78F7C46A3B5BD348DB8ADB757E125981A6DC13CC17D5E9B3E1972E587",
+          "tamanho": 2489344
         }
       ]
     },
@@ -2144,7 +2151,111 @@
           "tamanho": 281
         }
       ]
+    },
+    {
+      "id": "arsenal",
+      "nome": "Arsenal san",
+      "versao": "1.0.0",
+      "tipo": "app",
+      "cor": "#ff8a3d",
+      "dados": [
+        "ArsenalSan"
+      ],
+      "resumo": "Baixe vídeo, áudio, fotos e thumbnails de qualquer site, pronto para o VEGAS.",
+      "resumo_en": "Download video, audio, photos and thumbnails from any site, ready for VEGAS.",
+      "descricao": "Baixe vídeo, áudio, fotos e thumbnails de qualquer site, pronto para o VEGAS (H.264 pela placa de vídeo), com trecho, playlist, capa e legendas, e a busca do DropEasy num app próprio. As ferramentas de IA e o Estúdio chegam nas próximas versões.",
+      "descricao_en": "Download video, audio, photos and thumbnails from any site, ready for VEGAS (H.264 on your graphics card), with clips, playlists, covers and subtitles, plus DropEasy's search, in its own app. The AI tools and the Studio come in the next versions.",
+      "onde": "Menu Iniciar › slayeR san › Arsenal san (e atalho na Área de Trabalho)",
+      "onde_en": "Start menu › slayeR san › Arsenal san (and a Desktop shortcut)",
+      "atalhos": [
+        [
+          "Ctrl+V",
+          "cola um link na tela certa"
+        ],
+        [
+          "Ctrl+1…4",
+          "troca de tela"
+        ],
+        [
+          "Ctrl+J",
+          "abre a fila"
+        ]
+      ],
+      "atalhos_en": [
+        [
+          "Ctrl+V",
+          "pastes a link on the right screen"
+        ],
+        [
+          "Ctrl+1…4",
+          "switches screens"
+        ],
+        [
+          "Ctrl+J",
+          "opens the queue"
+        ]
+      ],
+      "aviso": "Na primeira vez baixa o yt-dlp e o FFmpeg (~100 MB), os mesmos do DropEasy.",
+      "aviso_en": "The first time it downloads yt-dlp and FFmpeg (~100 MB), the same ones DropEasy uses.",
+      "combina": [
+        {
+          "id": "dropeasy",
+          "porque": "Usa a mesma busca, os mesmos favoritos e as mesmas chaves do DropEasy.",
+          "porque_en": "Uses the same search, favorites and keys as DropEasy."
+        }
+      ],
+      "abrir": "arsenal/Arsenal san.exe",
+      "arquivos": [
+        {
+          "caminho": "arsenal/Arsenal san.exe",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "97EC057C1B06EE885E74B2A6DBD15C36AA67EC43F88CE11E11224CA2D421A121",
+          "tamanho": 652800
+        },
+        {
+          "caminho": "arsenal/Arsenal san.exe.config",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "DEB07233E8E724526CF0E838E85A697B0B6C1CD57E68F2AC0534818EC1D4A7D9",
+          "tamanho": 429
+        },
+        {
+          "caminho": "arsenal/Microsoft.Web.WebView2.Core.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "6E7B8869B538417CC361C97A37F7CEEC92DDC8AD84E0585BCF7021DABBF6F985",
+          "tamanho": 500696
+        },
+        {
+          "caminho": "arsenal/Microsoft.Web.WebView2.WinForms.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "9BAC64579FB676AA77D79CB469FFD4F9F69A64EF0838F52DD1AF87931924F913",
+          "tamanho": 38360
+        },
+        {
+          "caminho": "arsenal/Microsoft.Web.WebView2.Wpf.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "D41B57A535EB6B4D78264DCEDAE2C635B1640B43EC05B82091A7DE9937C340D1",
+          "tamanho": 44504
+        },
+        {
+          "caminho": "arsenal/Newtonsoft.Json.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "B624949DF8B0E3A6153FDFB730A7C6F4990B6592EE0D922E1788433D276610F3",
+          "tamanho": 701992
+        },
+        {
+          "caminho": "arsenal/runtimes/win-x64/native/WebView2Loader.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "DCF3C4F6024313EEB6F775ED343265D73BE1CE1D5DDE2F92195DBC32310C7FC9",
+          "tamanho": 160216
+        },
+        {
+          "caminho": "arsenal/WebView2Loader.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "DCF3C4F6024313EEB6F775ED343265D73BE1CE1D5DDE2F92195DBC32310C7FC9",
+          "tamanho": 160216
+        }
+      ]
     }
   ],
-  "gerado": "2026-11-01 09:26"
+  "gerado": "2026-11-01 09:38"
 }
