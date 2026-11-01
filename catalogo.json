@@ -3,12 +3,20 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "integracoes-1",
+      "data": "2026-11-01",
+      "titulo": "As extensões agora conversam entre si",
+      "titulo_en": "The extensions now talk to each other",
+      "texto": "Edita san (o antigo Editor) lê o que você anotou no Notas, oferece \"Acertar o volume\" no Volume san com a sua voz já marcada e leva SFX e música para a pasta do Organizador. O DropEasy ganhou \"Melhorar qualidade\", que manda o meme para o Upscale. Cada uma continua funcionando sozinha.",
+      "texto_en": "Edita san (formerly Editor) reads your Notas, offers \"Fix the volume\" in Volume san with your voice already marked and brings SFX and music into the Organizador folder. DropEasy got \"Improve quality\", which sends the meme to Upscale. Each one still works on its own."
+    },
+    {
       "id": "1.0",
       "data": "2026-11-01",
       "titulo": "slayeR san 1.0 chegou",
       "titulo_en": "slayeR san 1.0 is here",
-      "texto": "Nove ferramentas para o VEGAS Pro, testadas dentro do VEGAS 2026 (o Editor san ainda em beta). Instale as que quiser: cada uma funciona sozinha.",
-      "texto_en": "Nine tools for VEGAS Pro, tested inside VEGAS 2026 (Editor san still in beta). Install the ones you want: each one works on its own."
+      "texto": "Nove ferramentas para o VEGAS Pro, testadas dentro do VEGAS 2026. Instale as que quiser: cada uma funciona sozinha, e juntas fazem mais: veja os kits e o \"Combina com\" de cada uma.",
+      "texto_en": "Nine tools for VEGAS Pro, tested inside VEGAS 2026. Install the ones you want: each one works on its own, and together they do more: check the kits and each one's \"Works with\"."
     }
   ],
   "kits": [
@@ -117,8 +125,8 @@
         {
           "caminho": "extensoes/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "BEF34E7BC5E7E84B989C67A770F37C7614BCD2FA173C97B68FDA8C28293FDFFD",
-          "tamanho": 578560
+          "sha256": "07EEC3CA5C6F0BD8CA40776C0024960902C970A5E6E883A7216118A5359DDA09",
+          "tamanho": 585216
         }
       ]
     },
@@ -182,8 +190,8 @@
         {
           "caminho": "extensoes/UpscaleSan.dll",
           "destino": "ext",
-          "sha256": "9FD859A9EA2BF7082DDC82C93631EF7172B2DE9C1348E669A4B9C9E1B558530F",
-          "tamanho": 399872
+          "sha256": "1F0F394A9F8646AB2AD6D8EC469346E3882A94CBD58E3ADE93C869CEB7D89F0F",
+          "tamanho": 404480
         }
       ]
     },
@@ -1779,8 +1787,8 @@
         },
         {
           "id": "editor",
-          "porque": "SFX e música que o Editor usa entram na pasta do projeto.",
-          "porque_en": "SFX and music used by Editor go into the project folder."
+          "porque": "SFX e música que o Edita usa entram na pasta do projeto.",
+          "porque_en": "SFX and music used by Edita go into the project folder."
         },
         {
           "id": "volume",
@@ -1834,8 +1842,8 @@
       "combina": [
         {
           "id": "editor",
-          "porque": "O que você anota vira trecho protegido (ou corte) na decupagem do Editor.",
-          "porque_en": "What you note becomes a protected section (or a cut) in Editor's rough cut."
+          "porque": "O que você anota vira trecho protegido (ou corte) na decupagem do Edita.",
+          "porque_en": "What you note becomes a protected section (or a cut) in Edita's rough cut."
         }
       ],
       "resumo": "Notas ao lado da timeline, com o tempo clicável.",
@@ -1993,13 +2001,12 @@
     },
     {
       "id": "editor",
-      "nome": "Editor san",
+      "nome": "Edita san",
       "versao": "1.0.0",
       "cor": "#f472b6",
       "dados": [
         "EditorSan"
       ],
-      "beta": true,
       "combina": [
         {
           "id": "notas",
@@ -2017,12 +2024,12 @@
           "porque_en": "SFX, music and transitions used go into the project folder."
         }
       ],
-      "resumo": "Decupagem, cortes da fala, zoom, legendas e SFX sugeridos para você revisar.",
+      "resumo": "Decupagem, cortes da fala, zoom, legendas, SFX e memes sugeridos para você revisar.",
       "resumo_en": "Rough cut, speech cuts, zoom, captions and SFX suggested for you to review.",
-      "descricao": "Corta as pausas e respirações, ouve a fala (vícios, gaguejos, retakes), olha a tela, sugere zoom seco e de destaque, J/L cut, legendas no seu modelo, SFX da sua pasta, música e Shorts. Nada vai para a timeline sem você revisar e clicar em Aplicar, e um Ctrl+Z desfaz.",
-      "descricao_en": "Cuts pauses and breaths, listens to the speech (filler words, stutters, retakes), watches the screen, suggests punch-in and highlight zooms, J/L cuts, captions in your template, SFX from your folder, music and Shorts. Nothing reaches the timeline until you review it and click Apply, and one Ctrl+Z undoes it.",
-      "onde": "Exibir › Extensões › Editor san",
-      "onde_en": "View › Extensions › Editor san",
+      "descricao": "Corta as pausas e respirações, ouve a fala (vícios, gaguejos, retakes), olha a tela, sugere zoom seco e de destaque, J/L cut, legendas no seu modelo, SFX e memes da sua pasta, música, trechos acelerados, troca para a câmera do amigo que está falando e Shorts (até em vertical, com a facecam em cima). Tem janela grande para revisar com calma. Nada vai para a timeline sem você revisar e clicar em Aplicar, e um Ctrl+Z desfaz.",
+      "descricao_en": "Cuts pauses and breaths, listens to the speech (filler words, stutters, retakes), watches the screen, suggests punch-in and highlight zooms, J/L cuts, captions in your template, SFX and memes from your folder, music, sped-up stretches, switching to the camera of the friend who is talking and Shorts (even vertical, with the facecam on top). It has a big window to review calmly. Nothing reaches the timeline until you review it and click Apply, and one Ctrl+Z undoes it.",
+      "onde": "Exibir › Extensões › Edita san",
+      "onde_en": "View › Extensions › Edita san",
       "atalhos": [
         [
           "Espaço",
@@ -2065,8 +2072,8 @@
         {
           "caminho": "extensoes/EditorSan.dll",
           "destino": "ext",
-          "sha256": "CC4EE5B0509DD3E39A0F36F9B6500552A507AED56F8CB53130C2BB7B8AE39030",
-          "tamanho": 2374656
+          "sha256": "D901A5151ACEBA7B8EB32D01D46F88596714C2D3BADF2BB7C2DAD435ACA78D56",
+          "tamanho": 2464768
         }
       ]
     },
@@ -2082,8 +2089,8 @@
       "combina": [
         {
           "id": "editor",
-          "porque": "Aberto pelo Editor, já sabe qual track é a sua voz e qual é a do amigo.",
-          "porque_en": "Opened from Editor, it already knows which track is your voice and which is your friend's."
+          "porque": "Aberto pelo Edita, já sabe qual track é a sua voz e qual é a do amigo.",
+          "porque_en": "Opened from Edita, it already knows which track is your voice and which is your friend's."
         },
         {
           "id": "organizador",
@@ -2121,8 +2128,8 @@
         {
           "caminho": "scripts/Volume san.dll",
           "destino": "script",
-          "sha256": "029D1BEC4DCC30C511D84E4A0F4062249DC6E9D5A1E7FC644F3A8CF3C907E116",
-          "tamanho": 21349376
+          "sha256": "8496BE92D31C9DE852D7099242323355439B8B8EB71FD911B116378B8010C2DB",
+          "tamanho": 21355520
         },
         {
           "caminho": "scripts/Volume san.png",
@@ -2139,5 +2146,5 @@
       ]
     }
   ],
-  "gerado": "2026-11-01 08:52"
+  "gerado": "2026-11-01 09:26"
 }
