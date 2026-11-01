@@ -1,0 +1,2143 @@
+{
+  "versao": 1,
+  "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
+  "novidades": [
+    {
+      "id": "1.0",
+      "data": "2026-11-01",
+      "titulo": "slayeR san 1.0 chegou",
+      "titulo_en": "slayeR san 1.0 is here",
+      "texto": "Nove ferramentas para o VEGAS Pro, testadas dentro do VEGAS 2026 (o Editor san ainda em beta). Instale as que quiser: cada uma funciona sozinha.",
+      "texto_en": "Nine tools for VEGAS Pro, tested inside VEGAS 2026 (Editor san still in beta). Install the ones you want: each one works on its own."
+    }
+  ],
+  "kits": [
+    {
+      "id": "memes",
+      "nome": "Kit memes",
+      "nome_en": "Meme kit",
+      "itens": [
+        "dropeasy",
+        "recorte",
+        "upscale",
+        "organizador"
+      ],
+      "descricao": "Achar o meme, tirar o fundo, deixar em HD e tudo cair na pasta certa do projeto.",
+      "descricao_en": "Find the meme, remove the background, make it HD and have it all land in the right project folder."
+    },
+    {
+      "id": "edicao",
+      "nome": "Kit edição",
+      "nome_en": "Editing kit",
+      "itens": [
+        "editor",
+        "notas",
+        "volume",
+        "organizador"
+      ],
+      "descricao": "Anotar, decupar com o que você anotou, acertar o volume com a sua voz já marcada e manter o projeto organizado.",
+      "descricao_en": "Take notes, cut with what you noted, fix the volume with your voice already marked and keep the project tidy."
+    },
+    {
+      "id": "acabamento",
+      "nome": "Kit acabamento",
+      "nome_en": "Finishing kit",
+      "itens": [
+        "search",
+        "regua",
+        "volume"
+      ],
+      "descricao": "Efeitos a um atalho, guias de área segura e o volume final no ponto.",
+      "descricao_en": "Effects one shortcut away, safe-zone guides and the final mix on point."
+    }
+  ],
+  "extensoes": [
+    {
+      "id": "dropeasy",
+      "nome": "DropEasy san",
+      "versao": "1.0.0",
+      "cor": "#ff4f7b",
+      "dados": [
+        "DropEasySan"
+      ],
+      "combina": [
+        {
+          "id": "recorte",
+          "porque": "Botão \"Sem fundo\": o meme vai sem fundo para a timeline.",
+          "porque_en": "\"No background\" button: the meme goes to the timeline with no background."
+        },
+        {
+          "id": "upscale",
+          "porque": "Botão \"Melhorar qualidade\": manda o meme baixado para o Upscale.",
+          "porque_en": "\"Improve quality\" button: sends the downloaded meme to Upscale."
+        },
+        {
+          "id": "organizador",
+          "porque": "Baixa direto na pasta Downloads do projeto.",
+          "porque_en": "Downloads straight into the project's Downloads folder."
+        }
+      ],
+      "resumo": "Memes, vídeos, GIFs e sons direto na timeline.",
+      "resumo_en": "Memes, videos, GIFs and sounds straight to the timeline.",
+      "descricao": "Busca no YouTube, Google, Pinterest, GIPHY, KLIPY, 7TV, Pexels, MyInstants, Mixkit e outros, e põe o resultado na agulha com um duplo clique ou arrastando. Também aceita link colado do TikTok, Instagram, X e Twitch.",
+      "descricao_en": "Searches YouTube, Google, Pinterest, GIPHY, KLIPY, 7TV, Pexels, MyInstants, Mixkit and more, and drops the result at the cursor with a double click or by dragging. Pasted TikTok, Instagram, X and Twitch links work too.",
+      "onde": "Exibir › Extensões › DropEasy san",
+      "onde_en": "View › Extensions › DropEasy san",
+      "atalhos": [
+        [
+          "Duplo clique",
+          "insere na agulha"
+        ],
+        [
+          "Botão direito",
+          "mais opções (Sem fundo, só baixar…)"
+        ],
+        [
+          "Ctrl+V",
+          "cola um link"
+        ]
+      ],
+      "atalhos_en": [
+        [
+          "Double click",
+          "inserts at the cursor"
+        ],
+        [
+          "Right click",
+          "more options (No background, download only…)"
+        ],
+        [
+          "Ctrl+V",
+          "pastes a link"
+        ]
+      ],
+      "aviso": "GIPHY, KLIPY e Pexels pedem uma chave grátis sua: o painel mostra onde pegar.",
+      "aviso_en": "GIPHY, KLIPY and Pexels need a free key of your own: the panel shows where to get it.",
+      "arquivos": [
+        {
+          "caminho": "extensoes/DropEasySan.dll",
+          "destino": "ext",
+          "sha256": "BEF34E7BC5E7E84B989C67A770F37C7614BCD2FA173C97B68FDA8C28293FDFFD",
+          "tamanho": 578560
+        }
+      ]
+    },
+    {
+      "id": "upscale",
+      "nome": "Upscale san",
+      "versao": "1.0.0",
+      "cor": "#22d3ee",
+      "dados": [
+        "UpscaleSan"
+      ],
+      "combina": [
+        {
+          "id": "dropeasy",
+          "porque": "Recebe o meme do DropEasy com um clique em \"Melhorar qualidade\".",
+          "porque_en": "Gets the meme from DropEasy with one click on \"Improve quality\"."
+        },
+        {
+          "id": "organizador",
+          "porque": "Salva o resultado em Imagens/Vídeos do projeto.",
+          "porque_en": "Saves the result in the project's Images/Videos."
+        }
+      ],
+      "resumo": "Meme em baixa qualidade vira HD com IA.",
+      "resumo_en": "Low-quality memes become HD with AI.",
+      "descricao": "Aumenta imagem, GIF e vídeo com Real-ESRGAN, Real-CUGAN e waifu2x. O modo Automático escolhe o modelo para cada arquivo, e o Comparar mostra todos lado a lado. Pausa sozinho quando você dá play no VEGAS.",
+      "descricao_en": "Upscales images, GIFs and videos with Real-ESRGAN, Real-CUGAN and waifu2x. Automatic mode picks the model for each file and Compare shows them side by side. It pauses by itself while VEGAS plays.",
+      "onde": "Exibir › Extensões › Upscale san",
+      "onde_en": "View › Extensions › Upscale san",
+      "atalhos": [
+        [
+          "Ctrl+V",
+          "cola imagem, link ou caminho"
+        ],
+        [
+          "Segurar O",
+          "mostra o original"
+        ],
+        [
+          "← →",
+          "movem a divisória"
+        ]
+      ],
+      "atalhos_en": [
+        [
+          "Ctrl+V",
+          "pastes an image, link or path"
+        ],
+        [
+          "Hold O",
+          "shows the original"
+        ],
+        [
+          "← →",
+          "move the divider"
+        ]
+      ],
+      "aviso": "Na primeira vez baixa o motor de IA sozinho.",
+      "aviso_en": "Downloads the AI engine by itself the first time.",
+      "arquivos": [
+        {
+          "caminho": "extensoes/UpscaleSan.dll",
+          "destino": "ext",
+          "sha256": "9FD859A9EA2BF7082DDC82C93631EF7172B2DE9C1348E669A4B9C9E1B558530F",
+          "tamanho": 399872
+        }
+      ]
+    },
+    {
+      "id": "recorte",
+      "nome": "Recorte san",
+      "versao": "1.0.0",
+      "cor": "#a3e635",
+      "dados": [
+        "RecorteSan"
+      ],
+      "combina": [
+        {
+          "id": "dropeasy",
+          "porque": "\"Sem fundo direto\" no DropEasy: recorta e já põe na agulha.",
+          "porque_en": "\"Direct no background\" in DropEasy: cuts out and drops it at the cursor."
+        },
+        {
+          "id": "organizador",
+          "porque": "Salva o recorte em Imagens do projeto.",
+          "porque_en": "Saves the cutout in the project's Images."
+        }
+      ],
+      "resumo": "Tira o fundo de imagem, GIF e vídeo com IA.",
+      "resumo_en": "Removes the background from images, GIFs and videos with AI.",
+      "descricao": "Recorte com o BiRefNet HR, borda fina de cabelo, pincel para corrigir e figurinha com contorno e sombra. A imagem do evento vira um take novo sem sair do lugar; GIF e vídeo saem com transparência.",
+      "descricao_en": "Cutouts with BiRefNet HR, fine hair edges, a brush to fix things and sticker mode with outline and shadow. The event's image becomes a new take without moving; GIFs and videos come out with transparency.",
+      "onde": "Exibir › Extensões › Recorte san",
+      "onde_en": "View › Extensions › Recorte san",
+      "atalhos": [
+        [
+          "B / E",
+          "pincel pinta / apaga"
+        ],
+        [
+          "[ ]",
+          "tamanho do pincel"
+        ],
+        [
+          "Ctrl+V",
+          "cola uma imagem"
+        ]
+      ],
+      "atalhos_en": [
+        [
+          "B / E",
+          "brush paints / erases"
+        ],
+        [
+          "[ ]",
+          "brush size"
+        ],
+        [
+          "Ctrl+V",
+          "pastes an image"
+        ]
+      ],
+      "aviso": "Na primeira vez baixa o modelo (1,1 GB). Em placa NVIDIA ele ainda se prepara uns 5 minutos, só uma vez.",
+      "aviso_en": "Downloads the model the first time (1.1 GB). On NVIDIA cards it also prepares itself for about 5 minutes, only once.",
+      "arquivos": [
+        {
+          "caminho": "extensoes/RecorteSan.dll",
+          "destino": "ext",
+          "sha256": "FA193A4331A9ED0F54C7442B82564D1A2DD66778F07978C84303F64FA506DEA1",
+          "tamanho": 386048
+        },
+        {
+          "caminho": "motor-recorte/Accessibility.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "7F22F7B8441FFB1E704332ED0AE06897EB5F496D0A61F2A84E4796B2B386578B",
+          "tamanho": 20816
+        },
+        {
+          "caminho": "motor-recorte/clretwrc.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "B6B2766B5D8FCEFDA131BCC59E7C740FF5CA7AC7B546661B7E655DC4B6D3B004",
+          "tamanho": 310608
+        },
+        {
+          "caminho": "motor-recorte/clrgc.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "4162D8F8A0EFD5E52DEB3C5F48BDACB25B59F62FFE44B6EBAC4040E1B9A414AB",
+          "tamanho": 667944
+        },
+        {
+          "caminho": "motor-recorte/clrjit.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "6398F7187DE13A8E6B11B77AB86D71D22125EB39FBBDC9AC0BB4606D85DF56E8",
+          "tamanho": 1777960
+        },
+        {
+          "caminho": "motor-recorte/coreclr.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "7FC8457F13EC008995422500685B7997EFEE80878F59419B76EF50A0E67327D9",
+          "tamanho": 4995880
+        },
+        {
+          "caminho": "motor-recorte/createdump.exe",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "3310877926020C5503854382F264DA7AC0163A7942099A964744E4C0100B1734",
+          "tamanho": 71552
+        },
+        {
+          "caminho": "motor-recorte/D3DCompiler_47_cor3.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "A05F99734F7C4822FEFC12B367AF21FD0976ED6608752FB1E1E80B6ECE7ECBBB",
+          "tamanho": 4741488
+        },
+        {
+          "caminho": "motor-recorte/DirectML.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "4A263E851F513F7C60A2B5BB08C3ED92102E3007F241C6CA5D63ABF29BF04358",
+          "tamanho": 18700264
+        },
+        {
+          "caminho": "motor-recorte/DirectWriteForwarder.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "9010A2589AC04F44BF5F4BF5000C4B42BDF800C9D8292EADD7CF881EC1DFBDC5",
+          "tamanho": 526160
+        },
+        {
+          "caminho": "motor-recorte/hostfxr.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "D579C8D05DD7456BE1551AB0CC3A86BD298B5CD5675936332CC4C8E56E59984D",
+          "tamanho": 366376
+        },
+        {
+          "caminho": "motor-recorte/hostpolicy.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "55FE7413BDDACAB3B3583A407C2425DA69D67E4189D8C13DF608470FC0315103",
+          "tamanho": 406824
+        },
+        {
+          "caminho": "motor-recorte/Microsoft.CSharp.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "F8695984287E917AF1A939AE5A9F00164A2861AE0A16F58105C942C0AF4ECA83",
+          "tamanho": 1005352
+        },
+        {
+          "caminho": "motor-recorte/Microsoft.DiaSymReader.Native.amd64.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "70E4B89978CE57EF87B28F4921F3140C383B04AA96E7F3BDB3C4EBB898FD8A72",
+          "tamanho": 2377016
+        },
+        {
+          "caminho": "motor-recorte/Microsoft.ML.OnnxRuntime.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "17156354FDB4FFC1AAB71A2EFD4285D9F75AEF35C9409F179DA8B5D92391A0AB",
+          "tamanho": 242648
+        },
+        {
+          "caminho": "motor-recorte/Microsoft.VisualBasic.Core.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "4313F3B400C4FEDD81D8921E01E6DE442B0CC9E75285C7A2C0892FE149F79920",
+          "tamanho": 1247016
+        },
+        {
+          "caminho": "motor-recorte/Microsoft.VisualBasic.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "6D6488946099F8FDBDEBE06C5EAB806C9854FA18E38A8E547F5A62E248A3EE8F",
+          "tamanho": 18768
+        },
+        {
+          "caminho": "motor-recorte/Microsoft.VisualBasic.Forms.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "F0B49AC82D4D4AEF79BEA6312350EFE4D0370EE9052C47E7EF4BB1C589383087",
+          "tamanho": 247592
+        },
+        {
+          "caminho": "motor-recorte/Microsoft.Win32.Primitives.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "7FB0FBB9FF0686DFEAF79C07619135A1CD16D763B234A43C7893C5316373E3F2",
+          "tamanho": 15184
+        },
+        {
+          "caminho": "motor-recorte/Microsoft.Win32.Registry.AccessControl.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "7BF013CFCD7A23BE5878AE42D31E888D783CDC9CB5F1267EC4215768BE9523AB",
+          "tamanho": 34600
+        },
+        {
+          "caminho": "motor-recorte/Microsoft.Win32.Registry.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "E1E86B7E104E10BA1625EBEE8B7DCAE2775BB14F170EE8317BEDDDA99D505125",
+          "tamanho": 120616
+        },
+        {
+          "caminho": "motor-recorte/Microsoft.Win32.SystemEvents.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "746A19D7F189AF3BCCAADFB6C23B6953228BC410F58AC2D47187F26BE23F3322",
+          "tamanho": 96040
+        },
+        {
+          "caminho": "motor-recorte/Microsoft.Windows.AI.MachineLearning.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "B401A47552A745755D65100828FAEFCF3DF3895C759F96AC625DDF990711C8DD",
+          "tamanho": 971504
+        },
+        {
+          "caminho": "motor-recorte/Microsoft.Windows.AI.MachineLearning.Projection.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "71F4B88735910BE488F68747C864AF048845C98850DE17E0C72E6B7F279DB6F3",
+          "tamanho": 84616
+        },
+        {
+          "caminho": "motor-recorte/Microsoft.Windows.SDK.NET.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "0EC371D93798852E36461C8ADDDBEADCE0F963A04752F0B64E54FE19C1C834A7",
+          "tamanho": 24877600
+        },
+        {
+          "caminho": "motor-recorte/mscordaccore.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "6298650DD58F53623B9DEE84FFE939A4CF7C927AD6EC61D3F734F187B4D9D4D3",
+          "tamanho": 1349000
+        },
+        {
+          "caminho": "motor-recorte/mscordaccore_amd64_amd64_8.0.3226.50405.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "6298650DD58F53623B9DEE84FFE939A4CF7C927AD6EC61D3F734F187B4D9D4D3",
+          "tamanho": 1349000
+        },
+        {
+          "caminho": "motor-recorte/mscordbi.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "356924526F3D512F92D0D7E4E1F62CEDC463FC4FDF23547E0B8AEEC0D82FBA14",
+          "tamanho": 1233760
+        },
+        {
+          "caminho": "motor-recorte/mscorlib.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "DEC19A9FAA5C4787986568875F6022A95CE5A377FECE41D0CD2444FBDA2FEC83",
+          "tamanho": 59176
+        },
+        {
+          "caminho": "motor-recorte/mscorrc.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "6FD8B3E76EE4723F07C33B6DBC9969BED141FA27D2C76919460421A114F88B52",
+          "tamanho": 136488
+        },
+        {
+          "caminho": "motor-recorte/msquic.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "7B32A336B638570BFF7B2F4782EBDC05B8C70FAC76FDB412F3E8A3C181C32A61",
+          "tamanho": 537400
+        },
+        {
+          "caminho": "motor-recorte/netstandard.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "C5EDB40C726A5A60DB6018962821E84EC60B91186DF65660A1A0ECBB67EF6DC4",
+          "tamanho": 100688
+        },
+        {
+          "caminho": "motor-recorte/onnxruntime.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "6C916621C1807EBA630388868BFF8EB4CC9718B9FA17464FC9368EB14AD0F33E",
+          "tamanho": 23086440
+        },
+        {
+          "caminho": "motor-recorte/PenImc_cor3.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "88490911D1957603B9EE052EB6CA374F8C487CD7F7769729FB945853AB1AA29A",
+          "tamanho": 158032
+        },
+        {
+          "caminho": "motor-recorte/PresentationCore.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "985EC96FCCCF539677A944FD1B3C4D33EEA7ECC37C99B4A6D4B0D0E96A6CFF19",
+          "tamanho": 8562472
+        },
+        {
+          "caminho": "motor-recorte/PresentationFramework-SystemCore.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "8676512C7A02719CFC2B2EFF6EEC019945BD52AEF76A38AE8FF64323B9727381",
+          "tamanho": 38736
+        },
+        {
+          "caminho": "motor-recorte/PresentationFramework-SystemData.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "C194F86696A35D3222188E8DD4EC4A783C4720A558DF99F3EFFF88381EB9EF12",
+          "tamanho": 34600
+        },
+        {
+          "caminho": "motor-recorte/PresentationFramework-SystemDrawing.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "C71C0AD9FA27BB1CB7A2E56C7503955DCDFE26CE55F605C51D76C793EC91486C",
+          "tamanho": 34600
+        },
+        {
+          "caminho": "motor-recorte/PresentationFramework-SystemXml.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "9053721562A3CF2879EA1F3AD71B4FF09BC1AC0A13DC7F2C49257993A12B19A9",
+          "tamanho": 34600
+        },
+        {
+          "caminho": "motor-recorte/PresentationFramework-SystemXmlLinq.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "980A769634BD31F739667D982D96EA9B913A3F07B25943A1B88375FBA07B1FC6",
+          "tamanho": 30504
+        },
+        {
+          "caminho": "motor-recorte/PresentationFramework.Aero.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "5A602E3C028EF5E54908EE7A45F867F4092F3C33F843F27698E6A66C1213FA50",
+          "tamanho": 444200
+        },
+        {
+          "caminho": "motor-recorte/PresentationFramework.Aero2.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "93828936ED7E324F444FA0665891BB21A1ABF7B416CC6B4D49EABFBBAA24D7A8",
+          "tamanho": 448336
+        },
+        {
+          "caminho": "motor-recorte/PresentationFramework.AeroLite.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "AC2D1F6906104999817ECAEC964EE61B4905F1A2357FE5C26CFD22E05BB24F26",
+          "tamanho": 239400
+        },
+        {
+          "caminho": "motor-recorte/PresentationFramework.Classic.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "BC1CB7A37251C476ADA364B1875F4506BE905D0F4DFA977191A980F41588FA92",
+          "tamanho": 272168
+        },
+        {
+          "caminho": "motor-recorte/PresentationFramework.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "700B69B597278624E581E8EFD4D07936264ADBBF98E701BAC6E50E61BD7ACF2B",
+          "tamanho": 16135976
+        },
+        {
+          "caminho": "motor-recorte/PresentationFramework.Luna.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "C8CB9CCD7444A7D0B8F13D4038FE2C3E7B6AA527F6CC542342E46BD51F8569B2",
+          "tamanho": 669480
+        },
+        {
+          "caminho": "motor-recorte/PresentationFramework.Royale.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "2D9C2AA79E7ED1265B02E50C50358046AAEF0AC8A039BA0600B3FCF23F89E70A",
+          "tamanho": 333608
+        },
+        {
+          "caminho": "motor-recorte/PresentationNative_cor3.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "C9DE9598D1AE7D7B9CFD3E83C7201BF2AD23B97121000C475DE01A868AC2E618",
+          "tamanho": 1234768
+        },
+        {
+          "caminho": "motor-recorte/PresentationUI.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "9ECB3261F46EF6E93D42ED2CBEE4F60D0DCC4A7F3DF2C29E6DD125E11A21FAA5",
+          "tamanho": 1287976
+        },
+        {
+          "caminho": "motor-recorte/ReachFramework.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "FEB1AF4EB85768D17FBC26FCB3D07C85C1AAACE9DACF503819B2855DD886BAD5",
+          "tamanho": 1607464
+        },
+        {
+          "caminho": "motor-recorte/RecorteSan.Engine.deps.json",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "E266FF0CA91A7CFDA79FCE744E780DB5896A7C1F88B9B7D2530655ADE54BB78D",
+          "tamanho": 38137
+        },
+        {
+          "caminho": "motor-recorte/RecorteSan.Engine.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "A85C5A4392BF5DF0FE2E766B1221C5F69C5062FF8074BA48E6099D6FC78B0C57",
+          "tamanho": 75264
+        },
+        {
+          "caminho": "motor-recorte/RecorteSan.Engine.exe",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "F35C0FAA3AF22BE3FE05E5FC52AC3955DB3F637E91F352D369DDF139F151A187",
+          "tamanho": 151552
+        },
+        {
+          "caminho": "motor-recorte/RecorteSan.Engine.pdb",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "0E5A2E0F42C338723DC35678934F4BC19170871EDCC6D456A619F6C7506DCB82",
+          "tamanho": 33496
+        },
+        {
+          "caminho": "motor-recorte/RecorteSan.Engine.runtimeconfig.json",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "216EC6E3EFB9AD694456EFB5945A45581620E08070D5804612600878F2A33E55",
+          "tamanho": 575
+        },
+        {
+          "caminho": "motor-recorte/System.AppContext.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "B7B1D115A707CA5AC6E819F969EE4281FE813FF1DA2B219EDCEF915D94A7D302",
+          "tamanho": 15144
+        },
+        {
+          "caminho": "motor-recorte/System.Buffers.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "D1222B8642C75039E3408BEDDD7F2CA7753683AF1A894D11322A896CA94BF428",
+          "tamanho": 15184
+        },
+        {
+          "caminho": "motor-recorte/System.CodeDom.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "1C7ADEE7B782ABC3B55AE483FE2BA76231A80253FA54A6C01534F5E38A1309DD",
+          "tamanho": 489256
+        },
+        {
+          "caminho": "motor-recorte/System.Collections.Concurrent.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "F9966B6F207B9B0FCA7A8035008F414ADC5EA2BA8BAF83D847891781AA46A69F",
+          "tamanho": 276264
+        },
+        {
+          "caminho": "motor-recorte/System.Collections.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "A5116ECAD89983A6C9670FAEEAD52DEF6248BF9017ACFF9264D4972DFDB94062",
+          "tamanho": 259880
+        },
+        {
+          "caminho": "motor-recorte/System.Collections.Immutable.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "DBD34BAEDE4AADBA87CFD0D4F0B140B054CA0DFC19E0D8967BE923AA22027941",
+          "tamanho": 837456
+        },
+        {
+          "caminho": "motor-recorte/System.Collections.NonGeneric.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "1F8E46621250BAA782AC5B4C735F272059B80445C7B7C4975AE78A3B1F55AE2F",
+          "tamanho": 104232
+        },
+        {
+          "caminho": "motor-recorte/System.Collections.Specialized.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "96C06ABADEDA1EF45BB9C9E9CACA0FE1E6461AD61BEAB564C866F708685C621C",
+          "tamanho": 104272
+        },
+        {
+          "caminho": "motor-recorte/System.ComponentModel.Annotations.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "AB41F89F6BEADD5BDD9311F6D544425F4451DCADC3929E2E5AD8217180B4AFE5",
+          "tamanho": 198440
+        },
+        {
+          "caminho": "motor-recorte/System.ComponentModel.DataAnnotations.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "3BA174AA522A0E6C43E87B59709DF2919D29B77571AA62D4E121D9228F00B8A6",
+          "tamanho": 16720
+        },
+        {
+          "caminho": "motor-recorte/System.ComponentModel.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "40559BB72151A338CA9B5DA79E6E484AEA4DEEF7F1CC5922996542480F452AFF",
+          "tamanho": 30544
+        },
+        {
+          "caminho": "motor-recorte/System.ComponentModel.EventBasedAsync.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "A89DADB4077947A5F6041DAD22308D3E573CE0C04DC36717CE99B5100532B643",
+          "tamanho": 46888
+        },
+        {
+          "caminho": "motor-recorte/System.ComponentModel.Primitives.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "C7368F5D4E32FF30600AB0EFCD1272830C8D82852B82E21E872CAA27ED20596B",
+          "tamanho": 79696
+        },
+        {
+          "caminho": "motor-recorte/System.ComponentModel.TypeConverter.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "3276D54E3B2B3EA00FECCC317A5FA276B6BED9C08214D53570919A7DCE2F46D4",
+          "tamanho": 747304
+        },
+        {
+          "caminho": "motor-recorte/System.Configuration.ConfigurationManager.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "7664002418166251BFEC7BCA608C824AA21720A69B6B8DC8C0C416C292FDB281",
+          "tamanho": 1074984
+        },
+        {
+          "caminho": "motor-recorte/System.Configuration.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "7094342509BB169A9FD2E96D110EEBA4935069DA317061ACD0C36E3ADD23E0E7",
+          "tamanho": 19240
+        },
+        {
+          "caminho": "motor-recorte/System.Console.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "B6A30433FC4AE294D83A4B0D13A5FD21D1D64DDACABD7D7C9CD26EC80B16D4B8",
+          "tamanho": 173904
+        },
+        {
+          "caminho": "motor-recorte/System.Core.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "6AF7BFD04F29ED0ACB14443F480E81F543EA6EC586E99AD4DDFF0BB2AA63E72A",
+          "tamanho": 23376
+        },
+        {
+          "caminho": "motor-recorte/System.Data.Common.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "A8EE9550DE066A72BE91D9B87ADB4155256C4B961D178AE2788DACE022811AD2",
+          "tamanho": 2860880
+        },
+        {
+          "caminho": "motor-recorte/System.Data.DataSetExtensions.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "735C6543A16F6A700903A09D7BEA815B9143B9F679AF4A2A112F056835B1DFD9",
+          "tamanho": 15656
+        },
+        {
+          "caminho": "motor-recorte/System.Data.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "F6FBE3819391FAEE13AA732AC1BB126FE81FF85B053C5EE3159A1EC9C9680E00",
+          "tamanho": 24912
+        },
+        {
+          "caminho": "motor-recorte/System.Design.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "1AD621D432B8674254F98E04F415A6A223536AC329C8890046857D1E2445BBD1",
+          "tamanho": 21800
+        },
+        {
+          "caminho": "motor-recorte/System.Diagnostics.Contracts.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "08AF8DA38DFB1DDB18E797E7FC71363D15A5922CEA752842B9E894C009ED3D75",
+          "tamanho": 16208
+        },
+        {
+          "caminho": "motor-recorte/System.Diagnostics.Debug.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "F6B686611906A6EECAD54F9AF505F3EAE03C4A604A9154361E4AC8CDF13E9250",
+          "tamanho": 15656
+        },
+        {
+          "caminho": "motor-recorte/System.Diagnostics.DiagnosticSource.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "8AA37A917A3748647FC984F777D56E5A393022474FD66D09D7BB98FD3EB69C5E",
+          "tamanho": 415568
+        },
+        {
+          "caminho": "motor-recorte/System.Diagnostics.EventLog.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "B308999953BBEA3C7BE713BF213DF7708CCC90D7468E55B23C6D50FBEBE73F5D",
+          "tamanho": 386896
+        },
+        {
+          "caminho": "motor-recorte/System.Diagnostics.EventLog.Messages.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "D31F80E4D8BD9EE5F0EB19F8169B44C241AD97C648C371C227FEAD3D026A7FC3",
+          "tamanho": 800592
+        },
+        {
+          "caminho": "motor-recorte/System.Diagnostics.FileVersionInfo.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "C322C2DCAC6940C6E20676CDA0752B2F6E2E5194CB5043A957E5754A16870185",
+          "tamanho": 46928
+        },
+        {
+          "caminho": "motor-recorte/System.Diagnostics.PerformanceCounter.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "EC0E31940758AB6B11FBC1ADB2EFEEDE68449F0D785441E03E7D5264ADA97B41",
+          "tamanho": 288552
+        },
+        {
+          "caminho": "motor-recorte/System.Diagnostics.Process.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "B532A720F07DF58E3A4891D57D0309F3EB17D651DED8C61DD554880FFD450C65",
+          "tamanho": 337744
+        },
+        {
+          "caminho": "motor-recorte/System.Diagnostics.StackTrace.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "6A030932791CEC65C932CD41EE1AFC3C31FC2D0CD49375ECBCEEA0E46F1F1F69",
+          "tamanho": 46928
+        },
+        {
+          "caminho": "motor-recorte/System.Diagnostics.TextWriterTraceListener.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "D32CED1B6EC54420A4CF91D4E7B009AB56737778472462E33371E4F870ED0433",
+          "tamanho": 67368
+        },
+        {
+          "caminho": "motor-recorte/System.Diagnostics.Tools.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "B8F9EA78EACA682D30807E105E8CC26D63AC4EC725FC61267F3617E27372C1FA",
+          "tamanho": 15144
+        },
+        {
+          "caminho": "motor-recorte/System.Diagnostics.TraceSource.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "AD5E60214E43E47930E282D52DBC21C137D780D6A9DE57CA881D1566682C247E",
+          "tamanho": 145232
+        },
+        {
+          "caminho": "motor-recorte/System.Diagnostics.Tracing.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "FDFE02CD9A9F0E9BF400F869B295C0C9F62DAC8D0B5A9FAE9F6F7214C27601D7",
+          "tamanho": 16208
+        },
+        {
+          "caminho": "motor-recorte/System.DirectoryServices.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "E2F8D956F148CF922ADF0D4C42610711EC66C507F9B6F954DB12C399C5F10C0A",
+          "tamanho": 1046312
+        },
+        {
+          "caminho": "motor-recorte/System.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "3B43F811ED2E3E3CA97516708E659A58D31A569B641E8C1C09F92800D81E5933",
+          "tamanho": 49960
+        },
+        {
+          "caminho": "motor-recorte/System.Drawing.Common.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "9CC51FA0A3B3D6A1059B5D6D65865EEBAB0078B5AAA45ECBE43EEC4F06A72964",
+          "tamanho": 1529640
+        },
+        {
+          "caminho": "motor-recorte/System.Drawing.Design.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "08615576CAF6332FBC63882605A88F8BBAC36C53750EA70AEAB78C162D6C318A",
+          "tamanho": 15144
+        },
+        {
+          "caminho": "motor-recorte/System.Drawing.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "12E63EA797E801E11FCF25AFC6AE48759F60749FC818B1CDFBC3F9F8C40C0F52",
+          "tamanho": 21288
+        },
+        {
+          "caminho": "motor-recorte/System.Drawing.Primitives.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "9FD5AE89278C8DB0FDD5804A210C69A1A59862AF61FDC3B78817F97D253BE5FB",
+          "tamanho": 132904
+        },
+        {
+          "caminho": "motor-recorte/System.Dynamic.Runtime.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "2511E513F1F3260BE23EDEEB1FD4F0FFF36B8E94317A9AB3CAECACB27BC619DE",
+          "tamanho": 16168
+        },
+        {
+          "caminho": "motor-recorte/System.Formats.Asn1.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "07B316621AD4C603B8E11C4FC9F329C07D42B64DD8911760C1432C5B71C025D8",
+          "tamanho": 243496
+        },
+        {
+          "caminho": "motor-recorte/System.Formats.Tar.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "11D1F405631BA52BE402242DF1D9FE4D8768D28894E73A473FD689D926C94E0E",
+          "tamanho": 292688
+        },
+        {
+          "caminho": "motor-recorte/System.Globalization.Calendars.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "29431CFD2DCBB00DFEB5741A9780BF1B4DBCB56408A6D3B4126CAA9191A2642A",
+          "tamanho": 15696
+        },
+        {
+          "caminho": "motor-recorte/System.Globalization.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "AF9E738B239AE0C50C96D9D880568EA476541F03E63273F345D33F18A3ADDD5F",
+          "tamanho": 15656
+        },
+        {
+          "caminho": "motor-recorte/System.Globalization.Extensions.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "3FCEF2B02DFA1C9CBADC2605695CB39D0FABC80B699751E9FD83647C33078625",
+          "tamanho": 15144
+        },
+        {
+          "caminho": "motor-recorte/System.IO.Compression.Brotli.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "826E4272C182B738096C625AC172C08E9883E5F403F8BC2C265C66C148B598B7",
+          "tamanho": 83752
+        },
+        {
+          "caminho": "motor-recorte/System.IO.Compression.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "4735EA7324369C962B301FD43A6232ED28EBC2F726F9B0798CF62A3381D4AF51",
+          "tamanho": 264016
+        },
+        {
+          "caminho": "motor-recorte/System.IO.Compression.FileSystem.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "AE562081C19665C492648114187E99E2B208C0097FC1AC8A68B0CC2C7A303FF1",
+          "tamanho": 15184
+        },
+        {
+          "caminho": "motor-recorte/System.IO.Compression.Native.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "11F20A71F8E5D847B7FC26C75CD8F0CCE71BAC242837A762B30CBD95DEEC6D01",
+          "tamanho": 828200
+        },
+        {
+          "caminho": "motor-recorte/System.IO.Compression.ZipFile.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "22EE80573022E797A3E77688F4B66D50FB66FC8455BFCB5FD6A53C813450EA1A",
+          "tamanho": 55080
+        },
+        {
+          "caminho": "motor-recorte/System.IO.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "C09E39A8B39C8F0D54907A8BB7F0A95CE380A912A80A42C90A61FE7479EAF185",
+          "tamanho": 15696
+        },
+        {
+          "caminho": "motor-recorte/System.IO.FileSystem.AccessControl.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "E571FB2430B4BF60854B52A68A646A5F19605E05B7B97AAB0B53787A281325C9",
+          "tamanho": 104232
+        },
+        {
+          "caminho": "motor-recorte/System.IO.FileSystem.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "0388B935578E434C400CF29513CFE0445AE4E5CE6F16CEF4151405907931509E",
+          "tamanho": 15696
+        },
+        {
+          "caminho": "motor-recorte/System.IO.FileSystem.DriveInfo.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "1BCE944CFAE3E124380AEF60163988C315B232E4309DD8F01206C12EF84F6EEE",
+          "tamanho": 55080
+        },
+        {
+          "caminho": "motor-recorte/System.IO.FileSystem.Primitives.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "91C28D44B18D039F319D5433229FD9003B24FE07199CE861935A2651482E31DC",
+          "tamanho": 15144
+        },
+        {
+          "caminho": "motor-recorte/System.IO.FileSystem.Watcher.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "E65AEE46A84388611F97FE8DD6100BFB7BA3FE37119E255E9B3EF11171061C50",
+          "tamanho": 87848
+        },
+        {
+          "caminho": "motor-recorte/System.IO.IsolatedStorage.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "C8BFF13359A2D0A14C644A8B60AEF0E940127CC3F810ACD813B521E2512F9A3A",
+          "tamanho": 91984
+        },
+        {
+          "caminho": "motor-recorte/System.IO.MemoryMappedFiles.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "E29F98EB15B7CE8AA4AF5B2560EA30F57FC897233BED892062823D643AB2F57E",
+          "tamanho": 83752
+        },
+        {
+          "caminho": "motor-recorte/System.IO.Packaging.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "26C9A549DD2765252B39FED1562DA85AD1BA8C67DA8C0DE1D23EAA6BD0CF8E71",
+          "tamanho": 292688
+        },
+        {
+          "caminho": "motor-recorte/System.IO.Pipes.AccessControl.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "3444D887B589FBDC709C64EE68CD30187A8021AE5FD90A2FA9CEFE7E8F2010D0",
+          "tamanho": 16168
+        },
+        {
+          "caminho": "motor-recorte/System.IO.Pipes.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "A518EEF58923A0519635BDED25B776C39551112F9523470132719826AFC80CAC",
+          "tamanho": 165672
+        },
+        {
+          "caminho": "motor-recorte/System.IO.UnmanagedMemoryStream.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "B7E31EEF62E2E81E42F6FA592BBC0344ED5EC29FB8CD539E8121E0DFA8011785",
+          "tamanho": 15184
+        },
+        {
+          "caminho": "motor-recorte/System.Linq.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "7108E362744F21F5D1002CE59DDCFA2DEFFD1FA778A4F0471B30CB19F94DD2F4",
+          "tamanho": 542504
+        },
+        {
+          "caminho": "motor-recorte/System.Linq.Expressions.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "2F66911D8BBAE820428FDA2A32B20EC8773E17C103694207F178580E2EC397FA",
+          "tamanho": 3675984
+        },
+        {
+          "caminho": "motor-recorte/System.Linq.Parallel.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "C199CF92172C54123278A2F83B1FFDFAE74BAD52B349E78D105507D328860BAA",
+          "tamanho": 804648
+        },
+        {
+          "caminho": "motor-recorte/System.Linq.Queryable.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "44AB55D1304A7CB5BF42AC2C562E4C618FA6B2D0E34FB9BB0EADE336DA57CBD3",
+          "tamanho": 173864
+        },
+        {
+          "caminho": "motor-recorte/System.Memory.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "8C0C3E2561CDFABAB3510EC3A5AF174FB0EC6AADF2B02FE22685E39F8A28128F",
+          "tamanho": 157480
+        },
+        {
+          "caminho": "motor-recorte/System.Net.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "92833A473E5409A73219B5DAA10FA215300FE29AC44FDFE747D91E30675604C0",
+          "tamanho": 17192
+        },
+        {
+          "caminho": "motor-recorte/System.Net.Http.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "32B82169FA80294B867B81C978CC6C1232E3706F509633E8477AAEF9B6910F4C",
+          "tamanho": 1734440
+        },
+        {
+          "caminho": "motor-recorte/System.Net.Http.Json.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "26D72F2089E533D78DC43E4D107F6CBA6FD1DCECC2C087134157D8DA6F44EE3F",
+          "tamanho": 128808
+        },
+        {
+          "caminho": "motor-recorte/System.Net.HttpListener.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "7823EB41F1517D148ECE1A0E379ECD80804C57C106394D593AF41CD280A557E3",
+          "tamanho": 550736
+        },
+        {
+          "caminho": "motor-recorte/System.Net.Mail.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "73AD866370CE4E2A7B7CE3A4317A1803B14A4EB0E465AFF340BA13CC9EA53E5F",
+          "tamanho": 431912
+        },
+        {
+          "caminho": "motor-recorte/System.Net.NameResolution.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "91FDE67FE46E11BAE06A853A3F3DB9D6076D633FB614C19A9811825E3AF5D111",
+          "tamanho": 112464
+        },
+        {
+          "caminho": "motor-recorte/System.Net.NetworkInformation.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "63FCE974E689BEFE1022EDC446F281E529AA4F84CC531D60E21C7F68D43B05BA",
+          "tamanho": 157480
+        },
+        {
+          "caminho": "motor-recorte/System.Net.Ping.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "28643F73194D803EFEB0760135346006112CE931C353AA18CD80573FFC9F6C21",
+          "tamanho": 96040
+        },
+        {
+          "caminho": "motor-recorte/System.Net.Primitives.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "4E464CF88666AE6E9AF33D663054EFA4885F8350E2C00A5AEC193F022B7042F9",
+          "tamanho": 231208
+        },
+        {
+          "caminho": "motor-recorte/System.Net.Quic.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "48253DD7648E23C65DC888C709D3FF23452A59B04E3AE95E838C00A19993E82C",
+          "tamanho": 288552
+        },
+        {
+          "caminho": "motor-recorte/System.Net.Requests.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "143372B516F47E2017A6B53CABAE3BBF0100A43C0507BDB6D97E3F22A05F4393",
+          "tamanho": 345896
+        },
+        {
+          "caminho": "motor-recorte/System.Net.Security.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "7F373D8D95CE5FE80E8C2FA76169349DB4936AC56CF2067EA79A7A32987B097B",
+          "tamanho": 669480
+        },
+        {
+          "caminho": "motor-recorte/System.Net.ServicePoint.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "719E334097C934FABDFBC8B313C943E27B25533A4B80A9708E440F5EFBEB9DBC",
+          "tamanho": 46888
+        },
+        {
+          "caminho": "motor-recorte/System.Net.Sockets.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "D536ED205297634940896F45FBB0E506270CEB7DE469FB076448103338B7D534",
+          "tamanho": 546600
+        },
+        {
+          "caminho": "motor-recorte/System.Net.WebClient.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "1B85587AF566F0D003E510418183FE7AE72662D3A6758FE5CF2880879D2F147A",
+          "tamanho": 169768
+        },
+        {
+          "caminho": "motor-recorte/System.Net.WebHeaderCollection.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "4D990F12E3BE647F9E2AC0C726D45907008AFF7259CD9FA01544AB9428D9E68D",
+          "tamanho": 67368
+        },
+        {
+          "caminho": "motor-recorte/System.Net.WebProxy.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "DA0492FB6400E45206720F58518783046497C19B067F41228AD5D8C7365583FC",
+          "tamanho": 42792
+        },
+        {
+          "caminho": "motor-recorte/System.Net.WebSockets.Client.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "260AA500E6333753723A99A1AAF99AE9F9C4513A2D30E35E735889C64596CA8D",
+          "tamanho": 100136
+        },
+        {
+          "caminho": "motor-recorte/System.Net.WebSockets.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "0E1613A9D0FAC0A756FBE7069214BC01E5AF8C2C312DD77BB1FDED30011DD8DA",
+          "tamanho": 190248
+        },
+        {
+          "caminho": "motor-recorte/System.Numerics.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "0DC62E3CEE7AE47C063801CB2A0D058CB64CF7E6E17B494D351F65CF1856E25D",
+          "tamanho": 15144
+        },
+        {
+          "caminho": "motor-recorte/System.Numerics.Tensors.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "0E59EB423D5A7D82998A0537653565D05033B07C606D59ED0756C2FF028343DA",
+          "tamanho": 442680
+        },
+        {
+          "caminho": "motor-recorte/System.Numerics.Vectors.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "F31765D06E52CD9136041BA73DE02B2873C957634972EE18B359729753CD8EB6",
+          "tamanho": 15656
+        },
+        {
+          "caminho": "motor-recorte/System.ObjectModel.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "6543DF5B88D72ADB9184908C5F3A2B084755956B247A4F559D3CD171A9BDA4BD",
+          "tamanho": 79656
+        },
+        {
+          "caminho": "motor-recorte/System.Printing.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "9FB8450A630435387159648EE1B246652778B13E8D1743C1ADD73DFF03371820",
+          "tamanho": 980816
+        },
+        {
+          "caminho": "motor-recorte/System.Private.CoreLib.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "E7816C58140BFAE07F2A046779C7049048DAA94FCD042CD866849865E5CFF054",
+          "tamanho": 13174568
+        },
+        {
+          "caminho": "motor-recorte/System.Private.DataContractSerialization.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "5A4F804117D9809B475C90960EFFA732CDA08C7DCF237DD0DAC8A75E3B4368C1",
+          "tamanho": 2082600
+        },
+        {
+          "caminho": "motor-recorte/System.Private.Uri.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "18C7AB19DCBC6BA4927F0CBB6A536A6DD1D958369E4400E61FAFC5C865C92C34",
+          "tamanho": 259880
+        },
+        {
+          "caminho": "motor-recorte/System.Private.Xml.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "212F6CD75D277DF2A7D4FF7D50F58745A7169CF38FC127A93ECB890276CBBCAE",
+          "tamanho": 7997224
+        },
+        {
+          "caminho": "motor-recorte/System.Private.Xml.Linq.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "DDE3E9E8FF5DC4B59225235CD214BF438CDE8534EC781AC95640AAF4110BAAB0",
+          "tamanho": 403240
+        },
+        {
+          "caminho": "motor-recorte/System.Reflection.DispatchProxy.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "1C29BEF9AE0B2A4F0BA79CB6AF0EA2961D446D3AEBDC42A0CE602EAAF2B43662",
+          "tamanho": 75600
+        },
+        {
+          "caminho": "motor-recorte/System.Reflection.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "ABBBD5F095403C3B51FE671F6315DAA8153C2D277DE497F654B7A9AC4FB46F3F",
+          "tamanho": 16168
+        },
+        {
+          "caminho": "motor-recorte/System.Reflection.Emit.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "6C86419C0026C3BC3D29DB984CBC53EA20A2D15AAFF7F430DA8BFA773D528FEF",
+          "tamanho": 128848
+        },
+        {
+          "caminho": "motor-recorte/System.Reflection.Emit.ILGeneration.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "BB615DDF45DE16583A2FE7205E814EC820AE2719D88F1DF71FCC059C0EEE6BA7",
+          "tamanho": 15696
+        },
+        {
+          "caminho": "motor-recorte/System.Reflection.Emit.Lightweight.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "1DCD4BD45FBF16CE575FB9B0272001F314A40641BD445ABB2857EBE439395AC9",
+          "tamanho": 15696
+        },
+        {
+          "caminho": "motor-recorte/System.Reflection.Extensions.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "81DE7B9AC0CA4473C2C951CBE45DFE8502468CD9FF4488822D4AEFCF6D405E4B",
+          "tamanho": 15144
+        },
+        {
+          "caminho": "motor-recorte/System.Reflection.Metadata.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "126835B3BAF64BFE149961E649BA1DBD747276B7F60597CD5C9F4C58CC12E644",
+          "tamanho": 1115944
+        },
+        {
+          "caminho": "motor-recorte/System.Reflection.Primitives.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "53FE1251AF758FFE9FA66E658CC6C21FA371598E8D05CAE9E77904890846F8B7",
+          "tamanho": 15696
+        },
+        {
+          "caminho": "motor-recorte/System.Reflection.TypeExtensions.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "DFA95E81019D2E1726F98AF642A62296C141117E2D087B88ADB2482298E64D93",
+          "tamanho": 42792
+        },
+        {
+          "caminho": "motor-recorte/System.Resources.Extensions.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "ECF0360B9B9DB3828BFC6DF05E102A087377D5CC33300818A46A489EBD7D152E",
+          "tamanho": 137000
+        },
+        {
+          "caminho": "motor-recorte/System.Resources.Reader.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "0D145D99FF948FB5A30E6193F593DC55FCBC2BD3AEA7BD5E0A515EBBA0223410",
+          "tamanho": 15144
+        },
+        {
+          "caminho": "motor-recorte/System.Resources.ResourceManager.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "C0E4C2C1552D8DFE52A22787EEFA612EB4B84679CC2CD6CC3732F7AD98C4738B",
+          "tamanho": 15696
+        },
+        {
+          "caminho": "motor-recorte/System.Resources.Writer.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "7803C153FE0DBF1FE068179F243BAC7B2DF9D2377E562B8491C8764BDC85274F",
+          "tamanho": 50984
+        },
+        {
+          "caminho": "motor-recorte/System.Runtime.CompilerServices.Unsafe.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "EA1985572F996DA445C7B8D236886F890FF64CAAC0851D542C6E366B4CF475EA",
+          "tamanho": 15144
+        },
+        {
+          "caminho": "motor-recorte/System.Runtime.CompilerServices.VisualC.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "7A17580361F95E2828612A95E27CAAB20F23533DCC707E2115F10AE6CCC24319",
+          "tamanho": 30544
+        },
+        {
+          "caminho": "motor-recorte/System.Runtime.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "E044D7CAA0B903794245B593AE7EA793EE270374E2DAACB3035FA11031F7FB57",
+          "tamanho": 43344
+        },
+        {
+          "caminho": "motor-recorte/System.Runtime.Extensions.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "67BC281769BA0A81E7D725EE0329D221F9827B2805988E62E91E72CF32C5549C",
+          "tamanho": 17704
+        },
+        {
+          "caminho": "motor-recorte/System.Runtime.Handles.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "B2260D6F30CD9BD12E9FB8C2D433D2B04749A670823A23A6549AB3482D19DBDB",
+          "tamanho": 15184
+        },
+        {
+          "caminho": "motor-recorte/System.Runtime.InteropServices.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "DB2CFC2B5E96FEA5E79CBB84F0C4E4E670592DBD875E04D2A4D1E05024581231",
+          "tamanho": 96040
+        },
+        {
+          "caminho": "motor-recorte/System.Runtime.InteropServices.JavaScript.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "CBBB4C7105175FE7F80638378956C25D57E93BCD486CB9ACB63B37CB418DBE31",
+          "tamanho": 51024
+        },
+        {
+          "caminho": "motor-recorte/System.Runtime.InteropServices.RuntimeInformation.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "0A5B800566F00CF9E5F063B6240150E2441D4F52746DBA260068901326BF8302",
+          "tamanho": 15144
+        },
+        {
+          "caminho": "motor-recorte/System.Runtime.Intrinsics.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "34461FFA71DF5123B883C6DFB9C3D8B9F56FA7178D565BF1FD2C808C900F83D4",
+          "tamanho": 16720
+        },
+        {
+          "caminho": "motor-recorte/System.Runtime.Loader.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "5B5061346D1F7E1ADB208207DD5D1A812DB3984E1C9A0109DC875B1712811E9A",
+          "tamanho": 15656
+        },
+        {
+          "caminho": "motor-recorte/System.Runtime.Numerics.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "2D115DBB4845D3C3B5BCBDD8ACF552A1C3E657910A28485040D9CF0D5EC83489",
+          "tamanho": 329512
+        },
+        {
+          "caminho": "motor-recorte/System.Runtime.Serialization.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "C19537522408A91CC82195DFAC95960275FAB4CCB845C8F4F405B2B9709F8FB2",
+          "tamanho": 16680
+        },
+        {
+          "caminho": "motor-recorte/System.Runtime.Serialization.Formatters.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "123CE2C5F0C2F63AC56D9E9105D749D14639F3EDD0BC8CCC567C3C637E2CADF6",
+          "tamanho": 309032
+        },
+        {
+          "caminho": "motor-recorte/System.Runtime.Serialization.Json.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "175A5783313651AC27809A6C39740B120D62C63E37181DD0E39AF3A3567EB074",
+          "tamanho": 15656
+        },
+        {
+          "caminho": "motor-recorte/System.Runtime.Serialization.Primitives.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "684F0C2B09851D2FB2ED514AE4BD913CDC248CA3079529F2F7F9741FCC9572BB",
+          "tamanho": 38696
+        },
+        {
+          "caminho": "motor-recorte/System.Runtime.Serialization.Xml.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "D974EFC6C48EBDFAEF676A05878D8CDC69BE521EE7F25A5FBD8C934251414CB6",
+          "tamanho": 16680
+        },
+        {
+          "caminho": "motor-recorte/System.Security.AccessControl.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "23046DBF9E26A154DD80BD4706070D76BF4045D55BBCC680951A731A4EF22195",
+          "tamanho": 231208
+        },
+        {
+          "caminho": "motor-recorte/System.Security.Claims.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "80BB6CEF3DE39852ECDF7E51AA0D327E23DA9AAC171C0469193498334E70709A",
+          "tamanho": 100136
+        },
+        {
+          "caminho": "motor-recorte/System.Security.Cryptography.Algorithms.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "2606A842244B54E9F0570E690A64C56EB2B9BEEA1165EFB0A905E87893F89371",
+          "tamanho": 17192
+        },
+        {
+          "caminho": "motor-recorte/System.Security.Cryptography.Cng.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "0588B9DB131F749F0BA0F766714320A2B426616CFF70EB688B85FE1894B16B5C",
+          "tamanho": 16168
+        },
+        {
+          "caminho": "motor-recorte/System.Security.Cryptography.Csp.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "A2B17F45461E2ACD99CF18165CF19EB5880BD3A2DF7F416E2302941619BC6A50",
+          "tamanho": 15696
+        },
+        {
+          "caminho": "motor-recorte/System.Security.Cryptography.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "DDDC9D393781AA1A5D729A4EB0EC5E6C48A37EB5DDA8C878B6C0E226345D6324",
+          "tamanho": 2049872
+        },
+        {
+          "caminho": "motor-recorte/System.Security.Cryptography.Encoding.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "42F08361253C11391602BB3A340D5A965CB9ACE48510112997AB4F30C60C7D47",
+          "tamanho": 15696
+        },
+        {
+          "caminho": "motor-recorte/System.Security.Cryptography.OpenSsl.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "21C46CE3805AC6A3244C0D013E77F6B8353EE38B694A4F357D079ED2CAB72CDC",
+          "tamanho": 15144
+        },
+        {
+          "caminho": "motor-recorte/System.Security.Cryptography.Pkcs.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "F4A154EB14720B95CA786DF260A02365F3048728D0EF4DA7429EB64A4489E657",
+          "tamanho": 767784
+        },
+        {
+          "caminho": "motor-recorte/System.Security.Cryptography.Primitives.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "174D7D2A4BEB1F1939ADA8C4736803ACE662A502FB862999F48F9F7C0FC1C409",
+          "tamanho": 15696
+        },
+        {
+          "caminho": "motor-recorte/System.Security.Cryptography.ProtectedData.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "28A50E8B3A0867E9F8294EDD67F3C24FEA33C26CDC7D66F367066577CBF74BE2",
+          "tamanho": 55080
+        },
+        {
+          "caminho": "motor-recorte/System.Security.Cryptography.X509Certificates.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "4E830C798C51766A5AC2C5BEFDFEFE8BEC48D7417BFF8FCF359D3BAD0B5EDA18",
+          "tamanho": 16680
+        },
+        {
+          "caminho": "motor-recorte/System.Security.Cryptography.Xml.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "3BD82CB2787E2A8EA18B14CB5D593D07A2F5E7E55B2855396D243D09AA9F0FAD",
+          "tamanho": 489256
+        },
+        {
+          "caminho": "motor-recorte/System.Security.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "82A02DD492366F6F36D1620783749B5E0F471E85FE1C34A5C554741DAC48FCBB",
+          "tamanho": 18216
+        },
+        {
+          "caminho": "motor-recorte/System.Security.Permissions.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "247480E166B92A7A225340D8445D901F9F6234401CE04E321D43499C1C9BD5AA",
+          "tamanho": 186152
+        },
+        {
+          "caminho": "motor-recorte/System.Security.Principal.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "46FE40F5F195B614A4E9F58F04FFC976837A4E4649EB1B514B1209F6E0FB8E6E",
+          "tamanho": 15144
+        },
+        {
+          "caminho": "motor-recorte/System.Security.Principal.Windows.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "D911278230756F0BD75756E99227D6C5D40DD766C2153F59431C3E77E75B8F47",
+          "tamanho": 186192
+        },
+        {
+          "caminho": "motor-recorte/System.Security.SecureString.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "EFB94A3B5F774EEFFABC2FB2B3B3B64262C390DFE2641CC2267156AB48DBA42D",
+          "tamanho": 15144
+        },
+        {
+          "caminho": "motor-recorte/System.ServiceModel.Web.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "E8E62B9EE550BBCC3271E98358177DD29AC30E9258242C5E11353D5C2F7A9401",
+          "tamanho": 16680
+        },
+        {
+          "caminho": "motor-recorte/System.ServiceProcess.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "58A589A7E6316449A8F42905D0C60272E88EC5E588E664C31C605AE8EB6817DC",
+          "tamanho": 15656
+        },
+        {
+          "caminho": "motor-recorte/System.Text.Encoding.CodePages.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "0F279749AB0F71876709615437BD29D19B76D296CA89F1A4251F721949ED8F2E",
+          "tamanho": 861992
+        },
+        {
+          "caminho": "motor-recorte/System.Text.Encoding.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "C45C1B5945B0003440D918AB031401991850D0F7C3C479213259EB756E1906A5",
+          "tamanho": 15656
+        },
+        {
+          "caminho": "motor-recorte/System.Text.Encoding.Extensions.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "99271FB38BF8DEA56C91771B933A9E458C85CECA4E2CC64E8FB8C8463455B92F",
+          "tamanho": 15656
+        },
+        {
+          "caminho": "motor-recorte/System.Text.Encodings.Web.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "7AF35CC384947815D9882296C38B60FDD402C5AA7EF7F431F6FB32C45A2C3849",
+          "tamanho": 132944
+        },
+        {
+          "caminho": "motor-recorte/System.Text.Json.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "5752903625E9CC781568588B0F40ED6D45CBFBF2513FD16580F76A32D06B927D",
+          "tamanho": 1500968
+        },
+        {
+          "caminho": "motor-recorte/System.Text.RegularExpressions.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "B56C9187C58D890D2B76975D9AF6A245969F5AA4FC5AFAA17A76783A106F2241",
+          "tamanho": 1021736
+        },
+        {
+          "caminho": "motor-recorte/System.Threading.AccessControl.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "47D1B6A60EF4A10E1AAC36BFDCF285DE6BB4D7691322BFF2D71EF5C4DFCC30F1",
+          "tamanho": 83752
+        },
+        {
+          "caminho": "motor-recorte/System.Threading.Channels.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "DDB956DFE00106230CDC47AFF1D13C034A8A4CC59A2E881AC16DE458E797AF61",
+          "tamanho": 132904
+        },
+        {
+          "caminho": "motor-recorte/System.Threading.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "9DBA530A9B5C3883F7A21CFC2FDA1F17A11DCAFCD1792159322861AE7CA914EA",
+          "tamanho": 83752
+        },
+        {
+          "caminho": "motor-recorte/System.Threading.Overlapped.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "39B9EF70CB9DCAD01C0B0E1A0F7B606E4C37088CB86B46EA68BE7F596BB4B912",
+          "tamanho": 15656
+        },
+        {
+          "caminho": "motor-recorte/System.Threading.Tasks.Dataflow.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "2FA7AF13081B940051BF9EC8A5EB9141CEC42740A694136937A519BBEEAB04D9",
+          "tamanho": 489256
+        },
+        {
+          "caminho": "motor-recorte/System.Threading.Tasks.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "761FC15D6982272BF690B25D63B473021BBE6F00E55556077E1BACAEE9340591",
+          "tamanho": 16680
+        },
+        {
+          "caminho": "motor-recorte/System.Threading.Tasks.Extensions.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "7D03DD463F9446B199AF9E33131004E35959E0985B0BB0DF481E6B955064BC07",
+          "tamanho": 15656
+        },
+        {
+          "caminho": "motor-recorte/System.Threading.Tasks.Parallel.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "E1C7565FA52A2FD4A1D2A1AC2F0FB1A6B824D247A715EEFB9977B5DD24AF01D3",
+          "tamanho": 132904
+        },
+        {
+          "caminho": "motor-recorte/System.Threading.Thread.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "6EBA1E430E4EA204555B53C8CB0B3DE62596B342EFE780FCA49F231D8C827D47",
+          "tamanho": 15656
+        },
+        {
+          "caminho": "motor-recorte/System.Threading.ThreadPool.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "4FC486ED4F5F498A0FAA1E67ACE016674109B10B41B254FF9021107AC610C036",
+          "tamanho": 15696
+        },
+        {
+          "caminho": "motor-recorte/System.Threading.Timer.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "08A43AC40A8E4C0110688209D9FE03B1D4FEA94B8ACE6AD5797B32176DA8F2F3",
+          "tamanho": 15144
+        },
+        {
+          "caminho": "motor-recorte/System.Transactions.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "96884AA9D725C3FF25CE34B347E08A2642CC6082DA31E892C6DF1BAD909E8E56",
+          "tamanho": 16208
+        },
+        {
+          "caminho": "motor-recorte/System.Transactions.Local.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "42A5F309F01E38398C4F2B55A40BB50350F7428916C5840E96085EF6E2E4AA0F",
+          "tamanho": 661288
+        },
+        {
+          "caminho": "motor-recorte/System.ValueTuple.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "A144A0E9780C808B6BF82B4FA9185DE2EEDBBF638E6CC6CF8DD19049BFC9B26A",
+          "tamanho": 15144
+        },
+        {
+          "caminho": "motor-recorte/System.Web.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "760D8D57A9FC4F8701FAD2524355BB702E96ECEA45BAC45FCD6A29837F050659",
+          "tamanho": 15144
+        },
+        {
+          "caminho": "motor-recorte/System.Web.HttpUtility.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "57904E0D4EA5F38E110CFF78D8324DD2B83E894F3F34F1990C93ED831E7FAB11",
+          "tamanho": 59176
+        },
+        {
+          "caminho": "motor-recorte/System.Windows.Controls.Ribbon.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "231904A91D85D30D1BC6BDE2E4ADFCE43654D1D76D07D4DCD38A4A12A87EFD86",
+          "tamanho": 1451816
+        },
+        {
+          "caminho": "motor-recorte/System.Windows.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "354A1E77A180C0785B74E4C37270E9480AA18B9CBF6A5744E0F99549E6373013",
+          "tamanho": 15656
+        },
+        {
+          "caminho": "motor-recorte/System.Windows.Extensions.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "CFE10FB87DA3A4B87C355CDF083C82A4C2C6A8146E88A5196C5394338D1AD489",
+          "tamanho": 116520
+        },
+        {
+          "caminho": "motor-recorte/System.Windows.Forms.Design.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "238C8CC700BA037C68B9829EC7CDF9FF4D3927E2B98E219FCD26F83D91B6BCC7",
+          "tamanho": 5564200
+        },
+        {
+          "caminho": "motor-recorte/System.Windows.Forms.Design.Editors.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "B9C65DC4E06AC80F9727860D1629B3F379D5E702071433DF33F54D5D45C9502B",
+          "tamanho": 16208
+        },
+        {
+          "caminho": "motor-recorte/System.Windows.Forms.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "865CD709F662E6367659E8A6060AE2D4017B2BE10F1BB6A126E45D361DD8B573",
+          "tamanho": 13563728
+        },
+        {
+          "caminho": "motor-recorte/System.Windows.Forms.Primitives.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "4F1EB01F08978D6AA737ECAB9151A639648FCA6616EB5D23AE98C1B0E61D2B52",
+          "tamanho": 3012392
+        },
+        {
+          "caminho": "motor-recorte/System.Windows.Input.Manipulations.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "C445C9ECBCAAE75DE20653E8699EF5B20A429EB3D446DFD544EA1F1E87D952AA",
+          "tamanho": 137000
+        },
+        {
+          "caminho": "motor-recorte/System.Windows.Presentation.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "E1C942D5F8615EC8CF620C5D6B6BA6A9EBE57FB69BD6D4BBAE3BD834C7FC0839",
+          "tamanho": 30504
+        },
+        {
+          "caminho": "motor-recorte/System.Xaml.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "A95B216FBDC783E607380773369E261FA6C7E5BD79D9BCA92D00522002C1B0A8",
+          "tamanho": 1427240
+        },
+        {
+          "caminho": "motor-recorte/System.Xml.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "D720384C0EEA1185F6B8ED595CDD3ABE9B9E1ED485855DF58CC896F830617A4C",
+          "tamanho": 23376
+        },
+        {
+          "caminho": "motor-recorte/System.Xml.Linq.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "26C46868A5858796ECE01D569AA7A8D225511127480CEDFD42E463B50116EF2A",
+          "tamanho": 15656
+        },
+        {
+          "caminho": "motor-recorte/System.Xml.ReaderWriter.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "B0440916BB4A21D67F787C82277AC514E9886AEE28E2C6536FF12BE344CF5981",
+          "tamanho": 21840
+        },
+        {
+          "caminho": "motor-recorte/System.Xml.Serialization.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "D2EA99F530D94390D7BE1A978EF3C73ADF4CE6A2E8CDE8E4BA211A32FE7D4435",
+          "tamanho": 16168
+        },
+        {
+          "caminho": "motor-recorte/System.Xml.XDocument.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "B97E7405AF292578B97613BAC7BF982B14B3839FA01226792D72FC33EF01FA00",
+          "tamanho": 15656
+        },
+        {
+          "caminho": "motor-recorte/System.Xml.XmlDocument.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "3CA525E8114113BC6C808AB8E68DAE4E3C966E81DCD930E9CCD55AE2570F1D1A",
+          "tamanho": 15696
+        },
+        {
+          "caminho": "motor-recorte/System.Xml.XmlSerializer.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "54D21F57128BFADAC70E52B07C26CCB000B3BD66B5F7B22C06EF02762E7744F1",
+          "tamanho": 17704
+        },
+        {
+          "caminho": "motor-recorte/System.Xml.XPath.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "56418254F5844FC62A5084CD9C65F98D5F620ED52B37DCC5085B2EF9F1050986",
+          "tamanho": 15656
+        },
+        {
+          "caminho": "motor-recorte/System.Xml.XPath.XDocument.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "11DF2474B7E8AC0D57A31BB646525DD90730F88F3A84358FE176D288ECB42217",
+          "tamanho": 30504
+        },
+        {
+          "caminho": "motor-recorte/UIAutomationClient.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "9D6F2514A10F1CE94E16DAB6EBD9A6B8E65FCC4CC959F764252B05715DA82F7F",
+          "tamanho": 415528
+        },
+        {
+          "caminho": "motor-recorte/UIAutomationClientSideProviders.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "11F8B101250D19288F0195E892770680545CB4837DC128712CF73A2E75D9933B",
+          "tamanho": 870224
+        },
+        {
+          "caminho": "motor-recorte/UIAutomationProvider.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "9FCED7220734781309E03085EFA6DE01FB84B66192BFC48E60D2C55E84474AB1",
+          "tamanho": 59176
+        },
+        {
+          "caminho": "motor-recorte/UIAutomationTypes.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "7C2791855C0325B2E2B7BEDFD6AB8861A2044D1BA541C4DBAAFD9073745966ED",
+          "tamanho": 313168
+        },
+        {
+          "caminho": "motor-recorte/vcruntime140_cor3.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "D5E4D9A3E835FA679450145D6A7D94E36573A509317111904D9B3712C30D9066",
+          "tamanho": 124544
+        },
+        {
+          "caminho": "motor-recorte/WindowsBase.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "3C51918A2F4C935194A0A0C44271CC4A0226FB65078E67DFC0B8B86817B67DCE",
+          "tamanho": 2254672
+        },
+        {
+          "caminho": "motor-recorte/WindowsFormsIntegration.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "A5BF752682D25444A3E1D1E4668DED4B5EB3D969C933F6578B08596FAE4F5B53",
+          "tamanho": 210728
+        },
+        {
+          "caminho": "motor-recorte/WinRT.Runtime.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "BCF3A14E8712A90837FC5C0D8C8A24696AF2BD7F74E9767597EC81EDEDFB23DB",
+          "tamanho": 528944
+        },
+        {
+          "caminho": "motor-recorte/wpfgfx_cor3.dll",
+          "destino": "local:RecorteSan\\motor-pacote",
+          "sha256": "71700535124FF9ACF894092D510B809382E89653C47B86F8E8A39AB87F2BA752",
+          "tamanho": 1956136
+        }
+      ],
+      "marcador": {
+        "destino": "ext",
+        "nome": "RecorteSan.engine.txt",
+        "texto": "{local}\\RecorteSan\\motor-pacote"
+      }
+    },
+    {
+      "id": "organizador",
+      "nome": "Organizador san",
+      "versao": "1.0.0",
+      "cor": "#fbbf24",
+      "dados": [
+        "OrganizadorSan"
+      ],
+      "combina": [
+        {
+          "id": "dropeasy",
+          "porque": "O que o DropEasy baixa já cai na pasta Downloads do projeto.",
+          "porque_en": "What DropEasy downloads lands in the project's Downloads folder."
+        },
+        {
+          "id": "editor",
+          "porque": "SFX e música que o Editor usa entram na pasta do projeto.",
+          "porque_en": "SFX and music used by Editor go into the project folder."
+        },
+        {
+          "id": "volume",
+          "porque": "Os nomes de track do Organizador dizem ao Volume o tipo de cada track.",
+          "porque_en": "Organizador's track names tell Volume what each track is."
+        }
+      ],
+      "resumo": "Uma pasta por projeto, tudo no lugar certo.",
+      "resumo_en": "One folder per project, everything in its place.",
+      "descricao": "Cria a pasta do projeto (Vídeos, Áudios, Imagens, Downloads, Renders) e leva para lá o que entra no projeto, sem perder nada na timeline. Mostra a saúde do projeto, reconecta mídia que sumiu, organiza as tracks e arquiva o projeto no fim.",
+      "descricao_en": "Creates the project folder (Videos, Audio, Images, Downloads, Renders) and moves what enters the project there without breaking the timeline. Shows project health, relinks missing media, tidies tracks and archives the project at the end.",
+      "onde": "Exibir › Extensões › Organizador san",
+      "onde_en": "View › Extensions › Organizador san",
+      "atalhos": [
+        [
+          "Criar projeto",
+          "comece por aqui"
+        ],
+        [
+          "Renderizar trecho",
+          "renderiza a seleção da régua"
+        ]
+      ],
+      "atalhos_en": [
+        [
+          "Create project",
+          "start here"
+        ],
+        [
+          "Render clip",
+          "renders the ruler selection"
+        ]
+      ],
+      "arquivos": [
+        {
+          "caminho": "extensoes/OrganizadorSan.dll",
+          "destino": "ext",
+          "sha256": "B2ECE92A3732D63D9F805E17464A654CA6C99258363F9922419FF7BAD71CD648",
+          "tamanho": 475648
+        }
+      ]
+    },
+    {
+      "id": "notas",
+      "nome": "Notas san",
+      "versao": "1.0.0",
+      "cor": "#fb923c",
+      "dados": [
+        "NotasSan"
+      ],
+      "combina": [
+        {
+          "id": "editor",
+          "porque": "O que você anota vira trecho protegido (ou corte) na decupagem do Editor.",
+          "porque_en": "What you note becomes a protected section (or a cut) in Editor's rough cut."
+        }
+      ],
+      "resumo": "Notas ao lado da timeline, com o tempo clicável.",
+      "resumo_en": "Notes next to the timeline, with clickable times.",
+      "descricao": "Notas em Markdown por projeto (e gerais), com tarefas, imagens e o tempo da agulha virando link. \"Pôr na timeline\" transforma os tempos anotados em marcadores e regiões.",
+      "descricao_en": "Markdown notes per project (and general ones), with tasks, images and the cursor time as a link. \"Put on timeline\" turns the noted times into markers and regions.",
+      "onde": "Exibir › Extensões › Notas san",
+      "onde_en": "View › Extensions › Notas san",
+      "atalhos": [
+        [
+          "Inserir tempo",
+          "ponha um atalho em Opções › Personalizar teclado"
+        ],
+        [
+          "Janela rápida",
+          "atalho para NotasSan.ShowPopup em Personalizar teclado"
+        ]
+      ],
+      "atalhos_en": [
+        [
+          "Insert time",
+          "set a shortcut in Options › Customize Keyboard"
+        ],
+        [
+          "Quick window",
+          "shortcut for NotasSan.ShowPopup in Customize Keyboard"
+        ]
+      ],
+      "arquivos": [
+        {
+          "caminho": "extensoes/NotasSan.dll",
+          "destino": "ext",
+          "sha256": "E437042BDB742F5723A08F92FCC2E66D231B089F4392814DB5F227E4A766279E",
+          "tamanho": 268800
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "nome": "Search san",
+      "versao": "1.0.0",
+      "cor": "#c084fc",
+      "dados": [
+        "SearchSan"
+      ],
+      "resumo": "Qualquer efeito a um Ctrl+Espaço de distância.",
+      "resumo_en": "Any effect one Ctrl+Space away.",
+      "descricao": "Busca efeitos, transições, geradores, presets e pacotes de FX e aplica com Enter, com prévia de cada um. Lembra o último preset usado de cada efeito.",
+      "descricao_en": "Searches effects, transitions, generators, presets and FX packages and applies with Enter, with a preview of each. Remembers the last preset used for each effect.",
+      "onde": "Ctrl+Espaço dentro do VEGAS",
+      "onde_en": "Ctrl+Space inside VEGAS",
+      "atalhos": [
+        [
+          "Enter",
+          "aplica nos eventos selecionados"
+        ],
+        [
+          "Shift+Enter",
+          "aplica na track"
+        ],
+        [
+          "Ctrl+Enter",
+          "aplica e continua aberta"
+        ],
+        [
+          "→",
+          "mostra os presets"
+        ],
+        [
+          "Ctrl+E",
+          "mostra a prévia"
+        ]
+      ],
+      "atalhos_en": [
+        [
+          "Enter",
+          "applies to the selected events"
+        ],
+        [
+          "Shift+Enter",
+          "applies to the track"
+        ],
+        [
+          "Ctrl+Enter",
+          "applies and stays open"
+        ],
+        [
+          "→",
+          "shows the presets"
+        ],
+        [
+          "Ctrl+E",
+          "shows the preview"
+        ]
+      ],
+      "arquivos": [
+        {
+          "caminho": "extensoes/SearchSan.dll",
+          "destino": "ext",
+          "sha256": "ECA9393FC6EF3D73F5411DADB191C7571503D1FB4BAFC804F479D734FEA84337",
+          "tamanho": 334848
+        }
+      ]
+    },
+    {
+      "id": "regua",
+      "nome": "Régua san",
+      "versao": "1.0.0",
+      "cor": "#38bdf8",
+      "dados": [
+        "ReguaSan"
+      ],
+      "resumo": "Régua e guias no preview, estilo Photoshop.",
+      "resumo_en": "Photoshop-style rulers and guides on the preview.",
+      "descricao": "Réguas por fora do vídeo, guias que encaixam, medida com Ctrl e as áreas seguras de Shorts, TikTok e Reels prontas. Cada projeto lembra as suas guias.",
+      "descricao_en": "Rulers outside the video, snapping guides, Ctrl to measure and ready-made Shorts, TikTok and Reels safe zones. Each project remembers its guides.",
+      "onde": "Ctrl+Shift+R ou Exibir › Extensões › Régua san",
+      "onde_en": "Ctrl+Shift+R or View › Extensions › Régua san",
+      "atalhos": [
+        [
+          "Puxar da régua",
+          "cria uma guia"
+        ],
+        [
+          "Ctrl + arrastar",
+          "mede"
+        ],
+        [
+          "Botão direito",
+          "menu (prontas, cor, travar)"
+        ]
+      ],
+      "atalhos_en": [
+        [
+          "Drag from the ruler",
+          "creates a guide"
+        ],
+        [
+          "Ctrl + drag",
+          "measures"
+        ],
+        [
+          "Right click",
+          "menu (presets, color, lock)"
+        ]
+      ],
+      "arquivos": [
+        {
+          "caminho": "extensoes/ReguaSan.dll",
+          "destino": "ext",
+          "sha256": "D633FBEF8A7339A52E2A818099C034131AC7F1780AF193B36248277FF5850720",
+          "tamanho": 84992
+        }
+      ]
+    },
+    {
+      "id": "editor",
+      "nome": "Editor san",
+      "versao": "1.0.0",
+      "cor": "#f472b6",
+      "dados": [
+        "EditorSan"
+      ],
+      "beta": true,
+      "combina": [
+        {
+          "id": "notas",
+          "porque": "Os tempos anotados nas Notas viram trechos protegidos ou cortes.",
+          "porque_en": "Times noted in Notas become protected sections or cuts."
+        },
+        {
+          "id": "volume",
+          "porque": "\"Acertar o volume\" depois de decupar, com a sua voz já marcada.",
+          "porque_en": "\"Fix the volume\" after the cut, with your voice already marked."
+        },
+        {
+          "id": "organizador",
+          "porque": "SFX, música e transições usados vão para a pasta do projeto.",
+          "porque_en": "SFX, music and transitions used go into the project folder."
+        }
+      ],
+      "resumo": "Decupagem, cortes da fala, zoom, legendas e SFX sugeridos para você revisar.",
+      "resumo_en": "Rough cut, speech cuts, zoom, captions and SFX suggested for you to review.",
+      "descricao": "Corta as pausas e respirações, ouve a fala (vícios, gaguejos, retakes), olha a tela, sugere zoom seco e de destaque, J/L cut, legendas no seu modelo, SFX da sua pasta, música e Shorts. Nada vai para a timeline sem você revisar e clicar em Aplicar, e um Ctrl+Z desfaz.",
+      "descricao_en": "Cuts pauses and breaths, listens to the speech (filler words, stutters, retakes), watches the screen, suggests punch-in and highlight zooms, J/L cuts, captions in your template, SFX from your folder, music and Shorts. Nothing reaches the timeline until you review it and click Apply, and one Ctrl+Z undoes it.",
+      "onde": "Exibir › Extensões › Editor san",
+      "onde_en": "View › Extensions › Editor san",
+      "atalhos": [
+        [
+          "Espaço",
+          "toca o corte"
+        ],
+        [
+          "X",
+          "liga/desliga o corte"
+        ],
+        [
+          "Z / J",
+          "zoom / J cut no corte"
+        ],
+        [
+          "Enter",
+          "aplicar"
+        ]
+      ],
+      "atalhos_en": [
+        [
+          "Space",
+          "plays the cut"
+        ],
+        [
+          "X",
+          "toggles the cut"
+        ],
+        [
+          "Z / J",
+          "zoom / J cut on the cut"
+        ],
+        [
+          "Enter",
+          "apply"
+        ]
+      ],
+      "aviso": "Para ouvir a fala, baixa o Whisper (574 MB) pelo próprio painel. Funciona melhor com placa de vídeo.",
+      "aviso_en": "To listen to the speech it downloads Whisper (574 MB) from the panel. Works best with a graphics card.",
+      "arquivos": [
+        {
+          "caminho": "extensoes/EditorSan.dll",
+          "destino": "ext",
+          "sha256": "CC4EE5B0509DD3E39A0F36F9B6500552A507AED56F8CB53130C2BB7B8AE39030",
+          "tamanho": 2374656
+        }
+      ]
+    },
+    {
+      "id": "volume",
+      "nome": "Volume san",
+      "versao": "1.0.0",
+      "tipo": "script",
+      "cor": "#34d399",
+      "dados": [
+        "VolumeSan"
+      ],
+      "combina": [
+        {
+          "id": "editor",
+          "porque": "Aberto pelo Editor, já sabe qual track é a sua voz e qual é a do amigo.",
+          "porque_en": "Opened from Editor, it already knows which track is your voice and which is your friend's."
+        },
+        {
+          "id": "organizador",
+          "porque": "Os nomes de track do Organizador dizem o tipo de cada track.",
+          "porque_en": "Organizador's track names tell it what each track is."
+        }
+      ],
+      "resumo": "Voz, música, jogo e SFX no volume certo.",
+      "resumo_en": "Voice, music, game and SFX at the right level.",
+      "descricao": "No fim da edição, a IA ouve cada track e o Volume san deixa tudo na faixa certa: voz na frente, música e jogo abaixando só onde você fala, SFX sem estourar. Mostra antes e depois e um Ctrl+Z desfaz tudo.",
+      "descricao_en": "At the end of the edit, the AI listens to each track and Volume san puts everything at the right level: voice up front, music and game ducking only where you talk, SFX without clipping. Shows before and after, and one Ctrl+Z undoes it all.",
+      "onde": "Ferramentas › Script › Slayer › Volume san",
+      "onde_en": "Tools › Scripting › Slayer › Volume san",
+      "atalhos": [
+        [
+          "Ctrl+Enter",
+          "aplicar"
+        ],
+        [
+          "Segurar O",
+          "ouve o antes"
+        ]
+      ],
+      "atalhos_en": [
+        [
+          "Ctrl+Enter",
+          "apply"
+        ],
+        [
+          "Hold O",
+          "hear the before"
+        ]
+      ],
+      "arquivos": [
+        {
+          "caminho": "scripts/Volume san.dll",
+          "destino": "script",
+          "sha256": "029D1BEC4DCC30C511D84E4A0F4062249DC6E9D5A1E7FC644F3A8CF3C907E116",
+          "tamanho": 21349376
+        },
+        {
+          "caminho": "scripts/Volume san.png",
+          "destino": "script",
+          "sha256": "8C05DB6CE8702E33002417F3053968E7F01322BFB14CD4476BE256FEEB403916",
+          "tamanho": 256
+        },
+        {
+          "caminho": "scripts/Volume san32.png",
+          "destino": "script",
+          "sha256": "0E274FE27C3E4931C64BBEC2239A107A03CBBC2BCBB4F2DD7BDFC76C7A07CEA3",
+          "tamanho": 281
+        }
+      ]
+    }
+  ],
+  "gerado": "2026-11-01 08:52"
+}
