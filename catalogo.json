@@ -318,8 +318,8 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "BEB55325E8D35FFD2954F7B858CC0DA5CDDED694074D6279883A933C69E025E5",
-          "tamanho": 398336
+          "sha256": "5AFB28D2A07AAFC961095C30233F65BC87D6590EF007B53FDB53FC67A160D7B5",
+          "tamanho": 399360
         },
         {
           "caminho": "motor-recorte/Accessibility.dll",
@@ -624,8 +624,8 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "0A5AE17855B875F50F48EEFF0F2ABC252F33A1F7074EF845BA089ACED05C3C9F",
-          "tamanho": 87040
+          "sha256": "05F6D355B965DD93E937476CCCD1AF9D04573AA1B1A03552EE3FEBC8B377883D",
+          "tamanho": 87552
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
@@ -2453,5 +2453,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 06:14"
+  "gerado": "2026-11-02 06:20"
 }
