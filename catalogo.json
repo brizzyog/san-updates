@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "sanapp-sozinho",
+      "data": "2026-11-02",
+      "titulo": "San App funciona sozinho",
+      "titulo_en": "San App works on its own",
+      "texto": "Agora dá para mandar só o San App.exe: ele baixa a lista e as ferramentas direto da internet, já na versão mais nova.",
+      "texto_en": "You can now share just San App.exe: it downloads the list and the tools straight from the internet, already up to date."
+    },
+    {
       "id": "volume-ruido",
       "data": "2026-11-02",
       "titulo": "Volume san: limpar o ruído da voz (opcional)",
@@ -2365,8 +2373,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "3FF63840B408B5C20319A52E3932E82A2C91600C28B5B6B353BD208C61E7EAE0",
-        "tamanho": 347648
+        "sha256": "9DF31015F64D5969864A9128169EAD0F043896B6B44869A58922A318C86EF971",
+        "tamanho": 1750528
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -2376,5 +2384,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 13:31"
+  "gerado": "2026-11-02 13:41"
 }
