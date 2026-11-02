@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "dropeasy-decimais",
+      "data": "2026-11-02",
+      "titulo": "DropEasy san: números com vírgula",
+      "titulo_en": "DropEasy san: decimal numbers",
+      "texto": "No Windows em português, números com vírgula que vinham dos sites (duração de um vídeo, por exemplo) eram lidos como zero. Agora são lidos certo.",
+      "texto_en": "On Windows set to Portuguese, decimal numbers coming from the sites (a video's length, for example) were read as zero. They are read correctly now."
+    },
+    {
       "id": "santools-estilos",
       "data": "2026-11-02",
       "titulo": "San Tools: estilos de camada",
@@ -238,7 +246,7 @@
         {
           "caminho": "extensoes/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "F296066EF6A98C96F9666034ABD9A2A4C9AEFFADFEC054F23D6ABC2D06ABA6CA",
+          "sha256": "D115A3A9B68F8F431DEA2D6F8A0C4CA985BFBCA399037E1B8A26F38DC3B6372C",
           "tamanho": 588288
         }
       ]
@@ -2398,5 +2406,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 14:01"
+  "gerado": "2026-11-02 14:48"
 }
