@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-1",
+      "data": "2026-11-02",
+      "titulo": "Arsenal san 1.0 completo",
+      "titulo_en": "Arsenal san 1.0, complete",
+      "texto": "Voltou ao San App com tudo: Estúdio (converter, GIF, 9:16, Shorts), IA (separar voz, legendas, tirar fundo), Criar thumbnail que copia o estilo de uma referência, soltar arquivos do Explorer e três temas (escuro, claro e meia-noite).",
+      "texto_en": "Back in San App with everything: Studio (convert, GIF, 9:16, Shorts), AI (split vocals, subtitles, remove background), a Thumbnail maker that copies a reference's style, drop files from Explorer and three themes (dark, light and midnight)."
+    },
+    {
       "id": "dropeasy-decimais",
       "data": "2026-11-02",
       "titulo": "DropEasy san: números com vírgula",
@@ -150,7 +158,8 @@
       "itens": [
         "dropeasy",
         "recorte",
-        "upscale"
+        "upscale",
+        "arsenal"
       ],
       "descricao": "Meme, vídeo, GIF e som direto na timeline, sem fundo e em HD.",
       "descricao_en": "Memes, videos, GIFs and sounds straight to the timeline, background-free and in HD."
@@ -2384,6 +2393,164 @@
           "tamanho": 566272
         }
       ]
+    },
+    {
+      "id": "arsenal",
+      "nome": "Arsenal san",
+      "versao": "1.0.0",
+      "tipo": "app",
+      "cor": "#ff8a3d",
+      "dados": [
+        "ArsenalSan"
+      ],
+      "resumo": "App do criador: baixa de qualquer site, converte, faz GIF, Shorts, legenda, separa voz e cria thumbnails.",
+      "resumo_en": "The creator's app: download from any site, convert, make GIFs, Shorts, subtitles, split vocals and create thumbnails.",
+      "descricao": "Um app só, leve e rápido. Baixar: vídeo, áudio, fotos e thumbnails de mais de mil sites, com trecho, playlist, capa e legendas, pronto para editar (H.264 pela placa de vídeo), e a busca do DropEasy. Estúdio: converter e comprimir (Discord, WhatsApp, celular), GIF, vertical 9:16 com rosto seguindo ou facecam + jogo, Shorts com legenda, quadros e juntar/cortar. IA no seu PC: separar voz e música, legendas e transcrição, cortar silêncios, melhorar qualidade e tirar fundo. Criar thumbnail: editor com presets, selos, textos e finalizações, e replicar o estilo de uma thumbnail de referência. Extensão do Chrome manda o link (e o login) para o app. Três temas: escuro, claro e meia-noite.",
+      "descricao_en": "One light, fast app. Download: video, audio, photos and thumbnails from over a thousand sites, with clips, playlists, covers and subtitles, ready to edit (H.264 on your graphics card), plus DropEasy's search. Studio: convert and compress (Discord, WhatsApp, phone), GIF, vertical 9:16 with face tracking or facecam + game, Shorts with captions, frames and join/cut. AI on your PC: split vocals and music, subtitles and transcription, cut silences, enhance quality and remove background. Thumbnail maker: editor with presets, badges, text and finishing touches, and copy the style of a reference thumbnail. A Chrome extension sends the link (and login) to the app. Three themes: dark, light and midnight.",
+      "onde": "Menu Iniciar › slayeR san › Arsenal san (e atalho na Área de Trabalho)",
+      "onde_en": "Start menu › slayeR san › Arsenal san (and a Desktop shortcut)",
+      "atalhos": [
+        [
+          "Ctrl+V",
+          "cola um link na tela certa"
+        ],
+        [
+          "Soltar arquivos",
+          "do Explorer em qualquer tela: ele pergunta o que fazer"
+        ],
+        [
+          "Ctrl+Shift+D",
+          "em qualquer programa: baixa o link copiado"
+        ],
+        [
+          "Ctrl+J",
+          "abre a fila"
+        ]
+      ],
+      "atalhos_en": [
+        [
+          "Ctrl+V",
+          "pastes a link on the right screen"
+        ],
+        [
+          "Drop files",
+          "from Explorer on any screen: it asks what to do"
+        ],
+        [
+          "Ctrl+Shift+D",
+          "in any app: downloads the copied link"
+        ],
+        [
+          "Ctrl+J",
+          "opens the queue"
+        ]
+      ],
+      "aviso": "Na primeira vez baixa o yt-dlp e o FFmpeg (~100 MB), os mesmos do DropEasy. As IAs baixam o modelo só quando você usa.",
+      "aviso_en": "The first time it downloads yt-dlp and FFmpeg (~100 MB), the same ones DropEasy uses. The AIs download their model only when you use them.",
+      "combina": [
+        {
+          "id": "dropeasy",
+          "porque": "Usa a mesma busca, os mesmos favoritos e as mesmas chaves do DropEasy.",
+          "porque_en": "Uses the same search, favorites and keys as DropEasy."
+        },
+        {
+          "id": "recorte",
+          "porque": "O Tirar fundo do Arsenal usa o motor do Recorte san.",
+          "porque_en": "Arsenal's Remove background uses Recorte san's engine."
+        },
+        {
+          "id": "upscale",
+          "porque": "O Melhorar qualidade do Arsenal usa o motor do Upscale san.",
+          "porque_en": "Arsenal's Enhance quality uses Upscale san's engine."
+        }
+      ],
+      "abrir": "arsenal/Arsenal san.exe",
+      "arquivos": [
+        {
+          "caminho": "arsenal/Arsenal san.exe",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "9F1C6694BE77BB608CAC21BF208A0F42C68F4AB3158CA4F51C1746C4C51FFD2F",
+          "tamanho": 728064
+        },
+        {
+          "caminho": "arsenal/Arsenal san.exe.config",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "DEB07233E8E724526CF0E838E85A697B0B6C1CD57E68F2AC0534818EC1D4A7D9",
+          "tamanho": 429
+        },
+        {
+          "caminho": "arsenal/ArsenalSan.Mod.Audio.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "5874A6282A2B984346D1B61DD9D9109BA77C6FE43232004D2123819632CAC96A",
+          "tamanho": 184320
+        },
+        {
+          "caminho": "arsenal/ArsenalSan.Mod.Conexoes.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "332D1670F9A066E1D0BA6693BB6DD9D3141C3D3305B3FB8B31F9BA744D32F087",
+          "tamanho": 102912
+        },
+        {
+          "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "C64A306D1E314106DEF117DC4697463169EEE74B8D3496095F539761D5ACB506",
+          "tamanho": 219136
+        },
+        {
+          "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "96FDA1562DC2A39E68C59E80C8CBC6E6E4525F5F7F059DD8907A291A44FA8F80",
+          "tamanho": 1965056
+        },
+        {
+          "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "FBA3AAB64BD8A40A9725D37D00F3123BE4277206BF77D2CCA5D81DAF9534DAAB",
+          "tamanho": 318976
+        },
+        {
+          "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "DBE90011E004E6FB83498AFBEFB3BB4EEC4697BBD41BC776D667B28B6864E468",
+          "tamanho": 1020416
+        },
+        {
+          "caminho": "arsenal/Microsoft.Web.WebView2.Core.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "6E7B8869B538417CC361C97A37F7CEEC92DDC8AD84E0585BCF7021DABBF6F985",
+          "tamanho": 500696
+        },
+        {
+          "caminho": "arsenal/Microsoft.Web.WebView2.WinForms.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "9BAC64579FB676AA77D79CB469FFD4F9F69A64EF0838F52DD1AF87931924F913",
+          "tamanho": 38360
+        },
+        {
+          "caminho": "arsenal/Microsoft.Web.WebView2.Wpf.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "D41B57A535EB6B4D78264DCEDAE2C635B1640B43EC05B82091A7DE9937C340D1",
+          "tamanho": 44504
+        },
+        {
+          "caminho": "arsenal/Newtonsoft.Json.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "B624949DF8B0E3A6153FDFB730A7C6F4990B6592EE0D922E1788433D276610F3",
+          "tamanho": 701992
+        },
+        {
+          "caminho": "arsenal/runtimes/win-x64/native/WebView2Loader.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "DCF3C4F6024313EEB6F775ED343265D73BE1CE1D5DDE2F92195DBC32310C7FC9",
+          "tamanho": 160216
+        },
+        {
+          "caminho": "arsenal/WebView2Loader.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "DCF3C4F6024313EEB6F775ED343265D73BE1CE1D5DDE2F92195DBC32310C7FC9",
+          "tamanho": 160216
+        }
+      ]
     }
   ],
   "app": {
@@ -2406,5 +2573,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 14:48"
+  "gerado": "2026-11-02 14:58"
 }
