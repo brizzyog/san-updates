@@ -1884,7 +1884,7 @@
         {
           "caminho": "extensoes/OrganizadorSan.dll",
           "destino": "ext",
-          "sha256": "1827DAC510EC8A485B2506F47C8E67D098C9F78C035ECA026AEEF651D6904E24",
+          "sha256": "B4760D881703CE5AD1FCF9BC31B742EDEB59F5617858B6141EEAE16B440665D4",
           "tamanho": 6537216
         }
       ],
@@ -2285,5 +2285,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 11:47"
+  "gerado": "2026-11-02 11:48"
 }
