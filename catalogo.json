@@ -2045,8 +2045,8 @@
         {
           "caminho": "extensoes/ReguaSan.dll",
           "destino": "ext",
-          "sha256": "D633FBEF8A7339A52E2A818099C034131AC7F1780AF193B36248277FF5850720",
-          "tamanho": 84992
+          "sha256": "D0B190C797BAF072F656425E2BCFCF1E69CF47CAAAE6C4B7A12069EFB06F8DA1",
+          "tamanho": 85504
         }
       ]
     },
@@ -2445,5 +2445,5 @@
       }
     ]
   },
-  "gerado": "2026-11-01 23:50"
+  "gerado": "2026-11-01 23:54"
 }
