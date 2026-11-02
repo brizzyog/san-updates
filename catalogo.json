@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "organizador-arquivar-2",
+      "data": "2026-11-01",
+      "titulo": "Organizador san: levar o projeto para outro disco",
+      "titulo_en": "Organizador san: move a project to another drive",
+      "texto": "O Arquivar agora leva a pasta inteira do projeto para o HD externo, confere cada arquivo, reconecta tudo no VEGAS e só depois manda a pasta antiga para a Lixeira.",
+      "texto_en": "Archive now moves the whole project folder to your external drive, checks every file, relinks everything in VEGAS and only then sends the old folder to the Recycle Bin."
+    },
+    {
       "id": "biblioteca-1",
       "data": "2026-11-01",
       "titulo": "Chegou a Biblioteca san",
@@ -1867,8 +1875,8 @@
         {
           "caminho": "extensoes/OrganizadorSan.dll",
           "destino": "ext",
-          "sha256": "65B982D8D84FEE2F8068531B6EAB3524B26A8E216975BC2E4F854A4E2EA9E341",
-          "tamanho": 6497280
+          "sha256": "1827DAC510EC8A485B2506F47C8E67D098C9F78C035ECA026AEEF651D6904E24",
+          "tamanho": 6537216
         }
       ],
       "aviso": "A busca pelo que aparece baixa uma IA (~900 MB) pelo próprio painel, só se você quiser usar.",
@@ -2437,5 +2445,5 @@
       }
     ]
   },
-  "gerado": "2026-11-01 18:41"
+  "gerado": "2026-11-01 23:50"
 }
