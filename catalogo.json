@@ -2342,7 +2342,7 @@
         {
           "caminho": "motion/MotionSan.ofx.bundle/Contents/Win64/MotionSan.ofx",
           "destino": "ofx",
-          "sha256": "7F14AF974B73E31B42FB8780C437790EE97168079C9CE79A294397C92E1EC971",
+          "sha256": "8B78CE0AD8C2978B613FFC1E38C6B39DB346969879C49A7BBF07812575A1779D",
           "tamanho": 566272
         }
       ]
@@ -2368,5 +2368,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 12:35"
+  "gerado": "2026-11-02 12:52"
 }
