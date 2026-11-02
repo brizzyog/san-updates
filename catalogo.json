@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "santools-1",
+      "data": "2026-11-02",
+      "titulo": "Chegou o San Tools",
+      "titulo_en": "San Tools is here",
+      "texto": "Tremer a câmera, montar na batida da música e abrir PSD em camadas, tudo ao vivo no preview e com Esc para desfazer na hora.",
+      "texto_en": "Shake the camera, cut to the music beat and open layered PSDs, all live on the preview with Esc to undo right away."
+    },
+    {
       "id": "motion-gpu",
       "data": "2026-11-02",
       "titulo": "Motion san: mais rápido que o RSMB e o Twixtor",
@@ -122,7 +130,8 @@
       "itens": [
         "editor",
         "search",
-        "regua"
+        "regua",
+        "santools"
       ],
       "descricao": "A decupagem e as sugestões de edição, qualquer efeito num atalho e guias no preview.",
       "descricao_en": "Rough cut and edit suggestions, any effect one shortcut away and guides on the preview."
@@ -2076,6 +2085,64 @@
       ]
     },
     {
+      "id": "santools",
+      "nome": "San Tools",
+      "versao": "1.0.0",
+      "cor": "#f43f5e",
+      "dados": [
+        "SanTools"
+      ],
+      "resumo": "Tremer, ritmo da música e PSD em camadas, ao vivo no preview.",
+      "resumo_en": "Shake, music beat and layered PSD, live on the preview.",
+      "descricao": "Uma janela rápida com três ferramentas. Tremer: câmera na mão, impacto ou terremoto no quadro, e wiggle em qualquer parâmetro de efeito. Ritmo: acha as batidas, os compassos e o drop da música, põe marcadores, monta os clipes na batida e faz pulsar. PSD: cada camada do arquivo do Photoshop vira uma track, com entrada em cascata e paralaxe. Tudo aparece ao vivo no preview: Enter confirma (um Ctrl+Z desfaz) e Esc devolve como estava.",
+      "descricao_en": "A quick window with three tools. Shake: handheld, impact or earthquake on the frame, plus wiggle on any effect parameter. Beat: finds the beats, bars and drop of the music, adds markers, cuts clips to the beat and makes things pulse. PSD: each Photoshop layer becomes a track, with cascading entrance and parallax. Everything shows live on the preview: Enter confirms (one Ctrl+Z undoes it) and Esc puts it back.",
+      "onde": "Exibir › San Tools, ou Ctrl+Shift+Espaço",
+      "onde_en": "View › San Tools, or Ctrl+Shift+Space",
+      "atalhos": [
+        [
+          "Ctrl+Shift+Espaço",
+          "abre a janela com o evento selecionado"
+        ],
+        [
+          "Enter",
+          "confirma"
+        ],
+        [
+          "Esc",
+          "devolve como estava"
+        ]
+      ],
+      "atalhos_en": [
+        [
+          "Ctrl+Shift+Space",
+          "opens the window for the selected event"
+        ],
+        [
+          "Enter",
+          "confirms"
+        ],
+        [
+          "Esc",
+          "puts it back"
+        ]
+      ],
+      "combina": [
+        {
+          "id": "editor",
+          "porque": "O zoom do Edita continua por baixo da tremida, e os dois usam o mesmo detector de batida.",
+          "porque_en": "Edita's zoom stays under the shake, and both use the same beat detector."
+        }
+      ],
+      "arquivos": [
+        {
+          "caminho": "extensoes/SanTools.dll",
+          "destino": "ext",
+          "sha256": "C239AAF3F6BCC2AB43BDF25BA3D58C77EB9C6516961BB1850EB6C4C9851AF007",
+          "tamanho": 5189632
+        }
+      ]
+    },
+    {
       "id": "editor",
       "nome": "Edita san",
       "versao": "1.0.0",
@@ -2290,8 +2357,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "BD1883487D1594AC94E09D22DE2B5740FB3FFD25C6BA6773B84850FB7B65C449",
-        "tamanho": 347136
+        "sha256": "3FF63840B408B5C20319A52E3932E82A2C91600C28B5B6B353BD208C61E7EAE0",
+        "tamanho": 347648
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -2301,5 +2368,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 12:28"
+  "gerado": "2026-11-02 12:34"
 }
