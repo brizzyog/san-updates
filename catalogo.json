@@ -69,43 +69,50 @@
   ],
   "kits": [
     {
-      "id": "memes",
-      "nome": "Kit memes",
-      "nome_en": "Meme kit",
+      "id": "organizar",
+      "nome": "Organizar",
+      "nome_en": "Organize",
+      "itens": [
+        "organizador",
+        "notas"
+      ],
+      "descricao": "Antes de editar: uma pasta por projeto e as suas ideias anotadas com o tempo do vídeo.",
+      "descricao_en": "Before editing: one folder per project and your ideas noted with the video time."
+    },
+    {
+      "id": "midia",
+      "nome": "Achar e preparar mídia",
+      "nome_en": "Find and prep media",
       "itens": [
         "dropeasy",
         "recorte",
-        "upscale",
-        "organizador"
+        "upscale"
       ],
-      "descricao": "Achar o meme, tirar o fundo, deixar em HD e tudo cair na pasta certa do projeto.",
-      "descricao_en": "Find the meme, remove the background, make it HD and have it all land in the right project folder."
+      "descricao": "Meme, vídeo, GIF e som direto na timeline, sem fundo e em HD.",
+      "descricao_en": "Memes, videos, GIFs and sounds straight to the timeline, background-free and in HD."
     },
     {
-      "id": "edicao",
-      "nome": "Kit edição",
-      "nome_en": "Editing kit",
+      "id": "editar",
+      "nome": "Editar",
+      "nome_en": "Edit",
       "itens": [
         "editor",
-        "notas",
-        "volume",
-        "organizador"
+        "search",
+        "regua"
       ],
-      "descricao": "Anotar, decupar com o que você anotou, acertar o volume com a sua voz já marcada e manter o projeto organizado.",
-      "descricao_en": "Take notes, cut with what you noted, fix the volume with your voice already marked and keep the project tidy."
+      "descricao": "A decupagem e as sugestões de edição, qualquer efeito num atalho e guias no preview.",
+      "descricao_en": "Rough cut and edit suggestions, any effect one shortcut away and guides on the preview."
     },
     {
-      "id": "acabamento",
-      "nome": "Kit acabamento",
-      "nome_en": "Finishing kit",
+      "id": "finalizar",
+      "nome": "Finalizar",
+      "nome_en": "Finish",
       "itens": [
-        "search",
-        "regua",
         "volume",
         "motion"
       ],
-      "descricao": "Efeitos a um atalho, guias de área segura e o volume final no ponto.",
-      "descricao_en": "Effects one shortcut away, safe-zone guides and the final mix on point."
+      "descricao": "O som pronto para qualquer aparelho e o movimento suave nos efeitos.",
+      "descricao_en": "Sound ready for any device and smooth motion on effects."
     }
   ],
   "extensoes": [
@@ -2259,8 +2266,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "881F82BFC1CE86FCB03D380E12B3665AE4DB9D07108BDAF71A7B66F57C5476E6",
-        "tamanho": 339456
+        "sha256": "BD1883487D1594AC94E09D22DE2B5740FB3FFD25C6BA6773B84850FB7B65C449",
+        "tamanho": 347136
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -2270,5 +2277,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 09:32"
+  "gerado": "2026-11-02 09:35"
 }
