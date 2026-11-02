@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "motion-gpu",
+      "data": "2026-11-02",
+      "titulo": "Motion san: mais rápido que o RSMB e o Twixtor",
+      "titulo_en": "Motion san: faster than RSMB and Twixtor",
+      "texto": "Blur san e Slow san agora usam a placa de vídeo (RTX) e ficaram mais fiéis nas bordas. No mesmo gameplay 1440p, o Slow san foi 2× mais rápido que o Twixtor, sem nenhum crash.",
+      "texto_en": "Blur san and Slow san now use the graphics card (RTX) and are cleaner on edges. On the same 1440p gameplay, Slow san ran 2× faster than Twixtor, with no crashes."
+    },
+    {
       "id": "edita-perfis-olhos",
       "data": "2026-11-02",
       "titulo": "Edita san: decupa como você e assiste o vídeo",
@@ -2267,8 +2275,8 @@
         {
           "caminho": "motion/MotionSan.ofx.bundle/Contents/Win64/MotionSan.ofx",
           "destino": "ofx",
-          "sha256": "0149BC9E66102F484F68BA956D27BDC688FE4F33EBF3DE9ED2802FEF19D7DF7D",
-          "tamanho": 547328
+          "sha256": "7F14AF974B73E31B42FB8780C437790EE97168079C9CE79A294397C92E1EC971",
+          "tamanho": 566272
         }
       ]
     }
@@ -2293,5 +2301,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 12:02"
+  "gerado": "2026-11-02 12:18"
 }
