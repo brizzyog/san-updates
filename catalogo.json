@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "santools-estilos",
+      "data": "2026-11-02",
+      "titulo": "San Tools: estilos de camada",
+      "titulo_en": "San Tools: layer styles",
+      "texto": "Contorno, sombra e brilho em volta de PNG e recortes, estilo Photoshop, ao vivo no preview.",
+      "texto_en": "Stroke, shadow and glow around PNGs and cutouts, Photoshop style, live on the preview."
+    },
+    {
       "id": "sanapp-sozinho",
       "data": "2026-11-02",
       "titulo": "San App funciona sozinho",
@@ -2108,10 +2116,10 @@
       "dados": [
         "SanTools"
       ],
-      "resumo": "Tremer, ritmo da música e PSD em camadas, ao vivo no preview.",
-      "resumo_en": "Shake, music beat and layered PSD, live on the preview.",
-      "descricao": "Uma janela rápida com três ferramentas. Tremer: câmera na mão, impacto ou terremoto no quadro, e wiggle em qualquer parâmetro de efeito. Ritmo: acha as batidas, os compassos e o drop da música, põe marcadores, monta os clipes na batida e faz pulsar. PSD: cada camada do arquivo do Photoshop vira uma track, com entrada em cascata e paralaxe. Tudo aparece ao vivo no preview: Enter confirma (um Ctrl+Z desfaz) e Esc devolve como estava.",
-      "descricao_en": "A quick window with three tools. Shake: handheld, impact or earthquake on the frame, plus wiggle on any effect parameter. Beat: finds the beats, bars and drop of the music, adds markers, cuts clips to the beat and makes things pulse. PSD: each Photoshop layer becomes a track, with cascading entrance and parallax. Everything shows live on the preview: Enter confirms (one Ctrl+Z undoes it) and Esc puts it back.",
+      "resumo": "Tremer, ritmo da música, PSD em camadas e estilos de camada, ao vivo no preview.",
+      "resumo_en": "Shake, music beat, layered PSD and layer styles, live on the preview.",
+      "descricao": "Uma janela rápida com três ferramentas. Tremer: câmera na mão, impacto ou terremoto no quadro, e wiggle em qualquer parâmetro de efeito. Ritmo: acha as batidas, os compassos e o drop da música, põe marcadores, monta os clipes na batida e faz pulsar. PSD: cada camada do arquivo do Photoshop vira uma track, com entrada em cascata e paralaxe. Tudo aparece ao vivo no preview: Enter confirma (um Ctrl+Z desfaz) e Esc devolve como estava. Estilos: contorno, sombra e brilho de fora e de dentro em PNG e recortes com fundo transparente (efeito \"Estilos san\" em Video FX › Slayer san). Para instalar o efeito, o Windows pede permissão de administrador.",
+      "descricao_en": "A quick window with three tools. Shake: handheld, impact or earthquake on the frame, plus wiggle on any effect parameter. Beat: finds the beats, bars and drop of the music, adds markers, cuts clips to the beat and makes things pulse. PSD: each Photoshop layer becomes a track, with cascading entrance and parallax. Everything shows live on the preview: Enter confirms (one Ctrl+Z undoes it) and Esc puts it back. Styles: stroke, drop shadow and outer/inner glow on PNGs and cutouts with a transparent background (\"Estilos san\" effect in Video FX › Slayer san). Installing the effect asks for administrator permission.",
       "onde": "Exibir › San Tools, ou Ctrl+Shift+Espaço",
       "onde_en": "View › San Tools, or Ctrl+Shift+Space",
       "atalhos": [
@@ -2155,6 +2163,12 @@
           "destino": "ext",
           "sha256": "C239AAF3F6BCC2AB43BDF25BA3D58C77EB9C6516961BB1850EB6C4C9851AF007",
           "tamanho": 5189632
+        },
+        {
+          "caminho": "santools-ofx/SanTools.ofx.bundle/Contents/Win64/SanTools.ofx",
+          "destino": "ofx",
+          "sha256": "B39B3C39BB3567A940D74FB6BBE2F1ADB2544793DEC9AC6BDE45674162CB2B3A",
+          "tamanho": 504320
         }
       ]
     },
@@ -2384,5 +2398,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 13:41"
+  "gerado": "2026-11-02 14:01"
 }
