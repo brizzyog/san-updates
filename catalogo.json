@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-2",
+      "data": "2026-11-02",
+      "titulo": "Arsenal san: Ideias do vídeo e o Claude no app",
+      "titulo_en": "Arsenal san: video ideas and Claude in the app",
+      "texto": "Nova tela Ideias do vídeo (títulos, descrição, tags, capítulos, texto da thumb e trechos para Short pela IA no seu PC), o Claude e o Codex podem usar o app inteiro, Sugerir texto e uma IA de visão maior na thumbnail, e downloads da Bilibili com todas as partes (reconecta sozinho se a conexão emperrar).",
+      "texto_en": "New Video ideas screen (titles, description, tags, chapters, thumbnail text and Short clips from AI on your PC), Claude and Codex can drive the whole app, Suggest text and a bigger vision AI in the thumbnail maker, and Bilibili downloads with all parts (reconnects by itself if the connection stalls)."
+    },
+    {
       "id": "arsenal-1",
       "data": "2026-11-02",
       "titulo": "Arsenal san 1.0 completo",
@@ -2405,8 +2413,8 @@
       ],
       "resumo": "App do criador: baixa de qualquer site, converte, faz GIF, Shorts, legenda, separa voz e cria thumbnails.",
       "resumo_en": "The creator's app: download from any site, convert, make GIFs, Shorts, subtitles, split vocals and create thumbnails.",
-      "descricao": "Um app só, leve e rápido. Baixar: vídeo, áudio, fotos e thumbnails de mais de mil sites, com trecho, playlist, capa e legendas, pronto para editar (H.264 pela placa de vídeo), e a busca do DropEasy. Estúdio: converter e comprimir (Discord, WhatsApp, celular), GIF, vertical 9:16 com rosto seguindo ou facecam + jogo, Shorts com legenda, quadros e juntar/cortar. IA no seu PC: separar voz e música, legendas e transcrição, cortar silêncios, melhorar qualidade e tirar fundo. Criar thumbnail: editor com presets, selos, textos e finalizações, e replicar o estilo de uma thumbnail de referência. Extensão do Chrome manda o link (e o login) para o app. Três temas: escuro, claro e meia-noite.",
-      "descricao_en": "One light, fast app. Download: video, audio, photos and thumbnails from over a thousand sites, with clips, playlists, covers and subtitles, ready to edit (H.264 on your graphics card), plus DropEasy's search. Studio: convert and compress (Discord, WhatsApp, phone), GIF, vertical 9:16 with face tracking or facecam + game, Shorts with captions, frames and join/cut. AI on your PC: split vocals and music, subtitles and transcription, cut silences, enhance quality and remove background. Thumbnail maker: editor with presets, badges, text and finishing touches, and copy the style of a reference thumbnail. A Chrome extension sends the link (and login) to the app. Three themes: dark, light and midnight.",
+      "descricao": "Um app só, leve e rápido. Baixar: vídeo, áudio, fotos e thumbnails de mais de mil sites, com trecho, playlist, capa e legendas, pronto para editar (H.264 pela placa de vídeo), e a busca do DropEasy. Estúdio: converter e comprimir (Discord, WhatsApp, celular), GIF, vertical 9:16 com rosto seguindo ou facecam + jogo, Shorts com legenda, quadros e juntar/cortar. IA no seu PC: separar voz e música, legendas e transcrição, cortar silêncios, melhorar qualidade e tirar fundo. Criar thumbnail: editor com presets, selos, textos e finalizações, e replicar o estilo de uma thumbnail de referência. Ideias do vídeo: títulos, descrição, tags, capítulos, texto da thumb e trechos para Short pela IA no seu PC. O Claude e o Codex podem usar o app inteiro (sem chave de API). Bilibili com todas as partes. Extensão do Chrome manda o link (e o login) para o app. Três temas: escuro, claro e meia-noite.",
+      "descricao_en": "One light, fast app. Download: video, audio, photos and thumbnails from over a thousand sites, with clips, playlists, covers and subtitles, ready to edit (H.264 on your graphics card), plus DropEasy's search. Studio: convert and compress (Discord, WhatsApp, phone), GIF, vertical 9:16 with face tracking or facecam + game, Shorts with captions, frames and join/cut. AI on your PC: split vocals and music, subtitles and transcription, cut silences, enhance quality and remove background. Thumbnail maker: editor with presets, badges, text and finishing touches, and copy the style of a reference thumbnail. Video ideas: titles, description, tags, chapters, thumbnail text and Short clips from AI on your PC. Claude and Codex can drive the whole app (no API key). Bilibili with all parts. A Chrome extension sends the link (and login) to the app. Three themes: dark, light and midnight.",
       "onde": "Menu Iniciar › slayeR san › Arsenal san (e atalho na Área de Trabalho)",
       "onde_en": "Start menu › slayeR san › Arsenal san (and a Desktop shortcut)",
       "atalhos": [
@@ -2469,8 +2477,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "9F1C6694BE77BB608CAC21BF208A0F42C68F4AB3158CA4F51C1746C4C51FFD2F",
-          "tamanho": 728064
+          "sha256": "CEB5ECAA5D0BBBA1951786EA0175988C9C0A5CFDE7E4EFF4BAE02B453799194C",
+          "tamanho": 735744
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -2481,38 +2489,50 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Audio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "5874A6282A2B984346D1B61DD9D9109BA77C6FE43232004D2123819632CAC96A",
+          "sha256": "0DA4B4C355ECD3CD21E54E6B675995C749EFD3390A5128A574E41CAE8145DD98",
           "tamanho": 184320
+        },
+        {
+          "caminho": "arsenal/ArsenalSan.Mod.Cerebro.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "54DBFF0C8D342175D31DD29A92560B7EE6CDFDCBCC2D49A6FB02F3612261886D",
+          "tamanho": 170496
+        },
+        {
+          "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "7914304DF2F5B7A3A0C65463E2AC143E3F63DEC530C4BEC649B867E0D240DCBF",
+          "tamanho": 450048
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Conexoes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "332D1670F9A066E1D0BA6693BB6DD9D3141C3D3305B3FB8B31F9BA744D32F087",
+          "sha256": "43532C2F0AA58B9E93BB9EB9AD5F8A54410104B511EFAC0FA3DFF46B81977F8A",
           "tamanho": 102912
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "C64A306D1E314106DEF117DC4697463169EEE74B8D3496095F539761D5ACB506",
+          "sha256": "79C05D87D6CF56B047ED30D24ACE63B0D93BDA4A2241F7C0CB525BCDD158DBDB",
           "tamanho": 219136
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "96FDA1562DC2A39E68C59E80C8CBC6E6E4525F5F7F059DD8907A291A44FA8F80",
+          "sha256": "26DB311A7BA501F898FC1A7FD26945F4CFE61FBDB378F422AB1B4D9FDE14EAA8",
           "tamanho": 1965056
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "FBA3AAB64BD8A40A9725D37D00F3123BE4277206BF77D2CCA5D81DAF9534DAAB",
+          "sha256": "9856E04A6BD11108C501737DB0E3618DCB3B96B3A064F530956A4660B0E493A7",
           "tamanho": 318976
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "DBE90011E004E6FB83498AFBEFB3BB4EEC4697BBD41BC776D667B28B6864E468",
-          "tamanho": 1020416
+          "sha256": "91FAF02049D955AB75C62567CA7C0803E3A479125525ECC3C248106DB13EDB25",
+          "tamanho": 1040896
         },
         {
           "caminho": "arsenal/Microsoft.Web.WebView2.Core.dll",
@@ -2573,5 +2593,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 14:58"
+  "gerado": "2026-11-02 19:46"
 }
