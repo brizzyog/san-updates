@@ -253,8 +253,8 @@
         {
           "caminho": "extensoes/UpscaleSan.dll",
           "destino": "ext",
-          "sha256": "1F0F394A9F8646AB2AD6D8EC469346E3882A94CBD58E3ADE93C869CEB7D89F0F",
-          "tamanho": 404480
+          "sha256": "D40C728F31174FBD8642AFC327C5ADB4FFB1DD47DFD3D0D575201423046E70B9",
+          "tamanho": 406016
         }
       ]
     },
@@ -2453,5 +2453,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 00:06"
+  "gerado": "2026-11-02 00:25"
 }
