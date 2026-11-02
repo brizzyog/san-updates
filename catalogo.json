@@ -196,8 +196,8 @@
         {
           "caminho": "extensoes/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "07EEC3CA5C6F0BD8CA40776C0024960902C970A5E6E883A7216118A5359DDA09",
-          "tamanho": 585216
+          "sha256": "F296066EF6A98C96F9666034ABD9A2A4C9AEFFADFEC054F23D6ABC2D06ABA6CA",
+          "tamanho": 588288
         }
       ]
     },
@@ -2461,5 +2461,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 06:28"
+  "gerado": "2026-11-02 06:34"
 }
