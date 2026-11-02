@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "volume-perfis",
+      "data": "2026-11-02",
+      "titulo": "Volume san: um perfil para cada pessoa",
+      "titulo_en": "Volume san: one profile per person",
+      "texto": "O que o Volume aprende agora fica por perfil: o seu, o de um cliente, o de outro canal. Perfil novo começa no Guia de som, e uma barra escolhe quanto ele segue o que aprendeu.",
+      "texto_en": "What Volume learns now lives in profiles: yours, a client's, another channel's. A new profile starts from the sound guide, and a slider picks how much it follows what it learned."
+    },
+    {
       "id": "sanapp-visual-2",
       "data": "2026-11-02",
       "titulo": "San App com visual novo",
@@ -2180,8 +2188,8 @@
         {
           "caminho": "scripts/Volume san.dll",
           "destino": "script",
-          "sha256": "E65193F07F56CF5A4C211092434AEED9B294EEC05AADE68CD489284486EB3649",
-          "tamanho": 21472768
+          "sha256": "D7404C81152BB0E62654A7D593A1101AB4D97E72C2F9273F2201AB4A0246912E",
+          "tamanho": 21498880
         },
         {
           "caminho": "scripts/Volume san.png",
@@ -2277,5 +2285,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 09:35"
+  "gerado": "2026-11-02 11:47"
 }
