@@ -2019,8 +2019,8 @@
         {
           "caminho": "extensoes/SearchSan.dll",
           "destino": "ext",
-          "sha256": "2C73634C65D0E5DB68BD19393D25757472E03B74E43A2D440961BF8F98058F67",
-          "tamanho": 337920
+          "sha256": "778C559DBB567216417D24E6FF2851CF0D1C70CAF28899BDF03AC1DEAE55C7B1",
+          "tamanho": 340992
         }
       ]
     },
@@ -2301,5 +2301,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 12:18"
+  "gerado": "2026-11-02 12:28"
 }
