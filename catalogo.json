@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "volume-adapta",
+      "data": "2026-11-02",
+      "titulo": "Volume san: aprende o seu jeito",
+      "titulo_en": "Volume san: learns your style",
+      "texto": "Sem presets: o Volume aprende sozinho como você fala (gritos e risadas ganham espaço sem estourar) e com o que você corrige depois do clique. O próximo projeto já sai do seu jeito.",
+      "texto_en": "No presets: Volume learns on its own how you talk (shouts and laughs get room without clipping) and from what you fix after the click. Your next project already comes out your way."
+    },
+    {
       "id": "biblioteca-2",
       "data": "2026-11-01",
       "titulo": "Biblioteca san: 158 transições",
@@ -2187,8 +2195,8 @@
         {
           "caminho": "scripts/Volume san.dll",
           "destino": "script",
-          "sha256": "810AA2778252650B61B63D5299E581F098590FF6D217BD50706B380983085273",
-          "tamanho": 21434880
+          "sha256": "E65193F07F56CF5A4C211092434AEED9B294EEC05AADE68CD489284486EB3649",
+          "tamanho": 21472768
         },
         {
           "caminho": "scripts/Volume san.png",
@@ -2453,5 +2461,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 06:24"
+  "gerado": "2026-11-02 06:28"
 }
