@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "edita-perfis-olhos",
+      "data": "2026-11-02",
+      "titulo": "Edita san: decupa como você e assiste o vídeo",
+      "titulo_en": "Edita san: cuts like you and watches the video",
+      "texto": "Num vídeo de verdade do slayeR, o Edita achou 92% dos cortes finos dele sem perder nenhuma palavra. Agora aprende com cada correção num perfil seu (ou de um cliente), entende o que aparece na tela e dá zoom no que você cita.",
+      "texto_en": "On a real slayeR video, Edita found 92% of his fine cuts without losing a single word. It now learns from every correction in your own profile (or a client's), understands what is on screen and zooms into what you mention."
+    },
+    {
       "id": "volume-perfis",
       "data": "2026-11-02",
       "titulo": "Volume san: um perfil para cada pessoa",
@@ -2132,8 +2140,8 @@
         {
           "caminho": "extensoes/EditorSan.dll",
           "destino": "ext",
-          "sha256": "BF268F0E85FF7BB28EF3A7F2D7A826520247AC0ABD360619F42463149258C50B",
-          "tamanho": 7613440
+          "sha256": "1BC47AE59105CD264F4FE50B043D887B1D898A892D2BCB3B795662A176407C12",
+          "tamanho": 7819264
         }
       ]
     },
@@ -2285,5 +2293,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 11:56"
+  "gerado": "2026-11-02 12:02"
 }
