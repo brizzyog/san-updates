@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "volume-ruido",
+      "data": "2026-11-02",
+      "titulo": "Volume san: limpar o ruído da voz (opcional)",
+      "titulo_en": "Volume san: clean voice noise (optional)",
+      "texto": "Chiado, ventilador e teclado somem da sua voz com uma IA que roda no seu PC. É opcional, tem força leve, média ou forte e um botão para ouvir antes e depois. A voz original fica guardada.",
+      "texto_en": "Hiss, fans and keyboard disappear from your voice with an AI that runs on your PC. It's optional, with light, medium or strong strength and a button to hear before and after. The original voice is kept."
+    },
+    {
       "id": "santools-1",
       "data": "2026-11-02",
       "titulo": "Chegou o San Tools",
@@ -2271,8 +2279,8 @@
         {
           "caminho": "scripts/Volume san.dll",
           "destino": "script",
-          "sha256": "D7404C81152BB0E62654A7D593A1101AB4D97E72C2F9273F2201AB4A0246912E",
-          "tamanho": 21498880
+          "sha256": "300088FFAFE48B63315BCFEBFED0B546B611350A1B129FC5765A0F9B72F7A1C7",
+          "tamanho": 22827520
         },
         {
           "caminho": "scripts/Volume san.png",
@@ -2368,5 +2376,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 13:17"
+  "gerado": "2026-11-02 13:31"
 }
