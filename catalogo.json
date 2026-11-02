@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "biblioteca-2",
+      "data": "2026-11-01",
+      "titulo": "Biblioteca san: 158 transições",
+      "titulo_en": "Biblioteca san: 158 transitions",
+      "texto": "Chegaram 147 transições clássicas, todas com ajustes em português. Elas também aparecem na lista de transições do VEGAS e no Ctrl+Espaço do Search san.",
+      "texto_en": "147 classic transitions arrived, all with their own settings. They also show up in VEGAS's transition list and in Search san's Ctrl+Space."
+    },
+    {
       "id": "organizador-arquivar-2",
       "data": "2026-11-01",
       "titulo": "Organizador san: levar o projeto para outro disco",
@@ -2367,10 +2375,10 @@
       "dados": [
         "BibliotecaSan"
       ],
-      "resumo": "Presets prontos estilo CapCut: transições, animações de clipe e textos animados.",
-      "resumo_en": "Ready-made CapCut-style presets: transitions, clip animations and animated text.",
-      "descricao": "Transições de filme e modernas no GL Transition nativo do VEGAS, animações de entrada e saída do clipe com mola e quique, e textos animados que saem com transparência. Escolha, veja a prévia e aplique no evento selecionado; um Ctrl+Z desfaz.",
-      "descricao_en": "Film and modern transitions on VEGAS's native GL Transition, in and out clip animations with spring and bounce, and animated text with transparency. Pick, preview and apply to the selected event; one Ctrl+Z undoes it.",
+      "resumo": "Presets prontos estilo CapCut: 158 transições, animações de clipe e textos animados.",
+      "resumo_en": "Ready-made CapCut-style presets: 158 transitions, clip animations and animated text.",
+      "descricao": "158 transições (de filme, modernas e 147 clássicas) no GL Transition nativo do VEGAS, animações de entrada e saída do clipe com mola e quique, e textos animados que saem com transparência. Escolha, veja a prévia e aplique no evento selecionado; um Ctrl+Z desfaz. As transições também viram presets do VEGAS.",
+      "descricao_en": "158 transitions (film, modern and 147 classics) on VEGAS's native GL Transition, in and out clip animations with spring and bounce, and animated text with transparency. Pick, preview and apply to the selected event; one Ctrl+Z undoes it. The transitions also become VEGAS presets.",
       "onde": "Exibir › Extensões › Biblioteca san",
       "onde_en": "View › Extensions › Biblioteca san",
       "atalhos": [
@@ -2411,16 +2419,16 @@
         },
         {
           "id": "search",
-          "porque": "Ctrl+Espaço também acha as transições da Biblioteca (em breve).",
-          "porque_en": "Ctrl+Space also finds the Library transitions (coming soon)."
+          "porque": "Ctrl+Espaço também acha as transições da Biblioteca.",
+          "porque_en": "Ctrl+Space also finds the Library transitions."
         }
       ],
       "arquivos": [
         {
           "caminho": "extensoes/BibliotecaSan.dll",
           "destino": "ext",
-          "sha256": "300136535E985D50D8C261480D72B926EE8712D06E0923958A2E5C1D5DCAA797",
-          "tamanho": 206336
+          "sha256": "6FB2FAEAC0A5A80810B40B317CDBBAD151C88A329E4EEEFC07D5E3FAB06536BB",
+          "tamanho": 557056
         }
       ]
     }
@@ -2445,5 +2453,5 @@
       }
     ]
   },
-  "gerado": "2026-11-01 23:54"
+  "gerado": "2026-11-02 00:06"
 }
