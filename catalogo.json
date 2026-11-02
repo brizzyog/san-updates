@@ -2215,8 +2215,8 @@
         {
           "caminho": "extensoes/EditorSan.dll",
           "destino": "ext",
-          "sha256": "1BC47AE59105CD264F4FE50B043D887B1D898A892D2BCB3B795662A176407C12",
-          "tamanho": 7819264
+          "sha256": "8C4F5A083D665D19E6084B9EC2EDABD7EB1370510E3D21BBD16813E4A4DA5334",
+          "tamanho": 7853056
         }
       ]
     },
@@ -2368,5 +2368,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 12:52"
+  "gerado": "2026-11-02 13:17"
 }
