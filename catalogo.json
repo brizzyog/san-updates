@@ -2435,8 +2435,8 @@
         {
           "caminho": "extensoes/BibliotecaSan.dll",
           "destino": "ext",
-          "sha256": "6FB2FAEAC0A5A80810B40B317CDBBAD151C88A329E4EEEFC07D5E3FAB06536BB",
-          "tamanho": 557056
+          "sha256": "74BBC74323F85FE486F7545B5B708C1C921E9EAEC973DD24C142C3DC5B7BE072",
+          "tamanho": 568832
         }
       ]
     }
@@ -2461,5 +2461,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 06:34"
+  "gerado": "2026-11-02 09:17"
 }
