@@ -11,28 +11,12 @@
       "texto_en": "No presets: Volume learns on its own how you talk (shouts and laughs get room without clipping) and from what you fix after the click. Your next project already comes out your way."
     },
     {
-      "id": "biblioteca-2",
-      "data": "2026-11-01",
-      "titulo": "Biblioteca san: 158 transições",
-      "titulo_en": "Biblioteca san: 158 transitions",
-      "texto": "Chegaram 147 transições clássicas, todas com ajustes em português. Elas também aparecem na lista de transições do VEGAS e no Ctrl+Espaço do Search san.",
-      "texto_en": "147 classic transitions arrived, all with their own settings. They also show up in VEGAS's transition list and in Search san's Ctrl+Space."
-    },
-    {
       "id": "organizador-arquivar-2",
       "data": "2026-11-01",
       "titulo": "Organizador san: levar o projeto para outro disco",
       "titulo_en": "Organizador san: move a project to another drive",
       "texto": "O Arquivar agora leva a pasta inteira do projeto para o HD externo, confere cada arquivo, reconecta tudo no VEGAS e só depois manda a pasta antiga para a Lixeira.",
       "texto_en": "Archive now moves the whole project folder to your external drive, checks every file, relinks everything in VEGAS and only then sends the old folder to the Recycle Bin."
-    },
-    {
-      "id": "biblioteca-1",
-      "data": "2026-11-01",
-      "titulo": "Chegou a Biblioteca san",
-      "titulo_en": "Biblioteca san is here",
-      "texto": "Presets prontos estilo CapCut dentro do VEGAS: transições de filme e modernas, animações de clipe e textos animados com transparência.",
-      "texto_en": "CapCut-style ready-made presets inside VEGAS: film and modern transitions, clip animations and animated text with transparency."
     },
     {
       "id": "edita-inteligente",
@@ -115,7 +99,6 @@
       "nome": "Kit acabamento",
       "nome_en": "Finishing kit",
       "itens": [
-        "biblioteca",
         "search",
         "regua",
         "volume",
@@ -2374,71 +2357,6 @@
           "tamanho": 547328
         }
       ]
-    },
-    {
-      "id": "biblioteca",
-      "nome": "Biblioteca san",
-      "versao": "1.0.0",
-      "cor": "#f59e0b",
-      "dados": [
-        "BibliotecaSan"
-      ],
-      "resumo": "Presets prontos estilo CapCut: 158 transições, animações de clipe e textos animados.",
-      "resumo_en": "Ready-made CapCut-style presets: 158 transitions, clip animations and animated text.",
-      "descricao": "158 transições (de filme, modernas e 147 clássicas) no GL Transition nativo do VEGAS, animações de entrada e saída do clipe com mola e quique, e textos animados que saem com transparência. Escolha, veja a prévia e aplique no evento selecionado; um Ctrl+Z desfaz. As transições também viram presets do VEGAS.",
-      "descricao_en": "158 transitions (film, modern and 147 classics) on VEGAS's native GL Transition, in and out clip animations with spring and bounce, and animated text with transparency. Pick, preview and apply to the selected event; one Ctrl+Z undoes it. The transitions also become VEGAS presets.",
-      "onde": "Exibir › Extensões › Biblioteca san",
-      "onde_en": "View › Extensions › Biblioteca san",
-      "atalhos": [
-        [
-          "Clique no preset",
-          "mostra a prévia"
-        ],
-        [
-          "Aplicar",
-          "no corte ou no evento selecionado"
-        ],
-        [
-          "Editar o selecionado",
-          "muda um texto já pronto"
-        ]
-      ],
-      "atalhos_en": [
-        [
-          "Click a preset",
-          "shows the preview"
-        ],
-        [
-          "Apply",
-          "on the selected cut or event"
-        ],
-        [
-          "Edit selected",
-          "changes an existing text"
-        ]
-      ],
-      "aviso": "Os textos animados usam o FFmpeg: se não houver no PC, ela baixa sozinha na primeira vez (~12 s).",
-      "aviso_en": "Animated text uses FFmpeg: if the PC doesn't have it, it downloads it the first time (~12 s).",
-      "combina": [
-        {
-          "id": "organizador",
-          "porque": "Os textos prontos vão para a pasta Vídeos do projeto.",
-          "porque_en": "Finished texts go into the project's Videos folder."
-        },
-        {
-          "id": "search",
-          "porque": "Ctrl+Espaço também acha as transições da Biblioteca.",
-          "porque_en": "Ctrl+Space also finds the Library transitions."
-        }
-      ],
-      "arquivos": [
-        {
-          "caminho": "extensoes/BibliotecaSan.dll",
-          "destino": "ext",
-          "sha256": "74BBC74323F85FE486F7545B5B708C1C921E9EAEC973DD24C142C3DC5B7BE072",
-          "tamanho": 568832
-        }
-      ]
     }
   ],
   "app": {
@@ -2461,5 +2379,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 09:17"
+  "gerado": "2026-11-02 09:20"
 }
