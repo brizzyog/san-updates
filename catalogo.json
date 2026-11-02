@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "sanapp-visual-2",
+      "data": "2026-11-02",
+      "titulo": "San App com visual novo",
+      "titulo_en": "San App has a new look",
+      "texto": "Tela mais limpa, ferramentas separadas por tipo e filtros para ver só as instaladas, as que faltam ou as que têm atualização.",
+      "texto_en": "A cleaner screen, tools grouped by type and filters to see only installed ones, missing ones or the ones with updates."
+    },
+    {
       "id": "volume-adapta",
       "data": "2026-11-02",
       "titulo": "Volume san: aprende o seu jeito",
@@ -2368,8 +2376,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "25DBEC60E82670B8C2BDF6AF8387E4E1F4655FC8EDA953497F8269CDDF077113",
-        "tamanho": 328704
+        "sha256": "881F82BFC1CE86FCB03D380E12B3665AE4DB9D07108BDAF71A7B66F57C5476E6",
+        "tamanho": 339456
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -2379,5 +2387,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 09:20"
+  "gerado": "2026-11-02 09:30"
 }
