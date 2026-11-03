@@ -271,8 +271,8 @@
         {
           "caminho": "extensoes/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "C767DC0C94243993ACFE0D2530996AD1EB639B95CFA27C0E531942C6DFC51720",
-          "tamanho": 595968
+          "sha256": "BE0D235020D2EF738D9F560F12DB51FD0EA2968E9285A92CEFF960372E90908C",
+          "tamanho": 615936
         }
       ]
     },
@@ -336,8 +336,8 @@
         {
           "caminho": "extensoes/UpscaleSan.dll",
           "destino": "ext",
-          "sha256": "DFA88357FAB62ECAB79A238BEF24255D6C622486F9A370D64C58838F931A36C8",
-          "tamanho": 411136
+          "sha256": "080C85477054517907FD402EAA5944C1648492FA5D42A7213CDB221BBA4D6B94",
+          "tamanho": 425984
         }
       ]
     },
@@ -401,8 +401,8 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "5AF05F26D6AB3133CEBACD7148146B94F916C5D9F7C604C096DC9A4BA4D320D8",
-          "tamanho": 408064
+          "sha256": "EEF6FC855ACC78754F40FBB5257B0BA460BB75B8A9206D21F6F95BB213C82315",
+          "tamanho": 491008
         },
         {
           "caminho": "motor-recorte/Accessibility.dll",
@@ -707,8 +707,8 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "8EA493846BC3B7F8F11547065CB49779D4F928C44382915393F33F1F4D7DD52D",
-          "tamanho": 89600
+          "sha256": "3C6038FEEAADBCDCE39ACB3982F09CD872F7F32EA4D3D6837EAE7B8B3838A67B",
+          "tamanho": 105472
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
@@ -1966,8 +1966,8 @@
         {
           "caminho": "extensoes/OrganizadorSan.dll",
           "destino": "ext",
-          "sha256": "D7B5E8BEEAAD0AA1FFC2BD90BA7F100463547E7E76F9962E673F7DA20914AEF2",
-          "tamanho": 6603776
+          "sha256": "8B0F8AAD0E4CDF218A83E8E18F467AFCE63A115D30278625ECE1465790B303C0",
+          "tamanho": 6632960
         }
       ],
       "aviso": "A busca pelo que aparece baixa uma IA (~900 MB) pelo próprio painel, só se você quiser usar.",
@@ -2018,8 +2018,8 @@
         {
           "caminho": "extensoes/NotasSan.dll",
           "destino": "ext",
-          "sha256": "D627E3DB1D4D0741A0500CDCD406F2846851F98CF7F462391A8B2CF74F6B1E06",
-          "tamanho": 278528
+          "sha256": "4C2506CD04F39B7A11725C539CCD7853862B955EAF726807C958DAF688DB00F7",
+          "tamanho": 289280
         }
       ]
     },
@@ -2085,8 +2085,8 @@
         {
           "caminho": "extensoes/SearchSan.dll",
           "destino": "ext",
-          "sha256": "9D5B934D97E5B40EC955926716AC3543DDD08F7000E1D1B727306B8857CDE50C",
-          "tamanho": 346624
+          "sha256": "16B5AF5913E72CD511FAE8F4B062E2E0425C3CEFC14AF3E5A7CD09D78FE76577",
+          "tamanho": 357888
         }
       ]
     },
@@ -2136,8 +2136,8 @@
         {
           "caminho": "extensoes/ReguaSan.dll",
           "destino": "ext",
-          "sha256": "031A771C8C24FADEB2830C34674D68F0A0B61A6B56FA9FBAB33EFF6573EEA562",
-          "tamanho": 92672
+          "sha256": "BC3AD6320BDD9E99E4FD1021CCD4BDF8348BBEEAD3DBDB3B3720C8635D9D8713",
+          "tamanho": 103424
         }
       ]
     },
@@ -2194,8 +2194,8 @@
         {
           "caminho": "extensoes/SanTools.dll",
           "destino": "ext",
-          "sha256": "5B6BC4D914A674E3C1B79793EDB65D3F427795FDC78AF95F0C21247546320AC6",
-          "tamanho": 5238784
+          "sha256": "839F5D65D29A6D7CAAC738D6B13C1650D14BCF8C2D6573BBD192AF4BE23C16D5",
+          "tamanho": 5370880
         },
         {
           "caminho": "santools-ofx/SanTools.ofx.bundle/Contents/Win64/SanTools.ofx",
@@ -2278,8 +2278,8 @@
         {
           "caminho": "extensoes/EditorSan.dll",
           "destino": "ext",
-          "sha256": "F004CE00B72B58944E3B92831B1B3AAD7C8CD876D13A28E1D80A0757D5AED0F0",
-          "tamanho": 7920640
+          "sha256": "8AFED9355016BE98C36ED008876F164A0728FF0E8CF3FE954E0CDF59223A0934",
+          "tamanho": 8463872
         }
       ]
     },
@@ -2333,8 +2333,8 @@
         {
           "caminho": "extensoes/VolumeSanPainel.dll",
           "destino": "ext",
-          "sha256": "A28509A86D08A4D21C3E8E668ACE8BD4A144BA7CBA82FBE5002BC2DAD706C05B",
-          "tamanho": 62976
+          "sha256": "7594A9C966AE8EAEBCC772E5022A572D85B80006878C74CF2C6C227A9D29A427",
+          "tamanho": 73216
         },
         {
           "caminho": "scripts/Volume san.dll",
@@ -2410,8 +2410,8 @@
         {
           "caminho": "motion/MotionSan.ofx.bundle/Contents/Win64/MotionSan.ofx",
           "destino": "ofx",
-          "sha256": "45F8137D6FC56520E02756459F9DF8F2DDF578204D69A26C50127D5ED9725D95",
-          "tamanho": 582656
+          "sha256": "0F9DC5A1C7414C5D1064BABF1DC30AA3FD6F6707585CF844E0D1E6626499A16C",
+          "tamanho": 591872
         }
       ]
     },
@@ -2595,7 +2595,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "9BA9D1180C8F67F7B37D10E2BBCA362CFFC5F6E8AE699376DAC23A9E5261E2F9",
+        "sha256": "516D3DE2B5B5AB07DE5C8B386255E3F227E0C7E1852D741424919BABAF98DAEF",
         "tamanho": 1914880
       },
       {
@@ -2606,5 +2606,5 @@
       }
     ]
   },
-  "gerado": "2026-11-03 05:14"
+  "gerado": "2026-11-03 11:39"
 }
