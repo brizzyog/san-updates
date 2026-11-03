@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "volume-simples",
+      "data": "2026-11-03",
+      "titulo": "Volume san simples, com painel ao vivo",
+      "titulo_en": "Simpler Volume san, with a live panel",
+      "texto": "Um painel ao lado da timeline mostra o volume de cada track enquanto você edita e se está no ponto. No fim, um botão só, \"Acertar volumes\": música abaixa só quando alguém fala, sem bombear, e o vídeo fica no volume do YouTube. Tabela antes × depois e ouvir o vídeo inteiro.",
+      "texto_en": "A panel next to the timeline shows each track's level while you edit and whether it's on target. At the end, a single \"Fix volumes\" button: music only dips when someone talks, without pumping, and the video lands at YouTube loudness. Before × after table and listen to the whole video."
+    },
+    {
       "id": "arsenal-2",
       "data": "2026-11-02",
       "titulo": "Arsenal san: Ideias do vídeo e o Claude no app",
@@ -263,8 +271,8 @@
         {
           "caminho": "extensoes/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "D115A3A9B68F8F431DEA2D6F8A0C4CA985BFBCA399037E1B8A26F38DC3B6372C",
-          "tamanho": 588288
+          "sha256": "C767DC0C94243993ACFE0D2530996AD1EB639B95CFA27C0E531942C6DFC51720",
+          "tamanho": 595968
         }
       ]
     },
@@ -328,8 +336,8 @@
         {
           "caminho": "extensoes/UpscaleSan.dll",
           "destino": "ext",
-          "sha256": "6B592FB5968D60FF2A284B89E074E5B654863BE6F0373F14B2E04DD166F192E6",
-          "tamanho": 406016
+          "sha256": "DFA88357FAB62ECAB79A238BEF24255D6C622486F9A370D64C58838F931A36C8",
+          "tamanho": 411136
         }
       ]
     },
@@ -393,8 +401,8 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "5AFB28D2A07AAFC961095C30233F65BC87D6590EF007B53FDB53FC67A160D7B5",
-          "tamanho": 399360
+          "sha256": "5AF05F26D6AB3133CEBACD7148146B94F916C5D9F7C604C096DC9A4BA4D320D8",
+          "tamanho": 408064
         },
         {
           "caminho": "motor-recorte/Accessibility.dll",
@@ -699,8 +707,8 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "05F6D355B965DD93E937476CCCD1AF9D04573AA1B1A03552EE3FEBC8B377883D",
-          "tamanho": 87552
+          "sha256": "8EA493846BC3B7F8F11547065CB49779D4F928C44382915393F33F1F4D7DD52D",
+          "tamanho": 89600
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
@@ -1958,8 +1966,8 @@
         {
           "caminho": "extensoes/OrganizadorSan.dll",
           "destino": "ext",
-          "sha256": "B4760D881703CE5AD1FCF9BC31B742EDEB59F5617858B6141EEAE16B440665D4",
-          "tamanho": 6537216
+          "sha256": "D7B5E8BEEAAD0AA1FFC2BD90BA7F100463547E7E76F9962E673F7DA20914AEF2",
+          "tamanho": 6603776
         }
       ],
       "aviso": "A busca pelo que aparece baixa uma IA (~900 MB) pelo próprio painel, só se você quiser usar.",
@@ -2010,8 +2018,8 @@
         {
           "caminho": "extensoes/NotasSan.dll",
           "destino": "ext",
-          "sha256": "C0F81B078390210AFFEBC72D2576D23C1FD04B41BC79A3ED0AE24D78B5DF824C",
-          "tamanho": 269824
+          "sha256": "D627E3DB1D4D0741A0500CDCD406F2846851F98CF7F462391A8B2CF74F6B1E06",
+          "tamanho": 278528
         }
       ]
     },
@@ -2077,8 +2085,8 @@
         {
           "caminho": "extensoes/SearchSan.dll",
           "destino": "ext",
-          "sha256": "778C559DBB567216417D24E6FF2851CF0D1C70CAF28899BDF03AC1DEAE55C7B1",
-          "tamanho": 340992
+          "sha256": "9D5B934D97E5B40EC955926716AC3543DDD08F7000E1D1B727306B8857CDE50C",
+          "tamanho": 346624
         }
       ]
     },
@@ -2128,8 +2136,8 @@
         {
           "caminho": "extensoes/ReguaSan.dll",
           "destino": "ext",
-          "sha256": "D0B190C797BAF072F656425E2BCFCF1E69CF47CAAAE6C4B7A12069EFB06F8DA1",
-          "tamanho": 85504
+          "sha256": "031A771C8C24FADEB2830C34674D68F0A0B61A6B56FA9FBAB33EFF6573EEA562",
+          "tamanho": 92672
         }
       ]
     },
@@ -2186,14 +2194,14 @@
         {
           "caminho": "extensoes/SanTools.dll",
           "destino": "ext",
-          "sha256": "C239AAF3F6BCC2AB43BDF25BA3D58C77EB9C6516961BB1850EB6C4C9851AF007",
-          "tamanho": 5189632
+          "sha256": "5B6BC4D914A674E3C1B79793EDB65D3F427795FDC78AF95F0C21247546320AC6",
+          "tamanho": 5238784
         },
         {
           "caminho": "santools-ofx/SanTools.ofx.bundle/Contents/Win64/SanTools.ofx",
           "destino": "ofx",
-          "sha256": "B39B3C39BB3567A940D74FB6BBE2F1ADB2544793DEC9AC6BDE45674162CB2B3A",
-          "tamanho": 504320
+          "sha256": "9532512CBBD6BE3BEA46BB97DCA37F9FA14626DD65D65BBAA5912B94543842AB",
+          "tamanho": 518656
         }
       ]
     },
@@ -2270,8 +2278,8 @@
         {
           "caminho": "extensoes/EditorSan.dll",
           "destino": "ext",
-          "sha256": "8C4F5A083D665D19E6084B9EC2EDABD7EB1370510E3D21BBD16813E4A4DA5334",
-          "tamanho": 7853056
+          "sha256": "F004CE00B72B58944E3B92831B1B3AAD7C8CD876D13A28E1D80A0757D5AED0F0",
+          "tamanho": 7920640
         }
       ]
     },
@@ -2279,7 +2287,6 @@
       "id": "volume",
       "nome": "Volume san",
       "versao": "1.0.0",
-      "tipo": "script",
       "cor": "#34d399",
       "dados": [
         "VolumeSan"
@@ -2296,16 +2303,16 @@
           "porque_en": "Organizador's track names tell it what each track is."
         }
       ],
-      "resumo": "Um botão e o som fica pronto: voz, música, jogo e SFX no volume certo.",
-      "resumo_en": "One button and the sound is ready: voice, music, game and SFX at the right level.",
-      "descricao": "No fim da edição, clique em \"Deixar o som pronto\": a IA ouve cada track, deixa a voz na frente, abaixa música e jogo só onde você fala, segura os sustos e confere como o vídeo vai soar no celular, no fone, na TV e na caixa de som. Tudo num passo só, e um Ctrl+Z desfaz. Quem quiser ajustar tem a tela com os detalhes.",
-      "descricao_en": "At the end of the edit, click \"Make the sound ready\": the AI listens to each track, puts the voice up front, ducks music and game only where you talk, tames the jumps and checks how the video will sound on a phone, headphones, TV and speakers. All in one step, and one Ctrl+Z undoes it. A detailed screen is there if you want to tweak.",
-      "onde": "Ferramentas › Script › Slayer › Volume san",
-      "onde_en": "Tools › Scripting › Slayer › Volume san",
+      "resumo": "Mostra se cada som está no volume certo enquanto você edita, e acerta tudo num botão.",
+      "resumo_en": "Shows whether each sound is at the right level while you edit, and fixes everything with one button.",
+      "descricao": "Um painel pequeno ao lado da timeline mostra, enquanto você edita ou toca, o volume de cada track (voz, amigo, jogo, música, SFX, memes) e se está na faixa certa, com ✓ ou \"alto/baixo\", sem pesar o VEGAS. No fim, \"Acertar volumes\" deixa cada track no ponto (SFX e memes um por um), abaixa a música só quando alguém fala, sem \"bombear\", e deixa o vídeo no volume do YouTube sem estourar. Tudo num passo só, e um Ctrl+Z desfaz. Mostra uma tabela antes × depois, deixa ouvir o vídeo inteiro antes e depois, e avisa só do que não tem conserto (gravação estourada, voz baixa no OBS, meme com som ruim).",
+      "descricao_en": "A small panel next to the timeline shows, while you edit or play, the level of each track (voice, friend, game, music, SFX, memes) and whether it is in the right range, with ✓ or \"loud/quiet\", without slowing VEGAS down. At the end, \"Fix volumes\" puts each track on target (SFX and memes one by one), lowers the music only when someone talks, without \"pumping\", and leaves the video at YouTube loudness without clipping. All in one step, and one Ctrl+Z undoes it. It shows a before × after table, lets you hear the whole video before and after, and only warns about what can't be fixed (clipped recording, quiet voice in OBS, bad-sounding meme).",
+      "onde": "Exibir › Extensões › Volume san (ao vivo) · Ferramentas › Script › Slayer › Volume san",
+      "onde_en": "View › Extensions › Volume san (live) · Tools › Scripting › Slayer › Volume san",
       "atalhos": [
         [
-          "Ctrl+Enter",
-          "aplicar"
+          "Botão direito no painel",
+          "dizer que som é a track"
         ],
         [
           "Segurar O",
@@ -2314,8 +2321,8 @@
       ],
       "atalhos_en": [
         [
-          "Ctrl+Enter",
-          "apply"
+          "Right-click the panel",
+          "tell what sound the track is"
         ],
         [
           "Hold O",
@@ -2324,10 +2331,16 @@
       ],
       "arquivos": [
         {
+          "caminho": "extensoes/VolumeSanPainel.dll",
+          "destino": "ext",
+          "sha256": "A28509A86D08A4D21C3E8E668ACE8BD4A144BA7CBA82FBE5002BC2DAD706C05B",
+          "tamanho": 62976
+        },
+        {
           "caminho": "scripts/Volume san.dll",
           "destino": "script",
-          "sha256": "300088FFAFE48B63315BCFEBFED0B546B611350A1B129FC5765A0F9B72F7A1C7",
-          "tamanho": 22827520
+          "sha256": "1CCA44E0FCA131049F7D9E706E2160E7FA01EBB4920D4146A475604913CD6167",
+          "tamanho": 1494016
         },
         {
           "caminho": "scripts/Volume san.png",
@@ -2397,8 +2410,8 @@
         {
           "caminho": "motion/MotionSan.ofx.bundle/Contents/Win64/MotionSan.ofx",
           "destino": "ofx",
-          "sha256": "8B78CE0AD8C2978B613FFC1E38C6B39DB346969879C49A7BBF07812575A1779D",
-          "tamanho": 566272
+          "sha256": "45F8137D6FC56520E02756459F9DF8F2DDF578204D69A26C50127D5ED9725D95",
+          "tamanho": 582656
         }
       ]
     },
@@ -2582,8 +2595,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "9DF31015F64D5969864A9128169EAD0F043896B6B44869A58922A318C86EF971",
-        "tamanho": 1750528
+        "sha256": "9BA9D1180C8F67F7B37D10E2BBCA362CFFC5F6E8AE699376DAC23A9E5261E2F9",
+        "tamanho": 1914880
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -2593,5 +2606,5 @@
       }
     ]
   },
-  "gerado": "2026-11-02 19:46"
+  "gerado": "2026-11-03 05:14"
 }
