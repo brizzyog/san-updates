@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "santools-cor",
+      "data": "2026-11-03",
+      "titulo": "San Tools: Cor automática",
+      "titulo_en": "San Tools: automatic color",
+      "texto": "Nova aba Cor: escolha Filmagem ou Jogo e um estilo (Natural, Vivo, Cinema ou Leve), veja o resultado em cada cartão e ajuste a força. Segure O para ver o antes. Vem com o efeito novo \"Cor san\" (Video FX › Slayer san), que o Windows pede permissão de administrador para instalar.",
+      "texto_en": "New Color tab: pick Footage or Game and a look (Natural, Vivid, Cinema or Light), see the result on each card and set the strength. Hold O to see the before. Comes with the new \"Cor san\" effect (Video FX › Slayer san), which asks for administrator permission to install."
+    },
+    {
       "id": "volume-simples",
       "data": "2026-11-03",
       "titulo": "Volume san simples, com painel ao vivo",
@@ -2149,10 +2157,10 @@
       "dados": [
         "SanTools"
       ],
-      "resumo": "Tremer, ritmo da música, PSD em camadas e estilos de camada, ao vivo no preview.",
-      "resumo_en": "Shake, music beat, layered PSD and layer styles, live on the preview.",
-      "descricao": "Uma janela rápida com três ferramentas. Tremer: câmera na mão, impacto ou terremoto no quadro, e wiggle em qualquer parâmetro de efeito. Ritmo: acha as batidas, os compassos e o drop da música, põe marcadores, monta os clipes na batida e faz pulsar. PSD: cada camada do arquivo do Photoshop vira uma track, com entrada em cascata e paralaxe. Tudo aparece ao vivo no preview: Enter confirma (um Ctrl+Z desfaz) e Esc devolve como estava. Estilos: contorno, sombra e brilho de fora e de dentro em PNG e recortes com fundo transparente (efeito \"Estilos san\" em Video FX › Slayer san). Para instalar o efeito, o Windows pede permissão de administrador.",
-      "descricao_en": "A quick window with three tools. Shake: handheld, impact or earthquake on the frame, plus wiggle on any effect parameter. Beat: finds the beats, bars and drop of the music, adds markers, cuts clips to the beat and makes things pulse. PSD: each Photoshop layer becomes a track, with cascading entrance and parallax. Everything shows live on the preview: Enter confirms (one Ctrl+Z undoes it) and Esc puts it back. Styles: stroke, drop shadow and outer/inner glow on PNGs and cutouts with a transparent background (\"Estilos san\" effect in Video FX › Slayer san). Installing the effect asks for administrator permission.",
+      "resumo": "Tremer, ritmo, PSD, estilos, rampa de velocidade, grudar meme, texto atrás, cor e Modo leve, ao vivo no preview.",
+      "resumo_en": "Shake, beat, PSD, layer styles, speed ramp, stick meme, text behind, color and Light mode, live on the preview.",
+      "descricao": "Uma janela rápida com as ferramentas do evento selecionado. Tremer: câmera na mão, impacto ou terremoto no quadro, e wiggle em qualquer parâmetro de efeito. Ritmo: acha as batidas, os compassos e o drop da música, põe marcadores, monta os clipes na batida e faz pulsar. PSD: cada camada do arquivo do Photoshop vira uma track, com entrada em cascata e paralaxe. Tudo aparece ao vivo no preview: Enter confirma (um Ctrl+Z desfaz) e Esc devolve como estava. Estilos: contorno, sombra e brilho de fora e de dentro em PNG e recortes com fundo transparente (efeito \"Estilos san\" em Video FX › Slayer san). Para instalar o efeito, o Windows pede permissão de administrador. Cor: correção automática de filmagem ou jogo com estilos Natural, Vivo, Cinema e Leve (efeito \"Cor san\"). Também tem Rampa de velocidade, Grudar meme no personagem, Texto atrás do personagem (com o Recorte san) e o Modo leve, que desliga os efeitos pesados enquanto você edita e liga de volta no render.",
+      "descricao_en": "A quick window with tools for the selected event. Shake: handheld, impact or earthquake on the frame, plus wiggle on any effect parameter. Beat: finds the beats, bars and drop of the music, adds markers, cuts clips to the beat and makes things pulse. PSD: each Photoshop layer becomes a track, with cascading entrance and parallax. Everything shows live on the preview: Enter confirms (one Ctrl+Z undoes it) and Esc puts it back. Styles: stroke, drop shadow and outer/inner glow on PNGs and cutouts with a transparent background (\"Estilos san\" effect in Video FX › Slayer san). Installing the effect asks for administrator permission. Color: automatic correction for footage or games with Natural, Vivid, Cinema and Light looks (\"Cor san\" effect). Also Speed ramp, Stick a meme to a character, Text behind the character (with Recorte san) and Light mode, which turns heavy effects off while you edit and back on for the render.",
       "onde": "Exibir › San Tools, ou Ctrl+Shift+Espaço",
       "onde_en": "View › San Tools, or Ctrl+Shift+Space",
       "atalhos": [
@@ -2194,14 +2202,14 @@
         {
           "caminho": "extensoes/SanTools.dll",
           "destino": "ext",
-          "sha256": "839F5D65D29A6D7CAAC738D6B13C1650D14BCF8C2D6573BBD192AF4BE23C16D5",
-          "tamanho": 5370880
+          "sha256": "F8C94477CDE5DF123B8A1F826AFC6D72A25949123C186192B4EB134DCD1929B6",
+          "tamanho": 5476864
         },
         {
           "caminho": "santools-ofx/SanTools.ofx.bundle/Contents/Win64/SanTools.ofx",
           "destino": "ofx",
-          "sha256": "9532512CBBD6BE3BEA46BB97DCA37F9FA14626DD65D65BBAA5912B94543842AB",
-          "tamanho": 518656
+          "sha256": "A4F278EE34FB83FD078554E1F47006522DD77B2AD12017F818CF831CF8D35249",
+          "tamanho": 567296
         }
       ]
     },
@@ -2606,5 +2614,5 @@
       }
     ]
   },
-  "gerado": "2026-11-03 11:39"
+  "gerado": "2026-11-03 14:01"
 }
