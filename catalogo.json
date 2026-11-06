@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "proxy-1",
+      "data": "2026-11-05",
+      "titulo": "Chegou o Proxy san",
+      "titulo_en": "Proxy san is here",
+      "texto": "Proxy pela placa de vídeo: várias vezes mais rápido que o do VEGAS, com fila, andamento e bem menos disco. O Organizador e o Edita já mandam as gravações para ele.",
+      "texto_en": "Proxies on your graphics card: several times faster than VEGAS's, with a queue, progress and much less disk space. Organizador and Edita already send recordings to it."
+    },
+    {
       "id": "data-san",
       "data": "2026-11-05",
       "titulo": "Data san: seus dados numa pasta só",
@@ -191,7 +199,8 @@
         "dropeasy",
         "recorte",
         "upscale",
-        "arsenal"
+        "arsenal",
+        "proxy"
       ],
       "descricao": "Meme, vídeo, GIF e som direto na timeline, sem fundo e em HD.",
       "descricao_en": "Memes, videos, GIFs and sounds straight to the timeline, background-free and in HD."
@@ -287,10 +296,11 @@
         {
           "caminho": "extensoes/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "82D695615E740D8E7910A75FC5AA73BFD2093907D5DBBCA3A8B6A30B30F16DB0",
-          "tamanho": 616448
+          "sha256": "F221BD1C522B81A641821E3402D75D4246D97E73FD9ECE70B8FCD855364D0F41",
+          "tamanho": 705024
         }
-      ]
+      ],
+      "data": "2026-11-06"
     },
     {
       "id": "upscale",
@@ -352,10 +362,11 @@
         {
           "caminho": "extensoes/UpscaleSan.dll",
           "destino": "ext",
-          "sha256": "0C3EF991317EA1E3111F2CC779AD33EB0C32066F2E00AA821A39D75430F56C87",
-          "tamanho": 426496
+          "sha256": "E8A404A4F28D65E00C0732B77C9FB5FF5F80C3993973FE9357260C2E7DAFAF8D",
+          "tamanho": 456704
         }
-      ]
+      ],
+      "data": "2026-11-06"
     },
     {
       "id": "recorte",
@@ -417,8 +428,8 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "7DB712E91D2984864808066BB8B06353DF61273990190F88CD958C157F3DC07D",
-          "tamanho": 491520
+          "sha256": "C0BEFA4C50A08C248198E4E873B478E8442A74B778A035769CBD09DDB4B70B67",
+          "tamanho": 507904
         },
         {
           "caminho": "motor-recorte/Accessibility.dll",
@@ -723,13 +734,13 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "3C6038FEEAADBCDCE39ACB3982F09CD872F7F32EA4D3D6837EAE7B8B3838A67B",
-          "tamanho": 105472
+          "sha256": "D3DC89178DB85F70B441D6CFEA8B9E60132D5468477EE72E355B5D4777D7176C",
+          "tamanho": 105984
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "F35C0FAA3AF22BE3FE05E5FC52AC3955DB3F637E91F352D369DDF139F151A187",
+          "sha256": "1EAF2D6037D1F948583BC6B8BBECF468F3D13AD1E2C9336281763516F665F101",
           "tamanho": 151552
         },
         {
@@ -1925,7 +1936,8 @@
         "destino": "ext",
         "nome": "RecorteSan.engine.txt",
         "texto": "{local}\\RecorteSan\\motor-pacote"
-      }
+      },
+      "data": "2026-11-06"
     },
     {
       "id": "organizador",
@@ -1950,6 +1962,11 @@
           "id": "volume",
           "porque": "Os nomes de track do Organizador dizem ao Volume o tipo de cada track.",
           "porque_en": "Organizador's track names tell Volume what each track is."
+        },
+        {
+          "id": "proxy",
+          "porque": "As gravações pesadas vão para a fila do Proxy san, pela placa.",
+          "porque_en": "Heavy recordings go to Proxy san's queue, on the GPU."
         }
       ],
       "resumo": "Uma pasta por projeto, tudo no lugar certo.",
@@ -1982,12 +1999,61 @@
         {
           "caminho": "extensoes/OrganizadorSan.dll",
           "destino": "ext",
-          "sha256": "860EFE1F5F2A765118D68C9A267DF065E4D30060CC5A1FB97A5B2A389DD02D4A",
-          "tamanho": 6632960
+          "sha256": "0DAAB2F55A886B251F2136B281A230893BF26F200DE1B5AF01ABCE8BDF5C0059",
+          "tamanho": 6739456
         }
       ],
       "aviso": "A busca pelo que aparece baixa uma IA (~900 MB) pelo próprio painel, só se você quiser usar.",
-      "aviso_en": "Searching by what shows up downloads an AI (~900 MB) from the panel, only if you want to use it."
+      "aviso_en": "Searching by what shows up downloads an AI (~900 MB) from the panel, only if you want to use it.",
+      "data": "2026-11-06"
+    },
+    {
+      "id": "proxy",
+      "nome": "Proxy san",
+      "versao": "1.0.0",
+      "cor": "#35e0c4",
+      "dados": [
+        "ProxySan"
+      ],
+      "combina": [
+        {
+          "id": "organizador",
+          "porque": "O Peso no preview do Organizador manda as gravações pesadas direto para a fila.",
+          "porque_en": "Organizador's preview weight sends heavy recordings straight to the queue."
+        },
+        {
+          "id": "editor",
+          "porque": "O Preview leve do Edita usa o Proxy san para criar os proxies pela placa.",
+          "porque_en": "Edita's light preview uses Proxy san to make proxies on the GPU."
+        }
+      ],
+      "resumo": "Proxy pela placa de vídeo, várias vezes mais rápido.",
+      "resumo_en": "Proxies on your graphics card, several times faster.",
+      "descricao": "Cria as cópias leves que deixam o preview liso usando a placa de vídeo, no lugar do proxy do VEGAS, que roda no processador. Fila com andamento, para sozinho quando o VEGAS toca, mostra o que está fazendo e ocupa bem menos disco. O render continua saindo do arquivo original.",
+      "descricao_en": "Makes the light copies that keep the preview smooth using your graphics card, instead of VEGAS's proxy that runs on the CPU. A queue with progress that pauses by itself while VEGAS plays, shows what it's doing and takes much less disk space. Renders still use the original file.",
+      "onde": "Exibir › Extensões › Proxy san",
+      "onde_en": "View › Extensions › Proxy san",
+      "atalhos": [
+        [
+          "Criar proxies",
+          "todas as gravações pesadas da timeline"
+        ]
+      ],
+      "atalhos_en": [
+        [
+          "Create proxies",
+          "every heavy recording on the timeline"
+        ]
+      ],
+      "arquivos": [
+        {
+          "caminho": "extensoes/ProxySan.dll",
+          "destino": "ext",
+          "sha256": "FFA0B02F35CA35A51EFAE39DCDD3680FEC389DCAEC3372E7E7CAEF6E5EF70F49",
+          "tamanho": 219136
+        }
+      ],
+      "data": "2026-11-06"
     },
     {
       "id": "notas",
@@ -2034,10 +2100,11 @@
         {
           "caminho": "extensoes/NotasSan.dll",
           "destino": "ext",
-          "sha256": "0AFF9FD445C8FCF4F1F276FE355CE2F4707D82271FB765460B4C921B44B5DA4B",
-          "tamanho": 289792
+          "sha256": "567E919F970264BC5E73B695AC81091D9D5A31030B7B2083DBE9BB58362FC1A1",
+          "tamanho": 356352
         }
-      ]
+      ],
+      "data": "2026-11-06"
     },
     {
       "id": "search",
@@ -2101,10 +2168,11 @@
         {
           "caminho": "extensoes/SearchSan.dll",
           "destino": "ext",
-          "sha256": "13BF11EBB61B812BDFDB931E54D181C15E77F87B83037909CAC75EC1FB2D8938",
-          "tamanho": 358400
+          "sha256": "7A72F679B3B1DF8E1160F0CDE9B78A2B708557075005F39212E6C6446A6BAF00",
+          "tamanho": 404992
         }
-      ]
+      ],
+      "data": "2026-11-06"
     },
     {
       "id": "regua",
@@ -2152,10 +2220,11 @@
         {
           "caminho": "extensoes/ReguaSan.dll",
           "destino": "ext",
-          "sha256": "4C29422BB9D0FA3C75AE38B5E8E1A25B9830A05F1F473A28B87D0A9E67F9EB39",
-          "tamanho": 103936
+          "sha256": "E926AEBBBAA6AF334DF48477A146B2C15F3C7C605E40BFD4536F89AE33BA2333",
+          "tamanho": 124416
         }
-      ]
+      ],
+      "data": "2026-11-06"
     },
     {
       "id": "santools",
@@ -2210,8 +2279,8 @@
         {
           "caminho": "extensoes/SanTools.dll",
           "destino": "ext",
-          "sha256": "DFA0C17CBA79988CCE0E10A9FFE9DD00E10710A783C80B1A321F8705D2C56EE2",
-          "tamanho": 5477376
+          "sha256": "56D23C8003F445902769642DA4BA071CFEEC78B116B23B5D9935AC436B162BCB",
+          "tamanho": 5513216
         },
         {
           "caminho": "santools-ofx/SanTools.ofx.bundle/Contents/Win64/SanTools.ofx",
@@ -2219,7 +2288,8 @@
           "sha256": "A4F278EE34FB83FD078554E1F47006522DD77B2AD12017F818CF831CF8D35249",
           "tamanho": 567296
         }
-      ]
+      ],
+      "data": "2026-11-06"
     },
     {
       "id": "editor",
@@ -2244,6 +2314,11 @@
           "id": "organizador",
           "porque": "SFX, música e transições usados vão para a pasta do projeto.",
           "porque_en": "SFX, music and transitions used go into the project folder."
+        },
+        {
+          "id": "proxy",
+          "porque": "O Preview leve cria os proxies pela placa com o Proxy san.",
+          "porque_en": "Light preview makes proxies on the GPU with Proxy san."
         }
       ],
       "resumo": "Decupagem, cortes da fala, zoom, legendas, SFX e memes sugeridos para você revisar.",
@@ -2294,10 +2369,11 @@
         {
           "caminho": "extensoes/EditorSan.dll",
           "destino": "ext",
-          "sha256": "AB78BDEA07FA2F43F77B8CE2C73BB2F0D1505D1C3ECEECCE4B0700E859138F29",
-          "tamanho": 8590848
+          "sha256": "237FB0A01CF9D76DBD7BA7EF11D75993422B74284D26E5EAD07A275006C1AE05",
+          "tamanho": 8745984
         }
-      ]
+      ],
+      "data": "2026-11-06"
     },
     {
       "id": "volume",
@@ -2349,14 +2425,14 @@
         {
           "caminho": "extensoes/VolumeSanPainel.dll",
           "destino": "ext",
-          "sha256": "5E6DB3667DB44EC88E0CA8C2C9F1CC666ED9BDBCB603FF32DF308D8FDD8215E6",
-          "tamanho": 73728
+          "sha256": "83A5971C1A9706B5148F37499F71A86DB61F6D7E4B83C099CCAAF8DC1D1E5691",
+          "tamanho": 87552
         },
         {
           "caminho": "scripts/Volume san.dll",
           "destino": "script",
-          "sha256": "757645A75936130CB36A09C3A82E332606284894B028A33D1693ADA456BD4F3F",
-          "tamanho": 1494528
+          "sha256": "63C7D920F36CEB71775683500D1D416190F375F93B540794BA15746132968514",
+          "tamanho": 1503232
         },
         {
           "caminho": "scripts/Volume san.png",
@@ -2370,7 +2446,8 @@
           "sha256": "0E274FE27C3E4931C64BBEC2239A107A03CBBC2BCBB4F2DD7BDFC76C7A07CEA3",
           "tamanho": 281
         }
-      ]
+      ],
+      "data": "2026-11-06"
     },
     {
       "id": "motion",
@@ -2429,7 +2506,8 @@
           "sha256": "058AF72A6B4E56606962C0CA1E495FA257670AA7A1B0347D168488F91E5F3658",
           "tamanho": 592384
         }
-      ]
+      ],
+      "data": "2026-11-05"
     },
     {
       "id": "arsenal",
@@ -2506,8 +2584,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "71F9C845AF011AE1A72B21BE0E2DBB7890AB8E4B32D8A3EFE9D2CD8FE904BB0E",
-          "tamanho": 741376
+          "sha256": "F9E6A1860A5356C4D55862FD0642FB1B0690248945E58EA71EE77EB1CAF43CF1",
+          "tamanho": 798720
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -2518,50 +2596,50 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Audio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "FE05DF07005D6DB2F6A8120C52F43F2842EF9BBFA8E77CC728D2E728D183BFC0",
-          "tamanho": 184832
+          "sha256": "D505094170B717D7D6A604902AA15DB3F515D66194124421CBDFB72D3ED8D344",
+          "tamanho": 187904
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cerebro.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "5447C17678FD6D5666D1FFC962DCE0BF732A119882BAF52568CAED5BF89A12C2",
-          "tamanho": 171008
+          "sha256": "10D18E665D6FF50B48921B7BC1BE0BB946FA391C996D262FC1C62DF038409EA2",
+          "tamanho": 174080
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "045EE8889B1A835C443B63FECDEE4F2E14B7440D408FE7380F70D109EF803C93",
-          "tamanho": 450560
+          "sha256": "12AF7D1285F8BBE87AD2F4A6A1ED6CA32199818FB0C71D764CA41B3F05AABF4A",
+          "tamanho": 453120
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Conexoes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "7B7B92F8C6C09969893E73A6B9F99029887148A5EDF0180300AD6382C77405F7",
-          "tamanho": 103424
+          "sha256": "3D47BF044223E9F2CB75B9C4CF87594FF172032B9353BCBA97A73330FB586889",
+          "tamanho": 100352
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "F7E9A934EBF703A72021613E6D7AE7A1AD8A23996BE66CFA703649F02CF79844",
-          "tamanho": 219136
+          "sha256": "2062079B5E326CB793F7E50FE95C478C3FE21CB2D8BE199E74D580C9D6FF8258",
+          "tamanho": 220672
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "28E5BD43E747D0C2F43954883F1C59BBB71D531F43DAA55FDF76415485D42CD7",
-          "tamanho": 1966080
+          "sha256": "945C22CBB82B65EF1911577E77FFF5DBBE2BA7DB268CC8E97E3347766BB8D8AC",
+          "tamanho": 1970176
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "4F9B3A1F816A47A3FD78AC10E44F4A632F431A589F64D1F1C9A72A02E3A5266F",
-          "tamanho": 326656
+          "sha256": "2882C0FA31B86862E2B89C510FC2A07F4CF4BB1F1E84697DA3AABCC73A100706",
+          "tamanho": 330240
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "080CEA9B57DEEC1C650C3FC294B76D645F37C1F9D9D3C8F2ACDCD65C375212B8",
-          "tamanho": 1041408
+          "sha256": "15289C4D8D076850941BB8DD5DC40C42E1D122E31F3EF30EF61CD3609DD925FC",
+          "tamanho": 1044480
         },
         {
           "caminho": "arsenal/Microsoft.Web.WebView2.Core.dll",
@@ -2599,7 +2677,8 @@
           "sha256": "DCF3C4F6024313EEB6F775ED343265D73BE1CE1D5DDE2F92195DBC32310C7FC9",
           "tamanho": 160216
         }
-      ]
+      ],
+      "data": "2026-11-06"
     }
   ],
   "app": {
@@ -2611,8 +2690,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "CB87C8F8CC0DC3B5F04951AB7B1832E664644CB8C3F7C386B9C86C82316DC602",
-        "tamanho": 1915392
+        "sha256": "218812B26EA7658FA698817177878169464FE199F872CCBD3185A65B16F0C5B5",
+        "tamanho": 2053632
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -2622,5 +2701,5 @@
       }
     ]
   },
-  "gerado": "2026-11-05 10:05"
+  "gerado": "2026-11-06 08:10"
 }
