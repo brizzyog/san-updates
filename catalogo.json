@@ -212,11 +212,10 @@
       "itens": [
         "editor",
         "search",
-        "regua",
         "santools"
       ],
-      "descricao": "A decupagem e as sugestões de edição, qualquer efeito num atalho e guias no preview.",
-      "descricao_en": "Rough cut and edit suggestions, any effect one shortcut away and guides on the preview."
+      "descricao": "A decupagem e as sugestões de edição, e qualquer efeito num atalho.",
+      "descricao_en": "Rough cut and edit suggestions, and any effect one shortcut away."
     },
     {
       "id": "finalizar",
@@ -2175,58 +2174,6 @@
       "data": "2026-11-06"
     },
     {
-      "id": "regua",
-      "nome": "Régua san",
-      "versao": "1.0.0",
-      "cor": "#38bdf8",
-      "dados": [
-        "ReguaSan"
-      ],
-      "resumo": "Régua e guias no preview, estilo Photoshop.",
-      "resumo_en": "Photoshop-style rulers and guides on the preview.",
-      "descricao": "Réguas por fora do vídeo, guias que encaixam, medida com Ctrl e as áreas seguras de Shorts, TikTok e Reels prontas. Cada projeto lembra as suas guias.",
-      "descricao_en": "Rulers outside the video, snapping guides, Ctrl to measure and ready-made Shorts, TikTok and Reels safe zones. Each project remembers its guides.",
-      "onde": "Ctrl+Shift+R ou Exibir › Extensões › Régua san",
-      "onde_en": "Ctrl+Shift+R or View › Extensions › Régua san",
-      "atalhos": [
-        [
-          "Puxar da régua",
-          "cria uma guia"
-        ],
-        [
-          "Ctrl + arrastar",
-          "mede"
-        ],
-        [
-          "Botão direito",
-          "menu (prontas, cor, travar)"
-        ]
-      ],
-      "atalhos_en": [
-        [
-          "Drag from the ruler",
-          "creates a guide"
-        ],
-        [
-          "Ctrl + drag",
-          "measures"
-        ],
-        [
-          "Right click",
-          "menu (presets, color, lock)"
-        ]
-      ],
-      "arquivos": [
-        {
-          "caminho": "extensoes/ReguaSan.dll",
-          "destino": "ext",
-          "sha256": "E926AEBBBAA6AF334DF48477A146B2C15F3C7C605E40BFD4536F89AE33BA2333",
-          "tamanho": 124416
-        }
-      ],
-      "data": "2026-11-06"
-    },
-    {
       "id": "santools",
       "nome": "San Tools",
       "versao": "1.0.0",
@@ -2279,7 +2226,7 @@
         {
           "caminho": "extensoes/SanTools.dll",
           "destino": "ext",
-          "sha256": "56D23C8003F445902769642DA4BA071CFEEC78B116B23B5D9935AC436B162BCB",
+          "sha256": "20A00F3CA77B72E21702D58FFCCDA7AC09AF6EB3FCA033B2CC93F4717FC926F7",
           "tamanho": 5513216
         },
         {
@@ -2369,7 +2316,7 @@
         {
           "caminho": "extensoes/EditorSan.dll",
           "destino": "ext",
-          "sha256": "237FB0A01CF9D76DBD7BA7EF11D75993422B74284D26E5EAD07A275006C1AE05",
+          "sha256": "AE9A24C7C2A7B9F5879A45DF047E679AAF02855528DED857DBBD7C92973CCCF7",
           "tamanho": 8745984
         }
       ],
@@ -2690,7 +2637,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "218812B26EA7658FA698817177878169464FE199F872CCBD3185A65B16F0C5B5",
+        "sha256": "06817A42ED2A3F96A22F9ABAA177D471A9FDD931B49F67849B2897B169F9FC06",
         "tamanho": 2053632
       },
       {
@@ -2701,5 +2648,5 @@
       }
     ]
   },
-  "gerado": "2026-11-06 08:10"
+  "gerado": "2026-11-06 11:33"
 }
