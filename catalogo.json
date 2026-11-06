@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-3",
+      "data": "2026-11-06",
+      "titulo": "Arsenal san de cara nova",
+      "titulo_en": "Arsenal san has a new look",
+      "texto": "Tela Início com todas as ferramentas em cartões, menu em gavetas coloridas, busca de ferramenta (Ctrl+K), nível e comemoração quando um arquivo fica pronto. Em Melhorar qualidade: tamanho 1× e zoom na prévia.",
+      "texto_en": "A Home screen with every tool in cards, a colored drawer menu, tool search (Ctrl+K), levels and a celebration when a file is ready. In Enhance quality: 1× size and zoom in the preview."
+    },
+    {
       "id": "proxy-1",
       "data": "2026-11-05",
       "titulo": "Chegou o Proxy san",
@@ -2531,8 +2539,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "F9E6A1860A5356C4D55862FD0642FB1B0690248945E58EA71EE77EB1CAF43CF1",
-          "tamanho": 798720
+          "sha256": "EA0B7531D3D982C1DB1211D6BEB0D9A844F766CC0F4DEDB8C48B436A79E06B4F",
+          "tamanho": 831488
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -2543,49 +2551,49 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Audio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "D505094170B717D7D6A604902AA15DB3F515D66194124421CBDFB72D3ED8D344",
+          "sha256": "E9409A5CAEF38F84FA43CA36BE468285EBF130092278FF821E39E17C838C5D35",
           "tamanho": 187904
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cerebro.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "10D18E665D6FF50B48921B7BC1BE0BB946FA391C996D262FC1C62DF038409EA2",
+          "sha256": "F7E311FF2DA221C3AA49B2E9D764A8682D860A1AC47ADFBFCC723E46E9FBDD92",
           "tamanho": 174080
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "12AF7D1285F8BBE87AD2F4A6A1ED6CA32199818FB0C71D764CA41B3F05AABF4A",
+          "sha256": "BCA9E95031445ADF97834BA83B5A174B799B6F927AF70F82F4E855AF444E6FDE",
           "tamanho": 453120
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Conexoes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "3D47BF044223E9F2CB75B9C4CF87594FF172032B9353BCBA97A73330FB586889",
+          "sha256": "04AA090BC33D3FD6FC98DB38EB81047FF85B6E7325784CA78FD11C889B698DB9",
           "tamanho": 100352
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "2062079B5E326CB793F7E50FE95C478C3FE21CB2D8BE199E74D580C9D6FF8258",
+          "sha256": "26C3B8092B36FBC5B91F6D7799EC25D40FD4230A271484C84BD23E122A91DCB2",
           "tamanho": 220672
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "945C22CBB82B65EF1911577E77FFF5DBBE2BA7DB268CC8E97E3347766BB8D8AC",
+          "sha256": "8D0393C68CF2056F599C856493265D094D8B81663CC6A2FFB4BA627531B22817",
           "tamanho": 1970176
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "2882C0FA31B86862E2B89C510FC2A07F4CF4BB1F1E84697DA3AABCC73A100706",
-          "tamanho": 330240
+          "sha256": "DB01B6E84F7F857B41DBD450FA323C66ADE267F761BF8B0E76A8DDD88207CAC5",
+          "tamanho": 340992
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "15289C4D8D076850941BB8DD5DC40C42E1D122E31F3EF30EF61CD3609DD925FC",
+          "sha256": "46925B85AFC5A138AFCFAB863C06EB69901671FDCD1D0D3F3F00AC86E5024D5E",
           "tamanho": 1044480
         },
         {
@@ -2648,5 +2656,5 @@
       }
     ]
   },
-  "gerado": "2026-11-06 11:33"
+  "gerado": "2026-11-06 11:42"
 }
