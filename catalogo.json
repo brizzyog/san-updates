@@ -435,7 +435,7 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "C0BEFA4C50A08C248198E4E873B478E8442A74B778A035769CBD09DDB4B70B67",
+          "sha256": "D674F146C321A3E5B62C926B61C9E83BB193F8822B1E3D6E9F375989DB1469F1",
           "tamanho": 507904
         },
         {
@@ -2539,8 +2539,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "EA0B7531D3D982C1DB1211D6BEB0D9A844F766CC0F4DEDB8C48B436A79E06B4F",
-          "tamanho": 831488
+          "sha256": "B28338B47540D0B9FE6A80927C19F01782A3A68290687AB129D23AE213CCFB48",
+          "tamanho": 832000
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -2597,6 +2597,12 @@
           "tamanho": 1044480
         },
         {
+          "caminho": "arsenal/ArsenalSan.Mod.VideoIA.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "5C779F6C6702C88721F292FBFCC7EB2DBD5EBF5DAEF646FF9B40B228CC4F563D",
+          "tamanho": 67072
+        },
+        {
           "caminho": "arsenal/Microsoft.Web.WebView2.Core.dll",
           "destino": "local:Programs\\Arsenal san",
           "sha256": "6E7B8869B538417CC361C97A37F7CEEC92DDC8AD84E0585BCF7021DABBF6F985",
@@ -2645,7 +2651,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "06817A42ED2A3F96A22F9ABAA177D471A9FDD931B49F67849B2897B169F9FC06",
+        "sha256": "A7BFCD852F524EECD82BFC03D1285CFF28B2B04BB9C12CA85714FC18106C8C43",
         "tamanho": 2053632
       },
       {
@@ -2656,5 +2662,5 @@
       }
     ]
   },
-  "gerado": "2026-11-06 11:42"
+  "gerado": "2026-11-06 11:58"
 }
