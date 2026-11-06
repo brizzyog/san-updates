@@ -2332,8 +2332,8 @@
         {
           "caminho": "extensoes/EditorSan.dll",
           "destino": "ext",
-          "sha256": "AE9A24C7C2A7B9F5879A45DF047E679AAF02855528DED857DBBD7C92973CCCF7",
-          "tamanho": 8745984
+          "sha256": "876D4BCCE1FB4A560D8C1B7C032C0AEDAD3CD50A00EAA59A89EC66B6D37B6FFF",
+          "tamanho": 8752640
         }
       ],
       "data": "2026-11-06"
