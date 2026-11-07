@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-5",
+      "data": "2026-11-06",
+      "titulo": "Arsenal san: Radar viral e Editar vídeo",
+      "titulo_en": "Arsenal san: Viral radar and Edit video",
+      "texto": "Radar viral com régua, Espião de canais, Caçador e roteiros que vão para o Prompter San. Editar vídeo faz do roteiro ou da gravação ao vídeo pronto, sem VEGAS, com moldes, efeitos e chat. Telas por dentro mais limpas e Vídeo com IA funcionando.",
+      "texto_en": "Viral radar with a ruler, channel Spy, Hunter and scripts that go to Prompter San. Edit video goes from a script or recording to a finished video, without VEGAS, with templates, effects and chat. Cleaner tool screens and Video AI working."
+    },
+    {
       "id": "arsenal-4",
       "data": "2026-11-06",
       "titulo": "Arsenal san: chat de IA e Bilibili rápido",
@@ -2547,7 +2555,7 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "D8A3D1D56ADDA83FC77E7AC562ED5DAB8040DFE6D861E9E41CB0C1252EF046C6",
+          "sha256": "871A736F71C47AF53CCA336C82DA6E25B4DF6724004FE4B5E96E8B639DDDBA29",
           "tamanho": 903168
         },
         {
@@ -2559,7 +2567,7 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Audio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "BA1CA3B6F12A906C8E02C524870E7F11AA5D6E3F3DB6062DA4B6BFFC5F36943E",
+          "sha256": "5214CEC9084A65D0E22844EF6D421DF14DB6A00E196661A5995F5CF100E4B7D9",
           "tamanho": 188416
         },
         {
@@ -2571,13 +2579,13 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cerebro.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "8E61A1D8646C473154985208A39484570CA8036A69C55044BAEDF1D439194CE9",
+          "sha256": "7641434D3685BE0F26E9D660DC9DAD68FF8B22CBF31569E776E6DBEAA44A7180",
           "tamanho": 182272
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "AAEF1188EC42CF51E12CDCC900F97BD0766035C72928570B4AF360B09DF94073",
+          "sha256": "E6D43C974E2DC0AFC6BB67CD06D6945793FB9ABEE48A79B82830A83BCF3B471F",
           "tamanho": 481792
         },
         {
@@ -2587,39 +2595,45 @@
           "tamanho": 100352
         },
         {
+          "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "A0517C71FCFDC50A0C9FB516D22F7CD3BF0DD1FC576E02FA847DC197BA3DE972",
+          "tamanho": 152576
+        },
+        {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "19486F46164961A5D00F71061A6CB76C0EDCBF5BA65F5B8A3A8F9F73F91DBF2D",
+          "sha256": "B4E54C6E54BDDAFEFFD981B0FFCF666DAFA21C1419C30902DE35B6C0DAB1EE33",
           "tamanho": 221696
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "3EF40BE98712C31A59477DC01B785ED880D383FD7798E1CD2C82A0A331A6761B",
+          "sha256": "DFBD5379CEE0337CEB4DEAE15DF5F1CF862BBA72DE9AC04EF57043089357012C",
           "tamanho": 1979392
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "06A0CDB66693404418FA263278B24FAC93A5BA7E2947883ABEF7123003D2185E",
+          "sha256": "22A36AB98A7C77AB96E7386A64C73345741DCAC18DC9CD29657194B78CF6E76A",
           "tamanho": 341504
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "815DC7691834AEAAD3CDAB02BDA7446D05F6E2B4A8053DDE754B4FE3405109B0",
-          "tamanho": 140800
+          "sha256": "01C50BD87AC493CBFCC16C76DF57D513CA9979DC8C8E81CB2A9849E8966BADBC",
+          "tamanho": 216576
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "BE16F5775F222A7B3FE5D0373163B697FA4D7F69AB1CE7B58073CA970113981B",
+          "sha256": "CCB3CF2DA8FD594A76DBFE0EC61C4BC1591DA0F5FEF09CBA6E3A53901E1AE5B0",
           "tamanho": 1045504
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.VideoIA.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "C36839B4E4DAB460A0824E2A1EC9F4C3449B2BA22DD57D3FC297451B89C6CF7E",
+          "sha256": "6DCD6C17010AC811CC1816E521E08FFE97E602426DE149BDAE1397D1ECE9C0E1",
           "tamanho": 70656
         },
         {
@@ -2647,13 +2661,13 @@
           "tamanho": 701992
         },
         {
-          "caminho": "arsenal/runtimes/win-x64/native/WebView2Loader.dll",
+          "caminho": "arsenal/WebView2Loader.dll",
           "destino": "local:Programs\\Arsenal san",
           "sha256": "DCF3C4F6024313EEB6F775ED343265D73BE1CE1D5DDE2F92195DBC32310C7FC9",
           "tamanho": 160216
         },
         {
-          "caminho": "arsenal/WebView2Loader.dll",
+          "caminho": "arsenal/runtimes/win-x64/native/WebView2Loader.dll",
           "destino": "local:Programs\\Arsenal san",
           "sha256": "DCF3C4F6024313EEB6F775ED343265D73BE1CE1D5DDE2F92195DBC32310C7FC9",
           "tamanho": 160216
@@ -2682,5 +2696,5 @@
       }
     ]
   },
-  "gerado": "2026-11-06 22:35"
+  "gerado": "2026-11-06 23:50"
 }
