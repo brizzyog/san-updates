@@ -2603,8 +2603,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "2BFFC5AFEF208B1A08CD8F2EC01DB76EF2D8304D9F6628C84116CFC8646960CA",
-          "tamanho": 310784
+          "sha256": "F51868708314650BBFAD3DAD3F7EC75CCC842BAB9089BCE949F62033184FEDB9",
+          "tamanho": 346624
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
@@ -2714,5 +2714,5 @@
       }
     ]
   },
-  "gerado": "2026-11-07 03:02"
+  "gerado": "2026-11-07 03:15"
 }
