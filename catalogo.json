@@ -3,6 +3,22 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "camera-1",
+      "data": "2026-11-08",
+      "titulo": "Chegou o Câmera san",
+      "titulo_en": "Câmera san is here",
+      "texto": "Uma câmera 3D de verdade para qualquer cena do VEGAS: pan, zoom, órbita e inclinar com parallax entre as camadas, mexendo direto na prévia e com keyframes como no Pan/Crop.",
+      "texto_en": "A real 3D camera for any VEGAS scene: pan, zoom, orbit and tilt with parallax between layers, moving it right on the preview with keyframes like Pan/Crop."
+    },
+    {
+      "id": "edita-pecas-1",
+      "data": "2026-11-08",
+      "titulo": "Peças com IA e Mira do zoom",
+      "titulo_en": "AI pieces and Zoom aim",
+      "texto": "As Peças com IA do Arsenal vão para o VEGAS com um clique, com fundo transparente. No Edita, a Mira do zoom segue o seu rosto, o personagem ou o movimento da tela, e o Mapa mostra tudo antes de aplicar.",
+      "texto_en": "Arsenal's AI pieces go to VEGAS in one click, with a transparent background. In Edita, Zoom aim follows your face, the character or the screen motion, and the Map shows everything before applying."
+    },
+    {
       "id": "arsenal-6",
       "data": "2026-11-07",
       "titulo": "Editar vídeo: levar para o VEGAS e o DaVinci",
@@ -244,7 +260,8 @@
       "itens": [
         "editor",
         "search",
-        "santools"
+        "santools",
+        "camera"
       ],
       "descricao": "A decupagem e as sugestões de edição, e qualquer efeito num atalho.",
       "descricao_en": "Rough cut and edit suggestions, and any effect one shortcut away."
@@ -459,7 +476,7 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "4ED488CBEFAE67AB772A98B1FC5F4CDB3E6177D760A016A2EE0F4FD30692C963",
+          "sha256": "BB7123E82B0A8B1A43A3D74BA49DDDFC4D79E0A2E9B0DA9D0C9AAC54051F8FA9",
           "tamanho": 542208
         },
         {
@@ -2271,6 +2288,57 @@
       "data": "2026-11-08"
     },
     {
+      "id": "camera",
+      "nome": "Câmera san",
+      "versao": "1.0.0",
+      "cor": "#38bdf8",
+      "dados": [
+        "CameraSan"
+      ],
+      "resumo": "Câmera 3D com parallax entre as camadas, mais fácil que Pan/Crop e Track Motion.",
+      "resumo_en": "3D camera with parallax between layers, easier than Pan/Crop and Track Motion.",
+      "descricao": "Uma câmera de verdade para qualquer cena: pan, zoom, órbita, inclinar e girar, com as camadas de perto andando mais que as de longe. Você mexe direto na prévia (arrastar move, rodinha aproxima, botão direito orbita) e põe keyframes como no Pan/Crop. Tem movimentos prontos, Efeito vertigem e Meus movimentos. Funciona com vídeo, imagem e texto, em qualquer resolução, e com camadas que já têm animação. Um Ctrl+Z desfaz.",
+      "descricao_en": "A real camera for any scene: pan, zoom, orbit, tilt and roll, with near layers moving more than far ones. You move it right on the preview (drag moves, wheel zooms, right button orbits) and add keyframes like in Pan/Crop. Ready-made moves, Vertigo effect and My moves. Works with video, images and text at any resolution, and with layers that already have animation. One Ctrl+Z undoes it.",
+      "onde": "Exibir › Extensões › Câmera san",
+      "onde_en": "View › Extensions › Câmera san",
+      "atalhos": [
+        [
+          "M, G, O, A",
+          "Mover, Girar, 3D e Âncora na prévia"
+        ],
+        [
+          "Ctrl+rodinha",
+          "lente"
+        ]
+      ],
+      "atalhos_en": [
+        [
+          "M, G, O, A",
+          "Move, Rotate, 3D and Anchor on the preview"
+        ],
+        [
+          "Ctrl+wheel",
+          "lens"
+        ]
+      ],
+      "combina": [
+        {
+          "id": "santools",
+          "porque": "Cada camada do PSD que o San Tools abre vira um plano com profundidade para a câmera.",
+          "porque_en": "Each PSD layer San Tools opens becomes a plane with depth for the camera."
+        }
+      ],
+      "arquivos": [
+        {
+          "caminho": "extensoes/CameraSan.dll",
+          "destino": "ext",
+          "sha256": "0F7A43CA18BB9851F4312867DF4D55661603200244455229866E17B3AF6A5BDE",
+          "tamanho": 250880
+        }
+      ],
+      "data": "2026-11-08"
+    },
+    {
       "id": "editor",
       "nome": "Edita san",
       "versao": "1.0.0",
@@ -2711,8 +2779,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "C1A3CB35F2929946C4C67E1F7C02153D7FF9D8546EADB3DA4AD259B1B9A1F023",
-        "tamanho": 2089984
+        "sha256": "786A4B746DD23ABD28FC6A5723EC722AD5BB85C0E39E534FA85D8950D9B6DCE9",
+        "tamanho": 2090496
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -2722,5 +2790,5 @@
       }
     ]
   },
-  "gerado": "2026-11-08 08:59"
+  "gerado": "2026-11-08 10:36"
 }
