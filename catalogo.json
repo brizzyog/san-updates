@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "apps-do-pc",
+      "data": "2026-11-08",
+      "titulo": "Apps do PC numa caixa só",
+      "titulo_en": "PC apps in their own box",
+      "texto": "O Arsenal san e o Prompter San ficam juntos na caixa Apps do PC, separados das extensões do VEGAS. O Prompter San agora instala e atualiza pelo San App.",
+      "texto_en": "Arsenal san and Prompter San sit together in the PC apps box, apart from the VEGAS extensions. Prompter San now installs and updates through San App."
+    },
+    {
       "id": "arsenal-organizado",
       "data": "2026-11-08",
       "titulo": "Arsenal e San App mais fáceis",
@@ -279,7 +287,6 @@
         "dropeasy",
         "recorte",
         "upscale",
-        "arsenal",
         "proxy"
       ],
       "descricao": "Meme, vídeo, GIF e som direto na timeline, sem fundo e em HD.",
@@ -508,8 +515,8 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "D81EF1E678BD9A2CA165D61740C23FD5A1B608E101E31208676E6129592F37B6",
-          "tamanho": 588800
+          "sha256": "221D812EC8E03250180A5C3A8DC1701A66BC84D715EA53681C77A68D6201346C",
+          "tamanho": 589312
         },
         {
           "caminho": "motor-recorte/Accessibility.dll",
@@ -2248,8 +2255,8 @@
         {
           "caminho": "extensoes/SearchSan.dll",
           "destino": "ext",
-          "sha256": "4B3B04D03198B8F0DB9FF69BB37D3C9500DA600292B2ECB930B480089A012769",
-          "tamanho": 457216
+          "sha256": "33083E78A8C97BD1EA92CBA03540EAE1AE2F918D07D8D3029B15A5E658B3755C",
+          "tamanho": 461312
         }
       ],
       "data": "2026-11-08"
@@ -2364,8 +2371,8 @@
         {
           "caminho": "extensoes/CameraSan.dll",
           "destino": "ext",
-          "sha256": "002C9DFA7F460E2439302D378DB33E4C416E4E0EA7EC58A06968CEEC987E8ECC",
-          "tamanho": 324608
+          "sha256": "30D96DD9BF8B00D9040E8BE623F9A4C888B32810B000CCA81C7FF7E708D6D36F",
+          "tamanho": 354304
         }
       ],
       "data": "2026-11-08"
@@ -2448,8 +2455,8 @@
         {
           "caminho": "extensoes/EditorSan.dll",
           "destino": "ext",
-          "sha256": "FF624C49062D0AE3A729A4208CE4DCF66B53F02BC902A94978341B6616BA955F",
-          "tamanho": 9330688
+          "sha256": "DD115008E6B6C857DEC775BF9C3DBB56EF799D469FCB1A2D747415EA7FB81E9F",
+          "tamanho": 9337344
         }
       ],
       "data": "2026-11-08"
@@ -2582,11 +2589,11 @@
         {
           "caminho": "motion/MotionSan.ofx.bundle/Contents/Win64/MotionSan.ofx",
           "destino": "ofx",
-          "sha256": "058AF72A6B4E56606962C0CA1E495FA257670AA7A1B0347D168488F91E5F3658",
-          "tamanho": 592384
+          "sha256": "04A45303149403785F39596DAF4F84463873B8926FFBF5D292C2E718EA277318",
+          "tamanho": 596992
         }
       ],
-      "data": "2026-11-05"
+      "data": "2026-11-08"
     },
     {
       "id": "arsenal",
@@ -2663,8 +2670,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "9A242244A219B6BA4BB6FB7F94F676B6E22A98EEFD55A8878C1E31A36ACC95C0",
-          "tamanho": 1124864
+          "sha256": "F972BA85CA7F19244843C61EEE2DD9F13F05820E5150F9806E462564912F1B9F",
+          "tamanho": 1127936
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -2675,8 +2682,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Audio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "0E76F0F89C51CC34F6C277E9DF24D063F2ECE9D05C48A092C1937E1D9CA8BD1E",
-          "tamanho": 205824
+          "sha256": "A9A9F887BC6723C1CE2A0D97E8967FC24F45DE102830BED903DBEBC578DD7E45",
+          "tamanho": 206336
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Canal.dll",
@@ -2687,14 +2694,14 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cerebro.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "80536B61E62C80055DD47006321570F0A6A4FA1893324D5E0FA5F8BF1CAC6724",
-          "tamanho": 199168
+          "sha256": "E5C8519B28AA87D5EB1CD22487EF7795AA4E5EBBF8472E5375A610AD9B0565DF",
+          "tamanho": 200192
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "EA79D638574D80B312D256785832C044EB21CD5880E7C45DBB1EA6CB98809D68",
-          "tamanho": 526336
+          "sha256": "6C1208DB5D16D95AE6EACA74D2B2D8EF795FBF3BEBD43599435AC4F0CBB54CD1",
+          "tamanho": 530432
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Conexoes.dll",
@@ -2711,7 +2718,7 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "591D005A9E954F2562B947441DD8BF833E38AEDF3CFC77687AE3F69FA1EB444E",
+          "sha256": "1671E086A7C527ECE87E3B2E98B636284BC534A1049FAC5F3F589F6A28B76547",
           "tamanho": 862208
         },
         {
@@ -2723,14 +2730,14 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "1E11F30EEDBF7DA5C953FE8B931538298CC0F633A307540A7379179D2DBEF3D5",
-          "tamanho": 1999872
+          "sha256": "A4EDC9DCF726A00D7661AF8CFFAE5F9ECE8B03D28CDB3739A4274E68181CA663",
+          "tamanho": 2000896
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "8DFBE06D5CCCD47E5763AFBE65A496CF186E943FD1D2B10F7605F2D634378775",
-          "tamanho": 344576
+          "sha256": "1318024CD3CAE660FE8C529FA3F104CAE831A0E37A0C7934DF9341555AE7FE21",
+          "tamanho": 345600
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
@@ -2747,14 +2754,14 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "5D9976D29E4CF762E1B046B8968F21F74C274A5F7FC4EC141FE3A2D199D5D724",
-          "tamanho": 359936
+          "sha256": "7DD3CC18609161384D63684727E6CC544D8804979F7FB710A16F41F8315D4763",
+          "tamanho": 360448
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "A56ED0F2BFC697CABDFC63DDF2DF954A1851583FFCA37A22C2FB8D8BD391FC1F",
-          "tamanho": 1062400
+          "sha256": "1AFBD65B72717975B323AF57FBA3C323D8603B7F62113F71299B9DAAEB585A8C",
+          "tamanho": 1063424
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.VideoIA.dll",
@@ -2800,6 +2807,45 @@
         }
       ],
       "data": "2026-11-08"
+    },
+    {
+      "id": "prompter",
+      "nome": "Prompter San",
+      "versao": "2.0.0",
+      "tipo": "app",
+      "cor": "#ff5a1f",
+      "dados": [
+        "Prompter San"
+      ],
+      "resumo": "Roteiros em blocos e teleprompter para gravar sem decorar.",
+      "resumo_en": "Block scripts and a teleprompter to record without memorizing.",
+      "descricao": "Escreva o roteiro em blocos (gancho, partes, chamada) e grave lendo no teleprompter, que rola sozinho no seu ritmo. Recebe roteiros prontos do Radar do Arsenal san (Roteiro › Mandar para o Prompter). Os roteiros ficam em Documentos\\Prompter San; as configurações, na Data san.",
+      "descricao_en": "Write the script in blocks (hook, parts, call to action) and record while reading the teleprompter, which scrolls at your pace. Receives ready scripts from Arsenal san's Radar (Script › Send to Prompter). Scripts live in Documents\\Prompter San; settings in Data san.",
+      "onde": "Menu Iniciar › Prompter San (e atalho na Área de Trabalho)",
+      "onde_en": "Start menu › Prompter San (and a Desktop shortcut)",
+      "combina": [
+        {
+          "id": "arsenal",
+          "porque": "O Radar do Arsenal escreve o roteiro e manda direto para o Prompter.",
+          "porque_en": "Arsenal's Radar writes the script and sends it straight to Prompter."
+        }
+      ],
+      "abrir": "prompter/Prompter San.exe",
+      "arquivos": [
+        {
+          "caminho": "prompter/Prompter San.exe",
+          "destino": "local:Programs\\Prompter San",
+          "sha256": "C8F0E2F135528F677C31223C89F3BDFE55838B8E1AA1FEFD4F3C36FCB14F72D3",
+          "tamanho": 1704448
+        },
+        {
+          "caminho": "prompter/Prompter San.exe.config",
+          "destino": "local:Programs\\Prompter San",
+          "sha256": "051099983B896673909E01A1F631B6652ABB88DA95C9F06F3EFEF4BE033091FA",
+          "tamanho": 174
+        }
+      ],
+      "data": "2026-11-08"
     }
   ],
   "app": {
@@ -2811,8 +2857,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "173CEC66918E341799512AE3DF7778E7DA7275212933AAC4F4A7D86CA104CFEB",
-        "tamanho": 2523648
+        "sha256": "F25CC92BA6D62A52B6994194BF6482F974F15B5E7917AF55BBD4AB6DC1F4C444",
+        "tamanho": 2525696
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -2822,5 +2868,5 @@
       }
     ]
   },
-  "gerado": "2026-11-08 18:41"
+  "gerado": "2026-11-08 19:36"
 }
