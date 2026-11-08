@@ -515,7 +515,7 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "6A969D4B19C56E1713218FD4961A3B2B6197BAABC7772CE2B8F5293F830D2176",
+          "sha256": "9E8BC070CF15356BCB9CD0235F72245882EC83EF2B75606EB790EA8BA82D2E02",
           "tamanho": 577024
         },
         {
@@ -2371,7 +2371,7 @@
         {
           "caminho": "extensoes/CameraSan.dll",
           "destino": "ext",
-          "sha256": "16907DA3DB74D9082B9E9E082EEF07B0C32BA4CAEFBFF2C43F485FF76256499C",
+          "sha256": "622933EEDBD239DA53148A4106AA79CAF7E3061E59AEF01B99E455631715DC95",
           "tamanho": 357376
         }
       ],
@@ -2857,7 +2857,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "7C925DF8056EA31BD3AA8F1D360FA7C5F3ED66E6238DA1C61DD4C5502A8F3FF3",
+        "sha256": "B1CF692CB76640433A81BD8F8B1419794243AAF8D2A9024588B4277A99D5D1CC",
         "tamanho": 2525696
       },
       {
@@ -2868,5 +2868,5 @@
       }
     ]
   },
-  "gerado": "2026-11-08 20:04"
+  "gerado": "2026-11-08 20:51"
 }
