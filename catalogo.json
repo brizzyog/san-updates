@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "tarde-08-11",
+      "data": "2026-11-08",
+      "titulo": "San App novo, barra rápida no Search e várias melhorias",
+      "titulo_en": "New San App, Search quick bar and many improvements",
+      "texto": "San App em galeria, com o modo por etapa e o aviso Esperando o VEGAS fechar. Search com barra rápida de 9 vagas. DropEasy com filtro de Shorts, Parar e volume nos sons e zoom com arrastar. Notas: tempo digitado vira link. San Tools: a rotação não some mais e o atalho é o do VEGAS. Recorte baixa o próprio motor. Arsenal: componentes com Localizar. Organizador acha a pasta Vídeos em qualquer disco. Telas mais arrumadas em qualquer tamanho.",
+      "texto_en": "San App as a gallery, with the by-stage mode and the Waiting for VEGAS to close notice. Search with a 9-slot quick bar. DropEasy with a Shorts filter, Stop and volume on sounds and drag-to-pan zoom. Notas: typed times become links. San Tools: rotation no longer gets lost and the shortcut is the VEGAS one. Recorte downloads its own engine. Arsenal: components with Locate. Organizador finds the Videos folder on any drive. Tidier screens at any size."
+    },
+    {
       "id": "elementos-1",
       "data": "2026-11-08",
       "titulo": "Elementos do plano, janelas grandes e ícones laranja",
@@ -352,8 +360,8 @@
         {
           "caminho": "extensoes/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "385D8E2BE7F30B3F62DD8068F922419C2EDE00360FE08FB5E2D641CCAEF6ED9F",
-          "tamanho": 754688
+          "sha256": "29187B434D2D1528866E825D593A06705CE4E736F3214FFBC5D22E7288389148",
+          "tamanho": 783360
         }
       ],
       "data": "2026-11-08"
@@ -418,8 +426,8 @@
         {
           "caminho": "extensoes/UpscaleSan.dll",
           "destino": "ext",
-          "sha256": "0A9522E5986DDCEBD0DE36980517EECBBC786BCA1F317A351E1A015A98CD6E82",
-          "tamanho": 491520
+          "sha256": "46C9F2209E38C726C330B6910B3E09E1831A94E72EC1CA2D9110A81856D689DD",
+          "tamanho": 492544
         }
       ],
       "data": "2026-11-08"
@@ -484,8 +492,8 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "6B95259752BB76DEAA7BD556EC2A5FFABAF50C9A21A8B11A7A1B15259A02B1DF",
-          "tamanho": 566272
+          "sha256": "2E05B319EFC7DC173323E8DCDFED2A5C02227A6FD387B387466E5E7064EF0063",
+          "tamanho": 584704
         },
         {
           "caminho": "motor-recorte/Accessibility.dll",
@@ -790,13 +798,13 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "8FBB021F815E970B82D8BA1B832B91962E7C289ED0F0955B3F5A40435EA8DF1E",
+          "sha256": "6558BEBAFE19AACAEE99A91923A298939B220C3D54DB45F8F05DE9C38A34EA70",
           "tamanho": 105984
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "50D297BA1A32EFC76A28F0E43133B04B7BB25278D976E3596AD7BFF15605575A",
+          "sha256": "42735F50FDE6D98B9A2A9919A9466FBFD2E3AB4547C538A0A250DF0466300ECD",
           "tamanho": 151552
         },
         {
@@ -2055,8 +2063,8 @@
         {
           "caminho": "extensoes/OrganizadorSan.dll",
           "destino": "ext",
-          "sha256": "067020102402CE5FE679F19D8FD8DA17D55BE49C7777442ADF50322E0E3B4135",
-          "tamanho": 6772736
+          "sha256": "246B5B73DE08FD4F016D0AE087AC01ECDD55CFC4751BE81F1032FB55E01B4E07",
+          "tamanho": 6782464
         }
       ],
       "aviso": "A busca pelo que aparece baixa uma IA (~900 MB) pelo próprio painel, só se você quiser usar.",
@@ -2105,7 +2113,7 @@
         {
           "caminho": "extensoes/ProxySan.dll",
           "destino": "ext",
-          "sha256": "99423EC1B3A45F8C4C917AA10B45A9890FDBC97074B87E764DD87BB56945A7C1",
+          "sha256": "1945F3C37488CF5E2EA50DD034369D6A99A4A168BE1714606C9D5CE8A92C8C96",
           "tamanho": 250368
         }
       ],
@@ -2156,8 +2164,8 @@
         {
           "caminho": "extensoes/NotasSan.dll",
           "destino": "ext",
-          "sha256": "EA28693FED984582C5F5A345A430819DCD0449ED0BF77CB53250FFDE842959AD",
-          "tamanho": 387584
+          "sha256": "976491F89504EEE6CF123F1601642D871A326424E472003E7726583620E9A619",
+          "tamanho": 393216
         }
       ],
       "data": "2026-11-08"
@@ -2224,8 +2232,8 @@
         {
           "caminho": "extensoes/SearchSan.dll",
           "destino": "ext",
-          "sha256": "39E9992D7152D079D90D49BD829FADBE4A0236938AEE703898FAB3EFE39234FA",
-          "tamanho": 434688
+          "sha256": "6591B20FEA03F5FA4F5744C67F12292A769F3473107AEEA684E74A1B3F1BFC29",
+          "tamanho": 454656
         }
       ],
       "data": "2026-11-08"
@@ -2242,12 +2250,12 @@
       "resumo_en": "Shake, beat, PSD, layer styles, speed ramp, stick meme, text behind, color and Light mode, live on the preview.",
       "descricao": "Uma janela rápida com as ferramentas do evento selecionado. Tremer: câmera na mão, impacto ou terremoto no quadro, e wiggle em qualquer parâmetro de efeito. Ritmo: acha as batidas, os compassos e o drop da música, põe marcadores, monta os clipes na batida e faz pulsar. PSD: cada camada do arquivo do Photoshop vira uma track, com entrada em cascata e paralaxe. Tudo aparece ao vivo no preview: Enter confirma (um Ctrl+Z desfaz) e Esc devolve como estava. Estilos: contorno, sombra e brilho de fora e de dentro em PNG e recortes com fundo transparente (efeito \"Estilos san\" em Video FX › Slayer san). Para instalar o efeito, o Windows pede permissão de administrador. Cor: correção automática de filmagem ou jogo com estilos Natural, Vivo, Cinema e Leve (efeito \"Cor san\"). Também tem Rampa de velocidade, Grudar meme no personagem, Texto atrás do personagem (com o Recorte san) e o Modo leve, que desliga os efeitos pesados enquanto você edita e liga de volta no render.",
       "descricao_en": "A quick window with tools for the selected event. Shake: handheld, impact or earthquake on the frame, plus wiggle on any effect parameter. Beat: finds the beats, bars and drop of the music, adds markers, cuts clips to the beat and makes things pulse. PSD: each Photoshop layer becomes a track, with cascading entrance and parallax. Everything shows live on the preview: Enter confirms (one Ctrl+Z undoes it) and Esc puts it back. Styles: stroke, drop shadow and outer/inner glow on PNGs and cutouts with a transparent background (\"Estilos san\" effect in Video FX › Slayer san). Installing the effect asks for administrator permission. Color: automatic correction for footage or games with Natural, Vivid, Cinema and Light looks (\"Cor san\" effect). Also Speed ramp, Stick a meme to a character, Text behind the character (with Recorte san) and Light mode, which turns heavy effects off while you edit and back on for the render.",
-      "onde": "Exibir › San Tools, ou Ctrl+Shift+Espaço",
-      "onde_en": "View › San Tools, or Ctrl+Shift+Space",
+      "onde": "Exibir › San Tools, ou a tecla que você der em Opções › Personalizar teclado (SanTools.Show)",
+      "onde_en": "View › San Tools, or the key you set in Options › Customize Keyboard (SanTools.Show)",
       "atalhos": [
         [
-          "Ctrl+Shift+Espaço",
-          "abre a janela com o evento selecionado"
+          "A sua tecla",
+          "abre a janela com o evento selecionado (escolha em Opções › Personalizar teclado › SanTools.Show)"
         ],
         [
           "Enter",
@@ -2260,8 +2268,8 @@
       ],
       "atalhos_en": [
         [
-          "Ctrl+Shift+Space",
-          "opens the window for the selected event"
+          "Your key",
+          "opens the window for the selected event (pick it in Options › Customize Keyboard › SanTools.Show)"
         ],
         [
           "Enter",
@@ -2283,8 +2291,8 @@
         {
           "caminho": "extensoes/SanTools.dll",
           "destino": "ext",
-          "sha256": "F60F288501E1212B73210204704AA8C9D890F6FE765D3910A7058285E39D49A1",
-          "tamanho": 5544960
+          "sha256": "0359B797D8ED0E81463B3BB7BA61D07F4BF932D43DD467C33585C19466C6390C",
+          "tamanho": 5556224
         },
         {
           "caminho": "santools-ofx/SanTools.ofx.bundle/Contents/Win64/SanTools.ofx",
@@ -2340,8 +2348,8 @@
         {
           "caminho": "extensoes/CameraSan.dll",
           "destino": "ext",
-          "sha256": "F10983C3F7FCBBDCDFD5376C199C50994BAF267B799B691F21232B938C5F611F",
-          "tamanho": 293888
+          "sha256": "174C0A094C331352B151176CCD0F161C08FFC5F70561A5C889683198031394CE",
+          "tamanho": 322048
         }
       ],
       "data": "2026-11-08"
@@ -2424,8 +2432,8 @@
         {
           "caminho": "extensoes/EditorSan.dll",
           "destino": "ext",
-          "sha256": "784BAD64A38A71840569D2547C7EDF7BF3F0E2BA4DE28DFCC2B7ABF10A44CD4E",
-          "tamanho": 9327104
+          "sha256": "168683D7E8272177766B3BB0A42782A280E3EAC251293F74394E4DFF004A855C",
+          "tamanho": 9328128
         }
       ],
       "data": "2026-11-08"
@@ -2480,13 +2488,13 @@
         {
           "caminho": "extensoes/VolumeSanPainel.dll",
           "destino": "ext",
-          "sha256": "994FFD46BDBAF828F590DAC5351AD0B6E4CE331F8A565A561A7417687DFDD0A6",
+          "sha256": "358733448AA4EDF96FE483384F7972EFED2508E431B084D308E726E6543F02B7",
           "tamanho": 102912
         },
         {
           "caminho": "scripts/Volume san.dll",
           "destino": "script",
-          "sha256": "1BE45D3DC41A66ECA404EF511E6E02BFCDB9AA54B2F7B57779C3F120FC125710",
+          "sha256": "03B96E861E0C3D754F7F848B595B9F5C664F520B240993AC519D37DE71A9BEA0",
           "tamanho": 1518592
         },
         {
@@ -2639,8 +2647,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "BCDD1BF66F356EDFDCD8828483C9DECFC321AF7540EBE0F39B67C34B1DD8745E",
-          "tamanho": 1062912
+          "sha256": "F768A5EEBD82BD6071474B7699C31E5C0742998E44D8005BE993EE935685825E",
+          "tamanho": 1114112
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -2651,91 +2659,91 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Audio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "0A71C074D0603B2AB4FFD9900DC179D37245B35B8315E68E4CF14EEC2F895B59",
+          "sha256": "176BAE225962BD5A527A04F7A9E9232ED9E40D7B7877F31F5994E9A4BB8A6005",
           "tamanho": 203264
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Canal.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "B6F577E8F4D482714EC3F8BEC00EF3E33C9A27A94E1567F3CF766BD20D6B0456",
+          "sha256": "9C0B292561A3B2A8741EDF786A5FD5A2DB7BC145890147742707BFDE7398D70C",
           "tamanho": 384000
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cerebro.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "FB5086E5DF483297E9729C9B2F98FC36660D5E099E433D9DD952A385BCEC921C",
+          "sha256": "6697BE15934D4D811CF47CC62A42F8CBA996D9082A425F443F038B92B3EE3D94",
           "tamanho": 196608
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "481D946BCE7C05DE0D47294372B6037122D101D111F985CF37651F56E109B291",
+          "sha256": "74D228C756034A028902AFA4CAB0BE2BD75520A8B406DF365152FD0296217CAC",
           "tamanho": 523776
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Conexoes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "6D9A5B77CF3500F4ECA78ECDACF8D7D03BC32F8D13CE8A9C597C43271AD82E2A",
+          "sha256": "B8304EFAA0D7C353FD60780345A32DA52E575782F3C71E0FB544D6024EF4726F",
           "tamanho": 115200
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cortes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "432695C64FF9CFAE9998DCD1CA3A06F6FFC92D94C7E397A445EA67A5B954DC48",
+          "sha256": "AECD8704A9FCACE42C82C95C927B2D075B4E1A57124DCFC2F13D3F4A6EB4B60C",
           "tamanho": 113152
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "6725EAAF04D8212A451AB97081717928774BE082B66BE9188C3647D19A31E4E6",
+          "sha256": "F1F7036E1D51547D34A4C95D7BDBD60B90D99EE364EF4B4B36B364353E4B76C0",
           "tamanho": 857600
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "17A4BEB953E855DDEAFF26A0E6140FAE03289FBF535EC0A544CADEA99DB334D1",
+          "sha256": "86A37974E766440C02339BB81A138C4A24A559642C79E7E634EFF140299A25B5",
           "tamanho": 241152
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "B1F90B525E58B76E9E712F0AF34447EC969AE0D8464F67752A1B3B2EF6D7D3AB",
+          "sha256": "CC4C4280C01527A3921FD44061E621D84D07AD0254E9BEC8709551EB2CC1B197",
           "tamanho": 1997312
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "230FC2E23A9C20AAA16DBAE2E32EA741A4DDD2E92D843170F647A09FDE2D2883",
+          "sha256": "96191204B23ECC1E449754641ADBAD3039A5DC06800E459A4E9FF8CD2EE647B3",
           "tamanho": 341504
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "9E751DF449ADC85AB0C50E355D5E45A38181AE51650896C5F6DCA7EB5E9D4EBE",
+          "sha256": "A57919B30A36756DFB0A85E91D07E65135253929BB801301B29B58B95B1B95CF",
           "tamanho": 433664
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "788B57339866DE3AB67E9D98DED15E0355A47AD769CF67564B6528075EA4097A",
+          "sha256": "C4D89255D27E156FFBFE46F712B86755426125FA2E53BE95E9AD892BD32EE1CF",
           "tamanho": 240640
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "3A01848823E4607BD51A6C88B229F0AAD40590436C9727B1D8865D4C4FA7CB66",
+          "sha256": "36A4329C0D28782D3B7BDF1505D20ABB83862D02E786D10FD5C756AAF7BED9A4",
           "tamanho": 357376
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "761E9C3A04902115140BA20FE3249BE43B37CBEC565FF81FF7465C3CF7C70372",
+          "sha256": "EA02A4E11D2EA30CF846E371FA0579806E61D4B1ADF5D511DED7076E37ADA5E8",
           "tamanho": 1059840
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.VideoIA.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "5A045CAD84837C5547C062547D72F1453618307FB9E35DC0CD80B43D587FAEF2",
+          "sha256": "8C3B76943712255AE97D2A87AB4E60BC58CC251E6C0457D8224CA7767555C87F",
           "tamanho": 85504
         },
         {
@@ -2787,8 +2795,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "0FA6A2AF791EEA3077242A16A7E8486B9F76BE0C9C4D919C9DABB02C05EA07F1",
-        "tamanho": 2090496
+        "sha256": "BE94708FCBBB236DF54AE7E1B20AE4CE07E67A8D39F46F25793B86C61954B24E",
+        "tamanho": 2198016
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -2798,5 +2806,5 @@
       }
     ]
   },
-  "gerado": "2026-11-08 14:09"
+  "gerado": "2026-11-08 16:41"
 }
