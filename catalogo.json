@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "elementos-1",
+      "data": "2026-11-08",
+      "titulo": "Elementos do plano, janelas grandes e ícones laranja",
+      "titulo_en": "Plan elements, big windows and orange icons",
+      "texto": "O Edita cria 11 tipos de elemento pela sua fala (letreiro, nome na tela, citação, contador, gráfico, lista, checklist, ranking, VS, linha do tempo, prós e contras) com o botão Criar os elementos do plano. Recorte e Câmera ganharam janela grande, o DropEasy deixa você arrastar as abas na ordem que quiser e todos os ícones ficaram laranja.",
+      "texto_en": "Edita creates 11 kinds of element from your speech (title, name on screen, quote, counter, chart, list, checklist, ranking, VS, timeline, pros and cons) with the Create the plan elements button. Recorte and Câmera got a big window, DropEasy lets you drag the tabs into any order and every icon is now orange."
+    },
+    {
       "id": "camera-1",
       "data": "2026-11-08",
       "titulo": "Chegou o Câmera san",
@@ -344,8 +352,8 @@
         {
           "caminho": "extensoes/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "CF7580F6106E98E200DC7F6E25EB7879F2342373BDAB66F8FB9188911801FA78",
-          "tamanho": 745984
+          "sha256": "385D8E2BE7F30B3F62DD8068F922419C2EDE00360FE08FB5E2D641CCAEF6ED9F",
+          "tamanho": 754688
         }
       ],
       "data": "2026-11-08"
@@ -410,7 +418,7 @@
         {
           "caminho": "extensoes/UpscaleSan.dll",
           "destino": "ext",
-          "sha256": "08362B03D3D91A505B53FE6C331A643139747EA48BCD8B5A78460DED3CB725B0",
+          "sha256": "0A9522E5986DDCEBD0DE36980517EECBBC786BCA1F317A351E1A015A98CD6E82",
           "tamanho": 491520
         }
       ],
@@ -476,8 +484,8 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "1B6D08AECE9A679E4749188DFB6C2BB2F8D42027D81D469D1EE6A52C39EF3226",
-          "tamanho": 542208
+          "sha256": "6B95259752BB76DEAA7BD556EC2A5FFABAF50C9A21A8B11A7A1B15259A02B1DF",
+          "tamanho": 566272
         },
         {
           "caminho": "motor-recorte/Accessibility.dll",
@@ -782,13 +790,13 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "0783738C8734ABDE00766137635DB2682B353F80FF55401A4CCF4C9747262DBF",
+          "sha256": "8FBB021F815E970B82D8BA1B832B91962E7C289ED0F0955B3F5A40435EA8DF1E",
           "tamanho": 105984
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "5AB806F7A216F434BA918EA2F7D0E65386CE2ABB9940FB091DF85ED724437454",
+          "sha256": "50D297BA1A32EFC76A28F0E43133B04B7BB25278D976E3596AD7BFF15605575A",
           "tamanho": 151552
         },
         {
@@ -2275,7 +2283,7 @@
         {
           "caminho": "extensoes/SanTools.dll",
           "destino": "ext",
-          "sha256": "E95A80C67194C73060EE8C51A32B0EA0C9B3AE6204895B75F391EA4424A06DFF",
+          "sha256": "F60F288501E1212B73210204704AA8C9D890F6FE765D3910A7058285E39D49A1",
           "tamanho": 5544960
         },
         {
@@ -2332,8 +2340,8 @@
         {
           "caminho": "extensoes/CameraSan.dll",
           "destino": "ext",
-          "sha256": "0F7A43CA18BB9851F4312867DF4D55661603200244455229866E17B3AF6A5BDE",
-          "tamanho": 250880
+          "sha256": "F10983C3F7FCBBDCDFD5376C199C50994BAF267B799B691F21232B938C5F611F",
+          "tamanho": 293888
         }
       ],
       "data": "2026-11-08"
@@ -2416,8 +2424,8 @@
         {
           "caminho": "extensoes/EditorSan.dll",
           "destino": "ext",
-          "sha256": "CFE37632A7E31DD1F7BDAF3E29D9BD1C2484E5B5ECA29DB120C984B9CF46D022",
-          "tamanho": 9277952
+          "sha256": "784BAD64A38A71840569D2547C7EDF7BF3F0E2BA4DE28DFCC2B7ABF10A44CD4E",
+          "tamanho": 9327104
         }
       ],
       "data": "2026-11-08"
@@ -2472,26 +2480,26 @@
         {
           "caminho": "extensoes/VolumeSanPainel.dll",
           "destino": "ext",
-          "sha256": "74ECC3B5604AF2530826FDE6C77FE6D27B5683D5E0600F25002E7E744F6B6765",
+          "sha256": "994FFD46BDBAF828F590DAC5351AD0B6E4CE331F8A565A561A7417687DFDD0A6",
           "tamanho": 102912
         },
         {
           "caminho": "scripts/Volume san.dll",
           "destino": "script",
-          "sha256": "40F31CB89CBA8C98450C4E8B9C99524649BC93C870689E7A5574E7C6691541A5",
-          "tamanho": 1518080
+          "sha256": "1BE45D3DC41A66ECA404EF511E6E02BFCDB9AA54B2F7B57779C3F120FC125710",
+          "tamanho": 1518592
         },
         {
           "caminho": "scripts/Volume san.png",
           "destino": "script",
-          "sha256": "8C05DB6CE8702E33002417F3053968E7F01322BFB14CD4476BE256FEEB403916",
-          "tamanho": 256
+          "sha256": "C4DC284B5BCD591B93FD12970E5A51E2A6EAAFCA68773999485D34B886BA478D",
+          "tamanho": 647
         },
         {
           "caminho": "scripts/Volume san32.png",
           "destino": "script",
-          "sha256": "0E274FE27C3E4931C64BBEC2239A107A03CBBC2BCBB4F2DD7BDFC76C7A07CEA3",
-          "tamanho": 281
+          "sha256": "80A1FA278D700ED12C2BB4E6ABCADB928A19D5EF53352B151437C6D127F37967",
+          "tamanho": 1048
         }
       ],
       "data": "2026-11-08"
@@ -2779,7 +2787,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "CFB40CE2E39AFD08D2567275704BA6BB9BADED180DC98B766FC4F23FE6FE5860",
+        "sha256": "0FA6A2AF791EEA3077242A16A7E8486B9F76BE0C9C4D919C9DABB02C05EA07F1",
         "tamanho": 2090496
       },
       {
@@ -2790,5 +2798,5 @@
       }
     ]
   },
-  "gerado": "2026-11-08 11:50"
+  "gerado": "2026-11-08 14:09"
 }
