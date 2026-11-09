@@ -555,7 +555,7 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "8E45415C799D8C3007ED60E9C82D6948CA76B54DE00B5AE5F3C184070927FBA3",
+          "sha256": "27517B5D945F085819F1B9CE4DD919431A8F2129F746C75B2FBB0C7B530FF68F",
           "tamanho": 579584
         },
         {
@@ -2710,8 +2710,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "D9344BE31464B9449C78BDF408E2470A4EDA52B7082912BB1A4F31345A5EB1A6",
-          "tamanho": 1119744
+          "sha256": "A0ADC23E2DDD75B6E33BEB313AF4D5CB780F1552FB93DF92B6337865DC1E48F6",
+          "tamanho": 1121280
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -2903,8 +2903,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "9D3EA8A3A373562F5CE8BB06ED17FC786A3348BFBA61B2A174D421416EF9EA2F",
-        "tamanho": 2556416
+        "sha256": "2436D6075A67F90C41ED19E4DFD28D44621EC0F86EF42682CA778D187FA7F3C3",
+        "tamanho": 2571776
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -2914,5 +2914,5 @@
       }
     ]
   },
-  "gerado": "2026-11-09 12:46"
+  "gerado": "2026-11-09 12:54"
 }
