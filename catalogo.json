@@ -3,12 +3,12 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
-      "id": "camera-beta",
+      "id": "camera-ambiente",
       "data": "2026-11-09",
-      "titulo": "Câmera san Beta: Ambiente 3D",
-      "titulo_en": "Câmera san Beta: 3D Environment",
-      "texto": "Uma versão de teste da Câmera san, separada da normal: gire um olho livre em volta da cena para ver as camadas e a câmera de qualquer ângulo, como no After Effects. Novo: o texto do VEGAS aparece do tamanho certo, a miniatura da câmera muda de tamanho pelos cantos (a rodinha nela aproxima), o Ambiente 3D abre primeiro e a profundidade de campo pode ser automática, focando no que a câmera está olhando.",
-      "texto_en": "A test version of Câmera san, separate from the regular one: orbit a free eye around the scene to see the layers and the camera from any angle, like in After Effects. New: VEGAS text shows at the right size, the camera thumbnail resizes from its corners (the wheel on it zooms), the 3D Environment opens first and depth of field can be automatic, focusing on what the camera looks at."
+      "titulo": "Câmera san nova, com Ambiente 3D",
+      "titulo_en": "New Câmera san with a 3D Environment",
+      "texto": "A Câmera san agora tem o Ambiente 3D: um olho livre que gira em volta da cena para ver as camadas e a câmera de qualquer ângulo. A antiga Câmera san Beta virou a principal; se você instalou a Beta, o San App mostra ela como aposentada para remover.",
+      "texto_en": "Câmera san now has the 3D Environment: a free eye that orbits the scene to see the layers and the camera from any angle. The old Câmera san Beta became the main one; if you installed the Beta, San App shows it as retired so you can remove it."
     },
     {
       "id": "arsenal-lote-zoom",
@@ -340,8 +340,7 @@
         "editor",
         "search",
         "santools",
-        "camera",
-        "camerabeta"
+        "camera"
       ],
       "descricao": "A decupagem e as sugestões de edição, e qualquer efeito num atalho.",
       "descricao_en": "Rough cut and edit suggestions, and any effect one shortcut away."
@@ -556,7 +555,7 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "FA2A0659766A0992C4B569167BA28A23D577C2631593FADE39351C585D6AFA0C",
+          "sha256": "60A16B9FBC1BD138F7218A35FB2318F5915430DD8A851DA17D1CBF7CD65D42D0",
           "tamanho": 579584
         },
         {
@@ -2375,8 +2374,8 @@
       "dados": [
         "CameraSan"
       ],
-      "resumo": "Câmera 3D com parallax entre as camadas, mais fácil que Pan/Crop e Track Motion.",
-      "resumo_en": "3D camera with parallax between layers, easier than Pan/Crop and Track Motion.",
+      "resumo": "Câmera 3D com parallax e Ambiente 3D: veja a cena de qualquer ângulo, como no After Effects.",
+      "resumo_en": "3D camera with parallax and a 3D Environment: see the scene from any angle, like in After Effects.",
       "descricao": "Uma câmera de verdade para qualquer cena: pan, zoom, órbita, inclinar e girar, com as camadas de perto andando mais que as de longe. Você mexe direto na prévia (arrastar move, rodinha aproxima, botão direito orbita) e põe keyframes como no Pan/Crop. Tem movimentos prontos, Efeito vertigem e Meus movimentos. Funciona com vídeo, imagem e texto, em qualquer resolução, e com camadas que já têm animação. Um Ctrl+Z desfaz.",
       "descricao_en": "A real camera for any scene: pan, zoom, orbit, tilt and roll, with near layers moving more than far ones. You move it right on the preview (drag moves, wheel zooms, right button orbits) and add keyframes like in Pan/Crop. Ready-made moves, Vertigo effect and My moves. Works with video, images and text at any resolution, and with layers that already have animation. One Ctrl+Z undoes it.",
       "onde": "Exibir › Extensões › Câmera san",
@@ -2412,67 +2411,7 @@
         {
           "caminho": "extensoes/CameraSan.dll",
           "destino": "ext",
-          "sha256": "FE08B8B37FC52A89F98A4FE1E0B915ECC28740FB550F132CFC83843163E244A9",
-          "tamanho": 425472
-        }
-      ],
-      "data": "2026-11-09"
-    },
-    {
-      "id": "camerabeta",
-      "nome": "Câmera san Beta",
-      "versao": "1.0.0",
-      "beta": true,
-      "cor": "#22d3ee",
-      "dados": [
-        "CameraSanBeta"
-      ],
-      "resumo": "A Câmera san com o Ambiente 3D: olhe a cena de qualquer ângulo, separado da câmera, como no After Effects.",
-      "resumo_en": "Câmera san with a 3D Environment: look at the scene from any angle, apart from the camera, like in After Effects.",
-      "descricao": "Versão de teste, separada da Câmera san normal (as duas convivem). Além de tudo da Câmera san, tem o Ambiente 3D: um olho livre que gira em volta da cena para ver onde cada camada e a câmera estão, com as visões Câmera, Ambiente 3D e Os dois lado a lado. A câmera vira um objeto que você move e mira. O olho nunca muda o projeto; só a câmera vai para o VEGAS.",
-      "descricao_en": "Test version, separate from the regular Câmera san (both can be installed). On top of everything Câmera san does, it has the 3D Environment: a free eye that orbits the scene to show where each layer and the camera are, with Camera, 3D Environment and Both side by side views. The camera becomes an object you move and aim. The eye never changes the project; only the camera goes to VEGAS.",
-      "onde": "Exibir › Extensões › Câmera san Beta",
-      "onde_en": "View › Extensions › Câmera san Beta",
-      "atalhos": [
-        [
-          "C",
-          "visão da câmera"
-        ],
-        [
-          "F",
-          "enquadrar tudo"
-        ],
-        [
-          "1 2 3 4",
-          "frente, cima, lado, pela câmera"
-        ]
-      ],
-      "atalhos_en": [
-        [
-          "C",
-          "camera view"
-        ],
-        [
-          "F",
-          "frame everything"
-        ],
-        [
-          "1 2 3 4",
-          "front, top, side, through the camera"
-        ]
-      ],
-      "combina": [
-        {
-          "id": "camera",
-          "porque": "É a mesma câmera: a Beta só acrescenta o Ambiente 3D. Use as duas sem conflito.",
-          "porque_en": "Same camera: the Beta only adds the 3D Environment. Use both without conflict."
-        }
-      ],
-      "arquivos": [
-        {
-          "caminho": "extensoes/CameraSanBeta.dll",
-          "destino": "ext",
-          "sha256": "71552EA287C022FEB406DD4401B7642D37424723C6F80900F4AED56C673E4F69",
+          "sha256": "521DA7F39D0DF9203F0CC2ACDE7A4747328B5B121E386200337E9402540F36EC",
           "tamanho": 467968
         }
       ],
@@ -2964,7 +2903,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "A1B5731E87F9B8029A849163F27A7BA4A2B606CCD845F6D8EC8313FB5BC1B20A",
+        "sha256": "B26881F557E6489D6463661944BFD0EFB5CDD0478576E1890CB3579ADD22B5A3",
         "tamanho": 2553344
       },
       {
@@ -2975,5 +2914,5 @@
       }
     ]
   },
-  "gerado": "2026-11-09 10:18"
+  "gerado": "2026-11-09 12:17"
 }
