@@ -7,8 +7,8 @@
       "data": "2026-11-09",
       "titulo": "Câmera san Beta: Ambiente 3D",
       "titulo_en": "Câmera san Beta: 3D Environment",
-      "texto": "Uma versão de teste da Câmera san, separada da normal: gire um olho livre em volta da cena para ver as camadas e a câmera de qualquer ângulo, como no After Effects.",
-      "texto_en": "A test version of Câmera san, separate from the regular one: orbit a free eye around the scene to see the layers and the camera from any angle, like in After Effects."
+      "texto": "Uma versão de teste da Câmera san, separada da normal: gire um olho livre em volta da cena para ver as camadas e a câmera de qualquer ângulo, como no After Effects. Novo: o texto do VEGAS aparece do tamanho certo, a miniatura da câmera muda de tamanho pelos cantos (a rodinha nela aproxima), o Ambiente 3D abre primeiro e a profundidade de campo pode ser automática, focando no que a câmera está olhando.",
+      "texto_en": "A test version of Câmera san, separate from the regular one: orbit a free eye around the scene to see the layers and the camera from any angle, like in After Effects. New: VEGAS text shows at the right size, the camera thumbnail resizes from its corners (the wheel on it zooms), the 3D Environment opens first and depth of field can be automatic, focusing on what the camera looks at."
     },
     {
       "id": "arsenal-lote-zoom",
@@ -2472,8 +2472,8 @@
         {
           "caminho": "extensoes/CameraSanBeta.dll",
           "destino": "ext",
-          "sha256": "DBE485F40700A1379ACE6420A54FB50FE633232F47386FE02EAEE9D72E38BE03",
-          "tamanho": 460800
+          "sha256": "71552EA287C022FEB406DD4401B7642D37424723C6F80900F4AED56C673E4F69",
+          "tamanho": 467968
         }
       ],
       "data": "2026-11-09"
