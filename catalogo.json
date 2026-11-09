@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "avatar-falando",
+      "data": "2026-11-09",
+      "titulo": "Avatar falando no San Tools",
+      "titulo_en": "Talking avatar in San Tools",
+      "texto": "Nova aba Avatar: uma foto redonda que acende quando a voz fala, como na call do Discord. Jeitos Discord (anel com espaço até a foto), Brilho (segue o volume) e Ondas (barrinhas do som), na cor que você escolher, com prévia animada. A foto fica apagada quando a pessoa está calada. Jogando com alguém? Selecione a voz de cada um: um avatar para cada.",
+      "texto_en": "New Avatar tab: a round photo that lights up when the voice talks, like a Discord call. Discord (ring with a gap to the photo), Glow (follows the volume) and Waves (audio bars) styles, in any color you pick, with an animated preview. The photo stays dimmed while the person is silent. Playing with someone? Select each person’s voice: one avatar each."
+    },
+    {
       "id": "boneco-falando",
       "data": "2026-11-08",
       "titulo": "Boneco falando no San Tools",
@@ -2285,10 +2293,10 @@
       "dados": [
         "SanTools"
       ],
-      "resumo": "Tremer, ritmo, PSD, estilos, rampa de velocidade, grudar meme, texto atrás, cor, boneco falando e Modo leve, ao vivo no preview.",
-      "resumo_en": "Shake, beat, PSD, layer styles, speed ramp, stick meme, text behind, color, talking puppet and Light mode, live on the preview.",
-      "descricao": "Uma janela rápida com as ferramentas do evento selecionado. Tremer: câmera na mão, impacto ou terremoto no quadro, e wiggle em qualquer parâmetro de efeito. Ritmo: acha as batidas, os compassos e o drop da música, põe marcadores, monta os clipes na batida e faz pulsar. PSD: cada camada do arquivo do Photoshop vira uma track, com entrada em cascata e paralaxe. Tudo aparece ao vivo no preview: Enter confirma (um Ctrl+Z desfaz) e Esc devolve como estava. Estilos: contorno, sombra e brilho de fora e de dentro em PNG e recortes com fundo transparente (efeito \"Estilos san\" em Video FX › Slayer san). Para instalar o efeito, o Windows pede permissão de administrador. Cor: correção automática de filmagem ou jogo com estilos Natural, Vivo, Cinema e Leve (efeito \"Cor san\"). Também tem Rampa de velocidade, Grudar meme no personagem, Texto atrás do personagem (com o Recorte san) e o Modo leve, que desliga os efeitos pesados enquanto você edita e liga de volta no render. Boneco falando: um desenho de rosto abre e fecha a boca junto com a sua voz (selecione o áudio da voz), já sincronizado numa track nova; duas vozes = dois bonecos conversando, e dá para usar qualquer desenho seu marcando a boca com 4 cliques (precisa do Python 3).",
-      "descricao_en": "A quick window with tools for the selected event. Shake: handheld, impact or earthquake on the frame, plus wiggle on any effect parameter. Beat: finds the beats, bars and drop of the music, adds markers, cuts clips to the beat and makes things pulse. PSD: each Photoshop layer becomes a track, with cascading entrance and parallax. Everything shows live on the preview: Enter confirms (one Ctrl+Z undoes it) and Esc puts it back. Styles: stroke, drop shadow and outer/inner glow on PNGs and cutouts with a transparent background (\"Estilos san\" effect in Video FX › Slayer san). Installing the effect asks for administrator permission. Color: automatic correction for footage or games with Natural, Vivid, Cinema and Light looks (\"Cor san\" effect). Also Speed ramp, Stick a meme to a character, Text behind the character (with Recorte san) and Light mode, which turns heavy effects off while you edit and back on for the render. Talking puppet: a face drawing opens and closes its mouth along with your voice (select the voice audio), already in sync on a new track; two voices = two puppets talking, and any drawing of yours works after marking the mouth with 4 clicks (needs Python 3).",
+      "resumo": "Tremer, ritmo, PSD, estilos, rampa de velocidade, grudar meme, texto atrás, cor, boneco e avatar falando e Modo leve, ao vivo no preview.",
+      "resumo_en": "Shake, beat, PSD, layer styles, speed ramp, stick meme, text behind, color, talking puppet and avatar and Light mode, live on the preview.",
+      "descricao": "Uma janela rápida com as ferramentas do evento selecionado. Tremer: câmera na mão, impacto ou terremoto no quadro, e wiggle em qualquer parâmetro de efeito. Ritmo: acha as batidas, os compassos e o drop da música, põe marcadores, monta os clipes na batida e faz pulsar. PSD: cada camada do arquivo do Photoshop vira uma track, com entrada em cascata e paralaxe. Tudo aparece ao vivo no preview: Enter confirma (um Ctrl+Z desfaz) e Esc devolve como estava. Estilos: contorno, sombra e brilho de fora e de dentro em PNG e recortes com fundo transparente (efeito \"Estilos san\" em Video FX › Slayer san). Para instalar o efeito, o Windows pede permissão de administrador. Cor: correção automática de filmagem ou jogo com estilos Natural, Vivo, Cinema e Leve (efeito \"Cor san\"). Também tem Rampa de velocidade, Grudar meme no personagem, Texto atrás do personagem (com o Recorte san) e o Modo leve, que desliga os efeitos pesados enquanto você edita e liga de volta no render. Boneco falando: um desenho de rosto abre e fecha a boca junto com a sua voz (selecione o áudio da voz), já sincronizado numa track nova; duas vozes = dois bonecos conversando, e dá para usar qualquer desenho seu marcando a boca com 4 cliques (precisa do Python 3). Avatar falando: uma foto redonda que acende quando a voz selecionada fala, com o anel do Discord, brilho ou ondas de áudio, na cor que você quiser; apagada quando calado, um avatar por voz para as calls com os amigos.",
+      "descricao_en": "A quick window with tools for the selected event. Shake: handheld, impact or earthquake on the frame, plus wiggle on any effect parameter. Beat: finds the beats, bars and drop of the music, adds markers, cuts clips to the beat and makes things pulse. PSD: each Photoshop layer becomes a track, with cascading entrance and parallax. Everything shows live on the preview: Enter confirms (one Ctrl+Z undoes it) and Esc puts it back. Styles: stroke, drop shadow and outer/inner glow on PNGs and cutouts with a transparent background (\"Estilos san\" effect in Video FX › Slayer san). Installing the effect asks for administrator permission. Color: automatic correction for footage or games with Natural, Vivid, Cinema and Light looks (\"Cor san\" effect). Also Speed ramp, Stick a meme to a character, Text behind the character (with Recorte san) and Light mode, which turns heavy effects off while you edit and back on for the render. Talking puppet: a face drawing opens and closes its mouth along with your voice (select the voice audio), already in sync on a new track; two voices = two puppets talking, and any drawing of yours works after marking the mouth with 4 clicks (needs Python 3). Talking avatar: a round photo that lights up when the selected voice talks, with the Discord ring, a glow or audio waves, in any color; dimmed when silent, one avatar per voice for calls with friends.",
       "onde": "Exibir › San Tools, ou a tecla que você der em Opções › Personalizar teclado (SanTools.Show)",
       "onde_en": "View › San Tools, or the key you set in Options › Customize Keyboard (SanTools.Show)",
       "atalhos": [
@@ -2330,8 +2338,8 @@
         {
           "caminho": "extensoes/SanTools.dll",
           "destino": "ext",
-          "sha256": "75FD700778F1F06EF5A8DF6F9EA6A8C378D569119965F62ECF576C254BF27C5A",
-          "tamanho": 5650432
+          "sha256": "5797578C90F37A11299D443B66B9D780C6E697A1BA4F25AB63C899955AC849AE",
+          "tamanho": 5697024
         },
         {
           "caminho": "santools-ofx/SanTools.ofx.bundle/Contents/Win64/SanTools.ofx",
@@ -2340,7 +2348,7 @@
           "tamanho": 567296
         }
       ],
-      "data": "2026-11-08"
+      "data": "2026-11-09"
     },
     {
       "id": "camera",
@@ -2890,5 +2898,5 @@
       }
     ]
   },
-  "gerado": "2026-11-08 23:40"
+  "gerado": "2026-11-09 00:14"
 }
