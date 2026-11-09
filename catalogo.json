@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "boneco-falando",
+      "data": "2026-11-08",
+      "titulo": "Boneco falando no San Tools",
+      "titulo_en": "Talking puppet in San Tools",
+      "texto": "San Tools ganhou a aba Boneco: selecione o áudio da sua voz e um desenho de rosto fala junto, abrindo a boca em cada sílaba, num canto da tela. Jeitos Natural, Boneco (cabeça partida, caricato), Animado, Gritando e Calmo; entra pulando, vira de lado e treme quando você grita. Duas vozes = dois bonecos conversando. Use qualquer desenho seu marcando a boca com 4 cliques.",
+      "texto_en": "San Tools got the Puppet tab: select your voice audio and a face drawing talks along, opening its mouth on each syllable, in a corner of the screen. Natural, Puppet (split head, cartoony), Lively, Shouting and Calm styles; pops in, faces either side and shakes when you shout. Two voices = two puppets talking. Use any drawing of yours by marking the mouth with 4 clicks."
+    },
+    {
       "id": "arsenal-filmes",
       "data": "2026-11-08",
       "titulo": "Filmes em código e Radar mais esperto",
@@ -2277,10 +2285,10 @@
       "dados": [
         "SanTools"
       ],
-      "resumo": "Tremer, ritmo, PSD, estilos, rampa de velocidade, grudar meme, texto atrás, cor e Modo leve, ao vivo no preview.",
-      "resumo_en": "Shake, beat, PSD, layer styles, speed ramp, stick meme, text behind, color and Light mode, live on the preview.",
-      "descricao": "Uma janela rápida com as ferramentas do evento selecionado. Tremer: câmera na mão, impacto ou terremoto no quadro, e wiggle em qualquer parâmetro de efeito. Ritmo: acha as batidas, os compassos e o drop da música, põe marcadores, monta os clipes na batida e faz pulsar. PSD: cada camada do arquivo do Photoshop vira uma track, com entrada em cascata e paralaxe. Tudo aparece ao vivo no preview: Enter confirma (um Ctrl+Z desfaz) e Esc devolve como estava. Estilos: contorno, sombra e brilho de fora e de dentro em PNG e recortes com fundo transparente (efeito \"Estilos san\" em Video FX › Slayer san). Para instalar o efeito, o Windows pede permissão de administrador. Cor: correção automática de filmagem ou jogo com estilos Natural, Vivo, Cinema e Leve (efeito \"Cor san\"). Também tem Rampa de velocidade, Grudar meme no personagem, Texto atrás do personagem (com o Recorte san) e o Modo leve, que desliga os efeitos pesados enquanto você edita e liga de volta no render.",
-      "descricao_en": "A quick window with tools for the selected event. Shake: handheld, impact or earthquake on the frame, plus wiggle on any effect parameter. Beat: finds the beats, bars and drop of the music, adds markers, cuts clips to the beat and makes things pulse. PSD: each Photoshop layer becomes a track, with cascading entrance and parallax. Everything shows live on the preview: Enter confirms (one Ctrl+Z undoes it) and Esc puts it back. Styles: stroke, drop shadow and outer/inner glow on PNGs and cutouts with a transparent background (\"Estilos san\" effect in Video FX › Slayer san). Installing the effect asks for administrator permission. Color: automatic correction for footage or games with Natural, Vivid, Cinema and Light looks (\"Cor san\" effect). Also Speed ramp, Stick a meme to a character, Text behind the character (with Recorte san) and Light mode, which turns heavy effects off while you edit and back on for the render.",
+      "resumo": "Tremer, ritmo, PSD, estilos, rampa de velocidade, grudar meme, texto atrás, cor, boneco falando e Modo leve, ao vivo no preview.",
+      "resumo_en": "Shake, beat, PSD, layer styles, speed ramp, stick meme, text behind, color, talking puppet and Light mode, live on the preview.",
+      "descricao": "Uma janela rápida com as ferramentas do evento selecionado. Tremer: câmera na mão, impacto ou terremoto no quadro, e wiggle em qualquer parâmetro de efeito. Ritmo: acha as batidas, os compassos e o drop da música, põe marcadores, monta os clipes na batida e faz pulsar. PSD: cada camada do arquivo do Photoshop vira uma track, com entrada em cascata e paralaxe. Tudo aparece ao vivo no preview: Enter confirma (um Ctrl+Z desfaz) e Esc devolve como estava. Estilos: contorno, sombra e brilho de fora e de dentro em PNG e recortes com fundo transparente (efeito \"Estilos san\" em Video FX › Slayer san). Para instalar o efeito, o Windows pede permissão de administrador. Cor: correção automática de filmagem ou jogo com estilos Natural, Vivo, Cinema e Leve (efeito \"Cor san\"). Também tem Rampa de velocidade, Grudar meme no personagem, Texto atrás do personagem (com o Recorte san) e o Modo leve, que desliga os efeitos pesados enquanto você edita e liga de volta no render. Boneco falando: um desenho de rosto abre e fecha a boca junto com a sua voz (selecione o áudio da voz), já sincronizado numa track nova; duas vozes = dois bonecos conversando, e dá para usar qualquer desenho seu marcando a boca com 4 cliques (precisa do Python 3).",
+      "descricao_en": "A quick window with tools for the selected event. Shake: handheld, impact or earthquake on the frame, plus wiggle on any effect parameter. Beat: finds the beats, bars and drop of the music, adds markers, cuts clips to the beat and makes things pulse. PSD: each Photoshop layer becomes a track, with cascading entrance and parallax. Everything shows live on the preview: Enter confirms (one Ctrl+Z undoes it) and Esc puts it back. Styles: stroke, drop shadow and outer/inner glow on PNGs and cutouts with a transparent background (\"Estilos san\" effect in Video FX › Slayer san). Installing the effect asks for administrator permission. Color: automatic correction for footage or games with Natural, Vivid, Cinema and Light looks (\"Cor san\" effect). Also Speed ramp, Stick a meme to a character, Text behind the character (with Recorte san) and Light mode, which turns heavy effects off while you edit and back on for the render. Talking puppet: a face drawing opens and closes its mouth along with your voice (select the voice audio), already in sync on a new track; two voices = two puppets talking, and any drawing of yours works after marking the mouth with 4 clicks (needs Python 3).",
       "onde": "Exibir › San Tools, ou a tecla que você der em Opções › Personalizar teclado (SanTools.Show)",
       "onde_en": "View › San Tools, or the key you set in Options › Customize Keyboard (SanTools.Show)",
       "atalhos": [
@@ -2322,8 +2330,8 @@
         {
           "caminho": "extensoes/SanTools.dll",
           "destino": "ext",
-          "sha256": "1A1451FB0DC1B75C312146BE1EAFE24928EFFC0B1C889B466DA57259E4A2DA45",
-          "tamanho": 5547008
+          "sha256": "75FD700778F1F06EF5A8DF6F9EA6A8C378D569119965F62ECF576C254BF27C5A",
+          "tamanho": 5650432
         },
         {
           "caminho": "santools-ofx/SanTools.ofx.bundle/Contents/Win64/SanTools.ofx",
@@ -2882,5 +2890,5 @@
       }
     ]
   },
-  "gerado": "2026-11-08 23:15"
+  "gerado": "2026-11-08 23:40"
 }
