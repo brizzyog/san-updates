@@ -547,7 +547,7 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "DFA80570E015A3D0330552BC69A310991A74F60BB013E2DC4AE594F30629D651",
+          "sha256": "9A37ABC823B8BD9A178D0BD9D3BFBDB046F63AF9001EEF01BAE03D9BC6716FD3",
           "tamanho": 577024
         },
         {
@@ -2346,8 +2346,8 @@
         {
           "caminho": "extensoes/SanTools.dll",
           "destino": "ext",
-          "sha256": "D9A40CA143D1223D9E402AD580CE3359AEAEAAED0F3D4B9441C2AE8E0EB0F3F5",
-          "tamanho": 5707264
+          "sha256": "7A747106EDA1DE003D338B704E40F6663AF3AD1F398688B4C59108DDE882E9C8",
+          "tamanho": 5707776
         },
         {
           "caminho": "santools-ofx/SanTools.ofx.bundle/Contents/Win64/SanTools.ofx",
@@ -2895,7 +2895,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "7A893263742088FD5736F3CA8B64C658F7ABD455F34CE896D9E72AC556159D9A",
+        "sha256": "77BA6ACAEDFF7A954E8B18898DA2B933B3356EFE3517C39620958E97525FA391",
         "tamanho": 2540032
       },
       {
@@ -2906,5 +2906,5 @@
       }
     ]
   },
-  "gerado": "2026-11-09 02:40"
+  "gerado": "2026-11-09 06:53"
 }
