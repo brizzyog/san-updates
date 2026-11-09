@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-filmes",
+      "data": "2026-11-08",
+      "titulo": "Filmes em código e Radar mais esperto",
+      "titulo_en": "Code films and a smarter Radar",
+      "texto": "Arsenal: Filmes em código faz um vídeo inteiro desenhado, com voz e trilha, em mais de 80 estilos (aquarela, pixel RPG, lousa, cartoon de 1930…) e deixa criar o seu próprio estilo. Radar ganhou a Caçada, que confere cada vídeo contra o normal do próprio canal, busca gringa e \"Já tem no Brasil?\". Painel: ficha do canal com patrocínio no roteiro, mudar vídeo agendado no YouTube, cota do dia e perfis só dos canais conectados. Meu canal: números de ontem pelo Studio e outras receitas.",
+      "texto_en": "Arsenal: Code films makes a whole drawn video, with voice and score, in 80+ styles (watercolor, pixel RPG, chalkboard, 1930s cartoon…) and lets you create your own style. Radar got the Hunt, which checks each video against its own channel normal, US search and \"Already in Brazil?\". Panel: channel sheet with sponsorship in scripts, change scheduled YouTube videos, daily quota and profiles only from connected channels. My channel: yesterday's numbers from Studio and other income."
+    },
+    {
       "id": "apps-do-pc",
       "data": "2026-11-08",
       "titulo": "Apps do PC numa caixa só",
@@ -515,7 +523,7 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "9E8BC070CF15356BCB9CD0235F72245882EC83EF2B75606EB790EA8BA82D2E02",
+          "sha256": "0AA06CE21A53F06570E28E1806B5CBABDF33C69602ECB688B965D560716E5B1D",
           "tamanho": 577024
         },
         {
@@ -2670,7 +2678,7 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "3ED04678C440B62E07FA0FE8C75FFBA1C6A03F2CD4B340CBB112146241AAB53B",
+          "sha256": "C5DEF0FD5D7058A7F614B87C3235327D9EF026653EFC79A26E1E38A417E1F51C",
           "tamanho": 1115648
         },
         {
@@ -2682,92 +2690,98 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Audio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "A9A9F887BC6723C1CE2A0D97E8967FC24F45DE102830BED903DBEBC578DD7E45",
+          "sha256": "0EBE35346B5526D1DF90B55ECF2A804F10B58A73CF09AB97607107DFECDD4F8A",
           "tamanho": 206336
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Canal.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "F06C257A83C3F155636D860FEB950A5B916FC2CF52A984D14B45141367822D6F",
-          "tamanho": 388096
+          "sha256": "91AE8520FE47159B44520BB2551C271EB6E2521E529BF8A3DEFC89CF658A70CD",
+          "tamanho": 432128
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cerebro.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "E5C8519B28AA87D5EB1CD22487EF7795AA4E5EBBF8472E5375A610AD9B0565DF",
+          "sha256": "EF57894B26B633A8117215680026F2D6DA7CE04F89942DE0D4D23BB3E6A4341D",
           "tamanho": 200192
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "6C1208DB5D16D95AE6EACA74D2B2D8EF795FBF3BEBD43599435AC4F0CBB54CD1",
+          "sha256": "12B16D1A65954F6290C720C6E7D2ADDFFFE06E635DEFED33FC36188072A73590",
           "tamanho": 530432
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Conexoes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "778E537B3817E9EC3879DF2AEB820095793A2A93CC9BB7E4E6773AD899387A10",
-          "tamanho": 118272
+          "sha256": "D8B1A779DCF0F513704FC455BCA81B1EBEF0A9937968B1C50DBB3C9BCBB8092E",
+          "tamanho": 118784
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cortes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "2C2FFFC78DAA93B2C78BC2F95E40CC813D8EA109676CB32EC711838CA0A80256",
-          "tamanho": 116224
+          "sha256": "79889AFB7E325E985CA722BF7434B561BDC008CE782DCFD63BF645A8E499C108",
+          "tamanho": 116736
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "1671E086A7C527ECE87E3B2E98B636284BC534A1049FAC5F3F589F6A28B76547",
-          "tamanho": 862208
+          "sha256": "708B373E441DD9FC67BF5C87461BD0AD1AE9AEBB38B7B2242136ACF57B110356",
+          "tamanho": 862720
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "4DC173FE592F5F714FC95AA99024A5EF5EAC61DD35EF0362C5359389BC3D881B",
+          "sha256": "DEA599D9435569575949469409622DF811E5B0503AF26555B15A33AF9DBC04A0",
           "tamanho": 5182464
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "A4EDC9DCF726A00D7661AF8CFFAE5F9ECE8B03D28CDB3739A4274E68181CA663",
+          "sha256": "852F779B0303471B830DF25D16C338169A1E7E07F2543B9110E52F01087AC7AF",
           "tamanho": 2000896
+        },
+        {
+          "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "084D46E6FEE70B57285BE5AD4B9779EDD34712557F6C071EA71CA1129CD106E3",
+          "tamanho": 190976
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "1318024CD3CAE660FE8C529FA3F104CAE831A0E37A0C7934DF9341555AE7FE21",
+          "sha256": "35FB7D3E3FA7504D93C6F0E1AEBB7EC6C6E075F2ABD6A01ED32E4CC055C280EC",
           "tamanho": 345600
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "A4F1DAC239E335CDB3B8EA021C08B25A15A6F6A1657F25D482F95087635958CD",
-          "tamanho": 436224
+          "sha256": "05E6A7BEC581A3163F33A8FBBECFF9A1AA8A5093766890A3D36410C30BE39EEC",
+          "tamanho": 475136
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "FDDE6646D83F6EFB9055504000A01C0A7B01D8383FE9A91E7AFD0E2A13C30E1A",
-          "tamanho": 243200
+          "sha256": "283E0385E7C833559CA647DD9FE80FD5105CFECBF17399C2FCE05DCC62ADACF2",
+          "tamanho": 244224
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "7DD3CC18609161384D63684727E6CC544D8804979F7FB710A16F41F8315D4763",
-          "tamanho": 360448
+          "sha256": "035FBCF1919D64DF89AC8255DA0C58A920C52F630416A6B5F3B48FD3F7F9C80E",
+          "tamanho": 400896
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "1AFBD65B72717975B323AF57FBA3C323D8603B7F62113F71299B9DAAEB585A8C",
+          "sha256": "87F068492A9F0061D470BDD083E66D54F60E37968BA3E53CBEF0FDCEEC894439",
           "tamanho": 1063424
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.VideoIA.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "73F447EF2F6F29F7D4CB7CACBC57D3F7FC4FD9CC2B44A995C6D0FCFE873A407F",
-          "tamanho": 88064
+          "sha256": "29121FA71DC19DC41A9D9997383EC7A1804220BDE4CD337D7CAFFCFB31CB81D1",
+          "tamanho": 89088
         },
         {
           "caminho": "arsenal/Microsoft.Web.WebView2.Core.dll",
@@ -2857,8 +2871,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "B1CF692CB76640433A81BD8F8B1419794243AAF8D2A9024588B4277A99D5D1CC",
-        "tamanho": 2525696
+        "sha256": "6E0DAC1D5D707653E25D06A18AD5113580E563C9E419DEF88559601B9CCC62E8",
+        "tamanho": 2216960
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -2868,5 +2882,5 @@
       }
     ]
   },
-  "gerado": "2026-11-08 20:51"
+  "gerado": "2026-11-08 21:05"
 }
