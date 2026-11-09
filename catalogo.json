@@ -350,8 +350,7 @@
       "nome": "Finalizar",
       "nome_en": "Finish",
       "itens": [
-        "volume",
-        "motion"
+        "volume"
       ],
       "descricao": "O som pronto para qualquer aparelho e o movimento suave nos efeitos.",
       "descricao_en": "Sound ready for any device and smooth motion on effects."
@@ -555,7 +554,7 @@
         {
           "caminho": "extensoes/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "0E148337621B481E5CE54BE93D6A12E5B3C68C39909F3C5D2CEB338C88DF6CF4",
+          "sha256": "A079C1AE22913109056F6E020E4D7014DD267EA7C30351AD4A3909C6B7996C25",
           "tamanho": 579584
         },
         {
@@ -2903,8 +2902,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "0453D2FA287F9D9FC3CF01081868B7A49C8408476D37FDA63FEDC6AB68410398",
-        "tamanho": 2571776
+        "sha256": "686D39AAA5764E95A9F26FCBD2FB4BEA38B7F9235D1A39DBABCE57861EC33619",
+        "tamanho": 2572288
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -2914,5 +2913,5 @@
       }
     ]
   },
-  "gerado": "2026-11-09 13:29"
+  "gerado": "2026-11-09 14:52"
 }
