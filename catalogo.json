@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "sanapp-reparar",
+      "data": "2026-11-10",
+      "titulo": "San App: remover não quebra as outras",
+      "titulo_en": "San App: removing no longer breaks the others",
+      "texto": "Remover uma extensão não apaga mais o arquivo que liga todas (o San.dll), e a que você removeu não volta pedindo Reparar. A aba Instaladas conta todas que estão no PC, e a nova aba Precisa reparar junta as de outra versão ou com arquivo faltando.",
+      "texto_en": "Removing an extension no longer deletes the file that loads them all (San.dll), and the one you removed no longer comes back asking for Repair. The Installed tab counts everything on your PC, and the new Needs repair tab gathers those from another version or missing a file."
+    },
+    {
       "id": "edita-pedaco",
       "data": "2026-11-10",
       "titulo": "Edita san: escolha o pedaço do vídeo",
@@ -3008,7 +3016,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "37C82F51D7B93D4861848AFA810561000FB108085DA5FDCA6CAA739F6DDBFA82",
+        "sha256": "6293FD1313A5FD970B36F9034AEDDC6CBE051E64C2F7B275C9C65B8653E72603",
         "tamanho": 2604544
       },
       {
