@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "camera-sem-regua",
+      "data": "2026-11-10",
+      "titulo": "Câmera san: volta à versão estável",
+      "titulo_en": "Câmera san: back to the stable version",
+      "texto": "A régua e o Alinhar objetos saíram da Câmera san por enquanto: precisam de ajustes. A Câmera volta exatamente à versão de antes, que funciona bem. A régua volta quando estiver pronta.",
+      "texto_en": "The ruler and Align objects left Câmera san for now: they need adjustments. Câmera goes back to exactly the previous version, which works well. The ruler comes back when it is ready."
+    },
+    {
       "id": "sanapp-reparar",
       "data": "2026-11-10",
       "titulo": "San App: remover não quebra as outras",
@@ -2506,8 +2514,8 @@
         {
           "caminho": "extensoes/San/CameraSan.dll",
           "destino": "ext",
-          "sha256": "0AA53F7B233194D7699D2205DF85FED82E7EB6EEE306FA15CD70F2E0804B8D46",
-          "tamanho": 530944
+          "sha256": "2CA2F79EBE5A35B83D020CEE35110F013AE0F5B73B932D60F82B13CBB0BAE7FE",
+          "tamanho": 483328
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3016,7 +3024,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "6293FD1313A5FD970B36F9034AEDDC6CBE051E64C2F7B275C9C65B8653E72603",
+        "sha256": "AABA5CFBD7471D2C58DEBC18D00521E82C7BE5C5F266408C812C6F58A205B3FE",
         "tamanho": 2604544
       },
       {
@@ -3027,5 +3035,5 @@
       }
     ]
   },
-  "gerado": "2026-11-10 19:38"
+  "gerado": "2026-11-10 20:08"
 }
