@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "camera-regua",
+      "data": "2026-11-10",
+      "titulo": "Régua e alinhar objetos na Câmera san",
+      "titulo_en": "Ruler and align objects in Câmera san",
+      "texto": "A Câmera san ganhou uma régua em cima e à esquerda da prévia, com guias que você puxa dela (posição exata com dois cliques, travar no canto). Com Alinhar objetos marcado, a camada que você arrasta gruda nas bordas e no centro das outras, do quadro e das guias, já contando a perspectiva 3D, e mostra a distância até a vizinha. A profundidade também gruda na distância de outra camada, e no Ambiente 3D uma régua no chão mostra a distância de cada camada até a câmera. Alt solta.",
+      "texto_en": "Câmera san got a ruler above and left of the preview, with guides you drag from it (exact position with a double-click, lock in the corner). With Align objects checked, the layer you drag snaps to the edges and center of the others, the frame and the guides, accounting for 3D perspective, and shows the distance to its neighbor. Depth also snaps to the distance of another layer, and in the 3D Environment a floor ruler shows each layer's distance from the camera. Alt moves freely."
+    },
+    {
       "id": "prompter-visual-novo",
       "data": "2026-11-10",
       "titulo": "Prompter San com o visual novo",
@@ -2466,8 +2474,8 @@
         {
           "caminho": "extensoes/San/CameraSan.dll",
           "destino": "ext",
-          "sha256": "2CA2F79EBE5A35B83D020CEE35110F013AE0F5B73B932D60F82B13CBB0BAE7FE",
-          "tamanho": 483328
+          "sha256": "0AA53F7B233194D7699D2205DF85FED82E7EB6EEE306FA15CD70F2E0804B8D46",
+          "tamanho": 530944
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2987,5 +2995,5 @@
       }
     ]
   },
-  "gerado": "2026-11-10 13:42"
+  "gerado": "2026-11-10 15:51"
 }
