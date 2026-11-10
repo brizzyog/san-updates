@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "dropeasy-busca",
+      "data": "2026-11-10",
+      "titulo": "DropEasy san: busca sem a borda quadrada",
+      "titulo_en": "DropEasy san: search without the square border",
+      "texto": "Ao clicar para digitar, aparecia um retângulo laranja dentro da barra de busca. Agora só a barra arredondada acende.",
+      "texto_en": "Clicking to type showed an orange rectangle inside the search bar. Now only the rounded bar lights up."
+    },
+    {
       "id": "betas",
       "data": "2026-11-10",
       "titulo": "San App: aba Betas",
@@ -486,8 +494,8 @@
         {
           "caminho": "extensoes/San/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "7D057ACEDA750F27135648915C1DED148623C9AB67CC7C36F096C21646881332",
-          "tamanho": 783872
+          "sha256": "C7304495DAA647446F781317AA931E268E2A46158BB37BA0FB2DD9E5AD6F49A2",
+          "tamanho": 784384
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3066,7 +3074,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "61B2DD356E9870C3A2F707873F539E97B6A1837B917439974943CA2AEFA36981",
+        "sha256": "3136C8492F546E7CCF47A04A3C17BAABB2B2A98F3777E2E90A17F47E1275EC7C",
         "tamanho": 2605056
       },
       {
@@ -3077,5 +3085,5 @@
       }
     ]
   },
-  "gerado": "2026-11-10 20:13"
+  "gerado": "2026-11-10 20:17"
 }
