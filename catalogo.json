@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "betas",
+      "data": "2026-11-10",
+      "titulo": "San App: aba Betas",
+      "titulo_en": "San App: Betas tab",
+      "texto": "Uma aba nova junta as versões de teste, que chegam antes de ficarem prontas. A primeira é a Câmera san Beta, com a régua e o Alinhar objetos. Beta não entra no Instalar tudo, pode ter bugs e funciona ao lado da versão normal.",
+      "texto_en": "A new tab gathers the test versions, which arrive before they are ready. The first is Câmera san Beta, with the ruler and Align objects. Betas are not part of Install all, may have bugs and work alongside the normal version."
+    },
+    {
       "id": "camera-sem-regua",
       "data": "2026-11-10",
       "titulo": "Câmera san: volta à versão estável",
@@ -2527,6 +2535,40 @@
       "data": "2026-11-10"
     },
     {
+      "id": "camera-beta",
+      "nome": "Câmera san Beta",
+      "versao": "1.0.0",
+      "cor": "#38bdf8",
+      "beta": true,
+      "padrao": false,
+      "dados": [
+        "CameraSanBeta"
+      ],
+      "resumo": "A Câmera san com régua e Alinhar objetos, em teste.",
+      "resumo_en": "Câmera san with a ruler and Align objects, in testing.",
+      "descricao": "A mesma Câmera san, com régua em cima e à esquerda da prévia, guias que você puxa dela e Alinhar objetos: a camada que você arrasta gruda nas bordas e no centro das outras, do quadro e das guias, e a profundidade gruda na distância de outra camada. É versão de teste: pode ter bugs. Funciona ao lado da Câmera san normal, com nome e painel próprios; use uma de cada vez.",
+      "descricao_en": "The same Câmera san, with a ruler above and left of the preview, guides you drag from it and Align objects: the layer you drag snaps to the edges and center of the others, the frame and the guides, and depth snaps to another layer's distance. It is a test version: it may have bugs. It works alongside the normal Câmera san, with its own name and panel; use one at a time.",
+      "onde": "Exibir › Extensões › Câmera san Beta",
+      "onde_en": "View › Extensions › Câmera san Beta",
+      "aviso": "Versão de teste: pode ter bugs. A Câmera san normal continua funcionando do lado.",
+      "aviso_en": "Test version: it may have bugs. The normal Câmera san keeps working alongside.",
+      "arquivos": [
+        {
+          "caminho": "extensoes/San/CameraSanBeta.dll",
+          "destino": "ext",
+          "sha256": "65CD73CFE9B1F37C84E715D709C637FB5FC39AA5F0DE7F9CC10F8661A38342BD",
+          "tamanho": 531456
+        },
+        {
+          "caminho": "extensoes/San.dll",
+          "destino": "ext",
+          "sha256": "7F9252F785BA727DB1A76587E8FB1FEA01CF5830DA053BEE5277D8B9EC9E8004",
+          "tamanho": 10240
+        }
+      ],
+      "data": "2026-11-10"
+    },
+    {
       "id": "editor",
       "nome": "Edita san",
       "versao": "1.0.0",
@@ -3024,8 +3066,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "AABA5CFBD7471D2C58DEBC18D00521E82C7BE5C5F266408C812C6F58A205B3FE",
-        "tamanho": 2604544
+        "sha256": "61B2DD356E9870C3A2F707873F539E97B6A1837B917439974943CA2AEFA36981",
+        "tamanho": 2605056
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -3035,5 +3077,5 @@
       }
     ]
   },
-  "gerado": "2026-11-10 20:08"
+  "gerado": "2026-11-10 20:13"
 }
