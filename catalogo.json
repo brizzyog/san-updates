@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "camera-cantos",
+      "data": "2026-11-10",
+      "titulo": "Câmera san: tamanho pelos cantos",
+      "titulo_en": "Câmera san: resize by the corners",
+      "texto": "Clique num objeto e puxe um dos 4 cantos para mudar o tamanho, mantendo a proporção e com o canto oposto parado. Alt cresce a partir do centro, Shift vai devagar, e aparece a % do tamanho original (gruda no 100%). Dois cliques num canto voltam ao original. Funciona no modo Câmera e no Ambiente 3D, e um Ctrl+Z desfaz.",
+      "texto_en": "Click an object and drag one of its 4 corners to resize it, keeping the proportion with the opposite corner still. Alt grows from the center, Shift goes slowly, and the % of the original size shows up (snaps to 100%). Double-click a corner to go back to the original. Works in Camera mode and in the 3D Environment, and one Ctrl+Z undoes it."
+    },
+    {
       "id": "dropeasy-busca",
       "data": "2026-11-10",
       "titulo": "DropEasy san: busca sem a borda quadrada",
@@ -2530,8 +2538,8 @@
         {
           "caminho": "extensoes/San/CameraSan.dll",
           "destino": "ext",
-          "sha256": "2CA2F79EBE5A35B83D020CEE35110F013AE0F5B73B932D60F82B13CBB0BAE7FE",
-          "tamanho": 483328
+          "sha256": "A34CA45CAE09705FF08ECCAB0FA48279A6DC0414769CA108DCA4F904741D16B2",
+          "tamanho": 493056
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3074,7 +3082,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "C590C958B8369989D577B8862C2138445ECCE032572A37EF9535B1B8F8AD264A",
+        "sha256": "8DBF6AFD4D7EA79158F3544B3295934C546FBB99F6B4877716C94DEB545BA7B4",
         "tamanho": 2605056
       },
       {
@@ -3085,5 +3093,5 @@
       }
     ]
   },
-  "gerado": "2026-11-10 20:31"
+  "gerado": "2026-11-10 20:45"
 }
