@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "prompter-visual-novo",
+      "data": "2026-11-10",
+      "titulo": "Prompter San com o visual novo",
+      "titulo_en": "Prompter San with the new look",
+      "texto": "O Prompter San ganhou o visual das extensões slayeR san: fundo escuro com a luz da marca, botões em degradê e as mesmas três cores (Laranja, Roxo e Sua cor). O Claro continua como opção. Mudar a etapa para Pronto, Gravado ou Postado, ou bater a meta de tempo, solta faíscas. O teleprompter e o controle pelo celular usam a sua cor.",
+      "texto_en": "Prompter San got the slayeR san extensions look: dark background with the brand glow, gradient buttons and the same three colors (Orange, Purple and Your color). Light stays as an option. Moving a script to Ready, Recorded or Posted, or hitting the time goal, throws sparks. The teleprompter and the phone remote use your color."
+    },
+    {
       "id": "camera-ambiente",
       "data": "2026-11-09",
       "titulo": "Câmera san nova, com Ambiente 3D",
@@ -2946,8 +2954,8 @@
         {
           "caminho": "prompter/Prompter San.exe",
           "destino": "local:Programs\\Prompter San",
-          "sha256": "C8F0E2F135528F677C31223C89F3BDFE55838B8E1AA1FEFD4F3C36FCB14F72D3",
-          "tamanho": 1704448
+          "sha256": "A7B5F2AF9E39DA7E882FF5823DCA5506CFDBF55546D2E39F386F190BB2A7453C",
+          "tamanho": 1710592
         },
         {
           "caminho": "prompter/Prompter San.exe.config",
@@ -2956,7 +2964,7 @@
           "tamanho": 174
         }
       ],
-      "data": "2026-11-08"
+      "data": "2026-11-10"
     }
   ],
   "app": {
@@ -2979,5 +2987,5 @@
       }
     ]
   },
-  "gerado": "2026-11-10 13:24"
+  "gerado": "2026-11-10 13:42"
 }
