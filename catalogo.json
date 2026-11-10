@@ -2353,8 +2353,8 @@
         {
           "caminho": "extensoes/SanTools.dll",
           "destino": "ext",
-          "sha256": "BB141875B939EF1ACDC45EA349373093C8EA7DCE615ED2197F65BC63A9246B89",
-          "tamanho": 5711360
+          "sha256": "C241D7F301E96D7C3DE0ACBDB42A1499E60147E17F44F7021E95025BA92C71D8",
+          "tamanho": 5716992
         },
         {
           "caminho": "santools-ofx/SanTools.ofx.bundle/Contents/Win64/SanTools.ofx",
@@ -2913,5 +2913,5 @@
       }
     ]
   },
-  "gerado": "2026-11-09 22:23"
+  "gerado": "2026-11-09 23:52"
 }
