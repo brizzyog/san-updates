@@ -3,6 +3,22 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "edita-pedaco",
+      "data": "2026-11-10",
+      "titulo": "Edita san: escolha o pedaço do vídeo",
+      "titulo_en": "Edita san: pick the piece of the video",
+      "texto": "O card principal diz em que pedaço o Edita vai trabalhar: o vídeo todo ou só a seleção da régua do VEGAS, com o botão Usar o vídeo todo. Selecionou eventos na timeline? Aparece Só os eventos selecionados, que marca o trecho deles num clique. O botão vira Decupar a seleção e tudo se atualiza sozinho quando a seleção muda.",
+      "texto_en": "The main card says which piece Edita will work on: the whole video or only the VEGAS ruler selection, with a Use the whole video button. Selected events on the timeline? Only the selected events shows up and marks their span in one click. The button becomes Rough cut the selection and everything updates by itself when the selection changes."
+    },
+    {
+      "id": "edita-correcoes",
+      "data": "2026-11-10",
+      "titulo": "Edita san: nomes certos e tela Correções",
+      "titulo_en": "Edita san: right names and the Fixes screen",
+      "texto": "A caixa agora se chama Nomes que devem sair certos: escreva o nome do jeito certo e o Whisper copia. O botão Correções abre a lista palavra errada → certa (as suas, para editar, e as que já vêm com o jogo, com busca). A lista do One Piece Bounty Rush ficou bem maior (140 nomes), com erros tirados da sua própria fala: Zoiro vira Zoro, Kakainu vira Akainu, Ighead vira Egghead.",
+      "texto_en": "The box is now called Names that must come out right: type the name the right way and Whisper copies it. The Fixes button opens the wrong → right word list (yours, to edit, and the ones that come with the game, with search). The One Piece Bounty Rush list grew a lot (140 names), with mistakes taken from your own speech: Zoiro becomes Zoro, Kakainu becomes Akainu, Ighead becomes Egghead."
+    },
+    {
       "id": "proxy-quadro-exato",
       "data": "2026-11-10",
       "titulo": "Proxy san: o VEGAS aceita o proxy das gravações do OBS",
@@ -3003,5 +3019,5 @@
       }
     ]
   },
-  "gerado": "2026-11-10 18:58"
+  "gerado": "2026-11-10 19:10"
 }
