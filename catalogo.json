@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "proxy-quadro-exato",
+      "data": "2026-11-10",
+      "titulo": "Proxy san: o VEGAS aceita o proxy das gravações do OBS",
+      "titulo_en": "Proxy san: VEGAS accepts the proxy of OBS recordings",
+      "texto": "O proxy saía um quadro mais curto que a gravação do OBS e o VEGAS jogava fora, fazendo o dele devagar (o painel voltava a pedir Criar). Agora o proxy sai com todos os quadros e o VEGAS usa na hora. O painel também diz quando o proxy está pronto e em uso, avisa se o VEGAS recusar e mostra quando é o próprio VEGAS fazendo o proxy dele. Vale criar de novo o proxy das gravações que você está editando.",
+      "texto_en": "The proxy came out one frame shorter than the OBS recording and VEGAS threw it away, making its own slowly (the panel asked to Create again). Now the proxy has every frame and VEGAS uses it right away. The panel also says when the proxy is ready and in use, warns if VEGAS refuses it and shows when VEGAS itself is making its proxy. Worth making the proxy again for the recordings you are editing."
+    },
+    {
       "id": "camera-regua",
       "data": "2026-11-10",
       "titulo": "Régua e alinhar objetos na Câmera san",
@@ -582,7 +590,7 @@
         {
           "caminho": "extensoes/San/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "A6937C90F24120F31C996E36E09FBB8307D2BCC6923F90DC5C2AF3289031DB61",
+          "sha256": "EDB725FF6D8795795BFD3B034FE2B2BF6F919A4BADE37088CCBB5B6E1CAC0FD5",
           "tamanho": 587776
         },
         {
@@ -2215,8 +2223,8 @@
         {
           "caminho": "extensoes/San/ProxySan.dll",
           "destino": "ext",
-          "sha256": "61CC61B67531340B46A3A4FF4494F8AC0A93BDBF4404F1E3A580968CE8E50875",
-          "tamanho": 279040
+          "sha256": "067C9EBA3AF0907E7524A59D74319C1347A21F9891508278216C4B581D01FEA9",
+          "tamanho": 281600
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2984,7 +2992,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "D3EAADF907D3E96CEFE977136F2F22B8428F377CFB0EA952D37555039F07B35F",
+        "sha256": "C1AFBFA2F022DF7FA2E6BDF8295436B14460C3B5E630625AB823AED2D199ACB7",
         "tamanho": 2600448
       },
       {
@@ -2995,5 +3003,5 @@
       }
     ]
   },
-  "gerado": "2026-11-10 15:51"
+  "gerado": "2026-11-10 16:46"
 }
