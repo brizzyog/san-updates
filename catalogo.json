@@ -566,8 +566,8 @@
         {
           "caminho": "extensoes/San/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "4A7FFEE32462042754F8CE5ECD610A8AEDAA29FF430BE925E0B5BC526119CC0E",
-          "tamanho": 579584
+          "sha256": "68875E0F54FF11E33A929864EA907B9034D9EF752D2EB6FF3440AABC5AA1FAE6",
+          "tamanho": 582144
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2968,8 +2968,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "CBC5D4D2023377C8AEEF59D4A797155DC5753227F0423F6BC36399FB0DD24DCF",
-        "tamanho": 2576896
+        "sha256": "90EA93BF414CE8FE42AAFE0B7DAA58ECA11BFACF84BC9C4B3D201148A509FE7D",
+        "tamanho": 2594304
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -2979,5 +2979,5 @@
       }
     ]
   },
-  "gerado": "2026-11-10 08:57"
+  "gerado": "2026-11-10 13:12"
 }
