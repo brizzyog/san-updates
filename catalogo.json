@@ -422,8 +422,8 @@
         {
           "caminho": "extensoes/San/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "C6C75C4CED3EB7240A919A58CA5C83D6F36EC4062F86C920915FCB80BF3BD539",
-          "tamanho": 775168
+          "sha256": "7D057ACEDA750F27135648915C1DED148623C9AB67CC7C36F096C21646881332",
+          "tamanho": 783872
         },
         {
           "caminho": "extensoes/San.dll",
@@ -494,8 +494,8 @@
         {
           "caminho": "extensoes/San/UpscaleSan.dll",
           "destino": "ext",
-          "sha256": "239DFD51E3166B81187C5ED14176F6ECBCAAD54B8DE6C986F592E20365E5ACC1",
-          "tamanho": 496640
+          "sha256": "77CA2F41C33E6F2712851F3CAFCD911E07E91DF22931D0ACA8123B089ACFACD7",
+          "tamanho": 504832
         },
         {
           "caminho": "extensoes/San.dll",
@@ -566,8 +566,8 @@
         {
           "caminho": "extensoes/San/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "68875E0F54FF11E33A929864EA907B9034D9EF752D2EB6FF3440AABC5AA1FAE6",
-          "tamanho": 582144
+          "sha256": "A6937C90F24120F31C996E36E09FBB8307D2BCC6923F90DC5C2AF3289031DB61",
+          "tamanho": 587776
         },
         {
           "caminho": "extensoes/San.dll",
@@ -878,13 +878,13 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "372517B768A86802E823F4B01E1FF17996D03B37820F3C2D31B73978CAFB1E32",
+          "sha256": "DA2E44071262CBBB3CD26F985D8D1ACAB4EA8A031C6918B7CEAE8E3311E4833E",
           "tamanho": 117248
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "62911A585BD02BF5612DA7678B4FB2EAD541002DACD23112610D464A221FAC63",
+          "sha256": "92C3A958457D9C43B9A1C9AEA14C9A482BB18A5E86BA569E9C360B3FF25FABFF",
           "tamanho": 151552
         },
         {
@@ -2143,8 +2143,8 @@
         {
           "caminho": "extensoes/San/OrganizadorSan.dll",
           "destino": "ext",
-          "sha256": "A8DA7DB96FFC49A868C8A11833B3BE403A61705B1F8752B31959C7BA4EB0CF78",
-          "tamanho": 6773248
+          "sha256": "F3E7A66D4AC7F930B9FF36882E28CF12B8946254A1484EBEBFFE8154503A5F25",
+          "tamanho": 6781952
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2199,8 +2199,8 @@
         {
           "caminho": "extensoes/San/ProxySan.dll",
           "destino": "ext",
-          "sha256": "D52CF2B21DC1407220E757665A32C564B0BCD7184922A1636D179B15655552EF",
-          "tamanho": 271360
+          "sha256": "61CC61B67531340B46A3A4FF4494F8AC0A93BDBF4404F1E3A580968CE8E50875",
+          "tamanho": 279040
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2256,8 +2256,8 @@
         {
           "caminho": "extensoes/San/NotasSan.dll",
           "destino": "ext",
-          "sha256": "8100EB3A9F1A68AF1C91D5FB47ABB027C76787E20A7F3B4FA20BF50304C0697A",
-          "tamanho": 388096
+          "sha256": "C363E49E0264D33CF3AA17906E3E892EAD0F4C97A8871F7858F113AADAB6B2A5",
+          "tamanho": 395776
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2330,8 +2330,8 @@
         {
           "caminho": "extensoes/San/SearchSan.dll",
           "destino": "ext",
-          "sha256": "B245437B4EC17DC79D2608753B9D9261DB05300E1296E677760F95B1B9520C4C",
-          "tamanho": 461824
+          "sha256": "85AB0704B3C3573ED818C1242B43DACEFDAACAA61CCF7F9625DEDDE405164D32",
+          "tamanho": 473088
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2395,8 +2395,8 @@
         {
           "caminho": "extensoes/San/SanTools.dll",
           "destino": "ext",
-          "sha256": "70F0148DA5A16C462BF95EF6EE3A5C30B7058F3273D7C7CBCE1ECB7F8EEB29D8",
-          "tamanho": 5726208
+          "sha256": "54F226324DEF439361E400480C14508ED52430EEA9C122879E27483C9EEB8A12",
+          "tamanho": 5735424
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2458,8 +2458,8 @@
         {
           "caminho": "extensoes/San/CameraSan.dll",
           "destino": "ext",
-          "sha256": "DE2C92D6C374A8CB0117F9A1E13C9E7B285811DA7036DEADD1350E95F4B331A6",
-          "tamanho": 475136
+          "sha256": "2CA2F79EBE5A35B83D020CEE35110F013AE0F5B73B932D60F82B13CBB0BAE7FE",
+          "tamanho": 483328
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2548,8 +2548,8 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "EDCCC8630C5831C400FF8E7657BC00F2D0A98BE00B111DAD66FA0D7212542BA7",
-          "tamanho": 9370112
+          "sha256": "AAF881B791DFEC69412AA2C837762F5020F1FE659101EEA052B962654B9F49D5",
+          "tamanho": 9379840
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2610,8 +2610,8 @@
         {
           "caminho": "extensoes/San/VolumeSanPainel.dll",
           "destino": "ext",
-          "sha256": "EF78DD5351A917B818952A90CD4A25EAB587277B44AB5B744D6B4193A94AD3F1",
-          "tamanho": 106496
+          "sha256": "4EB1949330C47826975A1845C2BC2C5DB4434E91247A436B16BB75D28049EDD4",
+          "tamanho": 109056
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2775,8 +2775,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "A0ADC23E2DDD75B6E33BEB313AF4D5CB780F1552FB93DF92B6337865DC1E48F6",
-          "tamanho": 1121280
+          "sha256": "E493D0BB5000EFC0EDD2F62571A45374A9D2321EF2CBF749E7BB36FB98AD5647",
+          "tamanho": 1126400
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -2968,8 +2968,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "90EA93BF414CE8FE42AAFE0B7DAA58ECA11BFACF84BC9C4B3D201148A509FE7D",
-        "tamanho": 2594304
+        "sha256": "D3EAADF907D3E96CEFE977136F2F22B8428F377CFB0EA952D37555039F07B35F",
+        "tamanho": 2600448
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -2979,5 +2979,5 @@
       }
     ]
   },
-  "gerado": "2026-11-10 13:12"
+  "gerado": "2026-11-10 13:24"
 }
