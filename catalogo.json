@@ -494,7 +494,7 @@
         {
           "caminho": "extensoes/San/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "C7304495DAA647446F781317AA931E268E2A46158BB37BA0FB2DD9E5AD6F49A2",
+          "sha256": "DBDA70D3E7FEBE30244A77B26C7F048D36A8597427F433CBC3ACF0B6F4D32D0D",
           "tamanho": 784384
         },
         {
@@ -3074,7 +3074,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "3136C8492F546E7CCF47A04A3C17BAABB2B2A98F3777E2E90A17F47E1275EC7C",
+        "sha256": "C590C958B8369989D577B8862C2138445ECCE032572A37EF9535B1B8F8AD264A",
         "tamanho": 2605056
       },
       {
@@ -3085,5 +3085,5 @@
       }
     ]
   },
-  "gerado": "2026-11-10 20:17"
+  "gerado": "2026-11-10 20:31"
 }
