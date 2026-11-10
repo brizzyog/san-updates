@@ -420,13 +420,19 @@
       "aviso_en": "GIPHY, KLIPY and Pexels need a free key of your own: the panel shows where to get it.",
       "arquivos": [
         {
-          "caminho": "extensoes/DropEasySan.dll",
+          "caminho": "extensoes/San/DropEasySan.dll",
           "destino": "ext",
           "sha256": "C6C75C4CED3EB7240A919A58CA5C83D6F36EC4062F86C920915FCB80BF3BD539",
           "tamanho": 775168
+        },
+        {
+          "caminho": "extensoes/San.dll",
+          "destino": "ext",
+          "sha256": "7F9252F785BA727DB1A76587E8FB1FEA01CF5830DA053BEE5277D8B9EC9E8004",
+          "tamanho": 10240
         }
       ],
-      "data": "2026-11-08"
+      "data": "2026-11-10"
     },
     {
       "id": "upscale",
@@ -486,13 +492,19 @@
       "aviso_en": "Downloads the AI engine by itself the first time.",
       "arquivos": [
         {
-          "caminho": "extensoes/UpscaleSan.dll",
+          "caminho": "extensoes/San/UpscaleSan.dll",
           "destino": "ext",
           "sha256": "239DFD51E3166B81187C5ED14176F6ECBCAAD54B8DE6C986F592E20365E5ACC1",
           "tamanho": 496640
+        },
+        {
+          "caminho": "extensoes/San.dll",
+          "destino": "ext",
+          "sha256": "7F9252F785BA727DB1A76587E8FB1FEA01CF5830DA053BEE5277D8B9EC9E8004",
+          "tamanho": 10240
         }
       ],
-      "data": "2026-11-09"
+      "data": "2026-11-10"
     },
     {
       "id": "recorte",
@@ -552,10 +564,16 @@
       "aviso_en": "Downloads the model the first time (1.1 GB). On NVIDIA cards it also prepares itself for about 5 minutes, only once.",
       "arquivos": [
         {
-          "caminho": "extensoes/RecorteSan.dll",
+          "caminho": "extensoes/San/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "EFD6F7A1B2C189194B68CA648D46A320F36AF0FD3846D27983198AF21CD6458A",
+          "sha256": "4A7FFEE32462042754F8CE5ECD610A8AEDAA29FF430BE925E0B5BC526119CC0E",
           "tamanho": 579584
+        },
+        {
+          "caminho": "extensoes/San.dll",
+          "destino": "ext",
+          "sha256": "7F9252F785BA727DB1A76587E8FB1FEA01CF5830DA053BEE5277D8B9EC9E8004",
+          "tamanho": 10240
         },
         {
           "caminho": "motor-recorte/Accessibility.dll",
@@ -2123,15 +2141,21 @@
       ],
       "arquivos": [
         {
-          "caminho": "extensoes/OrganizadorSan.dll",
+          "caminho": "extensoes/San/OrganizadorSan.dll",
           "destino": "ext",
           "sha256": "A8DA7DB96FFC49A868C8A11833B3BE403A61705B1F8752B31959C7BA4EB0CF78",
           "tamanho": 6773248
+        },
+        {
+          "caminho": "extensoes/San.dll",
+          "destino": "ext",
+          "sha256": "7F9252F785BA727DB1A76587E8FB1FEA01CF5830DA053BEE5277D8B9EC9E8004",
+          "tamanho": 10240
         }
       ],
       "aviso": "A busca pelo que aparece baixa uma IA (~900 MB) pelo próprio painel, só se você quiser usar.",
       "aviso_en": "Searching by what shows up downloads an AI (~900 MB) from the panel, only if you want to use it.",
-      "data": "2026-11-08"
+      "data": "2026-11-10"
     },
     {
       "id": "proxy",
@@ -2173,10 +2197,16 @@
       ],
       "arquivos": [
         {
-          "caminho": "extensoes/ProxySan.dll",
+          "caminho": "extensoes/San/ProxySan.dll",
           "destino": "ext",
           "sha256": "D52CF2B21DC1407220E757665A32C564B0BCD7184922A1636D179B15655552EF",
           "tamanho": 271360
+        },
+        {
+          "caminho": "extensoes/San.dll",
+          "destino": "ext",
+          "sha256": "7F9252F785BA727DB1A76587E8FB1FEA01CF5830DA053BEE5277D8B9EC9E8004",
+          "tamanho": 10240
         }
       ],
       "data": "2026-11-10"
@@ -2224,13 +2254,19 @@
       ],
       "arquivos": [
         {
-          "caminho": "extensoes/NotasSan.dll",
+          "caminho": "extensoes/San/NotasSan.dll",
           "destino": "ext",
           "sha256": "8100EB3A9F1A68AF1C91D5FB47ABB027C76787E20A7F3B4FA20BF50304C0697A",
           "tamanho": 388096
+        },
+        {
+          "caminho": "extensoes/San.dll",
+          "destino": "ext",
+          "sha256": "7F9252F785BA727DB1A76587E8FB1FEA01CF5830DA053BEE5277D8B9EC9E8004",
+          "tamanho": 10240
         }
       ],
-      "data": "2026-11-09"
+      "data": "2026-11-10"
     },
     {
       "id": "search",
@@ -2292,13 +2328,19 @@
       ],
       "arquivos": [
         {
-          "caminho": "extensoes/SearchSan.dll",
+          "caminho": "extensoes/San/SearchSan.dll",
           "destino": "ext",
           "sha256": "B245437B4EC17DC79D2608753B9D9261DB05300E1296E677760F95B1B9520C4C",
           "tamanho": 461824
+        },
+        {
+          "caminho": "extensoes/San.dll",
+          "destino": "ext",
+          "sha256": "7F9252F785BA727DB1A76587E8FB1FEA01CF5830DA053BEE5277D8B9EC9E8004",
+          "tamanho": 10240
         }
       ],
-      "data": "2026-11-08"
+      "data": "2026-11-10"
     },
     {
       "id": "santools",
@@ -2351,10 +2393,16 @@
       ],
       "arquivos": [
         {
-          "caminho": "extensoes/SanTools.dll",
+          "caminho": "extensoes/San/SanTools.dll",
           "destino": "ext",
           "sha256": "70F0148DA5A16C462BF95EF6EE3A5C30B7058F3273D7C7CBCE1ECB7F8EEB29D8",
           "tamanho": 5726208
+        },
+        {
+          "caminho": "extensoes/San.dll",
+          "destino": "ext",
+          "sha256": "7F9252F785BA727DB1A76587E8FB1FEA01CF5830DA053BEE5277D8B9EC9E8004",
+          "tamanho": 10240
         },
         {
           "caminho": "santools-ofx/SanTools.ofx.bundle/Contents/Win64/SanTools.ofx",
@@ -2408,13 +2456,19 @@
       ],
       "arquivos": [
         {
-          "caminho": "extensoes/CameraSan.dll",
+          "caminho": "extensoes/San/CameraSan.dll",
           "destino": "ext",
           "sha256": "DE2C92D6C374A8CB0117F9A1E13C9E7B285811DA7036DEADD1350E95F4B331A6",
           "tamanho": 475136
+        },
+        {
+          "caminho": "extensoes/San.dll",
+          "destino": "ext",
+          "sha256": "7F9252F785BA727DB1A76587E8FB1FEA01CF5830DA053BEE5277D8B9EC9E8004",
+          "tamanho": 10240
         }
       ],
-      "data": "2026-11-09"
+      "data": "2026-11-10"
     },
     {
       "id": "editor",
@@ -2492,13 +2546,19 @@
       "aviso_en": "To listen to the speech it downloads Whisper (574 MB), and for the smart rough cut the local brain (~2.5 GB), all from the panel. Works best with a graphics card.",
       "arquivos": [
         {
-          "caminho": "extensoes/EditorSan.dll",
+          "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
           "sha256": "EDCCC8630C5831C400FF8E7657BC00F2D0A98BE00B111DAD66FA0D7212542BA7",
           "tamanho": 9370112
+        },
+        {
+          "caminho": "extensoes/San.dll",
+          "destino": "ext",
+          "sha256": "7F9252F785BA727DB1A76587E8FB1FEA01CF5830DA053BEE5277D8B9EC9E8004",
+          "tamanho": 10240
         }
       ],
-      "data": "2026-11-09"
+      "data": "2026-11-10"
     },
     {
       "id": "volume",
@@ -2548,10 +2608,16 @@
       ],
       "arquivos": [
         {
-          "caminho": "extensoes/VolumeSanPainel.dll",
+          "caminho": "extensoes/San/VolumeSanPainel.dll",
           "destino": "ext",
           "sha256": "EF78DD5351A917B818952A90CD4A25EAB587277B44AB5B744D6B4193A94AD3F1",
           "tamanho": 106496
+        },
+        {
+          "caminho": "extensoes/San.dll",
+          "destino": "ext",
+          "sha256": "7F9252F785BA727DB1A76587E8FB1FEA01CF5830DA053BEE5277D8B9EC9E8004",
+          "tamanho": 10240
         },
         {
           "caminho": "scripts/Volume san.dll",
@@ -2572,7 +2638,7 @@
           "tamanho": 1048
         }
       ],
-      "data": "2026-11-08"
+      "data": "2026-11-10"
     },
     {
       "id": "motion",
@@ -2781,8 +2847,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "14C53721CB3218A302016DA23F0152D4BA46F9264A634385E7EA68C620FC9734",
-          "tamanho": 345600
+          "sha256": "8F81D7627E24A50A753F9C27662FC6F7D274EE8244DB1AF7624C188E1345B576",
+          "tamanho": 346112
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
@@ -2851,7 +2917,7 @@
           "tamanho": 160216
         }
       ],
-      "data": "2026-11-09"
+      "data": "2026-11-10"
     },
     {
       "id": "prompter",
@@ -2902,8 +2968,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "3A65E2CCC19D9C17CD0E0ABC12BDB6C5661626D62E3FBE1F31BD25AFD1A1BB35",
-        "tamanho": 2572288
+        "sha256": "CBC5D4D2023377C8AEEF59D4A797155DC5753227F0423F6BC36399FB0DD24DCF",
+        "tamanho": 2576896
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -2913,5 +2979,5 @@
       }
     ]
   },
-  "gerado": "2026-11-10 01:15"
+  "gerado": "2026-11-10 08:57"
 }
