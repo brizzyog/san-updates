@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "camera-tocando",
+      "data": "2026-11-11",
+      "titulo": "Câmera san acompanha o play",
+      "titulo_en": "Câmera san follows playback",
+      "texto": "Com o VEGAS tocando, até em loop, a prévia da Câmera san continua na tela e anda junto com a animação, com um selo \"VEGAS tocando\" em cima. Antes ela trocava para a tela \"Tocando…\" e sumia a cada volta do loop. Para mexer, é só parar o play.",
+      "texto_en": "While VEGAS plays, even in a loop, the Câmera san preview stays on screen and moves along with the animation, with a \"VEGAS playing\" tag on top. Before, it switched to the \"Playing…\" screen and vanished on every loop. To make changes, just stop playback."
+    },
+    {
       "id": "camera-cantos",
       "data": "2026-11-10",
       "titulo": "Câmera san: tamanho pelos cantos",
@@ -2538,8 +2546,8 @@
         {
           "caminho": "extensoes/San/CameraSan.dll",
           "destino": "ext",
-          "sha256": "A34CA45CAE09705FF08ECCAB0FA48279A6DC0414769CA108DCA4F904741D16B2",
-          "tamanho": 493056
+          "sha256": "382A61F07CCEE8F2ECFDDDD0F5AC84CDAF52352774076DDF4623CE43AB450CC1",
+          "tamanho": 497664
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3093,5 +3101,5 @@
       }
     ]
   },
-  "gerado": "2026-11-10 20:45"
+  "gerado": "2026-11-11 00:19"
 }
