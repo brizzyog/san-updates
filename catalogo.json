@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "edita-entende-o-video",
+      "data": "2026-11-11",
+      "titulo": "Edita san: a Claude entende o vídeo antes de cortar",
+      "titulo_en": "Edita san: Claude understands the video before cutting",
+      "texto": "Editar com a Claude agora lê duas vezes: primeiro entende do que o vídeo trata, onde ele começa de verdade e quais são as partes; depois decupa seguindo esse fio (frase solta e começo de gravação saem, pergunta do chat e a sua opinião ficam, de toda repetição fica a última). O que ela tira com dúvida vem em Para você decidir. Na revisão simples apareceu Partes do vídeo: tire ou traga de volta uma parte inteira num clique. E o Edita aprende sozinho quando você renderiza o vídeo pronto inteiro (desliga em Meu jeito; guarde a gravação crua até terminar de editar).",
+      "texto_en": "Edit with Claude now reads twice: first it understands what the video is about, where it really starts and what its parts are; then it cuts following that thread (loose lines and recording warm-up go, chat questions and your opinion stay, the last take of every repeat stays). What she removes with doubt comes in For you to decide. The simple review gained Video parts: remove or bring back a whole part in one click. And Edita learns on its own when you render the whole finished video (turn it off in My way; keep the raw recording until you finish editing)."
+    },
+    {
       "id": "arsenal-cacada-explica",
       "data": "2026-11-11",
       "titulo": "Arsenal san: Caçada que explica",
@@ -3125,5 +3133,5 @@
       }
     ]
   },
-  "gerado": "2026-11-11 13:18"
+  "gerado": "2026-11-11 13:23"
 }
