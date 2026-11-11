@@ -3,6 +3,30 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-cacada-explica",
+      "data": "2026-11-11",
+      "titulo": "Arsenal san: Caçada que explica",
+      "titulo_en": "Arsenal san: a Hunt that explains",
+      "texto": "Radar › Caçada agora explica cada vídeo que está bombando (quantas vezes passou do normal do canal, canal pequeno estourando, views por dia, formato e jeito do título), diz se serve para o seu canal ou para o Dark e já sugere ângulo e título para cada um. Escolha \"Para qual canal\" antes de caçar; se a IA estiver sem limite, a caçada roda assim mesmo.",
+      "texto_en": "Radar › Hunt now explains each video that is blowing up (how many times above the channel normal, small channel exploding, views per day, format and title style), says whether it suits your channel or the Dark one, and suggests an angle and title for each. Pick \"For which channel\" before hunting; if the AI is out of quota, the hunt still runs."
+    },
+    {
+      "id": "dropeasy-imagens",
+      "data": "2026-11-11",
+      "titulo": "DropEasy san: imagens melhores",
+      "titulo_en": "DropEasy san: better images",
+      "texto": "Cada imagem mostra a resolução (4K, 2K, 1080p, 720p ou pequena). Filtro de formato: deitada, em pé ou quadrada, no Google e no Pinterest. Repetidas viram uma só, ficando a maior, e o Google traz mais resultados ao rolar. Botão direito › Parecidas pela aparência acha a versão maior de uma imagem. As imagens da tela já vão sendo baixadas, com um anel mostrando quando ficam prontas para arrastar.",
+      "texto_en": "Each image shows its resolution (4K, 2K, 1080p, 720p or small). Shape filter: landscape, portrait or square, on Google and Pinterest. Repeats become one, keeping the biggest, and Google brings more results as you scroll. Right-click › Look-alikes finds a bigger version of an image. Images on screen start downloading, with a ring showing when they are ready to drag."
+    },
+    {
+      "id": "arsenal-filmes-motor",
+      "data": "2026-11-11",
+      "titulo": "Filmes em código instala de novo",
+      "titulo_en": "Code films install again",
+      "texto": "Arsenal: o Instalar do Filmes em código parava em \"O motor de render não instalou\" (o Python nascia sem o instalador de pacotes). Agora instala, e uma tentativa que quebrou no meio é refeita sozinha. Os estilos sem imagem ganharam capa desenhada, e as capas dos estilos do Genie aparecem depois da instalação.",
+      "texto_en": "Arsenal: Install in Code films stopped at \"The render engine did not install\" (Python came without its package installer). It installs now, and an attempt that broke halfway is redone by itself. Styles without a picture got a drawn cover, and the Genie styles' covers show up after installing."
+    },
+    {
       "id": "camera-tocando",
       "data": "2026-11-11",
       "titulo": "Câmera san acompanha o play",
@@ -510,8 +534,8 @@
         {
           "caminho": "extensoes/San/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "DBDA70D3E7FEBE30244A77B26C7F048D36A8597427F433CBC3ACF0B6F4D32D0D",
-          "tamanho": 784384
+          "sha256": "0AF7D2DFA79BCFDE7B8C576987C98E7E473D438650CF08A188A13F0E0856BBF8",
+          "tamanho": 803840
         },
         {
           "caminho": "extensoes/San.dll",
@@ -520,7 +544,7 @@
           "tamanho": 10240
         }
       ],
-      "data": "2026-11-10"
+      "data": "2026-11-11"
     },
     {
       "id": "upscale",
@@ -2556,7 +2580,7 @@
           "tamanho": 10240
         }
       ],
-      "data": "2026-11-10"
+      "data": "2026-11-11"
     },
     {
       "id": "camera-beta",
@@ -2670,8 +2694,8 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "863B2AE781719E844BAB74A1DDE1A6CADAF331A01FD94D944A282F598C428456",
-          "tamanho": 9398272
+          "sha256": "560429F218891C2E32DDE4721FDB1B0452B5B4FEE039BA790E7639EE1C4CFE49",
+          "tamanho": 9492480
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2680,7 +2704,7 @@
           "tamanho": 10240
         }
       ],
-      "data": "2026-11-10"
+      "data": "2026-11-11"
     },
     {
       "id": "volume",
@@ -2963,8 +2987,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "94EE7EC45155DDB0C9AEDD08AE92E4ACAA3B20F1BAB6A76F144444696F1C3419",
-          "tamanho": 191488
+          "sha256": "2B5AABB89ACE3D0445D2A214FEFD4FC4F8B158C125E3343EDF7CE3770AAD3D18",
+          "tamanho": 199680
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
@@ -2987,8 +3011,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "637E612F750688884206B3BC2FD4BD624C1A18B8ED451D792FAAD3EAC98F0982",
-          "tamanho": 428032
+          "sha256": "61069D96DC088CA9AB76042EF4EE4E8A170FA83D00514C09E27C7EB9300B7F26",
+          "tamanho": 487424
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
@@ -3039,7 +3063,7 @@
           "tamanho": 160216
         }
       ],
-      "data": "2026-11-10"
+      "data": "2026-11-11"
     },
     {
       "id": "prompter",
@@ -3090,7 +3114,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "8DBF6AFD4D7EA79158F3544B3295934C546FBB99F6B4877716C94DEB545BA7B4",
+        "sha256": "09643E81610F81C1750C21A3ADF9EC5EB05374E642DF4F2E46B15074089817C6",
         "tamanho": 2605056
       },
       {
@@ -3101,5 +3125,5 @@
       }
     ]
   },
-  "gerado": "2026-11-11 00:19"
+  "gerado": "2026-11-11 13:18"
 }
