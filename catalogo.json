@@ -3003,7 +3003,7 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "AA79BCD7E521D6CA45510606A57F96259EB40ED09AE4E0C8972A173D3ABC269E",
+          "sha256": "44C74666B9B2318623ABC6DFA4C59F5DFCE777EF4F46E6F9E47EEFCE833A8834",
           "tamanho": 1196544
         },
         {
@@ -3174,8 +3174,8 @@
         {
           "caminho": "prompter/Prompter San.exe",
           "destino": "local:Programs\\Prompter San",
-          "sha256": "A7B5F2AF9E39DA7E882FF5823DCA5506CFDBF55546D2E39F386F190BB2A7453C",
-          "tamanho": 1710592
+          "sha256": "F3400E9F97AEF8C7F241C57E61420DAFD1B3D8D94949DAA2C6A9BA0759211723",
+          "tamanho": 1711104
         },
         {
           "caminho": "prompter/Prompter San.exe.config",
@@ -3184,7 +3184,7 @@
           "tamanho": 174
         }
       ],
-      "data": "2026-11-10"
+      "data": "2026-11-12"
     },
     {
       "id": "backup",
@@ -3245,5 +3245,5 @@
       }
     ]
   },
-  "gerado": "2026-11-12 16:13"
+  "gerado": "2026-11-12 16:26"
 }
