@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "backup-san",
+      "data": "2026-11-12",
+      "titulo": "Backup san: o seu VEGAS de volta depois de formatar",
+      "titulo_en": "Backup san: your VEGAS back after formatting",
+      "texto": "App novo na caixa Apps do PC. Um clique guarda extensões, scripts, presets, pacotes de efeitos, atalhos, layouts e preferências do VEGAS num zip em outro disco, com a lista do que instalar de novo. Depois de formatar, abra o Backup san ao lado do zip e clique em Restaurar.",
+      "texto_en": "New app in the PC Apps box. One click saves VEGAS extensions, scripts, presets, effect packages, shortcuts, layouts and preferences in a zip on another drive, with the list of what to reinstall. After formatting, open Backup san next to the zip and click Restore."
+    },
+    {
       "id": "saude-entende-quedas",
       "data": "2026-11-12",
       "titulo": "Saúde do VEGAS: diz quem derrubou o VEGAS",
@@ -551,7 +559,7 @@
         {
           "caminho": "extensoes/San/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "3ADCA8735EF5C453946646D2F0FABF8AB1BCCAB25B40A4C7D143667CACFD1AA8",
+          "sha256": "06F5908C1F2C2D052D397541DC43C252212702EC597700AA5C84FFA26AC2E9BD",
           "tamanho": 809984
         },
         {
@@ -623,7 +631,7 @@
         {
           "caminho": "extensoes/San/UpscaleSan.dll",
           "destino": "ext",
-          "sha256": "C33B99C75BEFA9F3B3DBA5D629ABC7A820A0B588F390E8E54954E41AFD01FB52",
+          "sha256": "98380DB9285BAD6C5B813117F1E48C527CB5A725ED050EE07ED4DDDFBED1EEB2",
           "tamanho": 527360
         },
         {
@@ -695,7 +703,7 @@
         {
           "caminho": "extensoes/San/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "83B30768C3993C6164782DA6866030DA48DEB224105918060D367F622F5D545D",
+          "sha256": "FC0856815AC00A39FF5E9E17926F12D98BBE3A6E3A214F850156C4E670A46A21",
           "tamanho": 607232
         },
         {
@@ -1007,13 +1015,13 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "7A2B047E276E00DD9A7C408B95AE0E9C400B4A9B59D7D971005B8C75E60430A4",
+          "sha256": "F8BDC41E2CB6D19AC0A919A975C2A84AE26B88F575FE930E63EBF7511DA329CB",
           "tamanho": 117248
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "DC18110EA4E384F0539E304372C3B8C6BF24A8BFC0C9DEE96AE3162EDDE9BB70",
+          "sha256": "4EABA0C8150218C2126AC89F49C55F6702D025B786B66B4E0357BC326E350C6D",
           "tamanho": 151552
         },
         {
@@ -2272,7 +2280,7 @@
         {
           "caminho": "extensoes/San/OrganizadorSan.dll",
           "destino": "ext",
-          "sha256": "EF67D8C0AC1A5B98502EEBF5D43B1DDDA039AE71694DDB08609FE0D6EFFF8E55",
+          "sha256": "D9881F87C64DBAA2D8A8BB69A0BCAD0CE61CBBCA59820F41EEAA8BA299EDDF7D",
           "tamanho": 6786048
         },
         {
@@ -2328,7 +2336,7 @@
         {
           "caminho": "extensoes/San/ProxySan.dll",
           "destino": "ext",
-          "sha256": "57F33A0977149E4959606556C816119F34BF259EDBFC90CCCFC09E5C8820BA59",
+          "sha256": "BA9ED9A77A20190F79FE451B51A503C69D894459CDCB242F6AAF204DF467B2F2",
           "tamanho": 328192
         },
         {
@@ -2385,7 +2393,7 @@
         {
           "caminho": "extensoes/San/NotasSan.dll",
           "destino": "ext",
-          "sha256": "B9FCC6FF4347DBACD593B267D48582A6D5441D38B4AA1D14370E54255ECA7759",
+          "sha256": "B5FB3A3B0E325FA5A0818C95ACC5BB1EE191E6EC94C352CEB34E816C45B9C28B",
           "tamanho": 412672
         },
         {
@@ -2459,8 +2467,8 @@
         {
           "caminho": "extensoes/San/SearchSan.dll",
           "destino": "ext",
-          "sha256": "7938A707523B875E397C32CDB6A69EA987241A22FB56EEB520A9356A30233877",
-          "tamanho": 482816
+          "sha256": "B562DB177F294210626A43D11B91D0EA2080E8146D069946C830663506AFA6DC",
+          "tamanho": 483840
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2524,7 +2532,7 @@
         {
           "caminho": "extensoes/San/SanTools.dll",
           "destino": "ext",
-          "sha256": "B06A36E0F0F955D67CDB801D6526B3856C9512942325779F064BC7DBDDC5C521",
+          "sha256": "FFF58FFD79E0FBD41F70039371EEADE53A09A2EB53D7F55B823C7B6B4F6B6CC4",
           "tamanho": 5750272
         },
         {
@@ -2587,7 +2595,7 @@
         {
           "caminho": "extensoes/San/CameraSan.dll",
           "destino": "ext",
-          "sha256": "0FDB24D0AE11149D3E3056F83B106AA7990FCB35564E4168D581A399FDED6081",
+          "sha256": "573960B5B42887AAA9F485528AFAD31B1975E900EFAF22B3B05FFC4E9879DFA3",
           "tamanho": 502784
         },
         {
@@ -2621,7 +2629,7 @@
         {
           "caminho": "extensoes/San/CameraSanBeta.dll",
           "destino": "ext",
-          "sha256": "F93CEDA1055533653F92005A44098CB8245F22CD7CF02AE44FF5C78FA4B0D833",
+          "sha256": "AEB4FFFC472B7DE59759DDC3AD28C34A2727049FD166FD99E051952504F7DE21",
           "tamanho": 550400
         },
         {
@@ -2711,8 +2719,8 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "49E94658703B994FCED9336A11D0485B6D4CA2F3D537A28FB071170E6442E64C",
-          "tamanho": 9570816
+          "sha256": "DFB130A71164ED314A388C824A488D55E8B5E5AD8C7DF95E1AB9395297CC39D0",
+          "tamanho": 9575424
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2773,7 +2781,7 @@
         {
           "caminho": "extensoes/San/VolumeSanPainel.dll",
           "destino": "ext",
-          "sha256": "2F18FD581B1BDA9F479304A0BD50BB37D8CD4F736E7F75C8A323B60FE3F3F64E",
+          "sha256": "5D1DF9B00EE4A4C9E0A28D140A0A262ACEDA876CB6E6A9FE09665C4337810870",
           "tamanho": 110080
         },
         {
@@ -2848,7 +2856,7 @@
         {
           "caminho": "extensoes/San/MasterSan.dll",
           "destino": "ext",
-          "sha256": "F6C82569ECADB815FB79DD3C2838D2D2416797E8D90911F49325FEEDD875BC11",
+          "sha256": "283C40EAD8D10FAC970CAD5D56DFE774E5A9769111ECF883FD39F24861CA6088",
           "tamanho": 79360
         },
         {
@@ -3177,6 +3185,44 @@
         }
       ],
       "data": "2026-11-10"
+    },
+    {
+      "id": "backup",
+      "nome": "Backup san",
+      "versao": "1.0.0",
+      "tipo": "app",
+      "cor": "#ff8a14",
+      "dados": [
+        "BackupVegas"
+      ],
+      "resumo": "Guarda tudo que é seu no VEGAS num zip e põe de volta depois de formatar.",
+      "resumo_en": "Saves everything that is yours in VEGAS in one zip and puts it back after formatting.",
+      "descricao": "Um clique junta extensões e scripts (com as configurações), presets dos efeitos, pacotes de FX, modelos de render, preferências, atalhos de teclado e layouts do VEGAS, e os seus dados das extensões slayeR san. Guarda em outro disco (o que formatar o C: não apaga), deixa ao lado a lista do que instalar de novo (plugins pagos, VST, programas) e uma cópia de si mesmo. Restaurar põe tudo no lugar sem pedir administrador; o que já existe vai para \"Antes de restaurar\" e arquivo mais novo no PC fica.",
+      "descricao_en": "One click gathers extensions and scripts (with their settings), effect presets, FX packages, render templates, preferences, keyboard shortcuts and VEGAS layouts, plus your slayeR san extension data. It saves to another drive (one that formatting C: doesn't erase), leaves next to it the list of what to reinstall (paid plugins, VST, programs) and a copy of itself. Restore puts everything back without asking for administrator; what already exists goes to \"Antes de restaurar\" and newer files on the PC stay.",
+      "onde": "Menu Iniciar › Backup san (e atalho na Área de Trabalho)",
+      "onde_en": "Start menu › Backup san (and a Desktop shortcut)",
+      "abrir": "backup/Backup san.exe",
+      "arquivos": [
+        {
+          "caminho": "backup/Backup san.exe",
+          "destino": "local:Programs\\Backup san",
+          "sha256": "B15A7700C15716BE9FE4754CCE0372A7DD85D955546821985A558B077801ECBF",
+          "tamanho": 801280
+        },
+        {
+          "caminho": "backup/Backup san.exe.config",
+          "destino": "local:Programs\\Backup san",
+          "sha256": "051099983B896673909E01A1F631B6652ABB88DA95C9F06F3EFEF4BE033091FA",
+          "tamanho": 174
+        },
+        {
+          "caminho": "backup/Newtonsoft.Json.dll",
+          "destino": "local:Programs\\Backup san",
+          "sha256": "B624949DF8B0E3A6153FDFB730A7C6F4990B6592EE0D922E1788433D276610F3",
+          "tamanho": 701992
+        }
+      ],
+      "data": "2026-11-12"
     }
   ],
   "app": {
@@ -3188,8 +3234,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "05DA6267339902D2A905BFB8814C4261A31A689F61AB4EECCA2C568BAD0C099B",
-        "tamanho": 2615808
+        "sha256": "E16789D2732FEBCD0DB6005156618B314A9201893FF5C91D73865598B29169A9",
+        "tamanho": 2617344
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -3199,5 +3245,5 @@
       }
     ]
   },
-  "gerado": "2026-11-12 15:28"
+  "gerado": "2026-11-12 16:13"
 }
