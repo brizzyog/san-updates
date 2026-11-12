@@ -623,7 +623,7 @@
         {
           "caminho": "extensoes/San/UpscaleSan.dll",
           "destino": "ext",
-          "sha256": "9BD8E758B3327774F5EEC0F420CDC6FD6AD8B64213900F300C32445136A55888",
+          "sha256": "C33B99C75BEFA9F3B3DBA5D629ABC7A820A0B588F390E8E54954E41AFD01FB52",
           "tamanho": 527360
         },
         {
@@ -2587,8 +2587,8 @@
         {
           "caminho": "extensoes/San/CameraSan.dll",
           "destino": "ext",
-          "sha256": "56684FB3A21EB20CDE480E94F2A96F7FBC21D4CA32C127612E9C159981199447",
-          "tamanho": 501248
+          "sha256": "0FDB24D0AE11149D3E3056F83B106AA7990FCB35564E4168D581A399FDED6081",
+          "tamanho": 502784
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2621,7 +2621,7 @@
         {
           "caminho": "extensoes/San/CameraSanBeta.dll",
           "destino": "ext",
-          "sha256": "42653F5CC071BCAC62ACB432AB19B256F1BB9000A68D0D98321ABCF997C8131B",
+          "sha256": "F93CEDA1055533653F92005A44098CB8245F22CD7CF02AE44FF5C78FA4B0D833",
           "tamanho": 550400
         },
         {
@@ -2711,8 +2711,8 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "5A2E7D79805B90B843DA842A7B2D148939DABFF90CA5486E50E68022658E7D87",
-          "tamanho": 9552896
+          "sha256": "49E94658703B994FCED9336A11D0485B6D4CA2F3D537A28FB071170E6442E64C",
+          "tamanho": 9570816
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3188,8 +3188,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "D065AFB01EC413F9B4C585DE1B65ABAE8DEDEFE9D0AF3E8E4A789F87F39C40F0",
-        "tamanho": 2612736
+        "sha256": "DAC6F94785F8E38E9BB1991CE4CED687BA217AC8460D63D0B55C162712228BF5",
+        "tamanho": 2615808
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -3199,5 +3199,5 @@
       }
     ]
   },
-  "gerado": "2026-11-12 13:30"
+  "gerado": "2026-11-12 15:24"
 }
