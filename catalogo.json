@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "saude-entende-quedas",
+      "data": "2026-11-12",
+      "titulo": "Saúde do VEGAS: diz quem derrubou o VEGAS",
+      "titulo_en": "VEGAS Health: tells you what crashed VEGAS",
+      "texto": "A Saúde do VEGAS agora reconhece a queda que acontece quando o VEGAS joga fora um script que você rodou (quase sempre ao fechar): antes aparecia como erro das extensões, agora diz que não é delas e pede para salvar antes de fechar. Plugins de áudio que caem (como o TDR Nova) aparecem com o nome certo e o momento em que caíram.",
+      "texto_en": "VEGAS Health now recognizes the crash that happens when VEGAS discards a script you ran (almost always while closing): it used to look like an extension error, now it says it isn't and asks you to save before closing. Audio plugins that crash (like TDR Nova) show up with their proper name and when they crashed."
+    },
+    {
       "id": "edita-entende-o-video",
       "data": "2026-11-11",
       "titulo": "Edita san: a Claude entende o vídeo antes de cortar",
@@ -2613,8 +2621,8 @@
         {
           "caminho": "extensoes/San/CameraSanBeta.dll",
           "destino": "ext",
-          "sha256": "7910D754573E1486B20AB96DC00AE027730190EC4C1CEDD91C11EE455A13A8C6",
-          "tamanho": 549376
+          "sha256": "42653F5CC071BCAC62ACB432AB19B256F1BB9000A68D0D98321ABCF997C8131B",
+          "tamanho": 550400
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3191,5 +3199,5 @@
       }
     ]
   },
-  "gerado": "2026-11-12 13:22"
+  "gerado": "2026-11-12 13:30"
 }
