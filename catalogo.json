@@ -3188,7 +3188,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "DAC6F94785F8E38E9BB1991CE4CED687BA217AC8460D63D0B55C162712228BF5",
+        "sha256": "05DA6267339902D2A905BFB8814C4261A31A689F61AB4EECCA2C568BAD0C099B",
         "tamanho": 2615808
       },
       {
@@ -3199,5 +3199,5 @@
       }
     ]
   },
-  "gerado": "2026-11-12 15:24"
+  "gerado": "2026-11-12 15:28"
 }
