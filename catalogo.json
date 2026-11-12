@@ -3003,8 +3003,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "44C74666B9B2318623ABC6DFA4C59F5DFCE777EF4F46E6F9E47EEFCE833A8834",
-          "tamanho": 1196544
+          "sha256": "E01DD290C9D42FCDB12A2C69061F1B18DED6FFD2DAABDC368EC48215747CE5F2",
+          "tamanho": 1196032
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3174,8 +3174,8 @@
         {
           "caminho": "prompter/Prompter San.exe",
           "destino": "local:Programs\\Prompter San",
-          "sha256": "F3400E9F97AEF8C7F241C57E61420DAFD1B3D8D94949DAA2C6A9BA0759211723",
-          "tamanho": 1711104
+          "sha256": "3A00813CDD089B512B9C6D359D5E04708EA28CEED9AAA569518A73680C50E76A",
+          "tamanho": 1710592
         },
         {
           "caminho": "prompter/Prompter San.exe.config",
@@ -3234,7 +3234,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "E16789D2732FEBCD0DB6005156618B314A9201893FF5C91D73865598B29169A9",
+        "sha256": "36CFBCEB58FF69F01556B85CD1A338CAE1818BD63FB958A0A70A14279EA2DD19",
         "tamanho": 2617344
       },
       {
@@ -3245,5 +3245,5 @@
       }
     ]
   },
-  "gerado": "2026-11-12 16:26"
+  "gerado": "2026-11-12 16:28"
 }
