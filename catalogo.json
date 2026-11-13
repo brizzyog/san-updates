@@ -2890,7 +2890,7 @@
           "tamanho": 10240
         }
       ],
-      "data": "2026-11-12"
+      "data": "2026-11-13"
     },
     {
       "id": "motion",
@@ -3027,8 +3027,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "7EA2FF18AB39EB0B2595037EC7B2523B6EC8796692A08B3A5B018D286445130A",
-          "tamanho": 1204224
+          "sha256": "D4DEA32661442A467225E7160EA937ABD7BCF1E8E895DC2ED9A0F14D8DB550E1",
+          "tamanho": 1250304
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3045,20 +3045,20 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Canal.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "5CA5BC2945C60BC2939ABC439C58F9B523627F758192C78CED31093012AD8476",
-          "tamanho": 435712
+          "sha256": "E31F7A3DED6013F9C08CED7596AFD7FD31ED010F16F358272E94E24C6E442EC8",
+          "tamanho": 560640
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cerebro.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "8571915420FE8B3127B7ABFCC5876060E925DD42D27372725BD591DAD23266D7",
-          "tamanho": 203776
+          "sha256": "08065F3DCC5032C3CA383A0BD08FFEE3D5E010B08090954679F8E69F14A41FC9",
+          "tamanho": 204288
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "5E9DB240082DFEADEDE5DA393AF9C1927DACCEC39C6748D0B6B53297F5C886BF",
-          "tamanho": 541696
+          "sha256": "0103BC105CBECE4C96DC28C96514059CECE2E02D55E0C22A1CFB0EBE0227C9C6",
+          "tamanho": 540672
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Conexoes.dll",
@@ -3075,8 +3075,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "75EDD397EF0F39C3BA2410C1A1A02BF2A8BB0F431C791F3911C6E45905633682",
-          "tamanho": 999936
+          "sha256": "4420D4EC15593819B300CF0FFAB69019DA03CA94CEDBF0C01793AC11530405E8",
+          "tamanho": 1020416
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
@@ -3105,8 +3105,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "3E384B5C174E166CA34E7D81DC2BD6412214CFCC2C34DF347703A0B8257F758B",
-          "tamanho": 527360
+          "sha256": "F0373585A1F02DB25B583C52C95B0785C1633F899E153406845CAA6EBE5DB4CD",
+          "tamanho": 602112
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
@@ -3117,14 +3117,14 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "A1FF1F8103C68AE8B2F2E4EAC5434999AC8C0992160FC5C04C65805011FFB383",
-          "tamanho": 553984
+          "sha256": "4CDFF62B5643FBAE4FFF108961F794BA8F99AD81F034EA191283D955D11DB7FB",
+          "tamanho": 573952
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "03EA9B4BC49AD3840606AB2D8503C8D45079A97F15871E8C15F8D09FC83FBB5F",
-          "tamanho": 1129472
+          "sha256": "CD45BD98B1BC550EFE297305C77F7BC92FE635AF65824766363EB242C15EF617",
+          "tamanho": 1138176
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.VideoIA.dll",
@@ -3169,7 +3169,7 @@
           "tamanho": 160216
         }
       ],
-      "data": "2026-11-12"
+      "data": "2026-11-13"
     },
     {
       "id": "prompter",
@@ -3258,7 +3258,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "3C4281473338F6AB93EF00CBA899484EC2AAD8AE2F747FACEFC2749C8D886F35",
+        "sha256": "2EC011022BA8D3C9B51D8CD5CCBF8B31F097B3EC3E25BC9376910C756427069C",
         "tamanho": 2617856
       },
       {
@@ -3269,5 +3269,5 @@
       }
     ]
   },
-  "gerado": "2026-11-13 00:59"
+  "gerado": "2026-11-13 10:54"
 }
