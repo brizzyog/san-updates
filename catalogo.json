@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "dropeasy-google-par",
+      "data": "2026-11-12",
+      "titulo": "DropEasy san: imagem do Google certa na visão grande",
+      "titulo_en": "DropEasy san: the right Google image in the big view",
+      "texto": "Clicar numa imagem do Google para ver maior às vezes abria outra imagem. Agora a visão grande (e o que vai para a timeline quando o site recusa o original) é sempre a imagem que você clicou.",
+      "texto_en": "Clicking a Google image to see it bigger sometimes opened a different image. Now the big view (and what goes to the timeline when the site refuses the original) is always the image you clicked."
+    },
+    {
       "id": "master-visual-novo",
       "data": "2026-11-12",
       "titulo": "Master san: visual novo",
@@ -3250,7 +3258,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "F8B3A24C3CB68E6D524BF399FDF96D31305338906D7DE6F2DE7C6325C132EE0E",
+        "sha256": "3C4281473338F6AB93EF00CBA899484EC2AAD8AE2F747FACEFC2749C8D886F35",
         "tamanho": 2617856
       },
       {
@@ -3261,5 +3269,5 @@
       }
     ]
   },
-  "gerado": "2026-11-12 23:46"
+  "gerado": "2026-11-12 23:50"
 }
