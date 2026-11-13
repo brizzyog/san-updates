@@ -2880,8 +2880,8 @@
         {
           "caminho": "extensoes/San/MasterSan.dll",
           "destino": "ext",
-          "sha256": "FD1E3DF29D1C5F16307A3B296C13CFEC919A91DFB5BF9E703A0A260F8227A76D",
-          "tamanho": 72192
+          "sha256": "F87F00676898D44671DB58225842DA8E5FD624EF812FABA0BE455CCA6FD0C651",
+          "tamanho": 72704
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3269,5 +3269,5 @@
       }
     ]
   },
-  "gerado": "2026-11-12 23:50"
+  "gerado": "2026-11-13 00:59"
 }
