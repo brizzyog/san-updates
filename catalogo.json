@@ -2735,8 +2735,8 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "D1CD45BCEDC1A85C174E3A21FAB7A614FC5CC45C7CE9583FC7535A600A293538",
-          "tamanho": 9626112
+          "sha256": "9DA02175D9A5F4AF1F460152339B86EA3DE288AF56B5BC990FF923B09CFE65EC",
+          "tamanho": 9682944
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3059,14 +3059,14 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "E03EF47EF7DF70E5B43819FBE9742B407BCE08F1C7FBF71C7705568BF19CCE87",
-          "tamanho": 985088
+          "sha256": "75EDD397EF0F39C3BA2410C1A1A02BF2A8BB0F431C791F3911C6E45905633682",
+          "tamanho": 999936
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "27ED55094E255283ACACC559894A8F8802D7F80469AC0808AB6C5AC99A1CA944",
-          "tamanho": 5202944
+          "sha256": "64E3B041E1E847E9DFB9E3652EB6CB1445313E9DE27B38D103BA67AF13A31250",
+          "tamanho": 5211136
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
@@ -3101,8 +3101,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "92BCCC63AC426071F38295D6AF7ACF1A8E1BCD9DE6CDADB9C205D99B58433E7C",
-          "tamanho": 523776
+          "sha256": "A1FF1F8103C68AE8B2F2E4EAC5434999AC8C0992160FC5C04C65805011FFB383",
+          "tamanho": 553984
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
@@ -3242,7 +3242,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "A6B7C1CCE8F65F72D6176A4E6B70C733051E4A55F5D3B30DD9F9451153A1562F",
+        "sha256": "F8B3A24C3CB68E6D524BF399FDF96D31305338906D7DE6F2DE7C6325C132EE0E",
         "tamanho": 2617856
       },
       {
@@ -3253,5 +3253,5 @@
       }
     ]
   },
-  "gerado": "2026-11-12 21:46"
+  "gerado": "2026-11-12 23:37"
 }
