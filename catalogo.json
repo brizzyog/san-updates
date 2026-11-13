@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "master-visual-novo",
+      "data": "2026-11-12",
+      "titulo": "Master san: visual novo",
+      "titulo_en": "Master san: new look",
+      "texto": "Uma barra só com o esquerdo e o direito, a régua embaixo com números que acendem quando o som passa, bolinhas no pico, o pico numa etiqueta que pulsa quando chega no limite, borda vermelha quando estoura e o mudo com um alto-falante.",
+      "texto_en": "One bar with left and right, the ruler below with numbers that light up as the sound passes, dots for the peak, the peak in a tag that pulses near the limit, a red border when it clips and a speaker for mute."
+    },
+    {
       "id": "dropeasy-youtube-rotas",
       "data": "2026-11-12",
       "titulo": "DropEasy san: YouTube que não falha e imagem instantânea",
@@ -2844,8 +2852,8 @@
       ],
       "resumo": "O master do VEGAS em cima da preview: volume com a régua de dB, pico em dB e aviso de estouro.",
       "resumo_en": "The VEGAS master above the preview: level with the dB ruler, peak in dB and clipping warning.",
-      "descricao": "Uma barrinha que mora no espaço vazio da barra de cima da Video Preview (anda e some junto com ela). Mostra o volume que sai do VEGAS agora (esquerdo em cima, direito embaixo) com a régua de dB no meio, igual ao master do VEGAS, o pico em dB desde o play em letra grande e um aviso \"Estourou!\" quando passa do limite. Tem o botão de mudo do master. Só trabalha enquanto toca; parado não gasta nada. Segue a cor escolhida nas extensões.",
-      "descricao_en": "A small bar that lives in the empty space of the Video Preview top bar (it moves and hides with it). It shows the level leaving VEGAS right now (left on top, right below) with the dB ruler in the middle, like the VEGAS master, the peak in dB since play in big type and a \"Clipped!\" warning when it goes over the limit. It has the master mute button. It only works while playing; stopped, it costs nothing. It follows the color chosen for the extensions.",
+      "descricao": "Uma barrinha que mora no espaço vazio da barra de cima da Video Preview (anda e some junto com ela). Mostra o volume que sai do VEGAS agora numa barra só (esquerdo em cima, direito embaixo) com a régua de dB embaixo, cujos números acendem quando o som passa, o pico em dB desde o play numa etiqueta que fica amarela perto do limite e vermelha quando estoura (a borda inteira acende). Tem o botão de mudo do master. Só trabalha enquanto toca; parado não gasta nada. Segue a cor escolhida nas extensões.",
+      "descricao_en": "A small bar that lives in the empty space of the Video Preview top bar (it moves and hides with it). It shows the level leaving VEGAS right now in a single bar (left on top, right below) with the dB ruler underneath, whose numbers light up as the sound passes, and the peak in dB since play in a tag that turns yellow near the limit and red when it clips (the whole border lights up). It has the master mute button. It only works while playing; stopped, it costs nothing. It follows the color chosen for the extensions.",
       "onde": "Em cima da Video Preview · Exibir › Extensões › Master san (liga e desliga)",
       "onde_en": "Above the Video Preview · View › Extensions › Master san (on and off)",
       "atalhos": [
@@ -2864,8 +2872,8 @@
         {
           "caminho": "extensoes/San/MasterSan.dll",
           "destino": "ext",
-          "sha256": "DFD45C043304B94ED4FA1ABC5E47281D4562CDE98E717BC81AC1B3BB3167BE08",
-          "tamanho": 70656
+          "sha256": "FD1E3DF29D1C5F16307A3B296C13CFEC919A91DFB5BF9E703A0A260F8227A76D",
+          "tamanho": 72192
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3253,5 +3261,5 @@
       }
     ]
   },
-  "gerado": "2026-11-12 23:37"
+  "gerado": "2026-11-12 23:46"
 }
