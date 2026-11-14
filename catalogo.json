@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-curta-blender",
+      "data": "2026-11-14",
+      "titulo": "Curta cartoon: estilo Blender 3D e séries interativas",
+      "titulo_en": "Cartoon short: Blender 3D style and interactive series",
+      "texto": "O Curta cartoon ganhou o estilo Blender 3D (personagens de massinha que falam, com expressões, e uma rua de bairro), o aviso quando um jogo ou programa está usando a placa, e ideias de série interativa: barra de status, placar da votação na abertura, \"Sabia que…\", escolha por palavra, hora marcada e legenda do post pronta. Blender e Vídeo com IA (Wan) se instalam em Configurações › Componentes, só se você quiser.",
+      "texto_en": "Cartoon short got the Blender 3D style (talking clay characters with expressions, and a neighborhood street), a warning when a game or program is using the graphics card, and interactive series ideas: status bar, vote score in the opening, \"Did you know…\", word choice, scheduled time and a ready post caption. Blender and AI video (Wan) install from Settings › Components, only if you want."
+    },
+    {
       "id": "arsenal-painel-crescer",
       "data": "2026-11-13",
       "titulo": "Arsenal san: o Painel para crescer o canal",
