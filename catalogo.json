@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-painel-crescer",
+      "data": "2026-11-13",
+      "titulo": "Arsenal san: o Painel para crescer o canal",
+      "titulo_en": "Arsenal san: the Panel to grow your channel",
+      "texto": "Melhorar este vídeo: 3 títulos e 3 ideias de thumb no jeito do seu canal, troca no YouTube só com a sua confirmação e, 48 h depois, se o CTR subiu. Você escolhe quem analisa (Claude, Gemini, IA do PC ou vidIQ). Novo Radar do nicho (o que estoura, gringo sem versão no Brasil e concorrentes acima do normal) e o O que fazer hoje no Início. No Modelar vídeo, como o narrador fala e o Gemini assistindo a referência inteira.",
+      "texto_en": "Improve this video: 3 titles and 3 thumbnail ideas in your channel style, change on YouTube only with your confirmation and, 48 h later, whether CTR went up. You pick who analyzes (Claude, Gemini, PC AI or vidIQ). New Niche radar (what is blowing up, foreign videos with no Brazilian version and competitors above their usual) and What to do today on Home. In Model a video, how the narrator speaks and Gemini watching the whole reference."
+    },
+    {
       "id": "arsenal-curta-cartoon",
       "data": "2026-11-13",
       "titulo": "Arsenal san: Curta cartoon e as dicas de estratégia do YouTube",
@@ -3283,5 +3291,5 @@
       }
     ]
   },
-  "gerado": "2026-11-13 22:42"
+  "gerado": "2026-11-13 22:43"
 }
