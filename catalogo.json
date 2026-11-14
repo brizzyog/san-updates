@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-curta-ajuda-claude",
+      "data": "2026-11-14",
+      "titulo": "Curta cartoon: a Claude ajuda a preencher",
+      "titulo_en": "Cartoon short: Claude helps you fill it in",
+      "texto": "Escreva a ideia da série em uma linha e clique em \"Preencher a ficha\": a Claude monta nome, mundo, tom, personagens, barra de status, hashtags e hora de postar. Também tem \"Descrever com a Claude\" na peça nova, \"O que buscar?\" no Pinterest e \"Sugerir ideias com a Claude\" no próximo episódio (ela lê o que o público escolheu). Nada é salvo sem você clicar em Salvar.",
+      "texto_en": "Write the series idea in one line and click \"Fill the sheet\": Claude builds the name, world, tone, characters, status bar, hashtags and posting time. There is also \"Describe with Claude\" for a new piece, \"What to search?\" for Pinterest and \"Suggest ideas with Claude\" for the next episode (it reads what the audience chose). Nothing is saved until you click Save."
+    },
+    {
       "id": "arsenal-curta-blender-rapido",
       "data": "2026-11-14",
       "titulo": "Curta cartoon: Blender 3D mais rápido e sem travar o PC",
@@ -3125,8 +3133,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "0F70AC90CD234EE8EF823E551AD7697252D3165BF454B82A255F671CFA4E3E9A",
-          "tamanho": 2146304
+          "sha256": "3178116727C52CA9B50C96C4E167D0C774D83E4C41DBBDB8622561930D453455",
+          "tamanho": 2180608
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
@@ -3296,7 +3304,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "1EFA4C17AD2EBE4FA0B34497ABA9B433D65D5898DF9235884FE61DC148A43523",
+        "sha256": "291C5F9A1010F753778F29C21F82269F0CEAC46C9066F7AC9DC98A22C2C1F6DF",
         "tamanho": 2617856
       },
       {
@@ -3307,5 +3315,5 @@
       }
     ]
   },
-  "gerado": "2026-11-14 01:36"
+  "gerado": "2026-11-14 14:04"
 }
