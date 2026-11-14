@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-curta-blender-rapido",
+      "data": "2026-11-14",
+      "titulo": "Curta cartoon: Blender 3D mais rápido e sem travar o PC",
+      "titulo_en": "Cartoon short: faster Blender 3D that doesn't freeze the PC",
+      "texto": "A ficha da série ganhou a Qualidade do Blender: Rápido (o novo padrão, cerca de 2 vezes mais rápido e quase igual no celular) ou Caprichado. O Blender agora roda em prioridade baixa, então o PC continua respondendo enquanto o episódio renderiza. Dica: feche jogos antes de renderizar.",
+      "texto_en": "The series sheet got Blender quality: Fast (the new default, about 2 times faster and nearly the same on a phone) or Polished. Blender now runs at low priority, so the PC stays responsive while the episode renders. Tip: close games before rendering."
+    },
+    {
       "id": "arsenal-curta-blender",
       "data": "2026-11-14",
       "titulo": "Curta cartoon: estilo Blender 3D e séries interativas",
@@ -3117,8 +3125,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "04C9753B3EC8FA6A471AF0C584992A54D39DC61518ACFF2FD13107C8E670DD9E",
-          "tamanho": 2143744
+          "sha256": "0F70AC90CD234EE8EF823E551AD7697252D3165BF454B82A255F671CFA4E3E9A",
+          "tamanho": 2146304
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
@@ -3288,7 +3296,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "B1EC025F63E70C1BA4153ED61C46CD7DFEF1123F8243524694E33E2F2E502DA7",
+        "sha256": "1EFA4C17AD2EBE4FA0B34497ABA9B433D65D5898DF9235884FE61DC148A43523",
         "tamanho": 2617856
       },
       {
@@ -3299,5 +3307,5 @@
       }
     ]
   },
-  "gerado": "2026-11-14 00:25"
+  "gerado": "2026-11-14 01:36"
 }
