@@ -3043,8 +3043,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "B356FC659E26C71E544C8B98E300757F32948DA5D7F17AB785D9EF4951F10368",
-          "tamanho": 1248768
+          "sha256": "73F061F6CC485D934D315B580897522011599C3179B146A20C2931BC44737701",
+          "tamanho": 1251328
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3109,8 +3109,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "57E2E75A0DA572B8CBD8BBD564624B281AF82C5812C2B2BD42E7C43CCDED48B8",
-          "tamanho": 1892864
+          "sha256": "04C9753B3EC8FA6A471AF0C584992A54D39DC61518ACFF2FD13107C8E670DD9E",
+          "tamanho": 2143744
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
@@ -3191,7 +3191,7 @@
           "tamanho": 160216
         }
       ],
-      "data": "2026-11-13"
+      "data": "2026-11-14"
     },
     {
       "id": "prompter",
@@ -3280,7 +3280,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "34CAAB7FDA6B59E46A8D9E8B7EA355E32A3E8B34C3C8960F905180A5BFB9601A",
+        "sha256": "B1EC025F63E70C1BA4153ED61C46CD7DFEF1123F8243524694E33E2F2E502DA7",
         "tamanho": 2617856
       },
       {
@@ -3291,5 +3291,5 @@
       }
     ]
   },
-  "gerado": "2026-11-13 22:43"
+  "gerado": "2026-11-14 00:25"
 }
