@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-curta-cartoon",
+      "data": "2026-11-13",
+      "titulo": "Arsenal san: Curta cartoon e as dicas de estratégia do YouTube",
+      "titulo_en": "Arsenal san: Cartoon short and YouTube strategy tips",
+      "texto": "Novo no menu Criar: Curta cartoon, para fazer séries animadas em 3D (personagens fixos, voz, legenda amarela, cartões de jogo e escolha 1 ou 2 do público). E o app ganhou dicas de título, thumb e intro, a conferência da abertura no Editar vídeo, 30 títulos por ângulo no Painel, a thumb ao lado das do nicho e o Diagnóstico no Meu canal.",
+      "texto_en": "New in the Create menu: Cartoon short, to make 3D animated series (fixed characters, voice, yellow captions, game cards and a 1-or-2 audience choice). The app also got title, thumbnail and intro tips, an opening check in Edit video, 30 titles by angle in the Panel, the thumbnail next to the niche's ones and the Diagnosis in My channel."
+    },
+    {
       "id": "dropeasy-google-par",
       "data": "2026-11-12",
       "titulo": "DropEasy san: imagem do Google certa na visão grande",
@@ -3027,8 +3035,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "D4DEA32661442A467225E7160EA937ABD7BCF1E8E895DC2ED9A0F14D8DB550E1",
-          "tamanho": 1250304
+          "sha256": "B356FC659E26C71E544C8B98E300757F32948DA5D7F17AB785D9EF4951F10368",
+          "tamanho": 1248768
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3093,8 +3101,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "43DDE9CB58D14E77DC2D63F36453E1C5E11C4E488E84BCE9D834119E8DE77252",
-          "tamanho": 200704
+          "sha256": "57E2E75A0DA572B8CBD8BBD564624B281AF82C5812C2B2BD42E7C43CCDED48B8",
+          "tamanho": 1892864
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
@@ -3111,8 +3119,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "EB14B421A560F17003B7E4DB4C2C4E1B31C84213D544EA124941D7FA2E86646A",
-          "tamanho": 247808
+          "sha256": "7A9FD3822375E1FB3A0D8A4862236D3E80ED8B9044D4A560602CFA99DB515999",
+          "tamanho": 252928
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
@@ -3131,6 +3139,12 @@
           "destino": "local:Programs\\Arsenal san",
           "sha256": "3847C528027EE5A9BFFF4E305FAF7454CD6E02471E2EECA0939FD6752DF99A15",
           "tamanho": 94720
+        },
+        {
+          "caminho": "arsenal/LICENCAS-curta-cartoon.txt",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "7356807B09476D266AFF19B5DB466C5E90AFA79ABFA25100CDB44B7933A2690B",
+          "tamanho": 1988
         },
         {
           "caminho": "arsenal/Microsoft.Web.WebView2.Core.dll",
@@ -3258,7 +3272,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "2EC011022BA8D3C9B51D8CD5CCBF8B31F097B3EC3E25BC9376910C756427069C",
+        "sha256": "D0F74FE9C1D8B843AF31761B89C379F28D70DA2BB53599B9113DA9802E18A279",
         "tamanho": 2617856
       },
       {
@@ -3269,5 +3283,5 @@
       }
     ]
   },
-  "gerado": "2026-11-13 10:54"
+  "gerado": "2026-11-13 21:53"
 }
