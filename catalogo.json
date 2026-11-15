@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-pronto-cartao",
+      "data": "2026-11-15",
+      "titulo": "Arsenal san: aviso de pronto mais bonito",
+      "titulo_en": "Arsenal san: nicer done card",
+      "texto": "O cartão que aparece quando um download termina foi refeito: o título aparece em até duas linhas, o Ver aqui ficou largo e os outros botões viraram ícones com dica (player, pasta, Baixados). Uma linha fina mostra quando ele vai sumir, e com o mouse em cima ele fica.",
+      "texto_en": "The card that shows up when a download finishes was redone: the title shows in up to two lines, View here is wide and the other buttons became icons with tips (player, folder, Downloads). A thin line shows when it will go away, and it stays while the mouse is over it."
+    },
+    {
       "id": "notas-caixinha-trava",
       "data": "2026-11-15",
       "titulo": "Notas san: marcar a caixinha não trava mais",
@@ -3163,8 +3171,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "A9E9A9F53863AD8640859D01430D214BA0C76AEC1649F271FDF2A2ED66A222E1",
-          "tamanho": 1262592
+          "sha256": "5AB43DB67EA51A0F1DAED772D7D8F2F03CC76BE1AF71842DE3E30CF429172078",
+          "tamanho": 1265152
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3411,5 +3419,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 18:55"
+  "gerado": "2026-11-15 19:04"
 }
