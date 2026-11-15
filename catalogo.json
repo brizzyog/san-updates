@@ -3010,7 +3010,7 @@
           "tamanho": 10240
         }
       ],
-      "data": "2026-11-13"
+      "data": "2026-11-15"
     },
     {
       "id": "motion",
@@ -3147,8 +3147,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "D670C8F2828A060C64A623FB2ED8F8D7F07BBFA3FBA83295D7033175BDB5F70E",
-          "tamanho": 1260032
+          "sha256": "A9E9A9F53863AD8640859D01430D214BA0C76AEC1649F271FDF2A2ED66A222E1",
+          "tamanho": 1262592
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3384,7 +3384,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "42E04934266499105AA04D869A75FCC01C43531A13E21BA75005A275C9A143A7",
+        "sha256": "D1B10326CE2CCEE4F4E106647C805F6CD560143ABA07D92DB325BE1D060F4525",
         "tamanho": 2620928
       },
       {
@@ -3395,5 +3395,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 17:11"
+  "gerado": "2026-11-15 18:06"
 }
