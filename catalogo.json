@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "master-mouse-marcas",
+      "data": "2026-11-15",
+      "titulo": "Master san: dB no mouse e marca onde estourou",
+      "titulo_en": "Master san: dB on hover and clip markers",
+      "texto": "A régua agora vai de 3 em 3 dB. Passando o mouse na barra, aparece o dB exato daquele ponto. E quando o som estoura, ao parar o play fica uma marca \"Estourou\" na timeline em cada ponto (um Ctrl+Z tira todas).",
+      "texto_en": "The ruler now goes every 3 dB. Hover the bar to see the exact dB at that point. And when the sound clips, stopping playback leaves a \"Clipped\" marker on the timeline at each spot (one Ctrl+Z removes them all)."
+    },
+    {
       "id": "master-regua-3db",
       "data": "2026-11-15",
       "titulo": "Master san: régua de 3 em 3 dB",
@@ -2972,8 +2980,8 @@
       ],
       "resumo": "O master do VEGAS em cima da preview: volume com a régua de dB, pico em dB e aviso de estouro.",
       "resumo_en": "The VEGAS master above the preview: level with the dB ruler, peak in dB and clipping warning.",
-      "descricao": "Uma barrinha que mora no espaço vazio da barra de cima da Video Preview (anda e some junto com ela). Mostra o volume que sai do VEGAS agora numa barra só (esquerdo em cima, direito embaixo) com a régua de dB embaixo, cujos números acendem quando o som passa, o pico em dB desde o play numa etiqueta que fica amarela perto do limite e vermelha quando estoura (a borda inteira acende). Tem o botão de mudo do master. Só trabalha enquanto toca; parado não gasta nada. Segue a cor escolhida nas extensões.",
-      "descricao_en": "A small bar that lives in the empty space of the Video Preview top bar (it moves and hides with it). It shows the level leaving VEGAS right now in a single bar (left on top, right below) with the dB ruler underneath, whose numbers light up as the sound passes, and the peak in dB since play in a tag that turns yellow near the limit and red when it clips (the whole border lights up). It has the master mute button. It only works while playing; stopped, it costs nothing. It follows the color chosen for the extensions.",
+      "descricao": "Uma barrinha que mora no espaço vazio da barra de cima da Video Preview (anda e some junto com ela). Mostra o volume que sai do VEGAS agora numa barra só (esquerdo em cima, direito embaixo) com a régua de dB embaixo, cujos números acendem quando o som passa, o pico em dB desde o play numa etiqueta que fica amarela perto do limite e vermelha quando estoura (a borda inteira acende). Passando o mouse na barra aparece o dB exato do ponto, e ao parar fica uma marca \"Estourou\" na timeline onde o som passou do limite. Tem o botão de mudo do master. Só trabalha enquanto toca; parado não gasta nada. Segue a cor escolhida nas extensões.",
+      "descricao_en": "A small bar that lives in the empty space of the Video Preview top bar (it moves and hides with it). It shows the level leaving VEGAS right now in a single bar (left on top, right below) with the dB ruler underneath, whose numbers light up as the sound passes, and the peak in dB since play in a tag that turns yellow near the limit and red when it clips (the whole border lights up). Hover the bar to see the exact dB at that point, and stopping leaves a \"Clipped\" marker on the timeline where the sound went over the limit. It has the master mute button. It only works while playing; stopped, it costs nothing. It follows the color chosen for the extensions.",
       "onde": "Em cima da Video Preview · Exibir › Extensões › Master san (liga e desliga)",
       "onde_en": "Above the Video Preview · View › Extensions › Master san (on and off)",
       "atalhos": [
@@ -2992,8 +3000,8 @@
         {
           "caminho": "extensoes/San/MasterSan.dll",
           "destino": "ext",
-          "sha256": "E81E0FABFCA56CE505EC85B9DB612133851A6535DB895696212C7A7202B9AE30",
-          "tamanho": 72704
+          "sha256": "B9344E29FF76E62FA9A37A109C09D8EDE1BEFAEACB70195A4A3C5A3737B652B2",
+          "tamanho": 75776
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3387,5 +3395,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 16:59"
+  "gerado": "2026-11-15 17:11"
 }
