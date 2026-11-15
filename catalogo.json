@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-tom-sofa",
+      "data": "2026-11-15",
+      "titulo": "Arsenal san: roteiro no tom amigo de sofá",
+      "titulo_en": "Arsenal san: scripts in a couch-buddy tone",
+      "texto": "Novo tom para os roteiros e introduções: Amigo de sofá, como um amigo explicando para outro, sem exagero (estilo Jake Pudding). Escolha em Painel › Perfil › Ficha do canal ou em cada roteiro do Radar. Depois de escrever, o Arsenal aponta o que ainda soou exagerado.",
+      "texto_en": "A new tone for scripts and intros: Couch buddy, like a friend explaining to another, no hype (Jake Pudding style). Pick it in Panel › Profile › Channel sheet or on each Radar script. After writing, Arsenal points out what still sounded hyped."
+    },
+    {
       "id": "arsenal-pecas-claude",
       "data": "2026-11-15",
       "titulo": "Peças com IA: a Claude cria do zero",
@@ -3185,8 +3193,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "2F5E7EE6887533749D4C5C2ACEBAC9FE8215AEEAEB418B9C3623D9DC33142C15",
-          "tamanho": 686080
+          "sha256": "B5FE10476A990818DB9D10EC34A394873E824226A89860F28FC4B2AF94DBE662",
+          "tamanho": 687616
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
@@ -3197,8 +3205,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "D0B3D3C30F7AE9B223CCB25E734D5E58A49A54F7CC1DF673274396A9C4BF5FE1",
-          "tamanho": 658944
+          "sha256": "79CEEC2E386B3F66CFDFD781D540E4DF784551FE631B83E74E492494623568E4",
+          "tamanho": 677888
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
@@ -3355,5 +3363,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 13:09"
+  "gerado": "2026-11-15 13:17"
 }
