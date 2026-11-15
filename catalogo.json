@@ -3,6 +3,30 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-pecas-claude",
+      "data": "2026-11-15",
+      "titulo": "Peças com IA: a Claude cria do zero",
+      "titulo_en": "AI pieces: Claude creates from scratch",
+      "texto": "Em Criar › Peças com IA, você escreve o pedido (ex.: uma logo animada inspirada no Luffy Gear 5) e a Claude cria a peça do zero: logo, texto animado, CTA, vinheta, nome na tela ou transição. Escolha a Claude (Opus 5.5 ou Fable 5.2) e o nível, escreva quantos segundos quiser e o formato (16:9, 9:16, 1:1 ou 4:5). Ela confere os quadros e corrige sozinha; sai com fundo transparente para pôr no VEGAS. Precisa do Claude Code no PC. E toda tela do Arsenal ganhou a setinha de voltar no topo.",
+      "texto_en": "In Create › AI pieces, write the request (e.g. an animated logo inspired by Luffy Gear 5) and Claude creates the piece from scratch: logo, animated text, CTA, bumper, lower third or transition. Pick the Claude (Opus 5.5 or Fable 5.2) and the level, type any length and the format (16:9, 9:16, 1:1 or 4:5). It checks the frames and fixes them on its own; it comes out with a transparent background to put in VEGAS. Needs Claude Code on the PC. And every Arsenal screen got a back arrow at the top."
+    },
+    {
+      "id": "arsenal-canal-gta6",
+      "data": "2026-11-15",
+      "titulo": "Arsenal san: Canal GTA 6",
+      "titulo_en": "Arsenal san: GTA 6 channel",
+      "texto": "Em Criar › Canal GTA 6, vídeos dark de GTA 6 (longos de até ~8 min e Shorts): a Claude pesquisa e escreve o roteiro, a voz grava, a Claude monta com os trailers oficiais e imagens das wikis, você confere a prévia e o app mixa e renderiza. Em Referências, cole o link de um vídeo que você gostou e a Claude estuda o roteiro e a edição para os próximos vídeos. Usa o kit Fábrica de vídeos games (produto pago, importado por quem comprou). Os vídeos prontos abrem com som e do tamanho certo.",
+      "texto_en": "In Create › GTA 6 channel, faceless GTA 6 videos (long up to ~8 min and Shorts): Claude researches and writes the script, the voice records, Claude assembles it with the official trailers and wiki images, you check the preview and the app mixes and renders. In References, paste the link of a video you liked and Claude studies its script and editing for the next videos. Uses the Video games factory kit (paid product, imported by whoever bought it). Finished videos open with sound and at the right size."
+    },
+    {
+      "id": "arsenal-voicestudio",
+      "data": "2026-11-15",
+      "titulo": "Arsenal san: VoiceStudio nas vozes",
+      "titulo_en": "Arsenal san: VoiceStudio in the voices",
+      "texto": "Com o VoiceStudio aberto no PC, as vozes dele aparecem nas escolhas de voz do Arsenal (Gerar voz, Criar vídeo com IA, Canal GTA 6, Curta cartoon). O VoiceStudio é um programa à parte, instalado por você.",
+      "texto_en": "With VoiceStudio open on the PC, its voices show up in Arsenal's voice choices (Make a voice, Create video with AI, GTA 6 channel, Code cartoon). VoiceStudio is a separate program you install yourself."
+    },
+    {
       "id": "arsenal-viralizando-analise",
       "data": "2026-11-15",
       "titulo": "Arsenal san: Viralizando (Shorts e longos) e Análise completa",
@@ -2807,8 +2831,8 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "9DA02175D9A5F4AF1F460152339B86EA3DE288AF56B5BC990FF923B09CFE65EC",
-          "tamanho": 9682944
+          "sha256": "86E4BF2CB6FC219C35771B232CD94ABBA47605115FD87E6AFE296063175D6163",
+          "tamanho": 9718784
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2817,7 +2841,7 @@
           "tamanho": 10240
         }
       ],
-      "data": "2026-11-12"
+      "data": "2026-11-15"
     },
     {
       "id": "volume",
@@ -3083,8 +3107,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "30FAFEA44431157D5F17826A74221D9ED2D6921B4D4038161727335A875A244E",
-          "tamanho": 1251328
+          "sha256": "836203E13D0AB8DEE6E6F99B9F7740A61D9B3B3CAF00471EFE9A56646B565FAF",
+          "tamanho": 1253376
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3113,8 +3137,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "0103BC105CBECE4C96DC28C96514059CECE2E02D55E0C22A1CFB0EBE0227C9C6",
-          "tamanho": 540672
+          "sha256": "1454FB6AC93D760EE26FD05FECF377E8D568D42CD690F439F39D953DE45F99CF",
+          "tamanho": 542720
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Conexoes.dll",
@@ -3131,8 +3155,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "4420D4EC15593819B300CF0FFAB69019DA03CA94CEDBF0C01793AC11530405E8",
-          "tamanho": 1020416
+          "sha256": "6119107C23F7F453B2EF575387BB4794B2F3524D03FE8B44B298E18AF36F8AFF",
+          "tamanho": 1066496
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
@@ -3149,8 +3173,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "E1C307E1304E6D5DBE4AA8A3C3DE4E719808F534071B9DF15867BCB7FD0E102B",
-          "tamanho": 2359296
+          "sha256": "56C104AFAA3C668DF702BD1026FD256566A2D415E2F8660DF9D06B68799B4DA9",
+          "tamanho": 2363392
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
@@ -3320,7 +3344,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "13915CCEE047D89DC9BBAE906A4344DFA0B949BB153C7F08AEE4F3A97C1A64C3",
+        "sha256": "08FD85ABE6579E4723765F7239E65D96718328CBDF13725469115A3463F3E18E",
         "tamanho": 2617856
       },
       {
@@ -3331,5 +3355,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 13:06"
+  "gerado": "2026-11-15 13:09"
 }
