@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "foco-modos-gamer",
+      "data": "2026-11-16",
+      "titulo": "Foco san: modo simples e modo gamer",
+      "titulo_en": "Foco san: simple mode and gamer mode",
+      "texto": "Botão direito › Modo simples: só o tempo, o comprimento do evento e o foco com o parabéns no fim. Modo gamer: ficha de cada vídeo, nível com barra de XP (o 1º bloco do dia vale o dobro), festa quando o vídeo chega a 100% (também pelo loop region), missões do dia, prazo com \"no ritmo\", 17 medalhas e cores novas para o tempo que o nível libera.",
+      "texto_en": "Right-click › Simple mode: just the time, the event length and focus with the congrats at the end. Gamer mode: a card for each video, level with an XP bar (the day's 1st block counts double), a celebration when the video hits 100% (also via the loop region), daily missions, deadline with \"on pace\", 17 medals and new timecode colors unlocked by level."
+    },
+    {
       "id": "foco-chama-troca",
       "data": "2026-11-15",
       "titulo": "Foco san: chama na barra e troca de projeto certa",
@@ -2763,8 +2771,8 @@
           "porque_en": "Both stay in view while you edit: the fire timecode below and the level above the preview."
         }
       ],
-      "resumo": "O indicador de tempo com dopamina: tempo em fogo, comprimento do evento, quanto já decupou, blocos com XP e modo foco.",
-      "resumo_en": "The time indicator with a dopamine kick: fire timecode, event length, how much you've cut, blocks with XP and focus mode.",
+      "resumo": "O indicador de tempo com dois modos: simples (tempo, evento e foco) ou gamer (blocos, XP, nível, missões, medalhas e prazo).",
+      "resumo_en": "The time indicator with two modes: simple (time, event and focus) or gamer (blocks, XP, level, missions, medals and deadline).",
       "descricao": "No lugar do Indicador de tempo ME. O tempo da agulha aparece grande, em fogo (brilha tocando, calmo parado), com o comprimento do evento selecionado do lado, como no ME. Embaixo, quanto da gravação do OBS você já decupou (lido sozinho da timeline, mesmo bagunçada; a linha de fogo enche junto), o vídeo final (pelo loop region quando você marca) e o tempo editando. Cada bloco fechado (clique, tecla sua ou sozinho a cada minuto da gravação) solta faísca, XP e um plim; tem combo, meta do dia em blocos ou minutos, sequência de dias e recorde. O modo foco conta o tempo que você escolher e, no fim, toca uma fanfarra e passa um letreiro de parabéns com o resumo. Nada cobre a tela e não pesa o VEGAS.",
       "descricao_en": "Replaces the ME time indicator. The playhead time shows big, on fire (glows while playing, calm when stopped), with the selected event length next to it, like ME. Below: how much of the OBS recording you've cut (read from the timeline by itself, even when messy; the fire line fills up), the final video (from the loop region when you set it) and editing time. Each closed block (click, your own key or by itself every minute of recording) gives sparks, XP and a ding; there's combo, a daily goal in blocks or minutes, day streak and record. Focus mode counts the time you choose and, at the end, plays a fanfare and scrolls a congrats banner with the summary. Nothing covers the screen and it doesn't weigh VEGAS down.",
       "onde": "Exibir › Extensões › Foco san (acople no lugar do Indicador de tempo ME)",
@@ -2809,8 +2817,8 @@
         {
           "caminho": "extensoes/San/FocoSan.dll",
           "destino": "ext",
-          "sha256": "FAE1E2D75972AF8340455D173EE8A33331F1C381EEDA956AC70DAA35373C52A3",
-          "tamanho": 119296
+          "sha256": "BD8A9E055F500E9BEEB7207C22DECC8BD0A0BEDB8AC3894EC0121806080D7834",
+          "tamanho": 153600
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3503,7 +3511,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "8648230FCE8F5A10C5E0117078D993CF558EEBD9FC05E666248D8F6DF9C7B7CC",
+        "sha256": "C2906EB9E3763699AFC539578A313E0BB1AE171942240131676BA9688BDCFCE5",
         "tamanho": 2621440
       },
       {
@@ -3514,5 +3522,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 19:51"
+  "gerado": "2026-11-15 20:43"
 }
