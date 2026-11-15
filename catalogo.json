@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "master-regua-3db",
+      "data": "2026-11-15",
+      "titulo": "Master san: régua de 3 em 3 dB",
+      "titulo_en": "Master san: ruler every 3 dB",
+      "texto": "A régua embaixo da barra agora tem um número a cada 3 dB (57 até 3), em vez de 6 em 6. Com a preview estreita, ela esconde alguns sozinha para não encavalar.",
+      "texto_en": "The ruler below the bar now has a number every 3 dB (57 down to 3) instead of every 6. With a narrow preview it hides some on its own so they don't overlap."
+    },
+    {
       "id": "arsenal-menu-arrumado",
       "data": "2026-11-15",
       "titulo": "Arsenal san: menu mais curto e telas no mesmo jeito",
@@ -2984,7 +2992,7 @@
         {
           "caminho": "extensoes/San/MasterSan.dll",
           "destino": "ext",
-          "sha256": "F87F00676898D44671DB58225842DA8E5FD624EF812FABA0BE455CCA6FD0C651",
+          "sha256": "E81E0FABFCA56CE505EC85B9DB612133851A6535DB895696212C7A7202B9AE30",
           "tamanho": 72704
         },
         {
@@ -3379,5 +3387,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 15:40"
+  "gerado": "2026-11-15 16:59"
 }
