@@ -2839,8 +2839,8 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "86E4BF2CB6FC219C35771B232CD94ABBA47605115FD87E6AFE296063175D6163",
-          "tamanho": 9718784
+          "sha256": "8ED55299CC0F396EE00C4A18298D42F73E51466667081F23D70E38D4FC369C80",
+          "tamanho": 9724928
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3352,7 +3352,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "08FD85ABE6579E4723765F7239E65D96718328CBDF13725469115A3463F3E18E",
+        "sha256": "1BF9F609407F51DD99C3A3D761466BB6E5FB12D40E92C5B80FEDD67A2583A6F6",
         "tamanho": 2617856
       },
       {
@@ -3363,5 +3363,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 13:17"
+  "gerado": "2026-11-15 14:00"
 }
