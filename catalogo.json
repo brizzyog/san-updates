@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-menu-arrumado",
+      "data": "2026-11-15",
+      "titulo": "Arsenal san: menu mais curto e telas no mesmo jeito",
+      "titulo_en": "Arsenal san: shorter menu and screens that match",
+      "texto": "O menu caiu de 37 para 26 itens sem tirar nada: Filmes em código, Curta cartoon e Canal GTA 6 estão no Estúdio de animação, e as ferramentas pequenas na Caixa de ferramentas (as 3 que você mais usa continuam no menu, e a busca acha todas). Todas as telas têm o mesmo topo, e alguns nomes ficaram mais claros: Tirar fundo do vídeo, Tirar fundo da imagem e Contas da Agenda.",
+      "texto_en": "The menu went from 37 to 26 items without removing anything: Code films, Cartoon short and GTA 6 channel live in the Animation studio, and the small tools in the Toolbox (your 3 most used stay in the menu, and search finds them all). Every screen has the same header, and some names got clearer: Video background removal, Image background removal and Schedule accounts."
+    },
+    {
       "id": "arsenal-canal-no-painel",
       "data": "2026-11-15",
       "titulo": "Arsenal san: Meu canal, Radar e Modelar dentro do Painel",
@@ -3123,8 +3131,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "836203E13D0AB8DEE6E6F99B9F7740A61D9B3B3CAF00471EFE9A56646B565FAF",
-          "tamanho": 1253376
+          "sha256": "D670C8F2828A060C64A623FB2ED8F8D7F07BBFA3FBA83295D7033175BDB5F70E",
+          "tamanho": 1260032
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3371,5 +3379,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 15:09"
+  "gerado": "2026-11-15 15:36"
 }
