@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "master-barra-marca",
+      "data": "2026-11-15",
+      "titulo": "Master san: barra na cor da marca no tema VEGAS",
+      "titulo_en": "Master san: brand-color bar in the VEGAS theme",
+      "texto": "Com a cor VEGAS, a barra que acende agora fica laranja no volume bom, amarela perto do limite e vermelha com brilho quando estoura, separada do cinza. Botão direito na barra: \"Seguir o tema\" volta o azul de antes.",
+      "texto_en": "With the VEGAS color, the lit bar is now orange at a good level, yellow near the limit and glowing red when it clips, apart from the gray. Right-click the bar: \"Follow the theme\" brings back the old blue."
+    },
+    {
       "id": "master-mouse-marcas",
       "data": "2026-11-15",
       "titulo": "Master san: dB no mouse e marca onde estourou",
@@ -3000,8 +3008,8 @@
         {
           "caminho": "extensoes/San/MasterSan.dll",
           "destino": "ext",
-          "sha256": "B9344E29FF76E62FA9A37A109C09D8EDE1BEFAEACB70195A4A3C5A3737B652B2",
-          "tamanho": 75776
+          "sha256": "18010190FE0B7F38525995961A13410BDE42F8A0FC19EEC1F881A8BBAB76E213",
+          "tamanho": 79360
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3395,5 +3403,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 18:06"
+  "gerado": "2026-11-15 18:35"
 }
