@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-canal-no-painel",
+      "data": "2026-11-15",
+      "titulo": "Arsenal san: Meu canal, Radar e Modelar dentro do Painel",
+      "titulo_en": "Arsenal san: My channel, Radar and Model inside the Panel",
+      "texto": "O menu do Painel ganhou o grupo Canal: Meu canal, Radar viral e Modelar vídeo abrem ali dentro, já no canal, no nicho e no tom do perfil ativo. Ao lado de Meu canal aparecem os inscritos, ou um aviso para ligar o canal.",
+      "texto_en": "The Panel menu got a Channel group: My channel, Viral radar and Model a video open right there, already on the active profile's channel, niche and tone. Next to My channel you see the subscribers, or a hint to link the channel."
+    },
+    {
       "id": "arsenal-tom-sofa",
       "data": "2026-11-15",
       "titulo": "Arsenal san: roteiro no tom amigo de sofá",
@@ -3193,8 +3201,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "B5FE10476A990818DB9D10EC34A394873E824226A89860F28FC4B2AF94DBE662",
-          "tamanho": 687616
+          "sha256": "0FAA115B8FA2EC87F69D15DB492450965AC1FBBDD6DEFC76FCFDE5D6D3FD0E0D",
+          "tamanho": 692224
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
@@ -3205,7 +3213,7 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "79CEEC2E386B3F66CFDFD781D540E4DF784551FE631B83E74E492494623568E4",
+          "sha256": "596ECF5F0031A8764561B7FF02CA7DF2CFE82B1493508A4D25D7A76B670A5474",
           "tamanho": 677888
         },
         {
@@ -3363,5 +3371,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 14:41"
+  "gerado": "2026-11-15 15:09"
 }
