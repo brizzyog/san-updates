@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "foco-chama-troca",
+      "data": "2026-11-15",
+      "titulo": "Foco san: chama na barra e troca de projeto certa",
+      "titulo_en": "Foco san: flame on the bar and correct project switching",
+      "texto": "Uma chamazinha tremula na ponta da barra do decupado (botão direito desliga). Trocar de projeto no VEGAS não deixa mais o decupado do anterior (ex.: 100%) grudado no novo; os decupados de antes são lidos de novo ao abrir cada projeto. Também: tempo de foco e de pausa à sua escolha (Outro…), fanfarra e letreiro de parabéns no fim do foco, e o decupado lido sozinho do projeto, mesmo com a timeline bagunçada.",
+      "texto_en": "A small flame flickers at the tip of the progress bar (right-click turns it off). Switching projects in VEGAS no longer leaves the previous project's progress (e.g. 100%) stuck on the new one; earlier progress is read again when each project opens. Also: focus and break time of your choice (Other…), fanfare and congrats banner at the end of focus, and progress read from the project by itself, even with a messy timeline."
+    },
+    {
       "id": "foco-san",
       "data": "2026-11-15",
       "titulo": "Novo: Foco san, o indicador de tempo com dopamina",
@@ -2801,8 +2809,8 @@
         {
           "caminho": "extensoes/San/FocoSan.dll",
           "destino": "ext",
-          "sha256": "06F35030B16809C4FCFFBA9A944B927FFFDB86D70D053249B1327E797F36469A",
-          "tamanho": 116736
+          "sha256": "FAE1E2D75972AF8340455D173EE8A33331F1C381EEDA956AC70DAA35373C52A3",
+          "tamanho": 119296
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3495,7 +3503,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "73E40481DE4107E1E9067E9F95E060F03AC637E0595155EA95116FA20629BD05",
+        "sha256": "8648230FCE8F5A10C5E0117078D993CF558EEBD9FC05E666248D8F6DF9C7B7CC",
         "tamanho": 2621440
       },
       {
@@ -3506,5 +3514,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 19:46"
+  "gerado": "2026-11-15 19:51"
 }
