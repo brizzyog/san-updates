@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-deu-certo",
+      "data": "2026-11-15",
+      "titulo": "Arsenal san: o que já deu certo nos canais de referência",
+      "titulo_en": "Arsenal san: what already worked on reference channels",
+      "texto": "No Painel, em Referências, cada canal tem o botão O que já deu certo: lê até 300 vídeos, mostra os antigos que estouraram (comparados com a mesma época do canal) e o que eles têm em comum. A IA que você escolher explica por que funcionou e como modelar no seu canal, com ângulos, títulos prontos para virar pauta e a estrutura do vídeo.",
+      "texto_en": "In the Panel, under References, each channel has the What already worked button: it reads up to 300 videos, shows the old ones that blew up (compared with the same period of the channel) and what they share. The AI you pick explains why they worked and how to model them on your channel, with angles, titles ready to become ideas and the video structure."
+    },
+    {
       "id": "arsenal-curta-ajuda-claude",
       "data": "2026-11-14",
       "titulo": "Curta cartoon: a Claude ajuda a preencher",
@@ -3145,8 +3153,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "B06F6DE15FCE89A7E27AEE1F7DCA8F073A406155354AD09377BC21B1A3FAA2EC",
-          "tamanho": 665088
+          "sha256": "61937DB36E1E2DB5FF8FF91382106FDF48E33EBE3118E32E7AE0D46CA51D9B32",
+          "tamanho": 673792
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
@@ -3157,8 +3165,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "4CDFF62B5643FBAE4FFF108961F794BA8F99AD81F034EA191283D955D11DB7FB",
-          "tamanho": 573952
+          "sha256": "812459BB99D59DE73F85C2EC8805231F18394BE5ED023E4F0BFA4A4431E75BD1",
+          "tamanho": 596480
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
@@ -3215,7 +3223,7 @@
           "tamanho": 160216
         }
       ],
-      "data": "2026-11-14"
+      "data": "2026-11-15"
     },
     {
       "id": "prompter",
@@ -3315,5 +3323,5 @@
       }
     ]
   },
-  "gerado": "2026-11-14 22:55"
+  "gerado": "2026-11-15 00:16"
 }
