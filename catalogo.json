@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-viralizando-analise",
+      "data": "2026-11-15",
+      "titulo": "Arsenal san: Viralizando (Shorts e longos) e Análise completa",
+      "titulo_en": "Arsenal san: Going viral (Shorts and long videos) and Full analysis",
+      "texto": "No Radar, a aba Viralizando mostra, para Shorts ou vídeos longos dos seus assuntos, o que está viralizando agora e o que já viralizou, o que eles têm em comum e como fazer a sua versão, inclusive levando o que é bom de um formato para o outro. No Painel, em Referências, a Análise completa estuda um canal (ou o antigo e o novo do mesmo criador) ou um vídeo: a edição medida, as estratégias, o que mudou entre as fases e como replicar no seu canal.",
+      "texto_en": "In the Radar, the Going viral tab shows, for Shorts or long videos on your topics, what is going viral now and what already did, what they share and how to make your version, including taking the good parts from one format to the other. In the Panel, under References, the Full analysis studies a channel (or the same creator's old and new one) or a video: the measured edit, the strategies, what changed between phases and how to replicate it on your channel."
+    },
+    {
       "id": "arsenal-deu-certo",
       "data": "2026-11-15",
       "titulo": "Arsenal san: o que já deu certo nos canais de referência",
@@ -3153,8 +3161,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "61937DB36E1E2DB5FF8FF91382106FDF48E33EBE3118E32E7AE0D46CA51D9B32",
-          "tamanho": 673792
+          "sha256": "2F5E7EE6887533749D4C5C2ACEBAC9FE8215AEEAEB418B9C3623D9DC33142C15",
+          "tamanho": 686080
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
@@ -3165,8 +3173,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "812459BB99D59DE73F85C2EC8805231F18394BE5ED023E4F0BFA4A4431E75BD1",
-          "tamanho": 596480
+          "sha256": "D0B3D3C30F7AE9B223CCB25E734D5E58A49A54F7CC1DF673274396A9C4BF5FE1",
+          "tamanho": 658944
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
@@ -3323,5 +3331,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 00:16"
+  "gerado": "2026-11-15 13:06"
 }
