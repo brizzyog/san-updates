@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "notas-caixinha-trava",
+      "data": "2026-11-15",
+      "titulo": "Notas san: marcar a caixinha não trava mais",
+      "titulo_en": "Notas san: ticking a checkbox no longer freezes",
+      "texto": "Marcar e desmarcar uma tarefa rápido deixava o Notas parado, sem aceitar clique nem tecla. Corrigido, e as notas continuam como estavam. Novo também: com \"M vira nota\" (menu ⋯), apertar M no VEGAS escreve o tempo na nota aberta, e o que você escrever na linha vira o nome do marcador.",
+      "texto_en": "Ticking and unticking a task quickly left Notas stuck, ignoring clicks and keys. Fixed, and your notes are unchanged. Also new: with \"M becomes a note\" (⋯ menu), pressing M in VEGAS writes the time into the open note, and what you type on that line becomes the marker's name."
+    },
+    {
       "id": "master-barra-marca",
       "data": "2026-11-15",
       "titulo": "Master san: barra na cor da marca no tema VEGAS",
@@ -2553,8 +2561,8 @@
         {
           "caminho": "extensoes/San/NotasSan.dll",
           "destino": "ext",
-          "sha256": "6F042D8B2722FB0B3686DF2238622CCCD90F0B15142CC1A48477F5959892C44B",
-          "tamanho": 413696
+          "sha256": "6A345B70484A75C69D9C302385A92ADD6D5B93894B3E3C1B4762DCF36A98B205",
+          "tamanho": 414208
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2563,7 +2571,7 @@
           "tamanho": 10240
         }
       ],
-      "data": "2026-11-12"
+      "data": "2026-11-15"
     },
     {
       "id": "search",
@@ -3008,8 +3016,8 @@
         {
           "caminho": "extensoes/San/MasterSan.dll",
           "destino": "ext",
-          "sha256": "18010190FE0B7F38525995961A13410BDE42F8A0FC19EEC1F881A8BBAB76E213",
-          "tamanho": 79360
+          "sha256": "B9344E29FF76E62FA9A37A109C09D8EDE1BEFAEACB70195A4A3C5A3737B652B2",
+          "tamanho": 75776
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3392,7 +3400,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "D1B10326CE2CCEE4F4E106647C805F6CD560143ABA07D92DB325BE1D060F4525",
+        "sha256": "290A8ED161A69C9DB439F725B36F83F698FA60694D5B0E6DDBCD0F450F30C759",
         "tamanho": 2620928
       },
       {
@@ -3403,5 +3411,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 18:35"
+  "gerado": "2026-11-15 18:55"
 }
