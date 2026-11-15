@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "recorte-modos",
+      "data": "2026-11-15",
+      "titulo": "Recorte san: Clicar, Laço e Retângulo (imagem e vídeo)",
+      "titulo_en": "Recorte san: Click, Lasso and Rectangle (image and video)",
+      "texto": "Barra nova em cima da prévia. Clicar: você clica no personagem e a IA pega ele inteiro (botão direito tira uma parte, arrastar faz uma caixa). Laço: contorne e escolha tudo de dentro ou a IA só ali dentro. Retângulo: recorta um pedaço COM o fundo, em 16:9, 9:16, 1:1 ou livre. No vídeo, Retângulo corta um pedaço do vídeo com o som em segundos, e Clicar segue o personagem no vídeo todo (demora um pouco mais). Automático continua sendo o padrão: sem escolher nada, tudo igual. Atalhos A, K, L e R.",
+      "texto_en": "New bar above the preview. Click: click the character and the AI grabs all of it (right-click removes a part, dragging makes a box). Lasso: outline it and keep everything inside or let the AI work only in there. Rectangle: cuts a piece WITH its background, in 16:9, 9:16, 1:1 or free. On video, Rectangle cuts a piece of the video with sound in seconds, and Click follows the character through the whole video (takes a bit longer). Automatic is still the default: choose nothing and everything stays the same. Shortcuts A, K, L and R."
+    },
+    {
       "id": "foco-modos-gamer",
       "data": "2026-11-16",
       "titulo": "Foco san: modo simples e modo gamer",
@@ -882,6 +890,10 @@
         [
           "Ctrl+V",
           "cola uma imagem"
+        ],
+        [
+          "A / K / L / R",
+          "automático / clicar / laço / retângulo"
         ]
       ],
       "atalhos_en": [
@@ -896,6 +908,10 @@
         [
           "Ctrl+V",
           "pastes an image"
+        ],
+        [
+          "A / K / L / R",
+          "automatic / click / lasso / rectangle"
         ]
       ],
       "aviso": "Na primeira vez baixa o modelo (1,1 GB). Em placa NVIDIA ele ainda se prepara uns 5 minutos, só uma vez.",
@@ -904,8 +920,8 @@
         {
           "caminho": "extensoes/San/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "AE57AEE5A5B0EDF2AD6F8A778C99961D420B90371B8122AA4076510DDA74B081",
-          "tamanho": 607744
+          "sha256": "C550AEF6F3202D1016C00966D4872955A644A6459C611221107FD3D9E6891CD7",
+          "tamanho": 655360
         },
         {
           "caminho": "extensoes/San.dll",
@@ -1216,13 +1232,13 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "D3A7E50A04BA39F7EAB95A01C4A9375420F4D2F28B41656BA153BE0437FBB7C0",
-          "tamanho": 117248
+          "sha256": "8FDC43CE51CB8BBFDDDD950E3DAEFEE9035D14E7C6EAE81E2AC2AE3C8D26E785",
+          "tamanho": 141312
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "38A5B81566762598C50FFC6C2721DD7341FDE7545B4A29EB8F71C5E409A53545",
+          "sha256": "A6AC1E54F9C1DB1317CD7EA308668F266AFF6B8FFE6A9EEBE7C1F53B88A18794",
           "tamanho": 151552
         },
         {
@@ -2419,7 +2435,7 @@
         "nome": "RecorteSan.engine.txt",
         "texto": "{local}\\RecorteSan\\motor-pacote"
       },
-      "data": "2026-11-12"
+      "data": "2026-11-15"
     },
     {
       "id": "organizador",
@@ -3522,5 +3538,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 20:43"
+  "gerado": "2026-11-15 20:48"
 }
