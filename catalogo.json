@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "edita-retomadas",
+      "data": "2026-11-16",
+      "titulo": "Edita san: tira a frase recomeçada também sem a Claude",
+      "titulo_en": "Edita san: removes restarted sentences even without Claude",
+      "texto": "Quando você começa uma frase, para e diz de novo (\"Eu tô. Eu tô puto\", \"Mas voltando. Mas voltando…\"), a decupagem grátis agora tira a primeira e deixa a última, como você faz. Repetição de ênfase (\"não, não, não\") continua no vídeo, e a frase que parou no meio (\"Eu acho que… eu não sei\") fica para você decidir.",
+      "texto_en": "When you start a sentence, stop and say it again (\"I'm. I'm mad\"), the free cut now removes the first try and keeps the last, like you do. Emphasis repeats (\"no, no, no\") stay in the video, and a sentence cut off midway is left for you to decide."
+    },
+    {
       "id": "arsenal-cortes-de-live",
       "data": "2026-11-16",
       "titulo": "Arsenal san: cortes de live com o streamer em cima",
@@ -3086,8 +3094,8 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "1AD66092411F60D8B49B89A126F4D71F4581ED410C7A02A01DABE8F7FF42C955",
-          "tamanho": 9750528
+          "sha256": "FE9A305D692D16131DB33B2758D927CF7DC4E2E185FE9639FD7C05DE0A03764A",
+          "tamanho": 9752576
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3599,7 +3607,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "2E07E55073694FD1669B90B1AB720F4760DAD7A14BC53C29A38C11917D2354A5",
+        "sha256": "153CC180FC448B11D7322FBE2980CBFEFB7966F8966561A3031DDF8966ED7AB9",
         "tamanho": 2621440
       },
       {
@@ -3610,5 +3618,5 @@
       }
     ]
   },
-  "gerado": "2026-11-16 16:58"
+  "gerado": "2026-11-16 19:15"
 }
