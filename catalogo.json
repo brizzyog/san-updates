@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "recorte-manter-fundo",
+      "data": "2026-11-15",
+      "titulo": "Recorte san: Manter o fundo e botão Desfazer",
+      "titulo_en": "Recorte san: Keep background and Undo button",
+      "texto": "No canto da barra, \"Manter o fundo\": a imagem fica inteira, com o fundo, e você recorta como no Photoshop com o Laço, o Retângulo ou o Pincel Apagar como borracha. \"Tirar o fundo\" é o automático de sempre. Clicar, Laço e Retângulo ganharam o botão ↶ Desfazer (o mesmo do Ctrl+Z).",
+      "texto_en": "In the corner of the bar, \"Keep background\": the image stays whole, with its background, and you cut like in Photoshop with the Lasso, the Rectangle or the Erase brush as an eraser. \"Remove background\" is the usual automatic. Click, Lasso and Rectangle got an ↶ Undo button (same as Ctrl+Z)."
+    },
+    {
       "id": "recorte-modos",
       "data": "2026-11-15",
       "titulo": "Recorte san: Clicar, Laço e Retângulo (imagem e vídeo)",
@@ -920,8 +928,8 @@
         {
           "caminho": "extensoes/San/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "C550AEF6F3202D1016C00966D4872955A644A6459C611221107FD3D9E6891CD7",
-          "tamanho": 655360
+          "sha256": "250DBA8B12CCA14249FB85FEB07A98F0E43B4CEC0C302F6DE0ABCE3114062761",
+          "tamanho": 659456
         },
         {
           "caminho": "extensoes/San.dll",
@@ -1232,13 +1240,13 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "8FDC43CE51CB8BBFDDDD950E3DAEFEE9035D14E7C6EAE81E2AC2AE3C8D26E785",
+          "sha256": "56096455FD467E21DFCEE7A3BCDEE1004A87BD140D42E5508428ED9AEC0890CB",
           "tamanho": 141312
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "A6AC1E54F9C1DB1317CD7EA308668F266AFF6B8FFE6A9EEBE7C1F53B88A18794",
+          "sha256": "CE14D6F6C56C1BDB50BF44E77ACBD21F7A91B65682182F5769C81EFA9E1A1DC4",
           "tamanho": 151552
         },
         {
@@ -3538,5 +3546,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 20:48"
+  "gerado": "2026-11-15 21:30"
 }
