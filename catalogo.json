@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "edita-reacao-foco-ajustes",
+      "data": "2026-11-15",
+      "titulo": "Edita san: o lance antes da sua reação fica; Foco san mais fácil de ler",
+      "titulo_en": "Edita san: the play before your reaction stays; Foco san easier to read",
+      "texto": "Edita san: o silêncio de até 2 s logo antes de você reagir (\"Eita\", \"Nossa\", \"Toma\") agora fica no vídeo, porque é o lance acontecendo; a revisão mostra \"momento da partida\". Foco san: clicar no painel com o menu aberto só fecha o menu, e no modo simples o foco e o comprimento do evento ficaram maiores.",
+      "texto_en": "Edita san: the silence of up to 2 s right before you react (\"Whoa\", \"Wow\") now stays in the video, since it is the play happening; the review shows \"match moment\". Foco san: clicking the panel with the menu open only closes the menu, and in simple mode the focus and the event length are bigger."
+    },
+    {
       "id": "recorte-manter-fundo",
       "data": "2026-11-15",
       "titulo": "Recorte san: Manter o fundo e botão Desfazer",
@@ -2841,8 +2849,8 @@
         {
           "caminho": "extensoes/San/FocoSan.dll",
           "destino": "ext",
-          "sha256": "BD8A9E055F500E9BEEB7207C22DECC8BD0A0BEDB8AC3894EC0121806080D7834",
-          "tamanho": 153600
+          "sha256": "FCB2AAEFC7B86DAA88D07B87A290FCDD7A920B4FA225A24EA4FC3DC380DA20DD",
+          "tamanho": 154112
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3022,8 +3030,8 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "21C0B8932EB72ECB46636F0E0CBDA9D341E7565E5ABD9B5099EC4CE10AA5DDC8",
-          "tamanho": 9739264
+          "sha256": "0D7E22797A06EAD463F7D48771099645A2F3DFBC19DB00C4942F84E63B92C300",
+          "tamanho": 9742336
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3151,8 +3159,8 @@
         {
           "caminho": "extensoes/San/MasterSan.dll",
           "destino": "ext",
-          "sha256": "B9344E29FF76E62FA9A37A109C09D8EDE1BEFAEACB70195A4A3C5A3737B652B2",
-          "tamanho": 75776
+          "sha256": "B5890B97D0BAAB8C61937CEA75C13D7ED061A23EF963D409A89004C1946947C0",
+          "tamanho": 79360
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3535,7 +3543,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "C2906EB9E3763699AFC539578A313E0BB1AE171942240131676BA9688BDCFCE5",
+        "sha256": "A14A3CC40191B4143AE80E28AF9EB10504B1CBCD15ECCF0FC8DB591075D1EFBC",
         "tamanho": 2621440
       },
       {
@@ -3546,5 +3554,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 21:30"
+  "gerado": "2026-11-15 21:39"
 }
