@@ -2873,7 +2873,7 @@
         {
           "caminho": "extensoes/San/FocoSan.dll",
           "destino": "ext",
-          "sha256": "007BDCEBCB316EC6BEF9B1E40BD9C58819C57E097BE220BBCEC1C1E11F7B71CD",
+          "sha256": "CE0C48D3586CB1045D79D468CFEA497B9942FAEB528B61D51B31C93C2AA48316",
           "tamanho": 156672
         },
         {
@@ -3567,7 +3567,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "7ABBE81E92B4DADACF02B6739A5DBA7DA6BA1D95A6A8E076828A722D0D638F5E",
+        "sha256": "352238EE3BF387FE4ECD9A71A5E98F3FDF276F69B21EB615D4A6883714639871",
         "tamanho": 2621440
       },
       {
@@ -3578,5 +3578,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 22:35"
+  "gerado": "2026-11-15 23:10"
 }
