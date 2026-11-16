@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-cortes-de-live",
+      "data": "2026-11-16",
+      "titulo": "Arsenal san: cortes de live com o streamer em cima",
+      "titulo_en": "Arsenal san: stream clips with the streamer on top",
+      "texto": "No Cortes e Shorts: escolha o tamanho da câmera do streamer (30, 40 ou 50 %), se ela fica em cima ou embaixo, e que pedaço do jogo aparece (meio, lados ou a tela inteira). Se a câmera for achada no lugar errado, clique em Ajustar a câmera e arraste a caixa. Novos também: cortar as pausas da fala, zoom leve a cada 3 s, Prévia de cada corte e Exportar todos de uma vez.",
+      "texto_en": "In Cuts and Shorts: pick the streamer camera size (30, 40 or 50 %), whether it goes on top or at the bottom, and which part of the game shows (center, sides or the whole screen). If the camera is found in the wrong place, click Adjust the camera and drag the box. Also new: cut speech pauses, a light zoom every 3 s, a Preview of each cut and Export all at once."
+    },
+    {
       "id": "tirar-fundo-2a-opiniao",
       "data": "2026-11-16",
       "titulo": "Tirar fundo (Arsenal e Recorte san): não perde mais fumaça, mão e cauda",
@@ -3354,7 +3362,7 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "DFBDEA075DF9905CF9A4FBD5AD70B082BD73F36989CE37237E9E02FE4D494260",
+          "sha256": "FA6BC6B069A2B63A8FD4EDEC5AA4D507A59C0D7E2BC1918AC20218611E4FB9D6",
           "tamanho": 1278976
         },
         {
@@ -3396,8 +3404,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cortes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "F687C35ECE06FD9F01DC06066DB723250E118872AD6A54BE2CF8A85344268B7F",
-          "tamanho": 156672
+          "sha256": "BE324710A9757C3CCA25B6BC817669F322F3A8B7373D554D391D8892ED4A9A2D",
+          "tamanho": 185344
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
@@ -3602,5 +3610,5 @@
       }
     ]
   },
-  "gerado": "2026-11-16 15:07"
+  "gerado": "2026-11-16 16:58"
 }
