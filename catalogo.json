@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-varios-links",
+      "data": "2026-11-16",
+      "titulo": "Arsenal san: vários links de uma vez",
+      "titulo_en": "Arsenal san: several links at once",
+      "texto": "Cole vários links juntos (um por linha) e aparece uma lista para marcar, com uma qualidade para todos e o botão Baixar todos. Copiou vários links em outro programa? O Arsenal oferece baixar todos. E quando o YouTube recusa um download (erro 403), ele tenta de novo sozinho.",
+      "texto_en": "Paste several links together (one per line) and a list shows up to tick, with one quality for all and a Download all button. Copied several links in another program? Arsenal offers to download them all. And when YouTube refuses a download (error 403), it tries again on its own."
+    },
+    {
       "id": "recorte-mais-timeline",
       "data": "2026-11-15",
       "titulo": "Recorte san: botão + Timeline",
@@ -3330,8 +3338,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "5AB43DB67EA51A0F1DAED772D7D8F2F03CC76BE1AF71842DE3E30CF429172078",
-          "tamanho": 1265152
+          "sha256": "D2C0B9640A3E2E095E8ADF9CE2E66B8080B0BB7C1D68500EA79D86213A1705EF",
+          "tamanho": 1278976
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3478,7 +3486,7 @@
           "tamanho": 160216
         }
       ],
-      "data": "2026-11-15"
+      "data": "2026-11-16"
     },
     {
       "id": "prompter",
@@ -3578,5 +3586,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 23:10"
+  "gerado": "2026-11-16 11:54"
 }
