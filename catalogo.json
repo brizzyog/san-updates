@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "tirar-fundo-2a-opiniao",
+      "data": "2026-11-16",
+      "titulo": "Tirar fundo (Arsenal e Recorte san): não perde mais fumaça, mão e cauda",
+      "titulo_en": "Remove background (Arsenal and Recorte san): no more missing smoke, hands and tails",
+      "texto": "Personagem com fumaça escura em fundo escuro (como o Rob Lucci do OPBR) perdia a fumaça, a mão e a cauda. Agora uma 2ª IA confere o recorte e devolve os pedaços grandes que ficaram de fora, mantendo a borda fina de sempre. Ela é baixada sozinha na 1ª imagem (224 MB, uma vez só) e a placa prepara ela uns minutos só na 1ª vez; depois cada imagem leva só uma fração de segundo a mais.",
+      "texto_en": "Characters with dark smoke on a dark background (like Rob Lucci in OPBR) lost the smoke, a hand and the tail. Now a 2nd AI double-checks the cutout and brings back the big pieces that were left out, keeping the same fine edges. It downloads on its own with the first image (224 MB, only once) and the graphics card prepares it for a few minutes only the first time; after that each image takes just a fraction of a second more."
+    },
+    {
       "id": "edita-aprende-render-2026",
       "data": "2026-11-16",
       "titulo": "Edita san: aprende sozinho no render também no VEGAS 2026",
@@ -976,8 +984,8 @@
         {
           "caminho": "extensoes/San/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "3AE2E578D3B1367A7969CF42E27062C2396EE26B8D8F6785CE001709D4BB8AAD",
-          "tamanho": 669184
+          "sha256": "29EB5E79B710C8F56A7A19DD86BE618E8C3BEC00D551F3983B45E1857E16F442",
+          "tamanho": 673280
         },
         {
           "caminho": "extensoes/San.dll",
@@ -1288,13 +1296,13 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "4383554EEBEAD49BC42B8C43E47ED439E88D814274087A6712CA5FE463056774",
-          "tamanho": 141312
+          "sha256": "4B85018A57772B8E097E919B614B84992C8E9301CC051455947A3DFEFC59CEA5",
+          "tamanho": 144384
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "B912EA52F3694C57A35ADA762FDF6D1D45A1DDBD6BF094227C1A75EA905EF5ED",
+          "sha256": "F0728D8185650E4B4532D09D3A5F169368053C5D831AF81F1CFAF78008C9CEEF",
           "tamanho": 151552
         },
         {
@@ -2491,7 +2499,7 @@
         "nome": "RecorteSan.engine.txt",
         "texto": "{local}\\RecorteSan\\motor-pacote"
       },
-      "data": "2026-11-15"
+      "data": "2026-11-16"
     },
     {
       "id": "organizador",
@@ -3346,7 +3354,7 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "D2C0B9640A3E2E095E8ADF9CE2E66B8080B0BB7C1D68500EA79D86213A1705EF",
+          "sha256": "DFBDEA075DF9905CF9A4FBD5AD70B082BD73F36989CE37237E9E02FE4D494260",
           "tamanho": 1278976
         },
         {
@@ -3418,8 +3426,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "2C1D1C3AF6DB80F7AEFFFC7BD3BE90C094F5468AC4AE2BF9A7C595C36FD19E1A",
-          "tamanho": 383488
+          "sha256": "1C47A92BF31C5B8AF72418C44C3F6585ECD174C5EB8A28D40674C81145581A34",
+          "tamanho": 398848
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
@@ -3594,5 +3602,5 @@
       }
     ]
   },
-  "gerado": "2026-11-16 13:33"
+  "gerado": "2026-11-16 15:07"
 }
