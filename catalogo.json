@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "foco-simples-regua",
+      "data": "2026-11-16",
+      "titulo": "Foco san: modo simples mais completo",
+      "titulo_en": "Foco san: fuller simple mode",
+      "texto": "No modo simples: a duração do trecho selecionado na régua aparece do lado do evento (clique copia), o vídeo final fica discreto ao lado do foco e uma barrinha embaixo enche enquanto o foco corre. Clicar no painel com o menu aberto agora só fecha o menu.",
+      "texto_en": "In simple mode: the length of the ruler selection shows next to the event (click copies), the final video sits quietly next to focus and a thin bar at the bottom fills while focus runs. Clicking the panel with the menu open now just closes the menu."
+    },
+    {
       "id": "edita-reacao-foco-ajustes",
       "data": "2026-11-15",
       "titulo": "Edita san: o lance antes da sua reação fica; Foco san mais fácil de ler",
@@ -784,8 +792,8 @@
         {
           "caminho": "extensoes/San/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "3F5D1B20B211E877150768F1C5CCC267EECFD40A451EBFC807B9950D13B7D633",
-          "tamanho": 822272
+          "sha256": "028A4B67DE7E4195C57334382D85A5E4FCC8F97002FF4095E6C7DC357E4120E4",
+          "tamanho": 823296
         },
         {
           "caminho": "extensoes/San.dll",
@@ -794,7 +802,7 @@
           "tamanho": 10240
         }
       ],
-      "data": "2026-11-12"
+      "data": "2026-11-15"
     },
     {
       "id": "upscale",
@@ -2849,8 +2857,8 @@
         {
           "caminho": "extensoes/San/FocoSan.dll",
           "destino": "ext",
-          "sha256": "FCB2AAEFC7B86DAA88D07B87A290FCDD7A920B4FA225A24EA4FC3DC380DA20DD",
-          "tamanho": 154112
+          "sha256": "007BDCEBCB316EC6BEF9B1E40BD9C58819C57E097BE220BBCEC1C1E11F7B71CD",
+          "tamanho": 156672
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3543,7 +3551,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "A14A3CC40191B4143AE80E28AF9EB10504B1CBCD15ECCF0FC8DB591075D1EFBC",
+        "sha256": "8AC04E7134BBBDFBD89BEE2B8BB2A6EE0F88953689B9544434499E08BA312A38",
         "tamanho": 2621440
       },
       {
@@ -3554,5 +3562,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 21:39"
+  "gerado": "2026-11-15 22:02"
 }
