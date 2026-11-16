@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "edita-aprende-render-2026",
+      "data": "2026-11-16",
+      "titulo": "Edita san: aprende sozinho no render também no VEGAS 2026",
+      "titulo_en": "Edita san: learns on its own after rendering, also in VEGAS 2026",
+      "texto": "Quando você termina o render do vídeo pronto, o Edita aprende o seu jeito de cortar sozinho, agora também no VEGAS 2026 (lá o aviso de fim do render às vezes não vinha). Vídeo feito de várias gravações aprende de todas, não só da maior. Se o painel estiver fechado, o aviso aparece quando você abrir o Edita.",
+      "texto_en": "When you finish rendering the final video, Edita learns your cutting style on its own, now also in VEGAS 2026 (there the render-finished notice sometimes did not come). A video made of several recordings learns from all of them, not just the longest. If the panel is closed, the notice shows when you open Edita."
+    },
+    {
       "id": "arsenal-varios-links",
       "data": "2026-11-16",
       "titulo": "Arsenal san: vários links de uma vez",
@@ -3062,8 +3070,8 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "0D7E22797A06EAD463F7D48771099645A2F3DFBC19DB00C4942F84E63B92C300",
-          "tamanho": 9742336
+          "sha256": "1AD66092411F60D8B49B89A126F4D71F4581ED410C7A02A01DABE8F7FF42C955",
+          "tamanho": 9750528
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3072,7 +3080,7 @@
           "tamanho": 10240
         }
       ],
-      "data": "2026-11-15"
+      "data": "2026-11-16"
     },
     {
       "id": "volume",
@@ -3575,7 +3583,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "352238EE3BF387FE4ECD9A71A5E98F3FDF276F69B21EB615D4A6883714639871",
+        "sha256": "2E07E55073694FD1669B90B1AB720F4760DAD7A14BC53C29A38C11917D2354A5",
         "tamanho": 2621440
       },
       {
@@ -3586,5 +3594,5 @@
       }
     ]
   },
-  "gerado": "2026-11-16 11:54"
+  "gerado": "2026-11-16 13:33"
 }
