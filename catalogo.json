@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "recorte-mais-timeline",
+      "data": "2026-11-15",
+      "titulo": "Recorte san: botão + Timeline",
+      "titulo_en": "Recorte san: + Timeline button",
+      "texto": "Botão + Timeline no topo da lista (Imagem, Vídeo e Apagar): põe na lista o que está selecionado na timeline, com o pedaço exato de cada evento, e fica lá mesmo que você selecione outra coisa. Arrastar um evento da timeline para o painel também usa só o pedaço dele, não o vídeo inteiro.",
+      "texto_en": "+ Timeline button at the top of the list (Image, Video and Erase): adds what is selected on the timeline with the exact part of each event, and it stays even if you select something else. Dragging a timeline event into the panel also uses just its part, not the whole video."
+    },
+    {
       "id": "recorte-trecho-lista",
       "data": "2026-11-15",
       "titulo": "Recorte san: trecho certo do evento cortado e tirar da lista",
@@ -952,8 +960,8 @@
         {
           "caminho": "extensoes/San/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "B4DC94D0ACACAC96D7ACE5C0CB5620579ABF7393085CD2AA9EE11076820DFB57",
-          "tamanho": 661504
+          "sha256": "3AE2E578D3B1367A7969CF42E27062C2396EE26B8D8F6785CE001709D4BB8AAD",
+          "tamanho": 669184
         },
         {
           "caminho": "extensoes/San.dll",
@@ -1264,13 +1272,13 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "D80BA483C1814520712F8A40713E3AC2E9A75E3044BBBCFB5DD3708769E95866",
+          "sha256": "4383554EEBEAD49BC42B8C43E47ED439E88D814274087A6712CA5FE463056774",
           "tamanho": 141312
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "111662CE03ED712D4224D55454BF3D2ECE38D55CD32A01566216CE5E9A42CD8F",
+          "sha256": "B912EA52F3694C57A35ADA762FDF6D1D45A1DDBD6BF094227C1A75EA905EF5ED",
           "tamanho": 151552
         },
         {
@@ -3570,5 +3578,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 22:26"
+  "gerado": "2026-11-15 22:35"
 }
