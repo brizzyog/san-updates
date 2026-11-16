@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "recorte-trecho-lista",
+      "data": "2026-11-15",
+      "titulo": "Recorte san: trecho certo do evento cortado e tirar da lista",
+      "titulo_en": "Recorte san: right part of a cut event and removing from the list",
+      "texto": "Cortar um evento de vídeo no VEGAS e mandar para o Recorte (Vídeo ou Apagar) agora usa exatamente o pedaço cortado; antes ele podia mostrar outra parte do vídeo. Todo item da lista ganhou um × (o da timeline só some do painel) e há um botão + Arquivo para escolher outro vídeo ou imagem.",
+      "texto_en": "Cutting a video event in VEGAS and sending it to Recorte (Video or Erase) now uses exactly the cut part; before it could show another part of the video. Every item in the list got an × (timeline items just leave the panel) and there is a + File button to pick another video or image."
+    },
+    {
       "id": "foco-simples-regua",
       "data": "2026-11-16",
       "titulo": "Foco san: modo simples mais completo",
@@ -944,8 +952,8 @@
         {
           "caminho": "extensoes/San/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "250DBA8B12CCA14249FB85FEB07A98F0E43B4CEC0C302F6DE0ABCE3114062761",
-          "tamanho": 659456
+          "sha256": "B4DC94D0ACACAC96D7ACE5C0CB5620579ABF7393085CD2AA9EE11076820DFB57",
+          "tamanho": 661504
         },
         {
           "caminho": "extensoes/San.dll",
@@ -1256,13 +1264,13 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "56096455FD467E21DFCEE7A3BCDEE1004A87BD140D42E5508428ED9AEC0890CB",
+          "sha256": "D80BA483C1814520712F8A40713E3AC2E9A75E3044BBBCFB5DD3708769E95866",
           "tamanho": 141312
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "CE14D6F6C56C1BDB50BF44E77ACBD21F7A91B65682182F5769C81EFA9E1A1DC4",
+          "sha256": "111662CE03ED712D4224D55454BF3D2ECE38D55CD32A01566216CE5E9A42CD8F",
           "tamanho": 151552
         },
         {
@@ -3562,5 +3570,5 @@
       }
     ]
   },
-  "gerado": "2026-11-15 22:09"
+  "gerado": "2026-11-15 22:26"
 }
