@@ -3110,8 +3110,8 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "EB1357284AFEA564EFEFDD44F0DB97C6D03612537A16762D18273090863A2B5D",
-          "tamanho": 9756160
+          "sha256": "4884FFB05CEB08E41647E7A2E45D9A27F5E86E17420A6D050E4F08BAEDFF4D67",
+          "tamanho": 9784832
         },
         {
           "caminho": "extensoes/San.dll",
