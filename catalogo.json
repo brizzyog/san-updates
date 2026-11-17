@@ -3466,8 +3466,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "ED0B5DA4B9C9366A91179BCF4BC66EA3D943201BB3824C058389CDD6922CFD8C",
-          "tamanho": 1334272
+          "sha256": "5B9E97BC7C949834C56408C9014FEEE6D17FFA54C92E951A27728C63F58F973C",
+          "tamanho": 1335808
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3520,7 +3520,7 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "C5DBE9CC39B5DDC61CDA7D9B6D92135DB15E5173BC84402052A09D6A5D02002D",
+          "sha256": "D7A23F164DDD991E5DC1BF112D912FC62B6DAB7B82E8470B04FDA5ACD7FF9FAC",
           "tamanho": 1310208
         },
         {
@@ -3720,5 +3720,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 19:25"
+  "gerado": "2026-11-17 19:33"
 }
