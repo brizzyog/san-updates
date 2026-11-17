@@ -35,6 +35,14 @@
       "texto_en": "When you drop an image or video, Recorte asks what you want: Remove the background or Erase something (watermark, text, logo), which keeps the background and opens it in the Erase tab. In videos, Erase is for what stays still, like a fixed watermark. There is also an Erase watermark button above the preview. To go back to the old way, tick \"Don't ask again\"."
     },
     {
+      "id": "edita-proximo-nivel",
+      "data": "2026-11-17",
+      "titulo": "Edita san: obedece o que você fala gravando e mostra a prévia",
+      "titulo_en": "Edita san: follows what you say while recording, and a quick preview",
+      "texto": "Falou \"isso aqui é pra remover\", \"vou refazer essa parte\" ou \"agora vai começar mesmo\"? O Edita obedece. Trecho gravado de novo vem para você escolher (fica a última tomada). No summon, a tela de ULTRA RARE/NEW! não some e vira sugestão de gancho. Novos, opcionais: \"Acelerar em vez de cortar\" (3× ou 4×) e, no gameplay, segurar o silêncio antes da sua reação. E o botão \"Prévia rápida\" mostra o vídeo cortado antes de aplicar, sem mexer na timeline.",
+      "texto_en": "Said \"remove this\", \"I will redo this part\" or \"now it really starts\"? Edita follows. Re-recorded parts come for you to pick (the last take stays). In summons the ULTRA RARE/NEW! screen stays and becomes a hook idea. New and optional: speed up instead of cutting, and holding gameplay silence before your reaction. \"Quick preview\" shows the cut video before applying."
+    },
+    {
       "id": "edita-pau-o-tempo-todo",
       "data": "2026-11-17",
       "titulo": "Edita san: jeito \"Pau o tempo todo\" e nomes mais claros",
@@ -3142,8 +3150,8 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "7142EE0B5EE60C09E461BC52E5EC3CDE0BC05F4766BDC3711B45B8900C6CE83C",
-          "tamanho": 9798656
+          "sha256": "678FFF05CAFBF6A15C64A9F9393609B0769F35EA99ACCD72BC3EE7AB576BC552",
+          "tamanho": 9821184
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3661,7 +3669,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "B8988D22E4D42906FEA6954D0F31BF2473D6F46B7DA97A005ED1CA898C63327D",
+        "sha256": "80EAB2FFCE26114896FD0E6E1F81F303D463303DAC08EC0791D1C1ED8E6F0742",
         "tamanho": 2621440
       },
       {
@@ -3672,5 +3680,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 16:48"
+  "gerado": "2026-11-17 17:10"
 }
