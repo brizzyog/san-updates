@@ -59,6 +59,14 @@
       "texto_en": "When you drop an image or video, Recorte asks what you want: Remove the background or Erase something (watermark, text, logo), which keeps the background and opens it in the Erase tab. In videos, Erase is for what stays still, like a fixed watermark. There is also an Erase watermark button above the preview. To go back to the old way, tick \"Don't ask again\"."
     },
     {
+      "id": "edita-normalizar-mic",
+      "data": "2026-11-17",
+      "titulo": "Edita san: normalizar o microfone com o Levelator, sem janela",
+      "titulo_en": "Edita san: normalize the microphone with the Levelator, no window",
+      "texto": "O botão \"Normalizar o microfone\" (e a opção de fazer antes de decupar) usa o Levelator escondido: nivela só a trilha do mic, sem abrir janela, e os eventos da voz passam a tocar o áudio nivelado (um Ctrl+Z desfaz). E se o painel travar no ✎ Texto, ele não reabre travando.",
+      "texto_en": "\"Normalize the microphone\" uses the hidden Levelator: it levels only the mic track, no window, and the voice events play the leveled audio (one Ctrl+Z undoes it). If the panel freezes in Text, it no longer reopens frozen."
+    },
+    {
       "id": "edita-proximo-nivel",
       "data": "2026-11-17",
       "titulo": "Edita san: obedece o que você fala gravando e mostra a prévia",
@@ -934,11 +942,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "C8B2F73E8F0482FB0466CE8B9A63A85B4D5512FC6375C1979D5B01C75FD782CC",
-          "tamanho": 10240
+          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "tamanho": 11264
         }
       ],
-      "data": "2026-11-15"
+      "data": "2026-11-17"
     },
     {
       "id": "upscale",
@@ -1006,11 +1014,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "C8B2F73E8F0482FB0466CE8B9A63A85B4D5512FC6375C1979D5B01C75FD782CC",
-          "tamanho": 10240
+          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "tamanho": 11264
         }
       ],
-      "data": "2026-11-15"
+      "data": "2026-11-17"
     },
     {
       "id": "recorte",
@@ -1086,8 +1094,8 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "C8B2F73E8F0482FB0466CE8B9A63A85B4D5512FC6375C1979D5B01C75FD782CC",
-          "tamanho": 10240
+          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "tamanho": 11264
         },
         {
           "caminho": "motor-recorte/Accessibility.dll",
@@ -2663,13 +2671,13 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "C8B2F73E8F0482FB0466CE8B9A63A85B4D5512FC6375C1979D5B01C75FD782CC",
-          "tamanho": 10240
+          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "tamanho": 11264
         }
       ],
       "aviso": "A busca pelo que aparece baixa uma IA (~900 MB) pelo próprio painel, só se você quiser usar.",
       "aviso_en": "Searching by what shows up downloads an AI (~900 MB) from the panel, only if you want to use it.",
-      "data": "2026-11-12"
+      "data": "2026-11-17"
     },
     {
       "id": "proxy",
@@ -2719,11 +2727,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "C8B2F73E8F0482FB0466CE8B9A63A85B4D5512FC6375C1979D5B01C75FD782CC",
-          "tamanho": 10240
+          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "tamanho": 11264
         }
       ],
-      "data": "2026-11-12"
+      "data": "2026-11-17"
     },
     {
       "id": "notas",
@@ -2776,11 +2784,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "C8B2F73E8F0482FB0466CE8B9A63A85B4D5512FC6375C1979D5B01C75FD782CC",
-          "tamanho": 10240
+          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "tamanho": 11264
         }
       ],
-      "data": "2026-11-15"
+      "data": "2026-11-17"
     },
     {
       "id": "search",
@@ -2850,11 +2858,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "C8B2F73E8F0482FB0466CE8B9A63A85B4D5512FC6375C1979D5B01C75FD782CC",
-          "tamanho": 10240
+          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "tamanho": 11264
         }
       ],
-      "data": "2026-11-12"
+      "data": "2026-11-17"
     },
     {
       "id": "santools",
@@ -2915,8 +2923,8 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "C8B2F73E8F0482FB0466CE8B9A63A85B4D5512FC6375C1979D5B01C75FD782CC",
-          "tamanho": 10240
+          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "tamanho": 11264
         },
         {
           "caminho": "santools-ofx/SanTools.ofx.bundle/Contents/Win64/SanTools.ofx",
@@ -2925,7 +2933,7 @@
           "tamanho": 567296
         }
       ],
-      "data": "2026-11-12"
+      "data": "2026-11-17"
     },
     {
       "id": "foco",
@@ -2999,11 +3007,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "C8B2F73E8F0482FB0466CE8B9A63A85B4D5512FC6375C1979D5B01C75FD782CC",
-          "tamanho": 10240
+          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "tamanho": 11264
         }
       ],
-      "data": "2026-11-15"
+      "data": "2026-11-17"
     },
     {
       "id": "camera",
@@ -3056,11 +3064,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "C8B2F73E8F0482FB0466CE8B9A63A85B4D5512FC6375C1979D5B01C75FD782CC",
-          "tamanho": 10240
+          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "tamanho": 11264
         }
       ],
-      "data": "2026-11-12"
+      "data": "2026-11-17"
     },
     {
       "id": "camera-beta",
@@ -3090,11 +3098,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "C8B2F73E8F0482FB0466CE8B9A63A85B4D5512FC6375C1979D5B01C75FD782CC",
-          "tamanho": 10240
+          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "tamanho": 11264
         }
       ],
-      "data": "2026-11-12"
+      "data": "2026-11-17"
     },
     {
       "id": "editor",
@@ -3174,14 +3182,14 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "C4F98E29A044C1173ADB29DE2BA830469C8F5BF1E0551AD6FDCA7EB8D55DB27E",
-          "tamanho": 9822208
+          "sha256": "44443D9A52C14C801BE83F35BC631B134AF7E3703863FC86C051BABCE009FA3B",
+          "tamanho": 9833984
         },
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "C8B2F73E8F0482FB0466CE8B9A63A85B4D5512FC6375C1979D5B01C75FD782CC",
-          "tamanho": 10240
+          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "tamanho": 11264
         }
       ],
       "data": "2026-11-17"
@@ -3242,8 +3250,8 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "C8B2F73E8F0482FB0466CE8B9A63A85B4D5512FC6375C1979D5B01C75FD782CC",
-          "tamanho": 10240
+          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "tamanho": 11264
         },
         {
           "caminho": "scripts/Volume san.dll",
@@ -3264,7 +3272,7 @@
           "tamanho": 1048
         }
       ],
-      "data": "2026-11-12"
+      "data": "2026-11-17"
     },
     {
       "id": "master",
@@ -3309,11 +3317,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "C8B2F73E8F0482FB0466CE8B9A63A85B4D5512FC6375C1979D5B01C75FD782CC",
-          "tamanho": 10240
+          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "tamanho": 11264
         }
       ],
-      "data": "2026-11-15"
+      "data": "2026-11-17"
     },
     {
       "id": "motion",
@@ -3693,8 +3701,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "50BB307DEC61A9CA63AA15308EB3B610493542A797C921B0910C9DFA3AA3CA68",
-        "tamanho": 2621440
+        "sha256": "47437B15BDBB01D8EA2BB2AB3ECF716D888C6A8E92ABBF7680836BEA5A0ADB35",
+        "tamanho": 2708992
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -3704,5 +3712,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 17:52"
+  "gerado": "2026-11-17 19:12"
 }
