@@ -3,6 +3,22 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-mesa-a-mao-17-11",
+      "data": "2026-11-17",
+      "titulo": "Arsenal san: tudo que a IA edita, você muda à mão",
+      "titulo_en": "Arsenal san: everything the AI edits, you can change by hand",
+      "texto": "Mesa do Criar vídeo no jeito do VEGAS: trilhas separadas (inserts, textos, efeitos, música) com mudo e solo, S corta, Delete tira, cantos fazem fade, ímã na agulha. Clique num texto ou meme (na linha do tempo ou na prévia) e mude lugar (arrastando ou pela grade), fonte, cor, tamanho, entrada, movimento (aproximar, afastar, andar), começo e duração; o vídeo final e o Levar para o VEGAS saem iguais. Criar vídeo começa por 'O que você já tem?', Editor de vídeo direto no menu e trilhas do OBS com o jogo abaixando quando você fala. Buscar nos sites com buscas prontas, formato, zoom e recorte, GIF/vídeo/trecho e Kit do vídeo.",
+      "texto_en": "Create video desk works like VEGAS: separate tracks (inserts, texts, effects, music) with mute and solo, S splits, Delete removes, corners fade, snapping to the playhead. Click a text or meme (on the timeline or the preview) and change its place (drag or grid), font, color, size, entrance, motion (zoom in, zoom out, pan), start and length; the final video and Send to VEGAS match. Create video starts with 'What do you already have?', Video editor right in the menu and OBS tracks with the game ducking when you talk. Search sites with ready searches, format, zoom and crop, GIF/video/clip and Video kit."
+    },
+    {
+      "id": "arsenal-converter-arquivos",
+      "data": "2026-11-17",
+      "titulo": "Arsenal san: Converter arquivos (imagem, PDF e áudio)",
+      "titulo_en": "Arsenal san: Convert files (image, PDF and audio)",
+      "texto": "Na Caixa de ferramentas, o novo Converter arquivos: WebP, AVIF, HEIC (foto do iPhone), PNG, JPG, GIF, BMP, ICO e TIFF de um para o outro, com qualidade e tamanho; várias imagens viram um PDF (A4, Carta ou do tamanho da imagem) e um PDF vira uma imagem por página; áudio em MP3, WAV, M4A, OGG, FLAC ou OPUS, e o som de um vídeo. Solte vários de uma vez, misturados. Vídeo continua no Converter do Estúdio.",
+      "texto_en": "In the Toolbox, the new Convert files: WebP, AVIF, HEIC (iPhone photos), PNG, JPG, GIF, BMP, ICO and TIFF to one another, with quality and size; several images become one PDF (A4, Letter or image size) and a PDF becomes one image per page; audio as MP3, WAV, M4A, OGG, FLAC or OPUS, and the sound of a video. Drop many at once, mixed. Video stays in the Studio's Convert."
+    },
+    {
       "id": "arsenal-editar-redes-17-11",
       "data": "2026-11-17",
       "titulo": "Arsenal san: exportar para cada rede, Short de verdade e lixeira",
@@ -3394,8 +3410,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "F5A3CD3F9E9058F516B48BE2D8ECE24D5E80265F2E48ADBC5B11F558B5CA2457",
-          "tamanho": 1288192
+          "sha256": "084DD773046F7FF2DB271ACB32B6A3573C6B6E1843A9DAFCCC1B6E2D38810A04",
+          "tamanho": 1319936
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3406,97 +3422,103 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Audio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "40930D35335DAD375EF4A9E607FF22F0C0BEBFFEBAD0B38FE6EC1AF7D0617362",
+          "sha256": "C049AB27C0F8E7E6D5B5CB05CC6624EA5175423E1D5EBCB580631109091B4F42",
           "tamanho": 210944
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Canal.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "021E97046FDE5AF4CED6A96D268A156170F2A3ABF79C8ADC5C4B781EB3BCD5ED",
+          "sha256": "E1AACF0E6A42BC59C68C34CB685B4A331F346EDF9EC867C9020C8165CCF0C55C",
           "tamanho": 600064
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cerebro.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "08065F3DCC5032C3CA383A0BD08FFEE3D5E010B08090954679F8E69F14A41FC9",
+          "sha256": "50BC6AC96EE66C017CCE76EE879756BE4BADE1265F01B020D440FD376D8B9423",
           "tamanho": 204288
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "617A2597228644EC93951882D89C47FC3F69FD29CB867FCD0113726CAC6EAC03",
+          "sha256": "9839325EBB7460894062FE1F6F4DED97AC0744547DC4971310503F875678C525",
           "tamanho": 542720
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Conexoes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "F78762739BADFF35603D487A25426D10450ED9A5BF340F2732568F34A90A261A",
+          "sha256": "A9AA6C903E498B09D40F21A61AE449875BEA8D2B9AECFF8CB8577C9A38CF4035",
           "tamanho": 122368
+        },
+        {
+          "caminho": "arsenal/ArsenalSan.Mod.Conversor.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "C8B526D42C8545DF01EFECB7D1A86D1E73ED44269D4B8B1B133976E238E698D9",
+          "tamanho": 169984
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cortes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "1FB568E45C8FDF394E86440EE9D46BFE06812D86DC4E0D6D293C4297366B6C64",
+          "sha256": "A053C5C787DC53D464E64F9595AC564F6CF3DC162F840B67C9EC54453D7B617A",
           "tamanho": 185344
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "BEBDB1EF9977D87C44500AE8F4152BFE253ABE569E922B250F8200B935245D51",
-          "tamanho": 1186304
+          "sha256": "E92C91A9BE50C56AA1288D3FF6B56B92977CA98BE5BD3086DF13B66BFAB5FBF3",
+          "tamanho": 1287680
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "64E3B041E1E847E9DFB9E3652EB6CB1445313E9DE27B38D103BA67AF13A31250",
+          "sha256": "D24AFC4145002A415FAD298D57AB17D91F0931D2A5BAC50CFDAB324D4026D281",
           "tamanho": 5211136
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "31B074C4F7C9A71BEF7102699403B946D7AFBA20EC86056514B23C2047E632C9",
+          "sha256": "0735DA34BB434BB4B844E9A6600A45232983764C5A35BD8DD9B242EFC5370BF4",
           "tamanho": 2028032
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "9DB9FA153004FA79F163F5447C161A1F98536C8AB4966FF4B296DC8A22F383FB",
+          "sha256": "C4F1F0B9F42A03A9404B50C73566CAA9A503D437AF2A513DB4087E23065A1879",
           "tamanho": 2370048
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "1C47A92BF31C5B8AF72418C44C3F6585ECD174C5EB8A28D40674C81145581A34",
+          "sha256": "32726C1B495653F444CA8A71DCE9B604497CE7ADF5DAC0C099D9AA1CB2365234",
           "tamanho": 398848
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "0526F47016874EAF3510EA7536F8EF75500D274B7CD33DAB65BEA20C1EF76933",
+          "sha256": "B1C1D243A61D1F120160AD5E38338057F12D1530844FCCB4D4A97CE0168F164A",
           "tamanho": 696832
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "7A9FD3822375E1FB3A0D8A4862236D3E80ED8B9044D4A560602CFA99DB515999",
+          "sha256": "9B9CC1E96D8DEAC4DB6F956B220B5262636133BFDE1D3455670F1C54984B91FC",
           "tamanho": 252928
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "10DA5393781C2DF3E7B7EAE7649ABB1ACF380FA17B0ED2D149DE67EE74F9D8EC",
+          "sha256": "516D4A07F401498F5F7C00123EB3BF39C6C57DC2E1D80A30B9C0AFC8E2CFEFE2",
           "tamanho": 680960
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "EF9AD44977A2B7A1CD19F9CC949263A82EBD29149740ECACC5726421CB262980",
+          "sha256": "802FFD4673459F6F29A78B287F4DBFCBD5A6BF7745C89B7150D90611D19A33CA",
           "tamanho": 1142784
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.VideoIA.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "3847C528027EE5A9BFFF4E305FAF7454CD6E02471E2EECA0939FD6752DF99A15",
+          "sha256": "9F89348C789FB4E66B5D85844EA736122A7F3FB0812CEFF4A5589EB269FEEC2F",
           "tamanho": 94720
         },
         {
@@ -3642,5 +3664,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 14:53"
+  "gerado": "2026-11-17 16:38"
 }
