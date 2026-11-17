@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "recorte-perguntar",
+      "data": "2026-11-16",
+      "titulo": "Recorte san: tirar o fundo ou apagar algo",
+      "titulo_en": "Recorte san: remove the background or erase something",
+      "texto": "Ao jogar uma imagem ou vídeo, o Recorte pergunta o que você quer: Tirar o fundo ou Apagar algo (marca d'água, texto, logo), que mantém o fundo e abre na aba Apagar. No vídeo, o Apagar serve para o que fica parado, como marca d'água fixa. Tem também o botão Apagar marca d'água em cima da prévia. Para voltar ao jeito de antes, marque \"Não perguntar de novo\".",
+      "texto_en": "When you drop an image or video, Recorte asks what you want: Remove the background or Erase something (watermark, text, logo), which keeps the background and opens it in the Erase tab. In videos, Erase is for what stays still, like a fixed watermark. There is also an Erase watermark button above the preview. To go back to the old way, tick \"Don't ask again\"."
+    },
+    {
       "id": "edita-retomadas",
       "data": "2026-11-16",
       "titulo": "Edita san: tira a frase recomeçada também sem a Claude",
@@ -1000,8 +1008,8 @@
         {
           "caminho": "extensoes/San/RecorteSan.dll",
           "destino": "ext",
-          "sha256": "29EB5E79B710C8F56A7A19DD86BE618E8C3BEC00D551F3983B45E1857E16F442",
-          "tamanho": 673280
+          "sha256": "705A0B81C8CD071D8A13A6026429F08330540053D888701688B3C47F974A2409",
+          "tamanho": 682496
         },
         {
           "caminho": "extensoes/San.dll",
@@ -1312,13 +1320,13 @@
         {
           "caminho": "motor-recorte/RecorteSan.Engine.dll",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "4B85018A57772B8E097E919B614B84992C8E9301CC051455947A3DFEFC59CEA5",
+          "sha256": "4CFA8DD9F6C5C141A2611EC0A92C035D1F8BE3C6A6ECDB2AC33E248EC0658141",
           "tamanho": 144384
         },
         {
           "caminho": "motor-recorte/RecorteSan.Engine.exe",
           "destino": "local:RecorteSan\\motor-pacote",
-          "sha256": "F0728D8185650E4B4532D09D3A5F169368053C5D831AF81F1CFAF78008C9CEEF",
+          "sha256": "D3E4C3678EF5D831E992C856B68A519A7324CA8D1B4BBD29C94E9F5D3B0F4BDE",
           "tamanho": 151552
         },
         {
@@ -2515,7 +2523,7 @@
         "nome": "RecorteSan.engine.txt",
         "texto": "{local}\\RecorteSan\\motor-pacote"
       },
-      "data": "2026-11-16"
+      "data": "2026-11-17"
     },
     {
       "id": "organizador",
@@ -3607,7 +3615,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "153CC180FC448B11D7322FBE2980CBFEFB7966F8966561A3031DDF8966ED7AB9",
+        "sha256": "BC8590DF7973A7D47ED5EC689B815DEAD4BC5409FFA028EA5342B14D6B47A8AD",
         "tamanho": 2621440
       },
       {
@@ -3618,5 +3626,5 @@
       }
     ]
   },
-  "gerado": "2026-11-16 21:06"
+  "gerado": "2026-11-17 12:38"
 }
