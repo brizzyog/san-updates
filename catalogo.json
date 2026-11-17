@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-patrocinios-17-11",
+      "data": "2026-11-17",
+      "titulo": "Arsenal san: Patrocínios novo no Painel",
+      "titulo_en": "Arsenal san: new Sponsorships in the Panel",
+      "texto": "Painel › Patrocínios virou um quadro em colunas (Proposta, Fechado, Entregue, Pago): arraste a marca conforme avança. Cada entrega tem ✓ e as de vídeo marcam sozinhas quando o vídeo ligado sai. Entregue há 15 dias sem pagar mostra o aviso e copia uma mensagem de cobrança. Recebido por mês, ticket médio, quanto cobrar pelo seu histórico, cupom e Copiar mídia kit com os números do canal.",
+      "texto_en": "Panel › Sponsorships is now a column board (Proposal, Closed, Delivered, Paid): drag the brand as it moves on. Each delivery has a check and video ones check themselves when the linked video is out. Delivered 15 days ago and unpaid shows a warning and copies a payment reminder. Received per month, average deal, what to charge from your history, coupon and Copy media kit with your channel numbers."
+    },
+    {
       "id": "arsenal-canais-gta-estilo-17-11",
       "data": "2026-11-17",
       "titulo": "Arsenal san: agenda separada por canal e GTA 6 virou estilo",
@@ -3526,8 +3534,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "6D7A4963BBD3F28FEC8C83E692FD9A1C3F373B539CCD45433BF352548E47E904",
-          "tamanho": 741888
+          "sha256": "3D264DD13E3B1C55D4F073639BEB813627864F5E251875A88E482DBCC505DA28",
+          "tamanho": 775680
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
@@ -3685,7 +3693,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "ADC83DBDCFA4AB5BBBCD94FBA674C6572588E67F62EE66610258BDDB819035E3",
+        "sha256": "50BB307DEC61A9CA63AA15308EB3B610493542A797C921B0910C9DFA3AA3CA68",
         "tamanho": 2621440
       },
       {
@@ -3696,5 +3704,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 17:42"
+  "gerado": "2026-11-17 17:52"
 }
