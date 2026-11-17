@@ -2860,7 +2860,7 @@
         {
           "caminho": "extensoes/San/SearchSan.dll",
           "destino": "ext",
-          "sha256": "BD4A790A250E820198D08EF1109623DA846386A4FF461197F77E928789452608",
+          "sha256": "779E0D2A65A1040E0676399C7B1C83E4F1BE76EC4CFC6D4E28E577C3907FAFE1",
           "tamanho": 484864
         },
         {
@@ -3709,7 +3709,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "47437B15BDBB01D8EA2BB2AB3ECF716D888C6A8E92ABBF7680836BEA5A0ADB35",
+        "sha256": "DBFF9CD896A554BAB52A450616D3B44FC92F711E8E9B080CA26A32366AD5DB6F",
         "tamanho": 2708992
       },
       {
@@ -3720,5 +3720,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 19:15"
+  "gerado": "2026-11-17 19:17"
 }
