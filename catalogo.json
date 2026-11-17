@@ -35,6 +35,14 @@
       "texto_en": "When you drop an image or video, Recorte asks what you want: Remove the background or Erase something (watermark, text, logo), which keeps the background and opens it in the Erase tab. In videos, Erase is for what stays still, like a fixed watermark. There is also an Erase watermark button above the preview. To go back to the old way, tick \"Don't ask again\"."
     },
     {
+      "id": "edita-pau-o-tempo-todo",
+      "data": "2026-11-17",
+      "titulo": "Edita san: jeito \"Pau o tempo todo\" e nomes mais claros",
+      "titulo_en": "Edita san: \"Non-stop\" cut style and clearer names",
+      "texto": "Novo jeito de cortar \"Pau o tempo todo\": corta até a respiração, pausas a partir de 0,12 s e estalo curtinho sai, com crossfade de 200 ms no áudio. O \"vídeo fica com\" agora mostra o tempo certo. Dá para pedir na conversa \"usa o jeito pau o tempo todo\", \"margem de 0,04 s antes e 0,06 s depois\" ou \"salva como jeito\". E os nomes do painel ficaram mais fáceis: \"Duração do vídeo pronto\", \"Nomes que o Edita deve escrever certo\", \"Música de fundo\".",
+      "texto_en": "New \"Non-stop\" cut style: cuts even the breaths, pauses from 0.12 s, tiny clicks go, with a 200 ms audio crossfade. The final length is now right. You can ask in the chat for a style, margins or to save a style. Panel names are easier too."
+    },
+    {
       "id": "edita-enfase-recomeco",
       "data": "2026-11-17",
       "titulo": "Edita san: sabe quando é ênfase e quando você recomeçou",
@@ -3134,8 +3142,8 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "4884FFB05CEB08E41647E7A2E45D9A27F5E86E17420A6D050E4F08BAEDFF4D67",
-          "tamanho": 9784832
+          "sha256": "7142EE0B5EE60C09E461BC52E5EC3CDE0BC05F4766BDC3711B45B8900C6CE83C",
+          "tamanho": 9798656
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3653,7 +3661,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "344F5265074F55F46CE21730CB2ADCCC92165C67474981687C4BA2E4AA38C623",
+        "sha256": "B8988D22E4D42906FEA6954D0F31BF2473D6F46B7DA97A005ED1CA898C63327D",
         "tamanho": 2621440
       },
       {
@@ -3664,5 +3672,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 16:38"
+  "gerado": "2026-11-17 16:48"
 }
