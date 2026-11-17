@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-organizacao-17-11",
+      "data": "2026-11-17",
+      "titulo": "Arsenal san: menu mais curto e número à mão em todo lugar",
+      "titulo_en": "Arsenal san: a shorter menu and typed numbers everywhere",
+      "texto": "Menu em 4 grupos curtos: Shorts (cortes de link, Short com legenda, Multiplicar e Vertical) e Converter (vídeo, imagem, PDF e áudio) viraram uma tela cada; Editor de vídeo, Curta cartoon, Filmes e GTA 6 ficam dentro do Criar vídeo; publicar (Agenda, Pacote para postar, Repost) mora no Painel; Só a thumbnail e Favoritos viraram botões. Duração e números: poucos atalhos e uma caixa para digitar o valor que quiser (36 s, 7 min). Seus vídeos do Criar vídeo em lista compacta com filtro. Nada foi apagado: a busca do menu (Ctrl+K) acha tudo.",
+      "texto_en": "Menu in 4 short groups: Shorts (clips from a link, captioned Short, Multiply and Vertical) and Convert (video, image, PDF and audio) became one screen each; Video editor, Cartoon short, Films and GTA 6 live inside Create video; publishing (Schedule, Post pack, Repost) lives in the Panel; Thumbnail only and Favorites became buttons. Lengths and numbers: a few shortcuts and a box to type any value (36 s, 7 min). Your videos in Create video as a compact list with a filter. Nothing was deleted: the menu search (Ctrl+K) finds everything."
+    },
+    {
       "id": "arsenal-patrocinios-17-11",
       "data": "2026-11-17",
       "titulo": "Arsenal san: Patrocínios novo no Painel",
@@ -3458,8 +3466,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "5104DA577E3A5977A23B126DC2A795B0D830B5028200A5265A35C2A7DBF83CB9",
-          "tamanho": 1328128
+          "sha256": "8DE3FFA26DD6534CC41941F9A894596EE0F774349CCF9B76306F5DD165D841C4",
+          "tamanho": 1334272
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3506,20 +3514,20 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cortes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "A5EB473C6AFEAD6AAFAF863C6F592501D0E8EEC242D0A97CB9998AAF14D90011",
+          "sha256": "EA5710ED147F99FCB56C4906ED8987F72510E4D65AC76CCDDD2FBBFA888D86AF",
           "tamanho": 185344
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "44F3CD1B3576A6C6AF1C6EC7B5D0448E445169D63167A4CA1693FD71A0BBF439",
-          "tamanho": 1306112
+          "sha256": "700838CB0BE639519B877A081175E635BF6CE1C6DF424E511F55DCF594770D95",
+          "tamanho": 1310208
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "F2387EA78A55C8B6BFB5F83FA52E6DD4A52E61BCBF583F43AF893D4CACFD27E6",
-          "tamanho": 5211136
+          "sha256": "F9195241B726C2119D5B517EB4D95D8D18F450C1D4C4D19F906AC8A50DD4EF8A",
+          "tamanho": 5211648
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
@@ -3530,7 +3538,7 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "30B3B4BB82D2F96FD57E7ACFF1432DD2FD3E2BBD716E07066C0BA9E768E5F44A",
+          "sha256": "260E0411F568FC19BB906D198306F5CCD853D51061FF53A36365CBF358204B5E",
           "tamanho": 2373632
         },
         {
@@ -3542,19 +3550,19 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "3D264DD13E3B1C55D4F073639BEB813627864F5E251875A88E482DBCC505DA28",
-          "tamanho": 775680
+          "sha256": "F4C53A4A33BBA1D1A19A84914995F03B5361343F6BCBFB378AECF3E2A5009CFE",
+          "tamanho": 776192
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "29F3ECEE0781AABEC5A54E3458F181AD76B6786938BE211551992B79B6A3086D",
-          "tamanho": 253952
+          "sha256": "F172CF65B189329E28F9966E64B8F04210CF6E8BBF8B4A2AE74339D243F82DAE",
+          "tamanho": 254464
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "4AE09F5696F7A84024F4B4DEBA310F0682264540108DB2DA219D56D6C9E6F261",
+          "sha256": "30CE9896AC6C34C6BF8026A3A47656AEB813FA30EF51CC8FCE5105B670F9ACA1",
           "tamanho": 680960
         },
         {
@@ -3712,5 +3720,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 19:12"
+  "gerado": "2026-11-17 19:15"
 }
