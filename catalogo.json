@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-moldes-roteiro-17-11",
+      "data": "2026-11-17",
+      "titulo": "Arsenal san: moldes de roteiro (roteiro de um canal, edição de outro)",
+      "titulo_en": "Arsenal san: script templates (one channel's script, another's editing)",
+      "texto": "No Criar vídeo, o roteiro e a edição agora são escolhas separadas: escreva no molde de um canal que você estudou e edite no estilo de outro. Escolha quanto seguir (à risca, só inspirar, só o gancho ou só o fim). Ao escrever, o molde fica aberto ao lado (abertura, partes com tempo, como prende, como fecha e frases-molde), e o botão Reescrever no molde passa o seu roteiro para a forma escolhida. Vídeo longo e Short têm moldes separados.",
+      "texto_en": "In Create video, script and editing are now separate choices: write in the template of a channel you studied and edit in another's style. Choose how closely to follow it (to the letter, inspiration, hook only or ending only). While writing, the template stays open beside you (opening, timed parts, how it holds, how it ends and template sentences), and Rewrite in template turns your script into the chosen shape. Long video and Short have separate templates."
+    },
+    {
       "id": "arsenal-organizacao-17-11",
       "data": "2026-11-17",
       "titulo": "Arsenal san: menu mais curto e número à mão em todo lugar",
@@ -3520,8 +3528,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "D7A23F164DDD991E5DC1BF112D912FC62B6DAB7B82E8470B04FDA5ACD7FF9FAC",
-          "tamanho": 1310208
+          "sha256": "1B91735BA8323B85025E2595590C4C5327EA65B0A713927008389940EF2CAD2A",
+          "tamanho": 1327104
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
@@ -3720,5 +3728,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 19:33"
+  "gerado": "2026-11-17 19:42"
 }
