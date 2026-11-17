@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-editar-redes-17-11",
+      "data": "2026-11-17",
+      "titulo": "Arsenal san: exportar para cada rede, Short de verdade e lixeira",
+      "titulo_en": "Arsenal san: export per platform, real Shorts and a trash",
+      "texto": "No Editar vídeo, o botão Exportar… agora pergunta para onde vai (YouTube, Shorts, TikTok, Reels ou feed do Instagram) e a qualidade (Máxima, Equilibrada ou Leve), e confere o formato, a duração e se a legenda fica fora dos botões do app. Novos: formato 4:5 para o feed, layouts da gravação em pé (Preencher, Inteiro com fundo desfocado, Com título), modo Short (gancho no 1º segundo, legenda no meio, corta o silêncio do começo e do fim) com o botão Zonas na prévia, estilos que aprendem com as suas correções (o primeiro é o 32Bits), J/K/L e aparar trechos na linha do tempo. O que você apagar (projetos, peças, estilos, presets, perfis) vai para a Lixeira e volta por 30 dias.",
+      "texto_en": "In Edit video, the Export… button now asks where it's going (YouTube, Shorts, TikTok, Reels or Instagram feed) and the quality (Maximum, Balanced or Light), and checks the format, the length and whether captions stay clear of the app buttons. New: 4:5 format for the feed, layouts for vertical recordings (Fill, Whole with a blurred background, With title), Short mode (hook in the 1st second, captions in the middle, cuts the silence at the start and end) with the Zones button on the preview, styles that learn from your fixes (the first is 32Bits), J/K/L and trimming parts on the timeline. Whatever you delete (projects, pieces, styles, presets, profiles) goes to the Trash and can come back for 30 days."
+    },
+    {
       "id": "recorte-perguntar",
       "data": "2026-11-16",
       "titulo": "Recorte san: tirar o fundo ou apagar algo",
@@ -3386,8 +3394,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "FA6BC6B069A2B63A8FD4EDEC5AA4D507A59C0D7E2BC1918AC20218611E4FB9D6",
-          "tamanho": 1278976
+          "sha256": "F5A3CD3F9E9058F516B48BE2D8ECE24D5E80265F2E48ADBC5B11F558B5CA2457",
+          "tamanho": 1288192
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3416,7 +3424,7 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "1454FB6AC93D760EE26FD05FECF377E8D568D42CD690F439F39D953DE45F99CF",
+          "sha256": "617A2597228644EC93951882D89C47FC3F69FD29CB867FCD0113726CAC6EAC03",
           "tamanho": 542720
         },
         {
@@ -3428,14 +3436,14 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cortes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "BE324710A9757C3CCA25B6BC817669F322F3A8B7373D554D391D8892ED4A9A2D",
+          "sha256": "1FB568E45C8FDF394E86440EE9D46BFE06812D86DC4E0D6D293C4297366B6C64",
           "tamanho": 185344
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "A49251D24DADFDD7B1EDA15E9F15B922765C435443E68FD03ED0742C9131FCD8",
-          "tamanho": 1121280
+          "sha256": "BEBDB1EF9977D87C44500AE8F4152BFE253ABE569E922B250F8200B935245D51",
+          "tamanho": 1186304
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
@@ -3452,8 +3460,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "56C104AFAA3C668DF702BD1026FD256566A2D415E2F8660DF9D06B68799B4DA9",
-          "tamanho": 2363392
+          "sha256": "9DB9FA153004FA79F163F5447C161A1F98536C8AB4966FF4B296DC8A22F383FB",
+          "tamanho": 2370048
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
@@ -3464,8 +3472,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "0FAA115B8FA2EC87F69D15DB492450965AC1FBBDD6DEFC76FCFDE5D6D3FD0E0D",
-          "tamanho": 692224
+          "sha256": "0526F47016874EAF3510EA7536F8EF75500D274B7CD33DAB65BEA20C1EF76933",
+          "tamanho": 696832
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
@@ -3476,14 +3484,14 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "596ECF5F0031A8764561B7FF02CA7DF2CFE82B1493508A4D25D7A76B670A5474",
-          "tamanho": 677888
+          "sha256": "10DA5393781C2DF3E7B7EAE7649ABB1ACF380FA17B0ED2D149DE67EE74F9D8EC",
+          "tamanho": 680960
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "0EA6B5F925DC1FD071360C286502586185459A7B7280A5FAF4181CEB66FA29E3",
-          "tamanho": 1138688
+          "sha256": "EF9AD44977A2B7A1CD19F9CC949263A82EBD29149740ECACC5726421CB262980",
+          "tamanho": 1142784
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.VideoIA.dll",
@@ -3634,5 +3642,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 13:06"
+  "gerado": "2026-11-17 14:53"
 }
