@@ -11,6 +11,14 @@
       "texto_en": "When you drop an image or video, Recorte asks what you want: Remove the background or Erase something (watermark, text, logo), which keeps the background and opens it in the Erase tab. In videos, Erase is for what stays still, like a fixed watermark. There is also an Erase watermark button above the preview. To go back to the old way, tick \"Don't ask again\"."
     },
     {
+      "id": "edita-enfase-recomeco",
+      "data": "2026-11-17",
+      "titulo": "Edita san: sabe quando é ênfase e quando você recomeçou",
+      "titulo_en": "Edita san: tells emphasis from a restart",
+      "texto": "Repetição colada (\"muito, muito forte\", \"não, não, não\") é ênfase e fica. Frase fechada, pausa e dita de novo (\"A Bandai. A Bandai tá…\") ou palavra que parou no meio (\"Nesse vid, nesse víde, nesse vídeo\") é recomeço: sai a primeira e fica a última. Medido nos seus vídeos: nenhuma ênfase cortada. Pergunta repetida e reação (\"Opa. Opa.\") continuam para você decidir.",
+      "texto_en": "Glued repeats (\"very, very strong\") are emphasis and stay. A closed sentence said again after a pause, or a word cut in half, is a restart: the first try goes, the last stays. Repeated questions and reactions are left for you to decide."
+    },
+    {
       "id": "edita-retomadas",
       "data": "2026-11-16",
       "titulo": "Edita san: tira a frase recomeçada também sem a Claude",
@@ -3102,8 +3110,8 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "FE9A305D692D16131DB33B2758D927CF7DC4E2E185FE9639FD7C05DE0A03764A",
-          "tamanho": 9752576
+          "sha256": "EB1357284AFEA564EFEFDD44F0DB97C6D03612537A16762D18273090863A2B5D",
+          "tamanho": 9756160
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3112,7 +3120,7 @@
           "tamanho": 10240
         }
       ],
-      "data": "2026-11-16"
+      "data": "2026-11-17"
     },
     {
       "id": "volume",
@@ -3426,8 +3434,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "6119107C23F7F453B2EF575387BB4794B2F3524D03FE8B44B298E18AF36F8AFF",
-          "tamanho": 1066496
+          "sha256": "A49251D24DADFDD7B1EDA15E9F15B922765C435443E68FD03ED0742C9131FCD8",
+          "tamanho": 1121280
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
@@ -3526,7 +3534,7 @@
           "tamanho": 160216
         }
       ],
-      "data": "2026-11-16"
+      "data": "2026-11-17"
     },
     {
       "id": "prompter",
@@ -3615,7 +3623,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "BC8590DF7973A7D47ED5EC689B815DEAD4BC5409FFA028EA5342B14D6B47A8AD",
+        "sha256": "344F5265074F55F46CE21730CB2ADCCC92165C67474981687C4BA2E4AA38C623",
         "tamanho": 2621440
       },
       {
@@ -3626,5 +3634,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 12:38"
+  "gerado": "2026-11-17 13:06"
 }
