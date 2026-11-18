@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "camera-regua-foco-17-11",
+      "data": "2026-11-17",
+      "titulo": "Câmera san: régua, foco e mais rápida de mexer",
+      "titulo_en": "Câmera san: ruler, focus and quicker to handle",
+      "texto": "A Câmera san Beta virou a Câmera san. Agora ela tem régua em cima e à esquerda da prévia, guias que você puxa dela e Alinhar objetos: a camada gruda nas bordas, no centro e na distância das outras. No Ambiente 3D há uma régua de profundidade com a distância de cada camada. O novo cartão Foco é um regulador que deixa nítida uma distância e borra o resto, como o anel de foco de uma lente. Também: o clique escolhe a camada na hora, com o Ao vivo um Ctrl+Z desfaz o arrasto inteiro, o fundo bem longe não pisca mais no Ambiente 3D e o painel estreito ficou mais fácil de usar. Quem tinha a Beta pode removê-la: ela aparece como aposentada.",
+      "texto_en": "Câmera san Beta became Câmera san. It now has a ruler above and left of the preview, guides you drag from it and Align objects: a layer snaps to the edges, center and distance of the others. The 3D Environment has a depth ruler with each layer's distance. The new Focus card is a control that keeps one distance sharp and blurs the rest, like a lens focus ring. Also: a click picks the layer right away, with Live one Ctrl+Z undoes the whole drag, a far background no longer flickers in the 3D Environment and the narrow panel is easier to use. If you had the Beta you can remove it: it shows as retired."
+    },
+    {
       "id": "backup-san-tudo-17-11",
       "data": "2026-11-17",
       "titulo": "Backup san: guarda tudo antes de formatar, num visual novo",
@@ -3069,10 +3077,10 @@
       "dados": [
         "CameraSan"
       ],
-      "resumo": "Câmera 3D com parallax e Ambiente 3D: veja a cena de qualquer ângulo, como no After Effects.",
-      "resumo_en": "3D camera with parallax and a 3D Environment: see the scene from any angle, like in After Effects.",
-      "descricao": "Uma câmera de verdade para qualquer cena: pan, zoom, órbita, inclinar e girar, com as camadas de perto andando mais que as de longe. Você mexe direto na prévia (arrastar move, rodinha aproxima, botão direito orbita) e põe keyframes como no Pan/Crop. Tem movimentos prontos, Efeito vertigem e Meus movimentos. Funciona com vídeo, imagem e texto, em qualquer resolução, e com camadas que já têm animação. Um Ctrl+Z desfaz.",
-      "descricao_en": "A real camera for any scene: pan, zoom, orbit, tilt and roll, with near layers moving more than far ones. You move it right on the preview (drag moves, wheel zooms, right button orbits) and add keyframes like in Pan/Crop. Ready-made moves, Vertigo effect and My moves. Works with video, images and text at any resolution, and with layers that already have animation. One Ctrl+Z undoes it.",
+      "resumo": "Câmera 3D com parallax, Ambiente 3D, régua e foco: veja a cena de qualquer ângulo, como no After Effects.",
+      "resumo_en": "3D camera with parallax, a 3D Environment, a ruler and focus: see the scene from any angle, like in After Effects.",
+      "descricao": "Uma câmera de verdade para qualquer cena: pan, zoom, órbita, inclinar e girar, com as camadas de perto andando mais que as de longe. Você mexe direto na prévia (arrastar move, rodinha aproxima, botão direito orbita, cantos mudam o tamanho) e põe keyframes como no Pan/Crop. Tem régua com guias e Alinhar objetos (a camada gruda nas bordas, no centro e na distância das outras), régua de profundidade no Ambiente 3D e o Foco: um regulador que deixa nítida uma distância e borra o resto, como o anel de foco de uma lente. Movimentos prontos, Efeito vertigem e Meus movimentos. Funciona com vídeo, imagem e texto, em qualquer resolução, e com camadas que já têm animação. Um Ctrl+Z desfaz.",
+      "descricao_en": "A real camera for any scene: pan, zoom, orbit, tilt and roll, with near layers moving more than far ones. You move it right on the preview (drag moves, wheel zooms, right button orbits, corners resize) and add keyframes like in Pan/Crop. It has a ruler with guides and Align objects (a layer snaps to the edges, center and distance of the others), a depth ruler in the 3D Environment and Focus: a control that keeps one distance sharp and blurs the rest, like a lens focus ring. Ready-made moves, Vertigo effect and My moves. Works with video, images and text at any resolution, and with layers that already have animation. One Ctrl+Z undoes it.",
       "onde": "Exibir › Extensões › Câmera san",
       "onde_en": "View › Extensions › Câmera san",
       "atalhos": [
@@ -3106,42 +3114,8 @@
         {
           "caminho": "extensoes/San/CameraSan.dll",
           "destino": "ext",
-          "sha256": "81780DD13918D5DE94074A500A3C12385C30A287C9F4C45063E23E7989DBDFAE",
-          "tamanho": 505856
-        },
-        {
-          "caminho": "extensoes/San.dll",
-          "destino": "ext",
-          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
-          "tamanho": 11264
-        }
-      ],
-      "data": "2026-11-17"
-    },
-    {
-      "id": "camera-beta",
-      "nome": "Câmera san Beta",
-      "versao": "1.0.0",
-      "cor": "#38bdf8",
-      "beta": true,
-      "padrao": false,
-      "dados": [
-        "CameraSanBeta"
-      ],
-      "resumo": "A Câmera san com régua e Alinhar objetos, em teste.",
-      "resumo_en": "Câmera san with a ruler and Align objects, in testing.",
-      "descricao": "A mesma Câmera san, com régua em cima e à esquerda da prévia, guias que você puxa dela e Alinhar objetos: a camada que você arrasta gruda nas bordas e no centro das outras, do quadro e das guias, e a profundidade gruda na distância de outra camada. É versão de teste: pode ter bugs. Funciona ao lado da Câmera san normal, com nome e painel próprios; use uma de cada vez.",
-      "descricao_en": "The same Câmera san, with a ruler above and left of the preview, guides you drag from it and Align objects: the layer you drag snaps to the edges and center of the others, the frame and the guides, and depth snaps to another layer's distance. It is a test version: it may have bugs. It works alongside the normal Câmera san, with its own name and panel; use one at a time.",
-      "onde": "Exibir › Extensões › Câmera san Beta",
-      "onde_en": "View › Extensions › Câmera san Beta",
-      "aviso": "Versão de teste: pode ter bugs. A Câmera san normal continua funcionando do lado.",
-      "aviso_en": "Test version: it may have bugs. The normal Câmera san keeps working alongside.",
-      "arquivos": [
-        {
-          "caminho": "extensoes/San/CameraSanBeta.dll",
-          "destino": "ext",
-          "sha256": "2351FC8B1D7D14330ABF11E807C51297D8274B9456386954FE14C7DCB84E0775",
-          "tamanho": 578560
+          "sha256": "978ED45C07723F7963BC308AD63481DDBD750A0BC44F70D7B1B69ACEF0D7BC25",
+          "tamanho": 578048
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3760,5 +3734,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 23:31"
+  "gerado": "2026-11-18 00:11"
 }
