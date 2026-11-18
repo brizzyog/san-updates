@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-estilos-previas-17-11",
+      "data": "2026-11-17",
+      "titulo": "Arsenal san: estilos sem repetidos, prévias novas e abas da Claude e do Curta",
+      "titulo_en": "Arsenal san: no repeated styles, new previews and Claude and Cartoon tabs",
+      "texto": "No Criar vídeo, a escolha do estilo ficou mais limpa: os estilos parecidos viraram um só (21 no lugar de 31; no Vertical o projeto já nasce em pé) e cada estilo tem uma prévia própria, com uma foto do tema e as peças que ele põe. O Top lista agora mostra o número enorme quando você diz \"número 3\", e o Mito ou verdade carimba MITO ou VERDADE quando você dá o veredito. Novas abas: Animado pela Claude (os estilos do Genie, da Lemo e os seus, abrindo o Filmes em código já no estilo) e Série cartoon (as suas séries do Curta).",
+      "texto_en": "In Create video, picking a style got cleaner: similar styles became one (21 instead of 31; in Vertical the project already starts portrait) and each style has its own preview, with a themed photo and the pieces it adds. Top list now shows a huge number when you say \"number 3\", and Myth or truth stamps MYTH or TRUE when you give the verdict. New tabs: Animated by Claude (the Genie, Lemo and your own styles, opening Code films in that style) and Cartoon series (your Cartoon short series)."
+    },
+    {
       "id": "arsenal-moldes-roteiro-17-11",
       "data": "2026-11-17",
       "titulo": "Arsenal san: moldes de roteiro (roteiro de um canal, edição de outro)",
@@ -3528,8 +3536,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "45EF0787E73ADED7FA7DCEF737C0086E77A8F906574A4E1B0821C67E0D5AB109",
-          "tamanho": 1327104
+          "sha256": "262134E1F3FFD60A7E065B22F79AA0E8F71B0B1B6CB837A7EEED047CA9FFE1C3",
+          "tamanho": 3111424
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
@@ -3546,8 +3554,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "260E0411F568FC19BB906D198306F5CCD853D51061FF53A36365CBF358204B5E",
-          "tamanho": 2373632
+          "sha256": "95830AB36D3F10B65892CB63C7B8F7951597D98E21FBB58C53823B7BE1035A62",
+          "tamanho": 2374656
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
@@ -3728,5 +3736,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 19:44"
+  "gerado": "2026-11-17 21:33"
 }
