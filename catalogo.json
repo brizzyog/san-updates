@@ -3114,8 +3114,8 @@
         {
           "caminho": "extensoes/San/CameraSan.dll",
           "destino": "ext",
-          "sha256": "978ED45C07723F7963BC308AD63481DDBD750A0BC44F70D7B1B69ACEF0D7BC25",
-          "tamanho": 578048
+          "sha256": "3366C7E193AA22BFC97D75F2AC2BB73019EA442BB12FA79A545A239DD12818EA",
+          "tamanho": 580096
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3734,5 +3734,5 @@
       }
     ]
   },
-  "gerado": "2026-11-18 00:11"
+  "gerado": "2026-11-18 01:02"
 }
