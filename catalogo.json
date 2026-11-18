@@ -3713,8 +3713,8 @@
         {
           "caminho": "backup/Backup san.exe",
           "destino": "local:Programs\\Backup san",
-          "sha256": "632C852C8C365984FFF36BC723D749A694AD23E69229F35811188A44A25CC545",
-          "tamanho": 801280
+          "sha256": "B6B33BE104470B964D970FAF9AF8146059CA86E46546F6CC8943D0DBA64681AA",
+          "tamanho": 872960
         },
         {
           "caminho": "backup/Backup san.exe.config",
@@ -3729,7 +3729,7 @@
           "tamanho": 701992
         }
       ],
-      "data": "2026-11-15"
+      "data": "2026-11-17"
     }
   ],
   "app": {
@@ -3741,7 +3741,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "563632A85B92117F852B88052952F9B6A0F322A1DD5B50F9BA09580C86A1F7FF",
+        "sha256": "3C57926C38D6DC0B46FBE99457C66D411C03877C16678B9C95B08080E8C9CC10",
         "tamanho": 2708992
       },
       {
@@ -3752,5 +3752,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 22:21"
+  "gerado": "2026-11-17 22:24"
 }
