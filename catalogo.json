@@ -3482,8 +3482,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "5B9E97BC7C949834C56408C9014FEEE6D17FFA54C92E951A27728C63F58F973C",
-          "tamanho": 1335808
+          "sha256": "C238EA69D73C36AD069A4F1473102A173E0C0032FAE4E2A16E5CE5EEA504013F",
+          "tamanho": 1339904
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3506,14 +3506,14 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cerebro.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "0C4238CE1BFEBD6CB342DFDCB9A9398EE72E15F38D98F9CB5AD9DD2DF88B53D6",
-          "tamanho": 204288
+          "sha256": "8BF3589843B5666B23405ACACDFAF2A5488F7E99DD8206A8D57F40E821ABB79D",
+          "tamanho": 209920
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "0303F92113903131A72F5C2C1F447D03ED049969D87FFEB8A593EF6C91ABB2C9",
-          "tamanho": 542720
+          "sha256": "573A68913BC65C792B23242BC26B1CDAC8F7C41E79522237527651458AE15FE7",
+          "tamanho": 543744
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Conexoes.dll",
@@ -3725,7 +3725,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "DBFF9CD896A554BAB52A450616D3B44FC92F711E8E9B080CA26A32366AD5DB6F",
+        "sha256": "638D241A85CF460CD35B734715B5EFADBD8DB6175DE96B12E7F6ED4F54542E4B",
         "tamanho": 2708992
       },
       {
@@ -3736,5 +3736,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 21:33"
+  "gerado": "2026-11-17 22:02"
 }
