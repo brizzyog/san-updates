@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-redes-visual-17-11",
+      "data": "2026-11-17",
+      "titulo": "Arsenal san: Bluesky e Threads na Agenda, Pacote pela Claude e visual novo",
+      "titulo_en": "Arsenal san: Bluesky and Threads in the Schedule, Claude writes the Pack and a new look",
+      "texto": "A Agenda agora posta sozinha no Bluesky (é só o seu @ e uma senha de app) e no Threads; X e Kwai ficam como \"sua vez\", com o site aberto na hora. O Pacote para postar é escrito pela Claude (o cérebro do PC fica de reserva). Em Buscar nos sites: buscas prontas para Short (meme e GIF de reação, template de meme e logo sem fundo de verdade) e vídeo do Pinterest tocando na prévia. As opções de todas as ferramentas ficaram num visual novo, mais limpo.",
+      "texto_en": "The Schedule now posts by itself to Bluesky (just your handle and an app password) and Threads; X and Kwai stay as \"your turn\", opening the site on time. Claude writes the Publishing pack (the PC brain stays as backup). In Search the sites: ready searches for Shorts (reaction meme and GIF, meme template and truly transparent logos) and Pinterest videos playing in the preview. Every tool's options got a cleaner new look."
+    },
+    {
       "id": "arsenal-estilos-previas-17-11",
       "data": "2026-11-17",
       "titulo": "Arsenal san: estilos sem repetidos, prévias novas e abas da Claude e do Curta",
@@ -3490,8 +3498,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "C238EA69D73C36AD069A4F1473102A173E0C0032FAE4E2A16E5CE5EEA504013F",
-          "tamanho": 1339904
+          "sha256": "E541E0C34573308B45F04526BB508BA4017F57DB5CE99E03CBC7A84E795A185B",
+          "tamanho": 1345024
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3514,14 +3522,14 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cerebro.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "8BF3589843B5666B23405ACACDFAF2A5488F7E99DD8206A8D57F40E821ABB79D",
-          "tamanho": 209920
+          "sha256": "F979CCF2C5459F6027DE5DFE45BBC9B9F072284AC35067B0D957B9FDAE104E66",
+          "tamanho": 210432
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "573A68913BC65C792B23242BC26B1CDAC8F7C41E79522237527651458AE15FE7",
-          "tamanho": 543744
+          "sha256": "0E741B5CBF3A333A8B0D86C6C54F08D8E4EF0F3BB8341193E9E4760F86925FDA",
+          "tamanho": 544256
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Conexoes.dll",
@@ -3544,7 +3552,7 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "262134E1F3FFD60A7E065B22F79AA0E8F71B0B1B6CB837A7EEED047CA9FFE1C3",
+          "sha256": "B594B7432A0620E7E226B995FFA6B42A3AF1E34C7008F4B33A692AC6D98BCABF",
           "tamanho": 3111424
         },
         {
@@ -3562,7 +3570,7 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "95830AB36D3F10B65892CB63C7B8F7951597D98E21FBB58C53823B7BE1035A62",
+          "sha256": "777E283534D81914465707E1BA3A81DFF523EA1F127F7109DA16C7EAEC1E0CDD",
           "tamanho": 2374656
         },
         {
@@ -3580,8 +3588,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "70B5E0A78F58A041C951AD616E2FC05D64D63FD4CE83CF2BEE75CC394F6B755E",
-          "tamanho": 300544
+          "sha256": "A80C28175EC0A001AF922F5A53CF08DDE4A7D1917A371B39CCB7FD5830DBE62C",
+          "tamanho": 302592
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
@@ -3744,5 +3752,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 22:12"
+  "gerado": "2026-11-17 22:21"
 }
