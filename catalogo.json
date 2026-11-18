@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "backup-san-tudo-17-11",
+      "data": "2026-11-17",
+      "titulo": "Backup san: guarda tudo antes de formatar, num visual novo",
+      "titulo_en": "Backup san: saves everything before formatting, with a new look",
+      "texto": "Agora o Backup san guarda também a pasta do Arsenal (com os estilos de edição e o GTA 6), o Silva Gacha (painel, banco da loja e tema), as conversas e a memória do Claude (sem login nem senhas), o OBS e os roteiros do Prompter. Os modelos de IA entram se você marcar. Cada coisa vira um zip separado numa pasta com a data, junto com um LEIA-ME que ensina a restaurar passo a passo. A janela ficou com duas abas, Fazer backup e Restaurar, com o tamanho de cada item, a data do último backup em destaque e o tempo que falta.",
+      "texto_en": "Backup san now also saves the Arsenal folder (with editing styles and GTA 6), Silva Gacha (panel, store database and theme), Claude conversations and memory (no login or passwords), OBS and the Prompter scripts. AI models go in if you tick them. Each thing becomes its own zip in a dated folder, with a README that explains how to restore step by step. The window now has two tabs, Back up and Restore, with each item's size, the last backup date up top and the time left."
+    },
+    {
       "id": "arsenal-redes-visual-17-11",
       "data": "2026-11-17",
       "titulo": "Arsenal san: Bluesky e Threads na Agenda, Pacote pela Claude e visual novo",
@@ -3702,8 +3710,8 @@
       "dados": [
         "BackupVegas"
       ],
-      "resumo": "Guarda tudo que é seu no VEGAS num zip e põe de volta depois de formatar.",
-      "resumo_en": "Saves everything that is yours in VEGAS in one zip and puts it back after formatting.",
+      "resumo": "Guarda tudo que é seu (VEGAS, Arsenal, Silva Gacha, Claude, OBS) e põe de volta depois de formatar.",
+      "resumo_en": "Saves everything that is yours (VEGAS, Arsenal, Silva Gacha, Claude, OBS) and puts it back after formatting.",
       "descricao": "Um clique junta extensões e scripts (com as configurações), presets dos efeitos, pacotes de FX, modelos de render, preferências, atalhos de teclado e layouts do VEGAS, e os seus dados das extensões slayeR san. Guarda em outro disco (o que formatar o C: não apaga), deixa ao lado a lista do que instalar de novo (plugins pagos, VST, programas) e uma cópia de si mesmo. Restaurar põe tudo no lugar sem pedir administrador; o que já existe vai para \"Antes de restaurar\" e arquivo mais novo no PC fica.",
       "descricao_en": "One click gathers extensions and scripts (with their settings), effect presets, FX packages, render templates, preferences, keyboard shortcuts and VEGAS layouts, plus your slayeR san extension data. It saves to another drive (one that formatting C: doesn't erase), leaves next to it the list of what to reinstall (paid plugins, VST, programs) and a copy of itself. Restore puts everything back without asking for administrator; what already exists goes to \"Antes de restaurar\" and newer files on the PC stay.",
       "onde": "Menu Iniciar › Backup san (e atalho na Área de Trabalho)",
@@ -3741,7 +3749,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "3C57926C38D6DC0B46FBE99457C66D411C03877C16678B9C95B08080E8C9CC10",
+        "sha256": "2D35184FEAA0EC1C556ACE5AAB6E0C5C1F61E7B78893C511CEA216E15B9815BF",
         "tamanho": 2708992
       },
       {
@@ -3752,5 +3760,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 22:24"
+  "gerado": "2026-11-17 23:31"
 }
