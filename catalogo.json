@@ -171,6 +171,14 @@
       "texto_en": "Cutting a video event in VEGAS and sending it to Recorte (Video or Erase) now uses exactly the cut part; before it could show another part of the video. Every item in the list got an × (timeline items just leave the panel) and there is a + File button to pick another video or image."
     },
     {
+      "id": "foco-leve-cortes",
+      "data": "2026-11-17",
+      "titulo": "Foco san mais leve com muitos cortes",
+      "titulo_en": "Foco san lighter on busy timelines",
+      "texto": "Com centenas de cortes na timeline o Foco san pesava a cada clique. Agora clicar e selecionar quase não lê nada, a leitura completa só vem quando você mexe, e numa timeline enorme ele espera mais para não travar o VEGAS. A barrinha do foco do modo simples ficou um pouco maior.",
+      "texto_en": "With hundreds of cuts on the timeline Foco san got heavy on every click. Now clicking and selecting reads almost nothing, the full read only happens when you edit, and on a huge timeline it waits longer so VEGAS doesn't freeze. The simple mode focus bar is a bit bigger."
+    },
+    {
       "id": "foco-simples-regua",
       "data": "2026-11-16",
       "titulo": "Foco san: modo simples mais completo",
@@ -3025,8 +3033,8 @@
         {
           "caminho": "extensoes/San/FocoSan.dll",
           "destino": "ext",
-          "sha256": "CE0C48D3586CB1045D79D468CFEA497B9942FAEB528B61D51B31C93C2AA48316",
-          "tamanho": 156672
+          "sha256": "DC0662AB621A865C822B22BE1C533B7188E578B95438C2728B9FD70C1EE20199",
+          "tamanho": 157696
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3268,8 +3276,8 @@
         {
           "caminho": "extensoes/San/VolumeSanPainel.dll",
           "destino": "ext",
-          "sha256": "169426E2BA6FFD5C51822EBB1821073D31EC09239EF41E47E97F407CC4BC90EF",
-          "tamanho": 110080
+          "sha256": "0C4FC3075401C4B3359A7583837C52818D6297E5E00C55EEF8542C9D54A18EB4",
+          "tamanho": 111104
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3572,8 +3580,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "F172CF65B189329E28F9966E64B8F04210CF6E8BBF8B4A2AE74339D243F82DAE",
-          "tamanho": 254464
+          "sha256": "70B5E0A78F58A041C951AD616E2FC05D64D63FD4CE83CF2BEE75CC394F6B755E",
+          "tamanho": 300544
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
@@ -3725,7 +3733,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "638D241A85CF460CD35B734715B5EFADBD8DB6175DE96B12E7F6ED4F54542E4B",
+        "sha256": "563632A85B92117F852B88052952F9B6A0F322A1DD5B50F9BA09580C86A1F7FF",
         "tamanho": 2708992
       },
       {
@@ -3736,5 +3744,5 @@
       }
     ]
   },
-  "gerado": "2026-11-17 22:02"
+  "gerado": "2026-11-17 22:12"
 }
