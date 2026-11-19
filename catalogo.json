@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "sanapp-dropeasy-organizador-19-11",
+      "data": "2026-11-19",
+      "titulo": "San App: pedir ajuda à Claude e todos os modelos de IA; DropEasy e Organizador melhores",
+      "titulo_en": "San App: ask Claude for help and every AI model; better DropEasy and Organizador",
+      "texto": "San App: a aba Programas e IA agora mostra todos os modelos que as ferramentas baixam (o Whisper também, mesmo antes de baixar), com Reinstalar, e ganhou 11 que faltavam (rostos, Clicar no objeto do Recorte, voz Kokoro e outros). A Saúde do VEGAS junta numa pasta as quedas, os eventos do Windows e os logs da hora em que o VEGAS deu problema, para mandar a quem for ajudar. DropEasy: baixa de sites que antes recusavam o download. Organizador: o Achar no PC usa o Everything, confere a mídia que ficou offline e mostra uma barra com a porcentagem logo abaixo do botão.",
+      "texto_en": "San App: the Programs and AI tab now shows every model the tools download (Whisper too, even before downloading), with Reinstall, and gained 11 that were missing (faces, Recorte's Click the object, Kokoro voice and more). VEGAS Health gathers the crashes, Windows events and logs from the time VEGAS had a problem in one folder, to send to whoever will help. DropEasy: downloads from sites that used to refuse. Organizador: Find on PC uses Everything, checks media that went offline and shows a progress bar right below the button."
+    },
+    {
       "id": "camera-regua-foco-17-11",
       "data": "2026-11-17",
       "titulo": "Câmera san: régua, foco e mais rápida de mexer",
@@ -992,8 +1000,8 @@
         {
           "caminho": "extensoes/San/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "028A4B67DE7E4195C57334382D85A5E4FCC8F97002FF4095E6C7DC357E4120E4",
-          "tamanho": 823296
+          "sha256": "A6F2BDC191FB04C3C8F5D22EDB9EED42CCC141F899B61597541C7A3707F0DA9E",
+          "tamanho": 833024
         },
         {
           "caminho": "extensoes/San.dll",
@@ -1002,7 +1010,7 @@
           "tamanho": 11264
         }
       ],
-      "data": "2026-11-17"
+      "data": "2026-11-19"
     },
     {
       "id": "upscale",
@@ -2721,8 +2729,8 @@
         {
           "caminho": "extensoes/San/OrganizadorSan.dll",
           "destino": "ext",
-          "sha256": "CC198AFB8F269AA778E0340A91CF007FFCFA7964AD06C7130A299723F5264A17",
-          "tamanho": 6787072
+          "sha256": "D4918623BDC454FE5056D7C9413FC675AB866A09B07976921EF0CE29A6182BB4",
+          "tamanho": 6963712
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2733,7 +2741,7 @@
       ],
       "aviso": "A busca pelo que aparece baixa uma IA (~900 MB) pelo próprio painel, só se você quiser usar.",
       "aviso_en": "Searching by what shows up downloads an AI (~900 MB) from the panel, only if you want to use it.",
-      "data": "2026-11-17"
+      "data": "2026-11-19"
     },
     {
       "id": "proxy",
@@ -3723,8 +3731,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "2D35184FEAA0EC1C556ACE5AAB6E0C5C1F61E7B78893C511CEA216E15B9815BF",
-        "tamanho": 2708992
+        "sha256": "03E9F21ADE204428B6053F93680512C58E67905E49CBCE2E82970F707A8401ED",
+        "tamanho": 2770432
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -3734,5 +3742,5 @@
       }
     ]
   },
-  "gerado": "2026-11-18 01:02"
+  "gerado": "2026-11-19 17:53"
 }
