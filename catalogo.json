@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-transcrever-20-11",
+      "data": "2026-11-20",
+      "titulo": "Arsenal: transcrever vídeo por link, dos Baixados ou do PC",
+      "titulo_en": "Arsenal: transcribe video from a link, your downloads or your PC",
+      "texto": "Arsenal san: botão Transcrever no Início, em Vídeos e áudio e nos Baixados. Com um link do YouTube que tem legenda feita à mão, o texto sai na hora; sem ela, o Arsenal baixa só o áudio e o Whisper ouve no seu PC, sem outro clique. O resultado abre em texto corrido, em parágrafos, com Copiar texto, Salvar .txt (pasta Transcrições) e a opção de pôr os minutos. A aba Legendas continua fazendo SRT, VTT e ASS. A tela agora se chama Transcrever e legendar e fica sempre à vista em Ferramentas.",
+      "texto_en": "Arsenal san: a Transcribe button on Home, in Videos and audio and in Downloads. With a YouTube link that has hand-made subtitles, the text comes out instantly; without them, Arsenal downloads only the audio and Whisper listens on your PC, with no extra click. The result opens as running text in paragraphs, with Copy text, Save .txt (Transcriptions folder) and an option to add the minutes. The Subtitles tab still makes SRT, VTT and ASS. The screen is now called Transcribe and subtitle and is always visible in Tools."
+    },
+    {
       "id": "arsenal-baixar-thumbnail-19-11",
       "data": "2026-11-19",
       "titulo": "Arsenal: Baixar thumbnail de volta no menu, na maior qualidade",
@@ -3496,8 +3504,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "713E3ACE35C2AFB6D287CBD6FF482ADB4EB8886842CE3CE94B4972340C82D053",
-          "tamanho": 1404416
+          "sha256": "93CDD2787FA06C7A73690E73B1544EA221B7A18F93DD64009931E78CB9A71EF3",
+          "tamanho": 1405952
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3562,8 +3570,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "9B4EDC3006C5C349571615D2A8517B8042AE6360946CF2C4D78C9D641BDDA51B",
-          "tamanho": 2028032
+          "sha256": "4A74B8C6DAA8027936F154EEAD1C688792D45D27F877EF48CD01DEA6C61E026D",
+          "tamanho": 2066944
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
@@ -3650,7 +3658,7 @@
           "tamanho": 160216
         }
       ],
-      "data": "2026-11-19"
+      "data": "2026-11-20"
     },
     {
       "id": "prompter",
@@ -3750,5 +3758,5 @@
       }
     ]
   },
-  "gerado": "2026-11-19 22:31"
+  "gerado": "2026-11-20 17:41"
 }
