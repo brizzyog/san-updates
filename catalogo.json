@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "backup-tdr-20-11",
+      "data": "2026-11-20",
+      "titulo": "Backup san: guarda também os presets do TDR Nova",
+      "titulo_en": "Backup san: also saves your TDR Nova presets",
+      "texto": "Backup san: o item OBS Studio agora guarda também os presets que você salva dentro do TDR Nova (pasta Tokyo Dawn Labs), e eles voltam junto quando você restaura o OBS. O ajuste de cada filtro VST das suas cenas já ia junto. Depois de formatar, instale o OBS e o TDR Nova e restaure: o som volta do jeito que estava.",
+      "texto_en": "Backup san: the OBS Studio item now also saves the presets you store inside TDR Nova (Tokyo Dawn Labs folder), and they come back when you restore OBS. Each VST filter setting in your scenes was already included. After formatting, install OBS and TDR Nova and restore: your sound comes back the way it was."
+    },
+    {
       "id": "arsenal-transcrever-20-11",
       "data": "2026-11-20",
       "titulo": "Arsenal: transcrever vídeo por link, dos Baixados ou do PC",
@@ -3148,7 +3156,7 @@
           "tamanho": 11264
         }
       ],
-      "data": "2026-11-17"
+      "data": "2026-11-18"
     },
     {
       "id": "editor",
@@ -3228,8 +3236,8 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "44443D9A52C14C801BE83F35BC631B134AF7E3703863FC86C051BABCE009FA3B",
-          "tamanho": 9833984
+          "sha256": "0C2F378BE6B46F0BFA1048C9CBC50A08CC3FC0608398489A14953A20E7983FA7",
+          "tamanho": 9998848
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3238,7 +3246,7 @@
           "tamanho": 11264
         }
       ],
-      "data": "2026-11-17"
+      "data": "2026-11-20"
     },
     {
       "id": "volume",
@@ -3290,8 +3298,8 @@
         {
           "caminho": "extensoes/San/VolumeSanPainel.dll",
           "destino": "ext",
-          "sha256": "0C4FC3075401C4B3359A7583837C52818D6297E5E00C55EEF8542C9D54A18EB4",
-          "tamanho": 111104
+          "sha256": "169426E2BA6FFD5C51822EBB1821073D31EC09239EF41E47E97F407CC4BC90EF",
+          "tamanho": 110080
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3719,8 +3727,8 @@
         {
           "caminho": "backup/Backup san.exe",
           "destino": "local:Programs\\Backup san",
-          "sha256": "B6B33BE104470B964D970FAF9AF8146059CA86E46546F6CC8943D0DBA64681AA",
-          "tamanho": 872960
+          "sha256": "091EBCEC87975524942328378938FC3069DCB14D87457C3B5C6BA5F24F45B934",
+          "tamanho": 873984
         },
         {
           "caminho": "backup/Backup san.exe.config",
@@ -3735,7 +3743,7 @@
           "tamanho": 701992
         }
       ],
-      "data": "2026-11-17"
+      "data": "2026-11-20"
     }
   ],
   "app": {
@@ -3747,7 +3755,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "03E9F21ADE204428B6053F93680512C58E67905E49CBCE2E82970F707A8401ED",
+        "sha256": "0AAE4D9EAB4EA0716659CC4E2A4C6E2B955CDCD306F51A32014373753B392792",
         "tamanho": 2770432
       },
       {
@@ -3758,5 +3766,5 @@
       }
     ]
   },
-  "gerado": "2026-11-20 17:41"
+  "gerado": "2026-11-20 19:21"
 }
