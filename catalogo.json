@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-baixar-thumbnail-19-11",
+      "data": "2026-11-19",
+      "titulo": "Arsenal: Baixar thumbnail de volta no menu, na maior qualidade",
+      "titulo_en": "Arsenal: Download thumbnail back in the menu, in top quality",
+      "texto": "Arsenal san: a tela Baixar thumbnail voltou para o menu (Baixar e achar) e ganhou um botão Thumbnail no Início. Cole um ou vários links, ou a página de um canal ou playlist, e baixe cada thumbnail na maior qualidade que existir (no YouTube: HD, depois 640, depois 480; o Short sai em pé quando tem a capa em pé). Também pega de TikTok e outros sites. Salva em Thumbnails\\<canal> com o título do vídeo, e tem Copiar imagem, Abrir pasta, Melhorar qualidade e Usar como referência no Criar thumbnail.",
+      "texto_en": "Arsenal san: the Download thumbnail screen is back in the menu (Download and find) and the Home screen gained a Thumbnail button. Paste one or more links, or a channel or playlist page, and download each thumbnail in the highest quality available (on YouTube: HD, then 640, then 480; Shorts come out upright when they have an upright cover). It also works with TikTok and other sites. Saves to Thumbnails\\<channel> named after the video, with Copy image, Open folder, Enhance quality and Use as reference in Create thumbnail."
+    },
+    {
       "id": "sanapp-dropeasy-organizador-19-11",
       "data": "2026-11-19",
       "titulo": "San App: pedir ajuda à Claude e todos os modelos de IA; DropEasy e Organizador melhores",
@@ -3488,8 +3496,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "E541E0C34573308B45F04526BB508BA4017F57DB5CE99E03CBC7A84E795A185B",
-          "tamanho": 1345024
+          "sha256": "713E3ACE35C2AFB6D287CBD6FF482ADB4EB8886842CE3CE94B4972340C82D053",
+          "tamanho": 1404416
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3642,7 +3650,7 @@
           "tamanho": 160216
         }
       ],
-      "data": "2026-11-17"
+      "data": "2026-11-19"
     },
     {
       "id": "prompter",
@@ -3742,5 +3750,5 @@
       }
     ]
   },
-  "gerado": "2026-11-19 17:53"
+  "gerado": "2026-11-19 22:31"
 }
