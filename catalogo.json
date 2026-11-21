@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-converter-21-11",
+      "data": "2026-11-21",
+      "titulo": "Arsenal: Converter vídeo do seu jeito (MP4, MOV, MKV, WebM), sem perder qualidade",
+      "titulo_en": "Arsenal: Convert video your way (MP4, MOV, MKV, WebM), without losing quality",
+      "texto": "Arsenal san: o Converter vídeo abre em Do seu jeito, como um HandBrake: escolha o formato (MP4, MOV, MKV ou WebM), o codec da imagem (Manter, H.264, H.265, AV1, ProRes, VP9) com qualidade, resolução e quadros, e o do som (Manter, AAC, MP3, PCM, Opus, FLAC). Manter copia a imagem e o som sem refazer nada: MOV para MP4 e MP4 para MOV sem perder qualidade. Cada arquivo mostra antes o que vai acontecer com ele. Transparência: o MP4 não guarda (a tela avisa); MOV com ProRes e WebM com VP9 guardam. Todas as trilhas de som vão juntas. Os destinos de antes (editar, Discord, WhatsApp…) ficam na aba Prontos.",
+      "texto_en": "Arsenal san: Convert video opens in Your way, like a HandBrake: pick the format (MP4, MOV, MKV or WebM), the video codec (Keep, H.264, H.265, AV1, ProRes, VP9) with quality, resolution and frame rate, and the audio codec (Keep, AAC, MP3, PCM, Opus, FLAC). Keep copies picture and sound without re-encoding: MOV to MP4 and MP4 to MOV without losing quality. Each file shows what will happen to it beforehand. Transparency: MP4 cannot keep it (the screen warns); MOV with ProRes and WebM with VP9 keep it. Every audio track goes along. The old targets (editing, Discord, WhatsApp…) are in the Presets tab."
+    },
+    {
       "id": "arsenal-estilos-video-21-11",
       "data": "2026-11-21",
       "titulo": "Arsenal: aba Estilos de vídeo e Criar vídeo com IA mais simples",
@@ -3586,8 +3594,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "F9195241B726C2119D5B517EB4D95D8D18F450C1D4C4D19F906AC8A50DD4EF8A",
-          "tamanho": 5211648
+          "sha256": "F2781C66E1A0EEE3DBBBF294242975D724923E03C6B1F9A1296C1B6D9A980CCB",
+          "tamanho": 5370880
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
@@ -3780,5 +3788,5 @@
       }
     ]
   },
-  "gerado": "2026-11-21 09:03"
+  "gerado": "2026-11-21 19:08"
 }
