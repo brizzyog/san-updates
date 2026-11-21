@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-estilos-video-21-11",
+      "data": "2026-11-21",
+      "titulo": "Arsenal: aba Estilos de vídeo e Criar vídeo com IA mais simples",
+      "titulo_en": "Arsenal: new Video styles tab and a simpler Create video with AI",
+      "texto": "Arsenal san: nova aba Estilos de vídeo, no menu Criar. Traga a sua biblioteca de estilos (pasta ou zip) para dentro do Arsenal e veja cada estilo com a prévia, o que ele pede e se roda no seu PC, e a receita passo a passo. Começar com a Claude cria a pasta do projeto, copia o motor do estilo e abre o Claude Code ali; Continuar retoma a conversa. O Criar vídeo com IA ficou em passos: primeiro para onde é o vídeo (YouTube, Shorts ou feed do Instagram), depois o estilo, separado em Formatos de Short e Visual do vídeo, com a nova aba Estilos prontos, e uma barra fixa embaixo com o resumo e o Começar.",
+      "texto_en": "Arsenal san: a new Video styles tab in the Create menu. Bring your style library (folder or zip) into Arsenal and see each style with its preview, what it needs and whether it runs on your PC, plus the step-by-step recipe. Start with Claude creates the project folder, copies the style engine and opens Claude Code there; Continue resumes the conversation. Create video with AI now goes in steps: first where the video is going (YouTube, Shorts or Instagram feed), then the style, split into Short formats and Video look, with the new Ready styles tab, and a fixed bar at the bottom with the summary and Start."
+    },
+    {
       "id": "backup-tdr-20-11",
       "data": "2026-11-20",
       "titulo": "Backup san: guarda também os presets do TDR Nova",
@@ -3512,8 +3520,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "93CDD2787FA06C7A73690E73B1544EA221B7A18F93DD64009931E78CB9A71EF3",
-          "tamanho": 1405952
+          "sha256": "3CEA621C5A547A6B86A4260921F8907538C08CCE7B7364DC8B0608325E07336E",
+          "tamanho": 1406464
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3566,8 +3574,14 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "B594B7432A0620E7E226B995FFA6B42A3AF1E34C7008F4B33A692AC6D98BCABF",
-          "tamanho": 3111424
+          "sha256": "A380D97730C0F91E7A98CC95640FCE35D41E2AAEADA51A5E18D099DAA8CC74B9",
+          "tamanho": 3122176
+        },
+        {
+          "caminho": "arsenal/ArsenalSan.Mod.Estilos.dll",
+          "destino": "local:Programs\\Arsenal san",
+          "sha256": "17D4336AEAAC836B2D00CE52F9B2FC79B3CB320B2D09372FAC25B7B48B174B63",
+          "tamanho": 124416
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
@@ -3666,7 +3680,7 @@
           "tamanho": 160216
         }
       ],
-      "data": "2026-11-20"
+      "data": "2026-11-21"
     },
     {
       "id": "prompter",
@@ -3755,7 +3769,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "0AAE4D9EAB4EA0716659CC4E2A4C6E2B955CDCD306F51A32014373753B392792",
+        "sha256": "99F62201D0018B042508DC77D2916A22B2AC791C60A675B9CAC76D4642E1BBB6",
         "tamanho": 2770432
       },
       {
@@ -3766,5 +3780,5 @@
       }
     ]
   },
-  "gerado": "2026-11-20 19:21"
+  "gerado": "2026-11-21 09:03"
 }
