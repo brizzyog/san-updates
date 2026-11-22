@@ -2841,8 +2841,8 @@
         {
           "caminho": "extensoes/San/ProxySan.dll",
           "destino": "ext",
-          "sha256": "ACCD8ABE04CD63725DA4A78671773C09EEBDA91E46ABBD9898672C42C92B93F7",
-          "tamanho": 329216
+          "sha256": "2E2126B598BA389828AF82F0D0C481A3CE7A69A9D9DA45177932CEE7FCA554EF",
+          "tamanho": 336384
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2851,7 +2851,7 @@
           "tamanho": 11264
         }
       ],
-      "data": "2026-11-17"
+      "data": "2026-11-22"
     },
     {
       "id": "notas",
@@ -3598,8 +3598,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "A380D97730C0F91E7A98CC95640FCE35D41E2AAEADA51A5E18D099DAA8CC74B9",
-          "tamanho": 3122176
+          "sha256": "D5F96DC1E3843B552EE8A3C3AE62CA819EF13D4A8EF4AA0FB17ABF086755F8AB",
+          "tamanho": 3184640
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estilos.dll",
@@ -3622,8 +3622,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "8A4971566A1616C89BAF6CC9F4D42931B7121C5F4D37CBB0ED4C76837E6BDEFC",
-          "tamanho": 2378240
+          "sha256": "1E49386AB80FD4F9F577BC034D2E7032BD9D5699A1157324B4E8C5252E455448",
+          "tamanho": 2384384
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
@@ -3793,7 +3793,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "99F62201D0018B042508DC77D2916A22B2AC791C60A675B9CAC76D4642E1BBB6",
+        "sha256": "89E7265B9BD79B13A9051E76CCB36001F35504DE4425D61C69EE28BDBD8E05F4",
         "tamanho": 2770432
       },
       {
@@ -3804,5 +3804,5 @@
       }
     ]
   },
-  "gerado": "2026-11-22 12:33"
+  "gerado": "2026-11-22 12:42"
 }
