@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-comprimir-22-11",
+      "data": "2026-11-22",
+      "titulo": "Arsenal: Comprimir imagem, áudio e vídeo",
+      "titulo_en": "Arsenal: compress images, audio and video",
+      "texto": "Arsenal san: ferramenta nova Comprimir (Ferramentas › Converter). Solte imagens, áudios ou vídeos, escolha Alta, Média ou Baixa e veja antes quanto vai economizar; dá para pedir um tamanho máximo (ex.: 25 MB para o Discord). O original nunca muda: o comprimido vai para a pasta Comprimidos. E a compressão para caber em X MB do Converter voltou a funcionar sem a placa.",
+      "texto_en": "Arsenal san: new Compress tool (Tools › Convert). Drop images, audio or video, pick High, Medium or Low and see how much you will save first; you can ask for a max size (e.g. 25 MB for Discord). The original never changes: the compressed file goes to the Compressed folder. And Convert’s fit-in-X-MB works again without the GPU."
+    },
+    {
       "id": "arsenal-legenda-iphone-22-11",
       "data": "2026-11-22",
       "titulo": "Arsenal: Short com legenda novo e vídeo de iPhone pronto para o VEGAS",
@@ -3544,8 +3552,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "7CD79218FD10CDEA1B7B1D63BBC9446AD0DD4E7693D5C91D29C2CEFB0BE20ABA",
-          "tamanho": 1406976
+          "sha256": "34F92A624CF001D614EAFF540EB254C4827956B9F9542465F44151BB0AEC66FF",
+          "tamanho": 1407488
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3610,8 +3618,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "5B0DEF9C2D9EF61E3A79372AABCC6DBFEA1F791F56DB633D9686D1DC7D848233",
-          "tamanho": 5434368
+          "sha256": "A600F562A3A1BF31982E14F49A6F75E21244CDD6DC4CDD0785B7BBCA7D4B3D93",
+          "tamanho": 5467648
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
@@ -3804,5 +3812,5 @@
       }
     ]
   },
-  "gerado": "2026-11-22 17:03"
+  "gerado": "2026-11-22 17:21"
 }
