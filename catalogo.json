@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-legenda-iphone-22-11",
+      "data": "2026-11-22",
+      "titulo": "Arsenal: Short com legenda novo e vídeo de iPhone pronto para o VEGAS",
+      "titulo_en": "Arsenal: new captioned Short and iPhone video ready for VEGAS",
+      "texto": "Arsenal san: o Short com legenda foi refeito. Serve para qualquer vídeo (seu, baixado ou corte), tem 10 estilos prontos, qualquer fonte do PC, palavra que acende, caixa, karaokê, emoji e prévia ao vivo. Dá para salvar o seu estilo, revisar cada fala antes (corrigir, juntar, separar, ouvir) e adiantar ou atrasar a legenda, que agora entra junto com a fala. E o vídeo HDR do iPhone sai com as cores certas no Pronto para editar.",
+      "texto_en": "Arsenal san: the captioned Short was rebuilt. It works with any video (yours, a download or a clip), has 10 ready styles, any PC font, glowing word, box, karaoke, emoji and a live preview. You can save your style, review each line first (fix, join, split, listen) and move captions earlier or later, and they now show right with the speech. And iPhone HDR video gets the right colors in Ready to edit."
+    },
+    {
       "id": "arsenal-blender-22-11",
       "data": "2026-11-22",
       "titulo": "Arsenal: Blender opcional para os estilos 3D",
@@ -3536,8 +3544,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "3831C071E2330BCA7792BA119BC843D1316D8639B957EF3653D26DE614B9CB05",
-          "tamanho": 1406464
+          "sha256": "7CD79218FD10CDEA1B7B1D63BBC9446AD0DD4E7693D5C91D29C2CEFB0BE20ABA",
+          "tamanho": 1406976
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3602,8 +3610,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "F2781C66E1A0EEE3DBBBF294242975D724923E03C6B1F9A1296C1B6D9A980CCB",
-          "tamanho": 5370880
+          "sha256": "5B0DEF9C2D9EF61E3A79372AABCC6DBFEA1F791F56DB633D9686D1DC7D848233",
+          "tamanho": 5434368
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
@@ -3796,5 +3804,5 @@
       }
     ]
   },
-  "gerado": "2026-11-22 04:14"
+  "gerado": "2026-11-22 12:33"
 }
