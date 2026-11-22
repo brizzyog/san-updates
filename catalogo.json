@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-blender-22-11",
+      "data": "2026-11-22",
+      "titulo": "Arsenal: Blender opcional para os estilos 3D",
+      "titulo_en": "Arsenal: optional Blender for the 3D styles",
+      "texto": "Arsenal san: os estilos animados que usam o Blender (os de 3D) mostram, quando ele falta, um botão Baixar o Blender, que instala o programa oficial e gratuito do blender.org (uns 400 MB). É opcional: nada baixa sem o clique, e os outros estilos não precisam dele. O mesmo botão fica em Configurações › Componentes.",
+      "texto_en": "Arsenal san: the animated styles that use Blender (the 3D ones) show a Download Blender button when it is missing, which installs the free, official program from blender.org (about 400 MB). It is optional: nothing downloads without the click, and the other styles do not need it. The same button is in Settings › Components."
+    },
+    {
       "id": "arsenal-converter-21-11",
       "data": "2026-11-21",
       "titulo": "Arsenal: Converter vídeo do seu jeito (MP4, MOV, MKV, WebM), sem perder qualidade",
@@ -3528,7 +3536,7 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "3CEA621C5A547A6B86A4260921F8907538C08CCE7B7364DC8B0608325E07336E",
+          "sha256": "3831C071E2330BCA7792BA119BC843D1316D8639B957EF3653D26DE614B9CB05",
           "tamanho": 1406464
         },
         {
@@ -3606,8 +3614,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "777E283534D81914465707E1BA3A81DFF523EA1F127F7109DA16C7EAEC1E0CDD",
-          "tamanho": 2374656
+          "sha256": "8A4971566A1616C89BAF6CC9F4D42931B7121C5F4D37CBB0ED4C76837E6BDEFC",
+          "tamanho": 2378240
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
@@ -3688,7 +3696,7 @@
           "tamanho": 160216
         }
       ],
-      "data": "2026-11-21"
+      "data": "2026-11-22"
     },
     {
       "id": "prompter",
@@ -3788,5 +3796,5 @@
       }
     ]
   },
-  "gerado": "2026-11-21 19:08"
+  "gerado": "2026-11-22 04:14"
 }
