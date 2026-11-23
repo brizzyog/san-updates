@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "organizador-achar-22-11",
+      "data": "2026-11-22",
+      "titulo": "Organizador: Achar no PC em qualquer projeto, com barra de %",
+      "titulo_en": "Organizador: Find on PC in any project, with a % bar",
+      "texto": "Organizador san: abriu um projeto com mídia faltando, o painel já mostra \"X mídias faltando · Achar no PC\", sem precisar criar o projeto no Organizador antes. Um clique procura em todos os discos (com o Everything aberto, na hora), reconecta só o que tem certeza e mostra o que achou e o que não achou. A pasta do .veg ajuda a escolher entre cópias iguais. Uma barra com a % fica logo abaixo do botão, com Parar (ou Esc). Nada é movido nem copiado, e um Ctrl+Z desfaz. Discos de nuvem, como o Google Drive, ficam de fora.",
+      "texto_en": "Organizador san: open a project with missing media and the panel already shows \"X missing media · Find on PC\", no need to create the project in Organizador first. One click searches every drive (instantly when Everything is open), reconnects only what it is sure about and shows what it found and what it did not. The .veg folder helps choose between identical copies. A % bar sits right under the button, with Stop (or Esc). Nothing is moved or copied, and one Ctrl+Z undoes it. Cloud drives such as Google Drive are left out."
+    },
+    {
       "id": "arsenal-comprimir-22-11",
       "data": "2026-11-22",
       "titulo": "Arsenal: Comprimir imagem, áudio e vídeo",
@@ -2793,8 +2801,8 @@
         {
           "caminho": "extensoes/San/OrganizadorSan.dll",
           "destino": "ext",
-          "sha256": "D4918623BDC454FE5056D7C9413FC675AB866A09B07976921EF0CE29A6182BB4",
-          "tamanho": 6963712
+          "sha256": "586F42D8BD476E54C74ED8A70A8A96BD4FEF63DA086ED919703607BF7BD1D3C2",
+          "tamanho": 6969344
         },
         {
           "caminho": "extensoes/San.dll",
@@ -2805,7 +2813,7 @@
       ],
       "aviso": "A busca pelo que aparece baixa uma IA (~900 MB) pelo próprio painel, só se você quiser usar.",
       "aviso_en": "Searching by what shows up downloads an AI (~900 MB) from the panel, only if you want to use it.",
-      "data": "2026-11-19"
+      "data": "2026-11-22"
     },
     {
       "id": "proxy",
@@ -3801,7 +3809,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "89E7265B9BD79B13A9051E76CCB36001F35504DE4425D61C69EE28BDBD8E05F4",
+        "sha256": "82982F8ECC31F5D78D7C6BF7593EA357E1365842B722D5EB12D531D3423C6799",
         "tamanho": 2770432
       },
       {
@@ -3812,5 +3820,5 @@
       }
     ]
   },
-  "gerado": "2026-11-22 17:21"
+  "gerado": "2026-11-22 21:56"
 }
