@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "dropeasy-alt-e-sites-22-11",
+      "data": "2026-11-22",
+      "titulo": "DropEasy san: Alt = só a imagem do vídeo, e sites que recusavam o download",
+      "titulo_en": "DropEasy san: Alt = video picture only, and sites that refused the download",
+      "texto": "Segure Alt ao arrastar, dar duplo clique, apertar o + ou o Enter num vídeo: ele entra na timeline só com a imagem, sem o áudio (Ctrl+Z traz o áudio de volta). Enquanto o Alt está apertado aparece um aviso embaixo. E imagens de sites que recusavam o download (erro 403, como a wiki do One Piece e alguns portais) agora baixam: o DropEasy pede como um navegador e, se precisar, baixa pelo navegador dele; o aviso diz qual site recusou e o card não se chama mais \"latest\".",
+      "texto_en": "Hold Alt while dragging, double-clicking, pressing + or Enter on a video: it goes on the timeline with the picture only, no audio (Ctrl+Z brings the audio back). A notice shows at the bottom while Alt is held. And images from sites that refused the download (error 403, like the One Piece wiki and some portals) now download: DropEasy asks like a browser and, if needed, downloads through its own browser; the notice says which site refused, and the card is no longer named \"latest\"."
+    },
+    {
       "id": "organizador-achar-22-11",
       "data": "2026-11-22",
       "titulo": "Organizador: Achar no PC em qualquer projeto, com barra de %",
@@ -1072,8 +1080,8 @@
         {
           "caminho": "extensoes/San/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "A6F2BDC191FB04C3C8F5D22EDB9EED42CCC141F899B61597541C7A3707F0DA9E",
-          "tamanho": 833024
+          "sha256": "B3BF0415E3AD9CC24231239567CCCC1C38875769AB4323D0B273CFF9AF21C7B5",
+          "tamanho": 842240
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3820,5 +3828,5 @@
       }
     ]
   },
-  "gerado": "2026-11-22 21:56"
+  "gerado": "2026-11-22 22:20"
 }
