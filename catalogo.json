@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-estilos-99-24-11",
+      "data": "2026-11-24",
+      "titulo": "Arsenal: mais 99 estilos de vídeo",
+      "titulo_en": "Arsenal: 99 more video styles",
+      "texto": "Arsenal san: a aba Estilos de vídeo (menu Criar) agora mostra os estilos #101 a #199 quando a biblioteca de estilos copiada for a versão 0.3.8 ou mais nova. São 99 filmes feitos 100% em código (aquarela, vitral, quadro-negro, mangá e muitos outros), numa família própria, cada um com prévia em vídeo, a nota do filme de teste e o botão Começar com a Claude. A busca acha pelo nome ou pelo número.",
+      "texto_en": "Arsenal san: the Video styles tab (Create menu) now shows styles #101 to #199 when the copied style library is version 0.3.8 or newer. They are 99 films made 100% in code (watercolor, stained glass, chalkboard, manga and many more), in their own family, each with a video preview, the test film score and the Start with Claude button. Search finds them by name or number."
+    },
+    {
       "id": "dropeasy-alt-e-sites-22-11",
       "data": "2026-11-22",
       "titulo": "DropEasy san: Alt = só a imagem do vídeo, e sites que recusavam o download",
@@ -1090,7 +1098,7 @@
           "tamanho": 11264
         }
       ],
-      "data": "2026-11-19"
+      "data": "2026-11-22"
     },
     {
       "id": "upscale",
@@ -3628,8 +3636,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estilos.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "17D4336AEAAC836B2D00CE52F9B2FC79B3CB320B2D09372FAC25B7B48B174B63",
-          "tamanho": 124416
+          "sha256": "1786EEA71C2E0E99D77E3E5B5E6293B7E0C00454E525E14459C087D893F0826C",
+          "tamanho": 128512
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
@@ -3728,7 +3736,7 @@
           "tamanho": 160216
         }
       ],
-      "data": "2026-11-22"
+      "data": "2026-11-24"
     },
     {
       "id": "prompter",
@@ -3817,7 +3825,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "82982F8ECC31F5D78D7C6BF7593EA357E1365842B722D5EB12D531D3423C6799",
+        "sha256": "7E7C267621FCE755FEC5B2F1F8D0BFBFE14DDEEDA17D1CA8D6589AE456909D6F",
         "tamanho": 2770432
       },
       {
@@ -3828,5 +3836,5 @@
       }
     ]
   },
-  "gerado": "2026-11-22 22:20"
+  "gerado": "2026-11-24 17:50"
 }
