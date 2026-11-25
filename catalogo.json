@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "transicoes-san-24-11",
+      "data": "2026-11-24",
+      "titulo": "Transições San: 10 transições de filme",
+      "titulo_en": "San Transitions: 10 film transitions",
+      "texto": "Plugin novo de transições, fora do GL Transition: Film Roll, Film Strip, Film Slip, Fita Dividida, Folha de Contato, Negativo, Projetor Antigo, Polaroid, Leader de Filme (3-2-1) e Impacto. Ficam em Transições › Transições San; é só arrastar para o corte e ajustar direção, motion blur, grão e cores nas propriedades.",
+      "texto_en": "New transitions plugin, separate from GL Transition: Film Roll, Film Strip, Film Slip, Split Film, Contact Sheet, Negative, Old Projector, Polaroid, Film Leader (3-2-1) and Impact. They live in Transitions › San Transitions; drag one onto the cut and adjust direction, motion blur, grain and colours in its properties."
+    },
+    {
       "id": "arsenal-estilos-99-24-11",
       "data": "2026-11-24",
       "titulo": "Arsenal: mais 99 estilos de vídeo",
@@ -1005,7 +1013,8 @@
         "search",
         "santools",
         "camera",
-        "foco"
+        "foco",
+        "transicoes"
       ],
       "descricao": "A decupagem e as sugestões de edição, e qualquer efeito num atalho.",
       "descricao_en": "Rough cut and edit suggestions, and any effect one shortcut away."
@@ -3502,6 +3511,114 @@
       "data": "2026-11-09"
     },
     {
+      "id": "transicoes",
+      "nome": "Transições San",
+      "versao": "1.0.0",
+      "tipo": "plugin",
+      "cor": "#ff8a14",
+      "dados": [
+        "TransicoesSan"
+      ],
+      "resumo": "Transições de filme modernas: Film Roll, Film Strip, Film Slip e mais sete.",
+      "resumo_en": "Modern film transitions: Film Roll, Film Strip, Film Slip and seven more.",
+      "descricao": "Dez transições próprias, fora do GL Transition: Film Roll, Film Strip, Film Slip, Fita Dividida, Folha de Contato, Negativo, Projetor Antigo, Polaroid, Leader de Filme (3-2-1) e Impacto. Cada uma com direção, motion blur, grão de filme e cores ajustáveis, com dica ao passar o mouse em cada ajuste.",
+      "descricao_en": "Ten transitions of their own, separate from GL Transition: Film Roll, Film Strip, Film Slip, Split Film, Contact Sheet, Negative, Old Projector, Polaroid, Film Leader (3-2-1) and Impact. Each with direction, motion blur, film grain and adjustable colours, with a hint on every setting.",
+      "onde": "Transições › Transições San",
+      "onde_en": "Transitions › San Transitions",
+      "atalhos": [
+        [
+          "Arrastar para o corte",
+          "aplica como qualquer transição"
+        ],
+        [
+          "Propriedades da transição",
+          "direção, blur, grão e cores"
+        ]
+      ],
+      "atalhos_en": [
+        [
+          "Drag onto the cut",
+          "applies like any transition"
+        ],
+        [
+          "Transition properties",
+          "direction, blur, grain and colours"
+        ]
+      ],
+      "aviso": "É um plugin: o Windows pede permissão de administrador para instalar (só nessa hora).",
+      "aviso_en": "It's a plugin: Windows asks for administrator permission to install it (only at that moment).",
+      "combina": [],
+      "arquivos": [
+        {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.contato.png",
+          "destino": "ofx",
+          "sha256": "BF77FEEA0B7BC33B6BABC0782E0A76159EA3790739A41847730C99026FC6F647",
+          "tamanho": 10401
+        },
+        {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.filmroll.png",
+          "destino": "ofx",
+          "sha256": "AF18796CDD5FBCC9582F09AAD5D01103C29A40745FE153C073938F3C43AD8117",
+          "tamanho": 6858
+        },
+        {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.filmslip.png",
+          "destino": "ofx",
+          "sha256": "517640F2C1DFBC5E5049B2F5C7E55CF7FFD92F288F8A756DEAC51F93B24E7C08",
+          "tamanho": 7620
+        },
+        {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.filmstrip.png",
+          "destino": "ofx",
+          "sha256": "82CFBA617EF1D62B8376C67C3757F057E4B63BABEE285B4AB2D2A64578503EE4",
+          "tamanho": 6393
+        },
+        {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.impacto.png",
+          "destino": "ofx",
+          "sha256": "B63423818E4382AEE791B2FD2081ED410C0B729FB8755A80A08A9812EAE53EE9",
+          "tamanho": 8819
+        },
+        {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.leader.png",
+          "destino": "ofx",
+          "sha256": "3512E99841FA9F9692798D449165B18F36E0A9FEFFFB6342D36AC490FEC1CD39",
+          "tamanho": 12620
+        },
+        {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.negativo.png",
+          "destino": "ofx",
+          "sha256": "FE9355801A791DBD562C657E28B3FF424B138BF4C6604E8AAF2EAA043ACE5551",
+          "tamanho": 6798
+        },
+        {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.polaroid.png",
+          "destino": "ofx",
+          "sha256": "EADFE8429DFBAA300749317188FB1F95EBA401F351FF3C1F226FF41BB92D83D7",
+          "tamanho": 8322
+        },
+        {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.projetor.png",
+          "destino": "ofx",
+          "sha256": "D1BCED19E6C5961382DD3B616265FA3B8A74E9FDC914144AC0EBE5192CA5B269",
+          "tamanho": 9703
+        },
+        {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.tiras.png",
+          "destino": "ofx",
+          "sha256": "1D0A9A73BA6E3525F8F0CF059CBA8AC4F3E972C924F5EA3FD87A9203C48DAD44",
+          "tamanho": 7754
+        },
+        {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Win64/TransicoesSan.ofx",
+          "destino": "ofx",
+          "sha256": "B8A2E258D80F8910A38C7055B263FEEF8DE9357C2FE95CA5F70E7C1E33E5DF07",
+          "tamanho": 508928
+        }
+      ],
+      "data": "2026-11-24"
+    },
+    {
       "id": "arsenal",
       "nome": "Arsenal san",
       "versao": "1.0.0",
@@ -3576,8 +3693,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "34F92A624CF001D614EAFF540EB254C4827956B9F9542465F44151BB0AEC66FF",
-          "tamanho": 1407488
+          "sha256": "1B418257C7D0D3A341406AB56E7E6CD6D0380525CE705234E59C2C0972AA63F6",
+          "tamanho": 1409536
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3588,8 +3705,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Audio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "E9E2D6F2955FDF08EDF72489F7F6FFFBA1ED02D932FD6EEE5AC55FEF2874482F",
-          "tamanho": 210944
+          "sha256": "68FF3C542A10A6418B5C07150FC5F14D0F79B548A9DD5C957DE2C2D3CECE44C5",
+          "tamanho": 215040
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Canal.dll",
@@ -3600,14 +3717,14 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cerebro.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "F979CCF2C5459F6027DE5DFE45BBC9B9F072284AC35067B0D957B9FDAE104E66",
-          "tamanho": 210432
+          "sha256": "7CE8372CCD5F1323573DF89D6DC2E070B53316F0AABD1CF00F50A4CF5C14D027",
+          "tamanho": 209920
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "0E741B5CBF3A333A8B0D86C6C54F08D8E4EF0F3BB8341193E9E4760F86925FDA",
-          "tamanho": 544256
+          "sha256": "166971D8A389FCA6B2618EB9637CF28C7D10F31793FA10C35C1F0046074082D8",
+          "tamanho": 546816
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Conexoes.dll",
@@ -3624,26 +3741,26 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cortes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "EA5710ED147F99FCB56C4906ED8987F72510E4D65AC76CCDDD2FBBFA888D86AF",
-          "tamanho": 185344
+          "sha256": "346346A0EBE06AF800FFC9AEE51CB5CB5F8870A3771D6A5345EB4D2B2138ED49",
+          "tamanho": 185856
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "4BD1EBDD02B60A952BC4AE3A909E015E23AD894E3B0CAC453B63423CDC729B86",
-          "tamanho": 3211776
+          "sha256": "C34C65B831B79B6E0F8A0016A67230FE176ACCEEEFC0FA72A4130A53C36944E7",
+          "tamanho": 3213312
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estilos.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "1786EEA71C2E0E99D77E3E5B5E6293B7E0C00454E525E14459C087D893F0826C",
-          "tamanho": 128512
+          "sha256": "749D051D888B16EC5CB783B1B752997BA63FAE1DBE1679BCD419C36C69E92210",
+          "tamanho": 179712
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "A600F562A3A1BF31982E14F49A6F75E21244CDD6DC4CDD0785B7BBCA7D4B3D93",
-          "tamanho": 5467648
+          "sha256": "2DB195124FB5F0238140B8A23C5B3917884D75F79EA6E77AF48AA50CAFDF6ED3",
+          "tamanho": 5472256
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
@@ -3654,8 +3771,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "1E49386AB80FD4F9F577BC034D2E7032BD9D5699A1157324B4E8C5252E455448",
-          "tamanho": 2384384
+          "sha256": "690E27D015FB5F0D6528DC9047D15D983779BE17E9D9C8E5008EDE210E54A2E1",
+          "tamanho": 2385408
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
@@ -3666,32 +3783,32 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "F4C53A4A33BBA1D1A19A84914995F03B5361343F6BCBFB378AECF3E2A5009CFE",
-          "tamanho": 776192
+          "sha256": "9E520B3D20312734B3DB2B31F14BDF9AC349F57F734B6F4EF4AEAA2D17157524",
+          "tamanho": 792576
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "A80C28175EC0A001AF922F5A53CF08DDE4A7D1917A371B39CCB7FD5830DBE62C",
-          "tamanho": 302592
+          "sha256": "5A6EA29A84365A68DBE7484E543920183F23D890E8EE34C12EC827D2545138A1",
+          "tamanho": 304640
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "30CE9896AC6C34C6BF8026A3A47656AEB813FA30EF51CC8FCE5105B670F9ACA1",
-          "tamanho": 680960
+          "sha256": "95869FED5691B94B4C1EC750E4A949168800361C117752C839C017E29EE86417",
+          "tamanho": 683520
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "0C4F3917E4BEFF30EFCF51052A3629643952E8B3B241F5C50673404B729899B3",
-          "tamanho": 1142784
+          "sha256": "D7B9B13BC6524D55D8F03B260B655474B2113A5E2E03DFE8BC14997127BE6576",
+          "tamanho": 1144832
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.VideoIA.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "CFD23C7F0798295E418491495F04D43BA0CA11AD326317DDE7DC0E9AFEB4231F",
-          "tamanho": 94720
+          "sha256": "C33A44E586BC66567DE7F503CB188395EFBB82432823DF51E10ED5F4A1437CB6",
+          "tamanho": 95232
         },
         {
           "caminho": "arsenal/LICENCAS-curta-cartoon.txt",
@@ -3825,8 +3942,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "7E7C267621FCE755FEC5B2F1F8D0BFBFE14DDEEDA17D1CA8D6589AE456909D6F",
-        "tamanho": 2770432
+        "sha256": "444C65566FEF84AB72F265C27FCEB9DF2166F673643AA0F281815A0FF8182602",
+        "tamanho": 2770944
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -3836,5 +3953,5 @@
       }
     ]
   },
-  "gerado": "2026-11-24 17:50"
+  "gerado": "2026-11-24 23:09"
 }
