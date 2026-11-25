@@ -3745,8 +3745,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "1B418257C7D0D3A341406AB56E7E6CD6D0380525CE705234E59C2C0972AA63F6",
-          "tamanho": 1409536
+          "sha256": "4B7BE31A8018851A2F45AC4975E883E612BAD1B18306E8797924609CE7EE0B11",
+          "tamanho": 1421824
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3994,7 +3994,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "1EF3A2C6CDCB407147A0382702DF4776D0AF5C4A32BED3CF82C79160E356FF53",
+        "sha256": "FF885BD4C424D3CD77B9E0FA081C9F84BFB2CE82B593F244E0B69304986FBA6F",
         "tamanho": 2770944
       },
       {
@@ -4005,5 +4005,5 @@
       }
     ]
   },
-  "gerado": "2026-11-25 12:32"
+  "gerado": "2026-11-25 13:10"
 }
