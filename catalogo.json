@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "transicoes-anime-25-11",
+      "data": "2026-11-25",
+      "titulo": "Transições San: 6 de anime e miniaturas prontas",
+      "titulo_en": "San Transitions: 6 anime ones and ready thumbnails",
+      "texto": "Transições San agora tem 16: entraram Linhas de Velocidade, Quadro de Impacto, Corte de Espada, Vidro Quebrado, Painéis de Mangá e Pincelada. Cada variação (Film Roll Rápido, cada direção, Impacto vermelho…) aparece pronta como miniatura na janela de Transições, é só arrastar. E elas funcionam em vídeo vertical e mantêm o fundo transparente de textos e PNGs.",
+      "texto_en": "San Transitions now has 16: added Speed Lines, Impact Frame, Sword Slash, Shattered Glass, Manga Panels and Brush Stroke. Each variation (fast Film Roll, every direction, red Impact…) shows up ready as a thumbnail in the Transitions window, just drag it. They also work on vertical video and keep the transparent background of texts and PNGs."
+    },
+    {
       "id": "transicoes-san-24-11",
       "data": "2026-11-24",
       "titulo": "Transições San: 10 transições de filme",
@@ -3090,11 +3098,11 @@
         {
           "caminho": "santools-ofx/SanTools.ofx.bundle/Contents/Win64/SanTools.ofx",
           "destino": "ofx",
-          "sha256": "A4F278EE34FB83FD078554E1F47006522DD77B2AD12017F818CF831CF8D35249",
-          "tamanho": 567296
+          "sha256": "3956B61E6106C1C4DC797D945E82CEEF735EFC227F1E954C6DC81B7E581933B0",
+          "tamanho": 566784
         }
       ],
-      "data": "2026-11-17"
+      "data": "2026-11-25"
     },
     {
       "id": "foco",
@@ -3519,10 +3527,10 @@
       "dados": [
         "TransicoesSan"
       ],
-      "resumo": "Transições de filme modernas: Film Roll, Film Strip, Film Slip e mais sete.",
-      "resumo_en": "Modern film transitions: Film Roll, Film Strip, Film Slip and seven more.",
-      "descricao": "Dez transições próprias, fora do GL Transition: Film Roll, Film Strip, Film Slip, Fita Dividida, Folha de Contato, Negativo, Projetor Antigo, Polaroid, Leader de Filme (3-2-1) e Impacto. Cada uma com direção, motion blur, grão de filme e cores ajustáveis, com dica ao passar o mouse em cada ajuste.",
-      "descricao_en": "Ten transitions of their own, separate from GL Transition: Film Roll, Film Strip, Film Slip, Split Film, Contact Sheet, Negative, Old Projector, Polaroid, Film Leader (3-2-1) and Impact. Each with direction, motion blur, film grain and adjustable colours, with a hint on every setting.",
+      "resumo": "16 transições próprias: de filme (Film Roll, Strip, Slip…) e de anime (linhas de velocidade, impacto, espada…).",
+      "resumo_en": "16 transitions of their own: film (Film Roll, Strip, Slip…) and anime (speed lines, impact, sword…).",
+      "descricao": "Dezesseis transições próprias, fora do GL Transition. De filme: Film Roll, Film Strip, Film Slip, Fita Dividida, Folha de Contato, Negativo, Projetor Antigo, Polaroid, Leader de Filme (3-2-1) e Impacto. De anime: Linhas de Velocidade, Quadro de Impacto, Corte de Espada, Vidro Quebrado, Painéis de Mangá e Pincelada. Cada variação (direção, rápido, estilo) aparece como miniatura pronta na janela de Transições; tudo ajustável, com dica ao passar o mouse, e funciona em vídeo vertical e com fundo transparente.",
+      "descricao_en": "Sixteen transitions of their own, separate from GL Transition. Film: Film Roll, Film Strip, Film Slip, Split Film, Contact Sheet, Negative, Old Projector, Polaroid, Film Leader (3-2-1) and Impact. Anime: Speed Lines, Impact Frame, Sword Slash, Shattered Glass, Manga Panels and Brush Stroke. Each variation (direction, fast, style) shows up as a ready thumbnail in the Transitions window; everything is adjustable, with hover hints, and it works on vertical video and with transparent backgrounds.",
       "onde": "Transições › Transições San",
       "onde_en": "Transitions › San Transitions",
       "atalhos": [
@@ -3531,8 +3539,12 @@
           "aplica como qualquer transição"
         ],
         [
+          "Miniaturas",
+          "cada variação já pronta (direção, rápido, estilo)"
+        ],
+        [
           "Propriedades da transição",
-          "direção, blur, grão e cores"
+          "ajusta blur, grão, cores e o resto"
         ]
       ],
       "atalhos_en": [
@@ -3541,8 +3553,12 @@
           "applies like any transition"
         ],
         [
+          "Thumbnails",
+          "every variation ready (direction, fast, style)"
+        ],
+        [
           "Transition properties",
-          "direction, blur, grain and colours"
+          "adjust blur, grain, colours and more"
         ]
       ],
       "aviso": "É um plugin: o Windows pede permissão de administrador para instalar (só nessa hora).",
@@ -3554,6 +3570,12 @@
           "destino": "ofx",
           "sha256": "BF77FEEA0B7BC33B6BABC0782E0A76159EA3790739A41847730C99026FC6F647",
           "tamanho": 10401
+        },
+        {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.espada.png",
+          "destino": "ofx",
+          "sha256": "48B3ECDAB817FE15AA922B0E88D392E0A8DAAA5A30E169112D9E32638325D754",
+          "tamanho": 8641
         },
         {
           "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.filmroll.png",
@@ -3586,10 +3608,28 @@
           "tamanho": 12620
         },
         {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.linhas.png",
+          "destino": "ofx",
+          "sha256": "7BB59215E167DC4C920F5C3DE9F7BCCB323C90FCAFC60FFF72766EF7AB61FEB8",
+          "tamanho": 20278
+        },
+        {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.manga.png",
+          "destino": "ofx",
+          "sha256": "371427F70DCE818DF1F5250002AEB6B54C590DDF3D559572A99785375A389DC9",
+          "tamanho": 8426
+        },
+        {
           "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.negativo.png",
           "destino": "ofx",
           "sha256": "FE9355801A791DBD562C657E28B3FF424B138BF4C6604E8AAF2EAA043ACE5551",
           "tamanho": 6798
+        },
+        {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.pincel.png",
+          "destino": "ofx",
+          "sha256": "A2D7423FC3B5A1F75BCFA217BE13C139F65A8D27930D329CF8F5BDBA1957716F",
+          "tamanho": 7617
         },
         {
           "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.polaroid.png",
@@ -3604,19 +3644,31 @@
           "tamanho": 9703
         },
         {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.quadroimpacto.png",
+          "destino": "ofx",
+          "sha256": "7D3EDA6A5D36F9B239FC18E2B30388E9E21FF81F33FAC0B86F5A59B99DC041B7",
+          "tamanho": 7221
+        },
+        {
           "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.tiras.png",
           "destino": "ofx",
           "sha256": "1D0A9A73BA6E3525F8F0CF059CBA8AC4F3E972C924F5EA3FD87A9203C48DAD44",
           "tamanho": 7754
         },
         {
+          "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Resources/com.slayersan.trans.vidro.png",
+          "destino": "ofx",
+          "sha256": "D5B0C8BBAAC853235FFED00CABAAD48CEF512EC4D22C64DBD5D302BBA66C1318",
+          "tamanho": 11269
+        },
+        {
           "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Win64/TransicoesSan.ofx",
           "destino": "ofx",
-          "sha256": "B8A2E258D80F8910A38C7055B263FEEF8DE9357C2FE95CA5F70E7C1E33E5DF07",
-          "tamanho": 508928
+          "sha256": "820BE5AE59A463F6CF72933BC35D8FBF0BA34B1CAC11C505EB4264D55FE45E87",
+          "tamanho": 588800
         }
       ],
-      "data": "2026-11-24"
+      "data": "2026-11-25"
     },
     {
       "id": "arsenal",
@@ -3723,8 +3775,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "166971D8A389FCA6B2618EB9637CF28C7D10F31793FA10C35C1F0046074082D8",
-          "tamanho": 546816
+          "sha256": "A046C570921FD4B66C602FA9C6272B1072C97E205749806FA6D07CF8E30B1AE4",
+          "tamanho": 547840
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Conexoes.dll",
@@ -3747,14 +3799,14 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "C34C65B831B79B6E0F8A0016A67230FE176ACCEEEFC0FA72A4130A53C36944E7",
-          "tamanho": 3213312
+          "sha256": "CA17E660D3FAB523D6F04AD6A53941BEE1DEFB9C03E2E7E72772A195BDB1C180",
+          "tamanho": 3214848
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estilos.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "749D051D888B16EC5CB783B1B752997BA63FAE1DBE1679BCD419C36C69E92210",
-          "tamanho": 179712
+          "sha256": "03A40DA0AD1F390E956FBC9081B93E710A009C2992F917783E4F6D12D7B5A819",
+          "tamanho": 181248
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
@@ -3783,20 +3835,20 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "9E520B3D20312734B3DB2B31F14BDF9AC349F57F734B6F4EF4AEAA2D17157524",
-          "tamanho": 792576
+          "sha256": "625CBEF5D2584BF29DC1D43AB21B1523F9ABBD002A001226B359AD784C5E9A66",
+          "tamanho": 1086464
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "5A6EA29A84365A68DBE7484E543920183F23D890E8EE34C12EC827D2545138A1",
-          "tamanho": 304640
+          "sha256": "E55F7BB1F4B2E83DBF4B8A3254756BAE8F485B396351AF4A1DFBCCAE48FD0A55",
+          "tamanho": 367616
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "95869FED5691B94B4C1EC750E4A949168800361C117752C839C017E29EE86417",
-          "tamanho": 683520
+          "sha256": "2EFD58097002CE0EF5A0E3C904F22F8CAD9DF65C016C670964E9AF2405A683F1",
+          "tamanho": 740352
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
@@ -3853,7 +3905,7 @@
           "tamanho": 160216
         }
       ],
-      "data": "2026-11-24"
+      "data": "2026-11-25"
     },
     {
       "id": "prompter",
@@ -3942,7 +3994,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "444C65566FEF84AB72F265C27FCEB9DF2166F673643AA0F281815A0FF8182602",
+        "sha256": "1EF3A2C6CDCB407147A0382702DF4776D0AF5C4A32BED3CF82C79160E356FF53",
         "tamanho": 2770944
       },
       {
@@ -3953,5 +4005,5 @@
       }
     ]
   },
-  "gerado": "2026-11-24 23:09"
+  "gerado": "2026-11-25 12:32"
 }
