@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "transicoes-ajustes-26-11",
+      "data": "2026-11-26",
+      "titulo": "Transições San: Espada e Mangá mais limpas",
+      "titulo_en": "San Transitions: cleaner Sword and Manga",
+      "texto": "No Corte de Espada \"Descendo\", as metades da cena voam para fora sem deixar um pedaço no fim. Nos Painéis de Mangá, o primeiro painel entra pela borda e vai crescendo, em vez de aparecer de repente.",
+      "texto_en": "In Sword Slash \"Falling\", the halves fly away without leaving a piece at the end. In Manga Panels, the first panel slides in from the edge and grows instead of popping in."
+    },
+    {
       "id": "arsenal-revisao-26-11",
       "data": "2026-11-26",
       "titulo": "Arsenal: revisão de tela",
@@ -3606,11 +3614,11 @@
         {
           "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Win64/TransicoesSan.ofx",
           "destino": "ofx",
-          "sha256": "30BC5700103193B68AB1092F65EE4EF67A6EFBC85E1FF6E272617E6F9751AD86",
-          "tamanho": 565760
+          "sha256": "C17F3AAC6AD1F715D586EE508CA74CFEEBD253677DAA41E6FF26BABE82A4551B",
+          "tamanho": 567296
         }
       ],
-      "data": "2026-11-25"
+      "data": "2026-11-26"
     },
     {
       "id": "arsenal",
@@ -3687,8 +3695,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "9C948BC83B437F7DF5770708CEBCDA55BD226C8CE505C3B782D7D4D6A6208589",
-          "tamanho": 1526272
+          "sha256": "0A45D046B7F8FC0236580E11A022F68ADE578CDCCEC38B988F15BB0B0E5F39C6",
+          "tamanho": 1538048
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3777,8 +3785,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "7AF8EF10B57EF92BA539B7A2710D3F0B72D05407FACBEEBE907CB5CCD4BA6E0F",
-          "tamanho": 1094656
+          "sha256": "643B37FAB4CC200B258F1448E5063A3D381F75207C9ADC2CF6DEE5F9B0DFE8D8",
+          "tamanho": 1096192
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
@@ -3936,7 +3944,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "24CB4DFFEBE4E07F57B81EF60D4642DF52FC421A93FA8A8AB435DEAA026BB8F1",
+        "sha256": "D2A7640A26B69A8F7E2F63D471F55FD8EBDFE6085A32E1AFD79410128E2B5D8A",
         "tamanho": 2770944
       },
       {
@@ -3947,5 +3955,5 @@
       }
     ]
   },
-  "gerado": "2026-11-26 17:14"
+  "gerado": "2026-11-26 17:23"
 }
