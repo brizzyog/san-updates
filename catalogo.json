@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-moderno-26-11",
+      "data": "2026-11-26",
+      "titulo": "Arsenal com cara nova",
+      "titulo_en": "Arsenal gets a new look",
+      "texto": "O Arsenal ficou mais calmo e moderno: só o botão que faz a ação é laranja, e há uma setinha de voltar só, no topo. Nada mais fica escondido: o menu de cada grupo mostra todas as ferramentas, e Todas as ferramentas virou uma galeria com filtro por grupo e por nome. O Início mostra o link, o que você fez com miniatura grande e as que você mais usa. No lado Canais, os grupos do menu abrem e fecham. Nada saiu.",
+      "texto_en": "Arsenal is calmer and more modern: only the button that does the action is orange, and there is a single back arrow, at the top. Nothing is hidden anymore: each group menu shows every tool, and All tools is now a gallery with group and name filters. Home shows the link, what you made with big thumbnails and your most used tools. On the Channels side, menu groups open and close. Nothing was removed."
+    },
+    {
       "id": "arsenal-repaginacao-26-11",
       "data": "2026-11-26",
       "titulo": "Arsenal: cara nova",
@@ -3952,7 +3960,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "11D8A91A15767AA9F6A16CC84BF516CEC9B5CD03D127E7E338FAC79F5AA4DF98",
+        "sha256": "569C4BE397736B395045F8F752F70D12E9B2E8AA397A3724665BF50AA87E7983",
         "tamanho": 2770944
       },
       {
@@ -3963,5 +3971,5 @@
       }
     ]
   },
-  "gerado": "2026-11-26 17:31"
+  "gerado": "2026-11-26 17:34"
 }
