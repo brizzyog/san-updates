@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-mesa-26-11",
+      "data": "2026-11-26",
+      "titulo": "Arsenal: visual novo, a Mesa de produção",
+      "titulo_en": "Arsenal: new look, the Production desk",
+      "texto": "Arsenal san de cara nova. O menu comprido virou uma coluna de ícones (passe o mouse num grupo para ver as ferramentas), a troca de canal e a busca (Ctrl+K, também baixa um link colado) ficam no topo, e o Início virou o seu dia de trabalho: o que fazer hoje em todos os canais, o próximo post com o que ainda falta, os canais nas últimas 48 h, os vídeos em produção e a semana de posts. O Melhorar qualidade mostra a fila embaixo, o Meu canal dá sugestões ao lado dos Shorts, os botões e campos ficaram iguais em todas as telas e o som de pronto agora é um sino de duas notas. Nada saiu: o que não está na coluna fica em Mais ferramentas.",
+      "texto_en": "Arsenal san has a new look. The long menu became an icon column (hover a group to see its tools), channel switching and search (Ctrl+K, it also downloads a pasted link) sit at the top, and Home became your work day: what to do today on every channel, the next post with what is still missing, the channels in the last 48 h, videos in production and the week of posts. Enhance quality shows the queue underneath, My channel gives suggestions next to the Shorts, buttons and fields now match on every screen and the done sound is a two-note bell. Nothing was removed: whatever is not in the column is in More tools."
+    },
+    {
       "id": "transicoes-vhs-25-11",
       "data": "2026-11-25",
       "titulo": "Transições San: tudo num item só, luz vazada, queima de filme e VHS",
@@ -3663,8 +3671,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "84CDFA6BE0F3376F68353C7F56EEE5B5D0CF6FA8F384C57C6BFA646E51169E1A",
-          "tamanho": 1507840
+          "sha256": "C92C9D87637D5725F9E1B928A3D2013C72D63C4D3CC73B89A754DFA6638E00EA",
+          "tamanho": 1514496
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3912,7 +3920,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "39FA3E89DFFA2DDF2329B8E9CF68E63A61FB0F396775AC65834AB4FE0CF6D98C",
+        "sha256": "AC48995703332767BB4ABE3F7BD87C2873B890781D5122DE011A7E89013773DB",
         "tamanho": 2770944
       },
       {
@@ -3923,5 +3931,5 @@
       }
     ]
   },
-  "gerado": "2026-11-25 20:38"
+  "gerado": "2026-11-26 00:33"
 }
