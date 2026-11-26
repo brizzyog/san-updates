@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-lados-26-11",
+      "data": "2026-11-26",
+      "titulo": "Arsenal: Ferramentas e Canais separados",
+      "titulo_en": "Arsenal: Tools and Channels apart",
+      "texto": "O Arsenal agora tem dois lados, e o botão no topo troca entre eles. Em Ferramentas, a coluna da esquerda mostra o nome embaixo de cada ícone, o grupo abre no clique e a estrela fixa as ferramentas que você mais usa na coluna. Em Canais, o menu tem nome: Hoje (o dia de trabalho com todos os canais juntos), Central e Calendário em cima, a lista dos canais com foto e nome, e embaixo o que é do canal escolhido. A busca (Ctrl+K) procura primeiro no lado em que você está. Nada saiu.",
+      "texto_en": "Arsenal now has two sides, and the switch at the top moves between them. In Tools, the left column shows a name under each icon, a group opens on click and the star pins your most used tools to the column. In Channels, the menu has names: Today (the work day with all channels together), Hub and Calendar on top, the list of channels with photo and name, and below it what belongs to the chosen channel. Search (Ctrl+K) looks on your current side first. Nothing was removed."
+    },
+    {
       "id": "arsenal-mesa-26-11",
       "data": "2026-11-26",
       "titulo": "Arsenal: visual novo, a Mesa de produção",
@@ -3671,8 +3679,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "C92C9D87637D5725F9E1B928A3D2013C72D63C4D3CC73B89A754DFA6638E00EA",
-          "tamanho": 1514496
+          "sha256": "7479A0B8D0D675759F164042106FD3522BEA8ACCAEF0CACD2E7FE6A88545913B",
+          "tamanho": 1522688
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3761,8 +3769,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "21771F1A8CAB051B72E26935CF6D023FBFB807F1D63D7AF01177B5B53E9EBBD1",
-          "tamanho": 1089024
+          "sha256": "1DADB14BC348D1C06CA29D47F0309AE369E886485200611CFCB6E8D50295A81D",
+          "tamanho": 1091584
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
@@ -3831,7 +3839,7 @@
           "tamanho": 160216
         }
       ],
-      "data": "2026-11-25"
+      "data": "2026-11-26"
     },
     {
       "id": "prompter",
@@ -3920,7 +3928,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "AC48995703332767BB4ABE3F7BD87C2873B890781D5122DE011A7E89013773DB",
+        "sha256": "4624357AB973891D0FC4201A380B2B89B1CA31843910A8AA1E38223A67F1F4DA",
         "tamanho": 2770944
       },
       {
@@ -3931,5 +3939,5 @@
       }
     ]
   },
-  "gerado": "2026-11-26 00:33"
+  "gerado": "2026-11-26 11:57"
 }
