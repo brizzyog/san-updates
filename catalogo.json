@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-revisao-26-11",
+      "data": "2026-11-26",
+      "titulo": "Arsenal: revisão de tela",
+      "titulo_en": "Arsenal: screen review",
+      "texto": "A Biblioteca mostra só arquivos e as legendas aparecem com as primeiras frases, com um filtro Textos. Um nome só, Biblioteca, em todo lugar. Na tela de baixar, só o botão principal fica laranja. Todo item do menu Criar diz o que faz, e cada item do lado Canais tem uma dica ao passar o mouse. Também acertos no Criar thumbnail, no Meu canal e no Criar vídeo.",
+      "texto_en": "The Library shows only files and subtitles appear with their first lines, with a Texts filter. One name, Library, everywhere. On the download screen only the main button is orange. Every Create menu item says what it does, and each item on the Channels side has a hover tip. Also fixes in Create thumbnail, My channel and Create video."
+    },
+    {
       "id": "arsenal-lados-26-11",
       "data": "2026-11-26",
       "titulo": "Arsenal: Ferramentas e Canais separados",
@@ -3679,8 +3687,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "7479A0B8D0D675759F164042106FD3522BEA8ACCAEF0CACD2E7FE6A88545913B",
-          "tamanho": 1522688
+          "sha256": "9C948BC83B437F7DF5770708CEBCDA55BD226C8CE505C3B782D7D4D6A6208589",
+          "tamanho": 1526272
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3697,8 +3705,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Canal.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "D82C2699F64AAB2F0F8CF0E70C50279C8DBADD77FFBDEDE1DF4E15C2CED678EE",
-          "tamanho": 605696
+          "sha256": "939EE129062290293DC01A4B001E023D3EEF1E8956347B4E18D19E86EB0128F4",
+          "tamanho": 606208
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cerebro.dll",
@@ -3721,8 +3729,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Conversor.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "D41DEF79F7C0C09B586F214A1736D8E77DCB10A34D9E383276B0DF6E864B79D3",
-          "tamanho": 169984
+          "sha256": "955BA1D9AB4B647AEB3EC7F2CEDEE5DF1A899633E8739B46674C1ABC3DBB80E7",
+          "tamanho": 169472
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cortes.dll",
@@ -3733,8 +3741,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "CA17E660D3FAB523D6F04AD6A53941BEE1DEFB9C03E2E7E72772A195BDB1C180",
-          "tamanho": 3214848
+          "sha256": "D6979B25505288350D9F7AD06C2A1B507DD57AD1571086BB6F43ACD58230BECE",
+          "tamanho": 3215360
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estilos.dll",
@@ -3751,8 +3759,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "4A74B8C6DAA8027936F154EEAD1C688792D45D27F877EF48CD01DEA6C61E026D",
-          "tamanho": 2066944
+          "sha256": "C55BA9B2BEE8258206000A567278590C7FC72C7D434B7C6C171E91E1F14F10F4",
+          "tamanho": 2066432
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
@@ -3769,8 +3777,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "1DADB14BC348D1C06CA29D47F0309AE369E886485200611CFCB6E8D50295A81D",
-          "tamanho": 1091584
+          "sha256": "7AF8EF10B57EF92BA539B7A2710D3F0B72D05407FACBEEBE907CB5CCD4BA6E0F",
+          "tamanho": 1094656
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
@@ -3787,7 +3795,7 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "D7B9B13BC6524D55D8F03B260B655474B2113A5E2E03DFE8BC14997127BE6576",
+          "sha256": "F71A67712B8DC923595A133DCE74DC4C20215190AD9E8283BF943FF11F47817D",
           "tamanho": 1144832
         },
         {
@@ -3928,7 +3936,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "4624357AB973891D0FC4201A380B2B89B1CA31843910A8AA1E38223A67F1F4DA",
+        "sha256": "24CB4DFFEBE4E07F57B81EF60D4642DF52FC421A93FA8A8AB435DEAA026BB8F1",
         "tamanho": 2770944
       },
       {
@@ -3939,5 +3947,5 @@
       }
     ]
   },
-  "gerado": "2026-11-26 11:57"
+  "gerado": "2026-11-26 17:14"
 }
