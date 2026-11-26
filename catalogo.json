@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-repaginacao-26-11",
+      "data": "2026-11-26",
+      "titulo": "Arsenal: cara nova",
+      "titulo_en": "Arsenal: new look",
+      "texto": "Coluna de ícones na esquerda, Ferramentas e Canais trocando no topo e a busca (Ctrl+K) no meio. O Início tem o link em destaque, o que você fez com miniatura grande e as ferramentas que mais usa. Todas as ferramentas viraram uma galeria com filtro, e nada fica escondido nos menus. Em Canais, os grupos abrem e fecham e mostram o que está pendente. Só o botão que faz a ação fica laranja.",
+      "texto_en": "Icon column on the left, Tools and Channels switching at the top and search (Ctrl+K) in the middle. Home shows the link box, what you made with big thumbnails and your most used tools. All tools became a gallery with filters, and nothing is hidden in menus. In Channels, groups open and close and show what is pending. Only the button that does the action is orange."
+    },
+    {
       "id": "transicoes-ajustes-26-11",
       "data": "2026-11-26",
       "titulo": "Transições San: Espada e Mangá mais limpas",
@@ -3695,8 +3703,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "0A45D046B7F8FC0236580E11A022F68ADE578CDCCEC38B988F15BB0B0E5F39C6",
-          "tamanho": 1538048
+          "sha256": "B6415468705E75D201872160294F98C929A69DCCE436C441F83642F0449FB914",
+          "tamanho": 1539584
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3944,7 +3952,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "D2A7640A26B69A8F7E2F63D471F55FD8EBDFE6085A32E1AFD79410128E2B5D8A",
+        "sha256": "11D8A91A15767AA9F6A16CC84BF516CEC9B5CD03D127E7E338FAC79F5AA4DF98",
         "tamanho": 2770944
       },
       {
@@ -3955,5 +3963,5 @@
       }
     ]
   },
-  "gerado": "2026-11-26 17:23"
+  "gerado": "2026-11-26 17:31"
 }
