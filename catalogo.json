@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "transicoes-modernas-27-11",
+      "data": "2026-11-27",
+      "titulo": "Transições San: 10 transições modernas",
+      "titulo_en": "San Transitions: 10 modern transitions",
+      "texto": "Agora são 31. Entraram Papel Rasgado (com luz queimando no rasgo), Papel Queimando, Flash Neon, Esticar com Luz, Vidro em Formas, Piscar, Tinta, Datamosh, Lente e Giro 3D, cada uma com miniaturas prontas na janela de Transições (cores e direções). As 21 de antes continuam iguais.",
+      "texto_en": "Now there are 31. New: Torn Paper (with burning light in the rip), Burning Paper, Neon Flash, Light Stretch, Glass Shapes, Blink, Ink, Datamosh, Lens and 3D Spin, each with ready thumbnails in the Transitions window (colours and directions). The previous 21 stay the same."
+    },
+    {
       "id": "arsenal-thumb-longo-ebook-27-11",
       "data": "2026-11-27",
       "titulo": "Arsenal: thumbnail automática, vídeo longo, canais em código e ebook",
@@ -3599,8 +3607,8 @@
       "dados": [
         "TransicoesSan"
       ],
-      "resumo": "21 transições próprias num item só: de filme (Film Roll, luz vazada, queima…), de anime e de VHS.",
-      "resumo_en": "21 transitions of their own in one item: film (Film Roll, light leak, burn…), anime and VHS.",
+      "resumo": "31 transições próprias num item só: de filme (Film Roll, luz vazada, queima…), de anime, de VHS e modernas (papel rasgado, neon, tinta, giro 3D…).",
+      "resumo_en": "31 transitions of their own in one item: film (Film Roll, light leak, burn…), anime, VHS and modern (torn paper, neon, ink, 3D spin…).",
       "descricao": "Vinte e uma transições próprias, fora do GL Transition, todas num item só (\"Transições San\") na janela de Transições. De filme: Film Roll, Film Strip, Film Slip, Fita Dividida, Folha de Contato, Negativo, Projetor Antigo, Polaroid, Leader de Filme (3-2-1), Impacto, Luz Vazada e Queima de Filme. De anime: Linhas de Velocidade, Quadro de Impacto, Corte de Espada, Vidro Quebrado, Painéis de Mangá e Pincelada. De VHS e TV: VHS Rebobinar, Chiado de TV e TV de Tubo. Cada variação (direção, cor, estilo) aparece como miniatura pronta para arrastar, e o ajuste \"Transição\" troca entre elas. Funcionam com transparência e em vídeo vertical.",
       "descricao_en": "Twenty-one transitions of their own, separate from GL Transition, all in one item (\"San Transitions\") in the Transitions window. Film: Film Roll, Film Strip, Film Slip, Split Film, Contact Sheet, Negative, Old Projector, Polaroid, Film Leader (3-2-1), Impact, Light Leak and Film Burn. Anime: Speed Lines, Impact Frame, Sword Slash, Shattered Glass, Manga Panels and Brush Stroke. VHS and TV: VHS Rewind, TV Static and CRT TV. Each variation (direction, colour, style) shows up as a ready thumbnail to drag, and the \"Transition\" setting switches between them. They work with transparency and vertical video.",
       "onde": "Transições › Transições San",
@@ -3646,11 +3654,11 @@
         {
           "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Win64/TransicoesSan.ofx",
           "destino": "ofx",
-          "sha256": "C17F3AAC6AD1F715D586EE508CA74CFEEBD253677DAA41E6FF26BABE82A4551B",
-          "tamanho": 567296
+          "sha256": "F990C640A3FA672074FA05758E2D77514ED38FB020E26BF41FFD38B8AD2DB07B",
+          "tamanho": 608256
         }
       ],
-      "data": "2026-11-26"
+      "data": "2026-11-27"
     },
     {
       "id": "arsenal",
@@ -3976,8 +3984,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "F2FA804A1BA818EB21B3B957FAC2CC43855AFF4F9971A1DA8BF0448C00D33D9A",
-        "tamanho": 2770944
+        "sha256": "68200B24B14B5B5124844E90D79962E2DD509A70D2FE589532834E01817181BC",
+        "tamanho": 2830848
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -3987,5 +3995,5 @@
       }
     ]
   },
-  "gerado": "2026-11-27 01:47"
+  "gerado": "2026-11-27 03:30"
 }
