@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-thumb-longo-ebook-27-11",
+      "data": "2026-11-27",
+      "titulo": "Arsenal: thumbnail automática, vídeo longo, canais em código e ebook",
+      "titulo_en": "Arsenal: automatic thumbnails, long videos, code channels and ebooks",
+      "texto": "Thumbnail automática: a Claude olha os quadros do vídeo e as thumbs mais vistas do tema, gera 3 opções no seu Gemini com o personagem do canal e confere antes de mostrar; um clique escolhe e ela vai no agendamento. Vídeo longo: os Filmes em código vão até 60 min, feitos por capítulos, e cada estilo ganhou \"Adaptar para vídeo longo\". Canais em código: do tema ao episódio pronto (roteiro, voz, cenas, render e checagem) com as peças do seu canal. Ebook do canal: junta os roteiros em capítulos, com capa na arte do canal, em PDF e EPUB, e o seu produto entra no roteiro, na descrição e nas respostas.",
+      "texto_en": "Automatic thumbnails: Claude looks at the video frames and the most viewed thumbnails of the topic, makes 3 options in your Gemini with the channel character and checks them before showing; one click picks one and it goes with the schedule. Long videos: Code films go up to 60 min, built in chapters, and every style got \"Adapt for long video\". Code channels: from topic to finished episode (script, voice, scenes, render and check) with your channel's pieces. Channel ebook: turns the scripts into chapters with a cover in the channel's art, in PDF and EPUB, and your product goes into the script, description and replies."
+    },
+    {
       "id": "arsenal-90-26-11",
       "data": "2026-11-26",
       "titulo": "Arsenal mais caprichado e textos de 2026",
@@ -3719,7 +3727,7 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "24F9C3A3458705A180E9061459E38E2296B4FDDEB4BBC505B55B4FA301CFF8D2",
+          "sha256": "6F9F37FBF9AC4BA5F225622EDE8223EB27908545F6ADB43C80675A24CD0C955E",
           "tamanho": 1545216
         },
         {
@@ -3749,7 +3757,7 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "A046C570921FD4B66C602FA9C6272B1072C97E205749806FA6D07CF8E30B1AE4",
+          "sha256": "3F53949AE3CAA01A8385E77A12C1BCE61C32580729CBB251211ED2052623D809",
           "tamanho": 547840
         },
         {
@@ -3773,14 +3781,14 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "3AC3CB2E608A8F7F16472387ECB60A64A3FEA28113CF1068434F50E0815492FE",
-          "tamanho": 3215360
+          "sha256": "F8F4750708F81358C006E11EE7DE7A42757DEB0B525C42025B9BE492A73869D4",
+          "tamanho": 3229696
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estilos.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "2DA487BAFBD8AB763ABF46DAC34C177587B412784CF3AC3930094DA227B517BF",
-          "tamanho": 181248
+          "sha256": "A293AE41AFDD61D455F5CE28CD928294607F2938483AF204E893C243E5735868",
+          "tamanho": 189440
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
@@ -3797,8 +3805,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "1DDD91EBA84BE2FFE0A26E8EAAF7F7C01AECF2A92E4F88D3333EEEA4A1F598FA",
-          "tamanho": 2384384
+          "sha256": "5F1976F7F24CA2CFAA1D1463963993A062B8B37EADF545B0E2ED82C43FDE17FA",
+          "tamanho": 2535936
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
@@ -3809,8 +3817,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "351307A2FBEDC7CA4EBBB288EFBB000AEB5CDD86D19F1D7C45D898EE985AD60D",
-          "tamanho": 1098240
+          "sha256": "52DDD9BF63795EDB1D9E193E3DB1A6A1D9DE9B6CFAD550943C0CFF558EC61E1D",
+          "tamanho": 1180160
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
@@ -3821,14 +3829,14 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "2EFD58097002CE0EF5A0E3C904F22F8CAD9DF65C016C670964E9AF2405A683F1",
-          "tamanho": 740352
+          "sha256": "168791A0E3D9BF4823D365A79FB4054E15CE0F315151E470232B51DD5450A809",
+          "tamanho": 751616
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "17F2FFD4CEDB9C592ED4DCA7D26AC2C6DD446B668FE678EDACA981AE6AA688B1",
-          "tamanho": 1147392
+          "sha256": "90F37D4938ED3385399EBF161BD77254DB0A80290BA14088DD3111F3EA61F933",
+          "tamanho": 1234944
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.VideoIA.dll",
@@ -3879,7 +3887,7 @@
           "tamanho": 160216
         }
       ],
-      "data": "2026-11-26"
+      "data": "2026-11-27"
     },
     {
       "id": "prompter",
@@ -3968,7 +3976,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "D5793750325AC02AC27A60A1352A20B19C322A489A4AEF036302580E89B628B9",
+        "sha256": "F2FA804A1BA818EB21B3B957FAC2CC43855AFF4F9971A1DA8BF0448C00D33D9A",
         "tamanho": 2770944
       },
       {
@@ -3979,5 +3987,5 @@
       }
     ]
   },
-  "gerado": "2026-11-26 20:41"
+  "gerado": "2026-11-27 01:47"
 }
