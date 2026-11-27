@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-cor-hdr-27-11",
+      "data": "2026-11-27",
+      "titulo": "Converter: cor certa para vídeo do iPhone",
+      "titulo_en": "Converter: right colors for iPhone video",
+      "texto": "No Converter vídeo › Do seu jeito, o cartão Imagem ganhou a escolha Cor. \"Para editar (SDR 8 bits)\" já vem marcado e converte as cores do vídeo HDR do iPhone para o VEGAS não deixar lavado, em qualquer codec. \"Manter HDR (10 bits)\" guarda o original e \"Automático\" é o jeito de antes. O arquivo do iPhone mostra o selo \"HDR do iPhone · 10 bits\" e o plano diz em verde ou amarelo como as cores vão ficar.",
+      "texto_en": "In Convert video › Your way, the Image card got a Color choice. \"For editing (SDR 8-bit)\" comes selected and converts iPhone HDR colors so VEGAS doesn't show them washed out, in any codec. \"Keep HDR (10-bit)\" keeps the original and \"Automatic\" is the old way. iPhone files show an \"iPhone HDR · 10-bit\" badge and the plan says in green or yellow how the colors will look."
+    },
+    {
       "id": "santools-transicoes-27-11",
       "data": "2026-11-27",
       "titulo": "San Tools novo e 45 Transições San",
@@ -1207,11 +1215,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "sha256": "31125E6C34A2DEB7A0FFCE26793F585FA105AFC1A548D943CD9AC0D137AE2282",
           "tamanho": 11264
         }
       ],
-      "data": "2026-11-22"
+      "data": "2026-11-27"
     },
     {
       "id": "upscale",
@@ -1279,11 +1287,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "sha256": "31125E6C34A2DEB7A0FFCE26793F585FA105AFC1A548D943CD9AC0D137AE2282",
           "tamanho": 11264
         }
       ],
-      "data": "2026-11-17"
+      "data": "2026-11-27"
     },
     {
       "id": "recorte",
@@ -1359,7 +1367,7 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "sha256": "31125E6C34A2DEB7A0FFCE26793F585FA105AFC1A548D943CD9AC0D137AE2282",
           "tamanho": 11264
         },
         {
@@ -2868,7 +2876,7 @@
         "nome": "RecorteSan.engine.txt",
         "texto": "{local}\\RecorteSan\\motor-pacote"
       },
-      "data": "2026-11-17"
+      "data": "2026-11-27"
     },
     {
       "id": "organizador",
@@ -2936,13 +2944,13 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "sha256": "31125E6C34A2DEB7A0FFCE26793F585FA105AFC1A548D943CD9AC0D137AE2282",
           "tamanho": 11264
         }
       ],
       "aviso": "A busca pelo que aparece baixa uma IA (~900 MB) pelo próprio painel, só se você quiser usar.",
       "aviso_en": "Searching by what shows up downloads an AI (~900 MB) from the panel, only if you want to use it.",
-      "data": "2026-11-22"
+      "data": "2026-11-27"
     },
     {
       "id": "proxy",
@@ -2992,11 +3000,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "sha256": "31125E6C34A2DEB7A0FFCE26793F585FA105AFC1A548D943CD9AC0D137AE2282",
           "tamanho": 11264
         }
       ],
-      "data": "2026-11-22"
+      "data": "2026-11-27"
     },
     {
       "id": "notas",
@@ -3049,11 +3057,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "sha256": "31125E6C34A2DEB7A0FFCE26793F585FA105AFC1A548D943CD9AC0D137AE2282",
           "tamanho": 11264
         }
       ],
-      "data": "2026-11-17"
+      "data": "2026-11-27"
     },
     {
       "id": "search",
@@ -3123,11 +3131,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "sha256": "31125E6C34A2DEB7A0FFCE26793F585FA105AFC1A548D943CD9AC0D137AE2282",
           "tamanho": 11264
         }
       ],
-      "data": "2026-11-17"
+      "data": "2026-11-27"
     },
     {
       "id": "santools",
@@ -3188,7 +3196,7 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "sha256": "31125E6C34A2DEB7A0FFCE26793F585FA105AFC1A548D943CD9AC0D137AE2282",
           "tamanho": 11264
         },
         {
@@ -3272,11 +3280,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "sha256": "31125E6C34A2DEB7A0FFCE26793F585FA105AFC1A548D943CD9AC0D137AE2282",
           "tamanho": 11264
         }
       ],
-      "data": "2026-11-17"
+      "data": "2026-11-27"
     },
     {
       "id": "camera",
@@ -3329,11 +3337,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "sha256": "31125E6C34A2DEB7A0FFCE26793F585FA105AFC1A548D943CD9AC0D137AE2282",
           "tamanho": 11264
         }
       ],
-      "data": "2026-11-18"
+      "data": "2026-11-27"
     },
     {
       "id": "editor",
@@ -3419,11 +3427,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "sha256": "31125E6C34A2DEB7A0FFCE26793F585FA105AFC1A548D943CD9AC0D137AE2282",
           "tamanho": 11264
         }
       ],
-      "data": "2026-11-20"
+      "data": "2026-11-27"
     },
     {
       "id": "volume",
@@ -3481,7 +3489,7 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "sha256": "31125E6C34A2DEB7A0FFCE26793F585FA105AFC1A548D943CD9AC0D137AE2282",
           "tamanho": 11264
         },
         {
@@ -3503,7 +3511,7 @@
           "tamanho": 1048
         }
       ],
-      "data": "2026-11-17"
+      "data": "2026-11-27"
     },
     {
       "id": "master",
@@ -3548,11 +3556,11 @@
         {
           "caminho": "extensoes/San.dll",
           "destino": "ext",
-          "sha256": "88E2E621489E60283A89210BC0BD5E86C4E848540773C44BFA4678F55C4D60DA",
+          "sha256": "31125E6C34A2DEB7A0FFCE26793F585FA105AFC1A548D943CD9AC0D137AE2282",
           "tamanho": 11264
         }
       ],
-      "data": "2026-11-17"
+      "data": "2026-11-27"
     },
     {
       "id": "motion",
@@ -3817,8 +3825,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estudio.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "46745AA336CBC2900FCF4082479084E6EB5F0B30604789CE2DFE58116E9D042B",
-          "tamanho": 5471744
+          "sha256": "22F51BACE5D6F13DF6D7DF40C10CF365DE18667C26D1EACEE8BCCDCD7236DC8E",
+          "tamanho": 5476352
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Fala.dll",
@@ -4000,7 +4008,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "8F42ECDC80DBA71A2D8BC77FD101A356A596024472FCB99BEBDAE5F8A3425831",
+        "sha256": "444255DE547D0032F831C5F53B6868D6C3664AB80C00E249526689437979EE06",
         "tamanho": 2833920
       },
       {
@@ -4011,5 +4019,5 @@
       }
     ]
   },
-  "gerado": "2026-11-27 05:01"
+  "gerado": "2026-11-27 11:33"
 }
