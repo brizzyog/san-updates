@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-fabrica-27-11",
+      "data": "2026-11-27",
+      "titulo": "Arsenal: Fábrica do canal, thumbs automáticas, ebook e Radar que caça canais novos",
+      "titulo_en": "Arsenal: Channel factory, automatic thumbnails, ebook and a Radar that hunts new channels",
+      "texto": "Fábrica do canal (Canais › Produção › Fábrica): canal novo numa frase, ideias prontas no jeito do canal tiradas do que estourou nas referências, um botão Produzir em lote com 3 thumbs, Shorts do longo e agenda (no YouTube só com Agendar sozinho ligado), e Copiar viral pelo link. Thumbs automáticas no nível das referências, com o personagem certo e conferidas pela IA. Ebook do canal em PDF e EPUB com capa na arte do canal e o livro em 3D. Radar que caça sozinho canais novos subindo no nicho e mostra as referências pelo que está rendendo agora (as paradas ficam separadas). Canais em código com referências pelo link, preset de thumb e Shorts. Produto do canal citado no roteiro, na descrição e nas respostas. Filmes e estilos com versão longa por capítulos. Nada saiu.",
+      "texto_en": "Channel factory (Channels › Production › Factory): a new channel from one sentence, ready ideas in the channel's way taken from what blew up in references, one Produce button for a batch with 3 thumbnails, Shorts from the long video and scheduling (YouTube only with Schedule automatically on), and Copy viral from a link. Automatic thumbnails at reference level, with the right character and checked by AI. Channel ebook in PDF and EPUB with a cover in the channel's art and a 3D book. A Radar that hunts new rising channels in the niche by itself and shows references by what is performing now (stopped ones kept apart). Code channels with references by link, thumbnail preset and Shorts. The channel product mentioned in the script, description and replies. Films and styles with a long version by chapters. Nothing was removed."
+    },
+    {
       "id": "transicoes-modernas-27-11",
       "data": "2026-11-27",
       "titulo": "Transições San: 10 transições modernas",
@@ -3654,8 +3662,8 @@
         {
           "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Win64/TransicoesSan.ofx",
           "destino": "ofx",
-          "sha256": "F990C640A3FA672074FA05758E2D77514ED38FB020E26BF41FFD38B8AD2DB07B",
-          "tamanho": 608256
+          "sha256": "53BDC5B0BF720EB5BAC55DE2B31F49B57CAF69775406D76A97D45478B5A1AA4B",
+          "tamanho": 657920
         }
       ],
       "data": "2026-11-27"
@@ -3789,8 +3797,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "F8F4750708F81358C006E11EE7DE7A42757DEB0B525C42025B9BE492A73869D4",
-          "tamanho": 3229696
+          "sha256": "3660F50F8E179AA7A37986C253656FCAE616D8A2CFBB44A6CFD4C51EE66EB871",
+          "tamanho": 3230720
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estilos.dll",
@@ -3825,8 +3833,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "52DDD9BF63795EDB1D9E193E3DB1A6A1D9DE9B6CFAD550943C0CFF558EC61E1D",
-          "tamanho": 1180160
+          "sha256": "EA810DEC7FE0AE89D6F82DBB98CE75A394C6668691D0622A63E1C74ACCAC3F38",
+          "tamanho": 1265664
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
@@ -3837,8 +3845,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "168791A0E3D9BF4823D365A79FB4054E15CE0F315151E470232B51DD5450A809",
-          "tamanho": 751616
+          "sha256": "D807C08CDB7351CCA833E637619D1BD4C820F638908E9C097C07B5271B536E93",
+          "tamanho": 769024
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
@@ -3984,7 +3992,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "68200B24B14B5B5124844E90D79962E2DD509A70D2FE589532834E01817181BC",
+        "sha256": "47963D446081CC429D5EA1AD3672C277F34207606358B2F8EB98696DB3A5199E",
         "tamanho": 2830848
       },
       {
@@ -3995,5 +4003,5 @@
       }
     ]
   },
-  "gerado": "2026-11-27 03:30"
+  "gerado": "2026-11-27 04:15"
 }
