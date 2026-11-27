@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "santools-transicoes-27-11",
+      "data": "2026-11-27",
+      "titulo": "San Tools novo e 45 Transições San",
+      "titulo_en": "New San Tools and 45 San Transitions",
+      "texto": "O San Tools ganhou cara nova: barra com 4 grupos, busca (Ctrl+F), teclas 1 a 9 e cartões com prévia. Ferramentas novas: Entrar e sair (Pop, Deslizar, Quicar, Girar, Zoom), Impacto (soco de zoom, tremida, pausa e a música abaixando no golpe), Zoom suave e Vertical 9:16 com fundo desfocado. Nos Estilos, a sombra tem Espalhar, dá para guardar os seus e aplicar em vários eventos de uma vez. As Transições San chegaram a 45, com a Luz de Filme 16mm (o clarão rosa de película), Rasgos e Film Roll com luz, Rolo 3D, Flare, Líquido, Caleidoscópio e mais.",
+      "texto_en": "San Tools got a new look: a bar with 4 groups, search (Ctrl+F), keys 1 to 9 and cards with previews. New tools: In and out (Pop, Slide, Bounce, Spin, Zoom), Impact (zoom punch, shake, freeze and the music dipping on the hit), Smooth zoom and Vertical 9:16 with a blurred background. In Styles, the shadow has Spread, you can save your own and apply to several events at once. San Transitions reached 45, with 16mm Film Light (the pink film burn flash), Rips and Film Roll with light, 3D Roll, Flare, Liquid, Kaleidoscope and more."
+    },
+    {
       "id": "arsenal-fabrica-27-11",
       "data": "2026-11-27",
       "titulo": "Arsenal: Fábrica do canal, thumbs automáticas, ebook e Radar que caça canais novos",
@@ -3174,8 +3182,8 @@
         {
           "caminho": "extensoes/San/SanTools.dll",
           "destino": "ext",
-          "sha256": "2BAE275F2464CA7831BB978FD308280CCC432797DCC887D58F0F585A09186D5A",
-          "tamanho": 5751296
+          "sha256": "3B947DDC0B59EDA1C4AA8C7EA59AC4ABEC4A278C5BD5A9B0B5E54CB687022EB4",
+          "tamanho": 5945856
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3190,7 +3198,7 @@
           "tamanho": 566784
         }
       ],
-      "data": "2026-11-25"
+      "data": "2026-11-27"
     },
     {
       "id": "foco",
@@ -3662,8 +3670,8 @@
         {
           "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Win64/TransicoesSan.ofx",
           "destino": "ofx",
-          "sha256": "53BDC5B0BF720EB5BAC55DE2B31F49B57CAF69775406D76A97D45478B5A1AA4B",
-          "tamanho": 657920
+          "sha256": "2E7AE09F39DE64874CDE79CCC24D8CD35AE41BF33B6AB68CA5ABF9D0A1618D63",
+          "tamanho": 659456
         }
       ],
       "data": "2026-11-27"
@@ -3992,8 +4000,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "47963D446081CC429D5EA1AD3672C277F34207606358B2F8EB98696DB3A5199E",
-        "tamanho": 2830848
+        "sha256": "8F42ECDC80DBA71A2D8BC77FD101A356A596024472FCB99BEBDAE5F8A3425831",
+        "tamanho": 2833920
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -4003,5 +4011,5 @@
       }
     ]
   },
-  "gerado": "2026-11-27 04:15"
+  "gerado": "2026-11-27 05:01"
 }
