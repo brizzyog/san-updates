@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "arsenal-tom-fabrica-28-11",
+      "data": "2026-11-28",
+      "titulo": "Arsenal: tom de cada canal, ElevenLabs v4 e Fábrica caprichada",
+      "titulo_en": "Arsenal: per-channel tone, ElevenLabs v4 and a polished Factory",
+      "texto": "Cada canal tem o seu tom de roteiro: 10 tons prontos, \"Do meu jeito\", tirar o tom de um vídeo de referência e \"Nunca dizer\". O ElevenLabs mostra o v4 e as vozes do Brasil. Na Fábrica, as imagens das cenas são conferidas contra o canal (sem bicho errado nem página de outro site), os Shorts saem montados em pé com a legenda grande e enquadrados no rosto, e o filme longo sai menor e com os capítulos dentro do vídeo. O Arsenal também ficou rápido ao ler canais quando a Claude abre ele.",
+      "texto_en": "Each channel has its own script tone: 10 ready tones, \"My way\", copy the tone from a reference video and \"Never say\". ElevenLabs shows v4 and Brazilian voices. In the Factory, scene images are checked against the channel (no wrong animal or other site's page), Shorts come out built upright with big captions and framed on the face, and long films are smaller with chapters inside the video. Arsenal is also fast at reading channels when Claude opens it."
+    },
+    {
       "id": "dropeasy-tenor-telacheia-28-11",
       "data": "2026-11-28",
       "titulo": "DropEasy san: aba Tenor, imagens em tela cheia e Project Media",
@@ -3824,8 +3832,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "4D7AF8B8B70D43E40E1F9CFD188CAC5216D73094861AEBD34CA3F6450FC19E37",
-          "tamanho": 1546752
+          "sha256": "022C489CB63898D162BAE1A8E86B283703B97B0E39FDD7614317C793393C5E88",
+          "tamanho": 1549312
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3854,13 +3862,13 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Claude.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "3F53949AE3CAA01A8385E77A12C1BCE61C32580729CBB251211ED2052623D809",
+          "sha256": "3D16722A59B46B6469B55B6972678C707E3A08C6F8CC794E0AEC97FE819087A6",
           "tamanho": 547840
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Conexoes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "33478732B5E50E12BFA843DBF99E2484A51D49BBE5CB98ECCCB3F3D6402F3470",
+          "sha256": "9063F5E2390C4991A07794817E9BAC85B6F8380FBE4AF4744B4C15624CD09D89",
           "tamanho": 122368
         },
         {
@@ -3872,14 +3880,14 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Cortes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "AF8A01675FD1F409F42D1AFCDA30B6F69E19C40E4CAC14676CD44ACA8A486284",
-          "tamanho": 188416
+          "sha256": "EA04CB267C9853AA9092BDD72ED13289576BA5EAE8B355EB4826756E92901510",
+          "tamanho": 189952
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Edita.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "3660F50F8E179AA7A37986C253656FCAE616D8A2CFBB44A6CFD4C51EE66EB871",
-          "tamanho": 3230720
+          "sha256": "4044D817DFC273CBEF276FF000367F731A89739F6A47D4275F80ADB11E6360E6",
+          "tamanho": 3283456
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Estilos.dll",
@@ -3902,8 +3910,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Filmes.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "5F1976F7F24CA2CFAA1D1463963993A062B8B37EADF545B0E2ED82C43FDE17FA",
-          "tamanho": 2535936
+          "sha256": "CD1CE40A2B4667616B85EC5994ABDE0294FC0E9A76956F5934E72DDF1B3FD1E7",
+          "tamanho": 2538496
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Ia.dll",
@@ -3914,8 +3922,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "C94921969E3DAD38E7D8C9B6552563D500ED1877D256CFE12C3D6E6A4DE2313B",
-          "tamanho": 1271808
+          "sha256": "81D566F1F19F0CF1729C52CF8425631145C4C8AC89A519F9524F4AA3DF60C63D",
+          "tamanho": 1285632
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
@@ -3926,13 +3934,13 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Radar.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "D807C08CDB7351CCA833E637619D1BD4C820F638908E9C097C07B5271B536E93",
-          "tamanho": 769024
+          "sha256": "94FA166C2B8D4FFE4DC1B73B3733A80246A2D4284839B6A2B85A92F94A17E93D",
+          "tamanho": 825856
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "95766CB73BB70B748C6E2472F7AD648F31C673E3BF98DD29C554CA8EEB6C2615",
+          "sha256": "ECEDE72426BE00D984B4FD3751A5DB20E910DB6F2DAA41F005E3AA2EF854BDFD",
           "tamanho": 1240576
         },
         {
@@ -4073,7 +4081,7 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "535FE5BD7621ED63259EC70E2123661F419643567A65E1ED87B11BAC82251BDD",
+        "sha256": "E3EB1E094D06DD35B320E96D50E52C6EB502CC4277E679940993FAB96D91CA42",
         "tamanho": 2838528
       },
       {
@@ -4084,5 +4092,5 @@
       }
     ]
   },
-  "gerado": "2026-11-28 03:35"
+  "gerado": "2026-11-28 12:36"
 }
