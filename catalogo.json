@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "manual-visual-san-28-11",
+      "data": "2026-11-28",
+      "titulo": "Manual com a cara das extensões",
+      "titulo_en": "Manual with the extensions' look",
+      "texto": "O manual (Ajuda › Manual) ganhou o visual das extensões e do San App: escuro de fábrica, a cor de cada ferramenta e as mesmas letras, e abre sem internet. Também explica o tom dos roteiros de cada canal, o ElevenLabs v4 com as vozes do Brasil, a Fábrica do canal, o Fechar lacunas e a Cor do Converter.",
+      "texto_en": "The manual (Help › Manual) got the extensions' and San App's look: dark by default, each tool's color and the same fonts, and it opens offline. It also covers each channel's script tone, ElevenLabs v4 with Brazilian voices, the Channel Factory, Close gaps and the Converter's Color."
+    },
+    {
       "id": "arsenal-tom-fabrica-28-11",
       "data": "2026-11-28",
       "titulo": "Arsenal: tom de cada canal, ElevenLabs v4 e Fábrica caprichada",
@@ -3751,11 +3759,11 @@
         {
           "caminho": "transicoes/TransicoesSan.ofx.bundle/Contents/Win64/TransicoesSan.ofx",
           "destino": "ofx",
-          "sha256": "2E7AE09F39DE64874CDE79CCC24D8CD35AE41BF33B6AB68CA5ABF9D0A1618D63",
-          "tamanho": 659456
+          "sha256": "49BC1BD8F8674D61EC339DA25482262A6B54F78E56F4A10159C8A0AAB3FB51B9",
+          "tamanho": 664064
         }
       ],
-      "data": "2026-11-27"
+      "data": "2026-11-28"
     },
     {
       "id": "arsenal",
@@ -4081,8 +4089,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "E3EB1E094D06DD35B320E96D50E52C6EB502CC4277E679940993FAB96D91CA42",
-        "tamanho": 2838528
+        "sha256": "BA0B23C446D26BAF41F974F68BA77485F4A3A5FFDA8403D2F9580416E77989D7",
+        "tamanho": 2982400
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -4092,5 +4100,5 @@
       }
     ]
   },
-  "gerado": "2026-11-28 12:36"
+  "gerado": "2026-11-28 15:04"
 }
