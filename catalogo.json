@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "dropeasy-conta-imagens-28-11",
+      "data": "2026-11-28",
+      "titulo": "DropEasy no Project Media e conta das imagens por canal",
+      "titulo_en": "DropEasy in Project Media and a per-channel images account",
+      "texto": "DropEasy: só baixar já põe o arquivo no Project Media, então ele aparece lá e no Gerenciador de Mídias sem ir para a timeline (dá para desligar). Arsenal: na ficha do canal, a Thumbnail automática pode usar uma conta do Gemini/ChatGPT só daquele canal; sem login, avisa e usa a reserva. E os downloads de vídeo agora vão 3 ao mesmo tempo (de 1 a 6 nas Configurações).",
+      "texto_en": "DropEasy: just downloading puts the file in Project Media, so it shows there and in the media manager without going to the timeline (can be turned off). Arsenal: in the channel sheet, Automatic thumbnail can use a Gemini/ChatGPT account just for that channel; without sign-in it warns and uses the fallback. And video downloads now run 3 at a time (1 to 6 in Settings)."
+    },
+    {
       "id": "scripts-san-28-11",
       "data": "2026-11-28",
       "titulo": "Fechar lacunas e a pasta ScriptsSan",
@@ -1225,8 +1233,8 @@
         {
           "caminho": "extensoes/San/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "B3BF0415E3AD9CC24231239567CCCC1C38875769AB4323D0B273CFF9AF21C7B5",
-          "tamanho": 842240
+          "sha256": "351212C95F0508A4A26D126BB02D4F734D2F6971291B8918D890B77A8AEA4D96",
+          "tamanho": 846848
         },
         {
           "caminho": "extensoes/San.dll",
@@ -1235,7 +1243,7 @@
           "tamanho": 11264
         }
       ],
-      "data": "2026-11-27"
+      "data": "2026-11-28"
     },
     {
       "id": "upscale",
@@ -3898,8 +3906,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Painel.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "EA810DEC7FE0AE89D6F82DBB98CE75A394C6668691D0622A63E1C74ACCAC3F38",
-          "tamanho": 1265664
+          "sha256": "C94921969E3DAD38E7D8C9B6552563D500ED1877D256CFE12C3D6E6A4DE2313B",
+          "tamanho": 1271808
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.Postar.dll",
@@ -3916,8 +3924,8 @@
         {
           "caminho": "arsenal/ArsenalSan.Mod.Thumb.dll",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "90F37D4938ED3385399EBF161BD77254DB0A80290BA14088DD3111F3EA61F933",
-          "tamanho": 1234944
+          "sha256": "95766CB73BB70B748C6E2472F7AD648F31C673E3BF98DD29C554CA8EEB6C2615",
+          "tamanho": 1240576
         },
         {
           "caminho": "arsenal/ArsenalSan.Mod.VideoIA.dll",
@@ -4057,8 +4065,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "6EB404262B3201F4ABC76EFAEA95861D0F4B2C78DF9DF9F5380630AD903F510C",
-        "tamanho": 2834944
+        "sha256": "535FE5BD7621ED63259EC70E2123661F419643567A65E1ED87B11BAC82251BDD",
+        "tamanho": 2838528
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -4068,5 +4076,5 @@
       }
     ]
   },
-  "gerado": "2026-11-28 01:17"
+  "gerado": "2026-11-28 01:37"
 }
