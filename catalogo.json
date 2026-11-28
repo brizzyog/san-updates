@@ -3,6 +3,14 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "dropeasy-tenor-telacheia-28-11",
+      "data": "2026-11-28",
+      "titulo": "DropEasy san: aba Tenor, imagens em tela cheia e Project Media",
+      "titulo_en": "DropEasy san: Tenor tab, full-screen images and Project Media",
+      "texto": "Aba nova Tenor: GIFs e stickers com fundo transparente, sem chave (até 50 por busca). No Google, Formato › Tela cheia traz só imagens HD deitadas (720p, 1080p, 2K, 4K), as maiores primeiro. E o que você só baixa já entra no Project Media do projeto aberto (aparece no Gerenciador de Mídias sem ir para a timeline); dá para desligar em Configurações › Inserir.",
+      "texto_en": "New Tenor tab: GIFs and stickers with transparent background, no key (up to 50 per search). In Google, Shape › Full screen shows only HD landscape images (720p, 1080p, 2K, 4K), largest first. And what you just download already goes into the open project’s Project Media (shows up in the Media Manager without going to the timeline); you can turn it off in Settings › Insert."
+    },
+    {
       "id": "dropeasy-conta-imagens-28-11",
       "data": "2026-11-28",
       "titulo": "DropEasy no Project Media e conta das imagens por canal",
@@ -1233,8 +1241,8 @@
         {
           "caminho": "extensoes/San/DropEasySan.dll",
           "destino": "ext",
-          "sha256": "351212C95F0508A4A26D126BB02D4F734D2F6971291B8918D890B77A8AEA4D96",
-          "tamanho": 846848
+          "sha256": "F81AF2064F79ABEC5413FFE64D703DD22DCDD85DBBAF2F70645695446F90ECB7",
+          "tamanho": 854528
         },
         {
           "caminho": "extensoes/San.dll",
@@ -4076,5 +4084,5 @@
       }
     ]
   },
-  "gerado": "2026-11-28 01:37"
+  "gerado": "2026-11-28 03:35"
 }
