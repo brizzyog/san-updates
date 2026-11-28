@@ -3,6 +3,22 @@
   "atualizacoes": "https://raw.githubusercontent.com/brizzyog/san-updates/main/catalogo.json",
   "novidades": [
     {
+      "id": "scripts-san-28-11",
+      "data": "2026-11-28",
+      "titulo": "Fechar lacunas e a pasta ScriptsSan",
+      "titulo_en": "Close gaps and the ScriptsSan folder",
+      "texto": "Script novo, Fechar lacunas: selecione os eventos e um clique tira os buracos entre eles, com vídeo e áudio andando juntos. Os scripts do slayeR san agora ficam em Ferramentas › Script › ScriptsSan (o Volume san saiu de \"Slayer\").",
+      "texto_en": "New script, Close gaps: select the events and one click removes the gaps between them, with video and audio moving together. slayeR san scripts now live in Tools › Scripting › ScriptsSan (Volume san left \"Slayer\")."
+    },
+    {
+      "id": "sanapp-tema-proprio-28-11",
+      "data": "2026-11-28",
+      "titulo": "San App com tema próprio",
+      "titulo_en": "San App keeps its own theme",
+      "texto": "Trocar a cor numa extensão do VEGAS não muda mais o San App. As extensões continuam trocando juntas; a cor do San App você escolhe na Ajuda dele.",
+      "texto_en": "Changing the color in a VEGAS extension no longer changes the San App. The extensions still change together; you pick the San App color in its Help."
+    },
+    {
       "id": "arsenal-cor-hdr-27-11",
       "data": "2026-11-27",
       "titulo": "Converter: cor certa para vídeo do iPhone",
@@ -3421,8 +3437,8 @@
         {
           "caminho": "extensoes/San/EditorSan.dll",
           "destino": "ext",
-          "sha256": "0C2F378BE6B46F0BFA1048C9CBC50A08CC3FC0608398489A14953A20E7983FA7",
-          "tamanho": 9998848
+          "sha256": "873B9462F890847BE134EE23E1B6F3932537970FE811F81EEB84D32A89E7ACC0",
+          "tamanho": 9999872
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3431,7 +3447,7 @@
           "tamanho": 11264
         }
       ],
-      "data": "2026-11-27"
+      "data": "2026-11-28"
     },
     {
       "id": "volume",
@@ -3457,8 +3473,8 @@
       "resumo_en": "Shows whether each sound is at the right level while you edit, and fixes everything with one button.",
       "descricao": "Um painel pequeno ao lado da timeline mostra, enquanto você edita ou toca, o volume de cada track (voz, amigo, jogo, música, SFX, memes) e se está na faixa certa, com ✓ ou \"alto/baixo\", sem pesar o VEGAS. No fim, \"Acertar volumes\" deixa cada track no ponto (SFX e memes um por um), abaixa a música só quando alguém fala, sem \"bombear\", e deixa o vídeo no volume do YouTube sem estourar. Tudo num passo só, e um Ctrl+Z desfaz. Mostra uma tabela antes × depois, deixa ouvir o vídeo inteiro antes e depois, e avisa só do que não tem conserto (gravação estourada, voz baixa no OBS, meme com som ruim).",
       "descricao_en": "A small panel next to the timeline shows, while you edit or play, the level of each track (voice, friend, game, music, SFX, memes) and whether it is in the right range, with ✓ or \"loud/quiet\", without slowing VEGAS down. At the end, \"Fix volumes\" puts each track on target (SFX and memes one by one), lowers the music only when someone talks, without \"pumping\", and leaves the video at YouTube loudness without clipping. All in one step, and one Ctrl+Z undoes it. It shows a before × after table, lets you hear the whole video before and after, and only warns about what can't be fixed (clipped recording, quiet voice in OBS, bad-sounding meme).",
-      "onde": "Exibir › Extensões › Volume san (ao vivo) · Ferramentas › Script › Slayer › Volume san",
-      "onde_en": "View › Extensions › Volume san (live) · Tools › Scripting › Slayer › Volume san",
+      "onde": "Exibir › Extensões › Volume san (ao vivo) · Ferramentas › Script › ScriptsSan › Volume san",
+      "onde_en": "View › Extensions › Volume san (live) · Tools › Scripting › ScriptsSan › Volume san",
       "atalhos": [
         [
           "Botão direito no painel",
@@ -3483,8 +3499,8 @@
         {
           "caminho": "extensoes/San/VolumeSanPainel.dll",
           "destino": "ext",
-          "sha256": "169426E2BA6FFD5C51822EBB1821073D31EC09239EF41E47E97F407CC4BC90EF",
-          "tamanho": 110080
+          "sha256": "490E5B6907E38711E11F01D0AC012AE8F45385345FD15EE8EC74906C794CFCB5",
+          "tamanho": 111104
         },
         {
           "caminho": "extensoes/San.dll",
@@ -3511,7 +3527,40 @@
           "tamanho": 1048
         }
       ],
-      "data": "2026-11-27"
+      "data": "2026-11-28"
+    },
+    {
+      "id": "lacunas",
+      "nome": "Fechar lacunas",
+      "versao": "1.0.0",
+      "cor": "#ff5a1f",
+      "resumo": "Selecione os eventos e um clique tira os buracos entre eles.",
+      "resumo_en": "Select the events and one click removes the gaps between them.",
+      "descricao": "Script para a timeline: com os eventos selecionados, os buracos entre eles somem e tudo fica encostado, na ordem, sem mudar a duração de nada. Vídeo e áudio da mesma gravação andam juntos (nunca sai de sincronia), e o meme numa track de cima que já está por cima de outro clipe não anda à toa. Um Ctrl+Z desfaz tudo.",
+      "descricao_en": "Timeline script: with the events selected, the gaps between them disappear and everything sits side by side, in order, without changing any length. Video and audio from the same recording move together (never out of sync), and a meme on an upper track that already sits over another clip is left alone. One Ctrl+Z undoes it all.",
+      "onde": "Ferramentas › Script › ScriptsSan › Fechar lacunas",
+      "onde_en": "Tools › Scripting › ScriptsSan › Fechar lacunas",
+      "arquivos": [
+        {
+          "caminho": "scripts/Fechar lacunas.dll",
+          "destino": "script",
+          "sha256": "42F9628B2B13D2EB76792C29E0336F4E32A78F00224292ABA97BA4C7C6E27431",
+          "tamanho": 13824
+        },
+        {
+          "caminho": "scripts/Fechar lacunas.png",
+          "destino": "script",
+          "sha256": "67F1CC0A711F96CC0F7810A8951BB5546536D8A4B5F05B0C885AF720572B90CD",
+          "tamanho": 845
+        },
+        {
+          "caminho": "scripts/Fechar lacunas32.png",
+          "destino": "script",
+          "sha256": "CC2C21E34F4C2F2ADC4103984FD73CFD75CC4C4AD77620CC193BEB3C193056BA",
+          "tamanho": 1792
+        }
+      ],
+      "data": "2026-11-28"
     },
     {
       "id": "master",
@@ -3759,8 +3808,8 @@
         {
           "caminho": "arsenal/Arsenal san.exe",
           "destino": "local:Programs\\Arsenal san",
-          "sha256": "6F9F37FBF9AC4BA5F225622EDE8223EB27908545F6ADB43C80675A24CD0C955E",
-          "tamanho": 1545216
+          "sha256": "4D7AF8B8B70D43E40E1F9CFD188CAC5216D73094861AEBD34CA3F6450FC19E37",
+          "tamanho": 1546752
         },
         {
           "caminho": "arsenal/Arsenal san.exe.config",
@@ -3919,7 +3968,7 @@
           "tamanho": 160216
         }
       ],
-      "data": "2026-11-27"
+      "data": "2026-11-28"
     },
     {
       "id": "prompter",
@@ -4008,8 +4057,8 @@
       {
         "caminho": "san-app/San App.exe",
         "destino": "self",
-        "sha256": "444255DE547D0032F831C5F53B6868D6C3664AB80C00E249526689437979EE06",
-        "tamanho": 2833920
+        "sha256": "6EB404262B3201F4ABC76EFAEA95861D0F4B2C78DF9DF9F5380630AD903F510C",
+        "tamanho": 2834944
       },
       {
         "caminho": "san-app/San App.exe.config",
@@ -4019,5 +4068,5 @@
       }
     ]
   },
-  "gerado": "2026-11-27 11:33"
+  "gerado": "2026-11-28 01:14"
 }
